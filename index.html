@@ -1,0 +1,3830 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<style>
+@charset "UTF-8";
+body {
+  color: #2c3e50;
+  background: #ecf0f1;
+  padding: 0 1em 1em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  color: #e74c3c;
+}
+
+h2 {
+  margin: 0 0 0.5em;
+  font-weight: normal;
+}
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+}
+.row .col {
+  flex: 1;
+}
+.row .col:last-child {
+  margin-left: 1em;
+}
+
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background: #2c3e50;
+  font-weight: bold;
+  cursor: pointer;
+  /* Icon */
+}
+.tab-label:hover {
+  background: #1a252f;
+}
+.tab-label::after {
+  content: "❯";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transition: all 0.35s;
+}
+.tab-content {
+  max-height: 0;
+  padding: 0 1em;
+  color: #2c3e50;
+  background: white;
+  transition: all 0.35s;
+}
+.tab-close {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+  font-size: 0.75em;
+  background: #2c3e50;
+  cursor: pointer;
+}
+.tab-close:hover {
+  background: #1a252f;
+}
+
+input:checked + .tab-label {
+  background: #1a252f;
+}
+input:checked + .tab-label::after {
+  transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+  max-height: 10000vh;
+  padding: 1em;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+footer a {
+  color: #AAA;
+  text-decoration: none;
+}
+
+</style>
+
+</head>
+<body>
+
+<h1>Βιβλιοθηκάριος</h1>
+
+<div class="row">
+    <div class="col">
+        <div class="tabs">
+
+      <div class="tab">'
+        <input type="checkbox" id="chck0">
+        <label class="tab-label" for="chck0">Αθλητισμός</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZrz66J6oq3do3RgHehdnfcJioiMLxy8hDPCz6u6ju3SM?filename=Jack%20McCallum%20-%20Seven%20Seconds%20or%20Less.epub" target="_blank">
+            Jack McCallum - Seven Seconds or Less.epub
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck1">
+        <label class="tab-label" for="chck1">Επιστήμη</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYPcAHPGhn7gooMiXHFNmnuCeLxR7kKXLikBUnoyhBnWp?filename=Adrian%20Newey%20-%20How%20to%20Build%20a%20Car.epub" target="_blank">
+            Adrian Newey - How to Build a Car.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPfAWktFVejEkbtYBKPbWbrLJ5Jvhi6gdb1ppoi4JLmRP?filename=Daniel%20Kahneman%20-%20Thinking%2C%20Fast%20and%20Slow.epub" target="_blank">
+            Daniel Kahneman - Thinking, Fast and Slow.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQz4RBx1v1gFbotuJ3sVHScseUfxNYhFGRpfjkc4TW85B?filename=Hannah%20Shaw%20-%20Tiny%20But%20Mighty%20Kitten%20Lady%E2%80%99s%20Guide%20to%20Saving%20the%20Most%20Vulnerable%20Felines.epub" target="_blank">
+            Hannah Shaw - Tiny But Mighty Kitten Lady’s Guide to Saving the Most Vulnerable Felines.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNwA9WiWe8eL6v2ShptW7eMT1KTqbGYa6aS2TYiH3i3Vr?filename=Malcolm%20Gladwell%20-%20Blink%20the%20Power%20of%20Thinking%20Without%20Thinking.pdf" target="_blank">
+            Malcolm Gladwell - Blink the Power of Thinking Without Thinking.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdsUYgXjLTx5D54L2W8JMoTibjrG6sYs64hkDdSFPMYpo?filename=Stephen%20Hawking%20-%20A%20Brief%20History%20of%20Time.epub" target="_blank">
+            Stephen Hawking - A Brief History of Time.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXQmY5xJf3DRET5wzJfGx5m1G8bshyxmAXirtq4M5Zj1s?filename=Steven%20S%20Gubser%20-%20The%20little%20book%20string%20theory.pdf" target="_blank">
+            Steven S Gubser - The little book string theory.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPChJJSKTCUL6npSQtJXnM6bNxZcWYRaqG3YY9aS6X94C?filename=%CE%93%CE%B9%CF%8E%CF%81%CE%B3%CE%BF%CF%82%20%CE%93%CF%81%CE%B1%CE%BC%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%97%20%CE%BA%CF%8C%CE%BC%CE%B7%20%CF%84%CE%B7%CF%82%20%CE%92%CE%B5%CF%81%CE%B5%CE%BD%CE%AF%CE%BA%CE%B7%CF%82.pdf" target="_blank">
+            Γιώργος Γραμματικάκης - Η κόμη της Βερενίκης.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWf39t8KcN6TxXqzwYj4DS4YHXtX8J1CVpuSCgitQDqEP?filename=%CE%9C%CF%80%CF%81%CE%AC%CE%B9%CE%B1%CE%BD%20%CE%A3%CE%AC%CE%B9%CE%BA%CF%82%20-%20%CE%9F%CE%B9%20%CE%B5%CF%80%CF%84%CE%AC%20%CE%BA%CF%8C%CF%81%CE%B5%CF%82%20%CF%84%CE%B7%CF%82%20%CE%95%CF%8D%CE%B1%CF%82.pdf" target="_blank">
+            Μπράιαν Σάικς - Οι επτά κόρες της Εύας.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck2">
+        <label class="tab-label" for="chck2">Επιχειρήσεις, Επενδύσεις</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmScqEbWKnDDPSizFA96KPsUFUt8gvxAmRzDeAkQ8k8GEV?filename=Benjamin%20Graham%20-%20The%20Intelligent%20Investor.mobi" target="_blank">
+            Benjamin Graham - The Intelligent Investor.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZjhNhVB2Avfs4dH1affwEhBwRuvut4wAJtUno8s3ui81?filename=Eric%20Ries%20-%20The%20Lean%20Startup.pdf" target="_blank">
+            Eric Ries - The Lean Startup.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTEXaZvq6rdd1irCZePQkBRFTcucXMPtkQnDf7SABY8YR?filename=Matthew%20Jackson%20-%20Social%20and%20Economic%20Networks.pdf" target="_blank">
+            Matthew Jackson - Social and Economic Networks.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck3">
+        <label class="tab-label" for="chck3">Θέατρο</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmby86ZjnQmG2GPbv8MF42QDQGFRAtdp2TLvRKhDvg4y8j?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%97%20%CF%80%CE%B1%CF%81%CE%B5%CE%BE%CE%AE%CE%B3%CE%B7%CF%83%CE%B7%20%CE%9C%CE%A3.pdf" target="_blank">
+            Αλμπέρ Καμύ - Η παρεξήγηση ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXCyydNvKShPMMNctYcjC4MTyqsWzNCzbR96bSgPumXnJ?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%97%20%CF%80%CE%B1%CF%81%CE%B5%CE%BE%CE%AE%CE%B3%CE%B7%CF%83%CE%B7.pdf" target="_blank">
+            Αλμπέρ Καμύ - Η παρεξήγηση.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbEmirjzpB5Ky2zar1sJkb9wmsjwo8MZMSRkXenR82DH1?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%9F%CE%B9%20%CE%B4%CE%AF%CE%BA%CE%B1%CE%B9%CE%BF%CE%B9.pdf" target="_blank">
+            Αλμπέρ Καμύ - Οι δίκαιοι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRKgrSagRtB4KrGCrNQkdr6RBGy215oWjGSB267KBtA4P?filename=%CE%9C%CF%80%CE%AD%CF%81%CF%84%CE%BF%CE%BB%CF%84%20%CE%9C%CF%80%CF%81%CE%B5%CF%87%CF%84%20-%20%CE%9F%20%CE%BA%CF%8D%CE%BA%CE%BB%CE%BF%CF%82%20%CE%BC%CE%B5%20%CF%84%CE%B7%CE%BD%20%CE%BA%CE%B9%CE%BC%CF%89%CE%BB%CE%AF%CE%B1%20%CE%9C%CE%A3.pdf" target="_blank">
+            Μπέρτολτ Μπρεχτ - Ο κύκλος με την κιμωλία ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZGPusun5w9iUCf1EQVCFY43DJnwC1cfqm5Zh4z31qjaU?filename=%CE%9C%CF%80%CE%AD%CF%81%CF%84%CE%BF%CE%BB%CF%84%20%CE%9C%CF%80%CF%81%CE%B5%CF%87%CF%84%20-%20%CE%9F%20%CE%BA%CF%8D%CE%BA%CE%BB%CE%BF%CF%82%20%CE%BC%CE%B5%20%CF%84%CE%B7%CE%BD%20%CE%BA%CE%B9%CE%BC%CF%89%CE%BB%CE%AF%CE%B1.pdf" target="_blank">
+            Μπέρτολτ Μπρεχτ - Ο κύκλος με την κιμωλία.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmV34AKB6xz8r4X2EgNbg89bTMMXi4rqgobNzxwtKhS3TN?filename=%CE%9D%CF%84%CE%AC%CF%81%CE%B9%CE%BF%20%CE%A6%CE%BF%20-%20%CE%9F%20%CF%84%CF%85%CF%87%CE%B1%CE%AF%CE%BF%CF%82%20%CE%B8%CE%AC%CE%BD%CE%B1%CF%84%CE%BF%CF%82%20%CE%B5%CE%BD%CF%8C%CF%82%20%CE%B1%CE%BD%CE%B1%CF%81%CF%87%CE%B9%CE%BA%CE%BF%CF%8D.pdf" target="_blank">
+            Ντάριο Φο - Ο τυχαίος θάνατος ενός αναρχικού.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXhbrw3tWCA2nUNW99MPYFFNCJco3jVug3p2ihJDV47H6?filename=%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%CE%AE%CF%82%20%CE%9A%CE%BF%CF%81%CE%BF%CE%B2%CE%AD%CF%83%CE%B7%CF%82%20-%20Tango%20Bar.pdf" target="_blank">
+            Περικλής Κοροβέσης - Tango Bar.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck4">
+        <label class="tab-label" for="chck4">Κινηματογράφος</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSMcjQYYZKERqByP4e2ZMJb2ws53n6eWe7Sw7ssv19QWN?filename=Walter%20Murch%20-%20In%20the%20Blink%20of%20an%20Eye.epub" target="_blank">
+            Walter Murch - In the Blink of an Eye.epub
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck5">
+        <label class="tab-label" for="chck5">Λογοτεχνία</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfA9dS9Vi1Zo6YmCSP8xuFLM65SkDBuaubzQvA9eiAJV3?filename=Ada%20Palmer%20-%20%28Terra%20Ignota%201%29%20Too%20Like%20the%20Lightning.epub" target="_blank">
+            Ada Palmer - (Terra Ignota 1) Too Like the Lightning.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYvXKtGwXRKvAyyCSdFT9wXqwNn7C1FqSGnkN5c862jw7?filename=Agatha%20Christie%20-%20Death%20on%20the%20Nile%20%282001%29%20%28Hercule%20Poirot%2015%29.pdf" target="_blank">
+            Agatha Christie - Death on the Nile (2001) (Hercule Poirot 15).pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdsVbspHyt38vFC3He9vwqEAg7ZMwpRLu6T58fmQMGZMS?filename=Alaa%20Al%20Aswany%20-%20The%20Yacoubian%20Building.pdf" target="_blank">
+            Alaa Al Aswany - The Yacoubian Building.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbDn3xbmcN2xF45oQLvxiCsaHT9uVfHKWbVzshUrfVase?filename=Aldous%20Huxley%20-%20Brave%20New%20World.epub" target="_blank">
+            Aldous Huxley - Brave New World.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPLMobhsRbGC3PwtSTKQ1GAtHeExfVFdgzEBCA3gcLXBR?filename=Alfred%20Doblin%20-%20Berlin%20Alexanderplatz.epub" target="_blank">
+            Alfred Doblin - Berlin Alexanderplatz.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNP8eZuHxmiuLx6rMYt21AXzWnbdDXe8wn4bbCvVhodCH?filename=Andy%20Weir%20-%20Project%20Hail%20Mary.epub" target="_blank">
+            Andy Weir - Project Hail Mary.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQFwoWzQicRDDhQnHKCkVCDmGEaaskahhNh1DZYQStGJg?filename=Andy%20Weir%20-%20The%20Martian.epub" target="_blank">
+            Andy Weir - The Martian.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZQP91EkFn4QJHZm3tkKAto1whJkppcDBRJ1Upkq5mCoz?filename=Bernardine%20Evaristo%20-%20Girl%2C%20Woman%2C%20Other.epub" target="_blank">
+            Bernardine Evaristo - Girl, Woman, Other.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPsTCJjLtrBewaFt358KzJhd15KKAszDEi7r7y2mcgdsv?filename=Bram%20Stoker%20-%20Dracula.epub" target="_blank">
+            Bram Stoker - Dracula.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZrLMikLY3q7QjA9EmX2XjUCATXgfhoTWzWxCEzazdawR?filename=C.J.%20Cooke%20-%20The%20Lighthouse%20Witches.epub" target="_blank">
+            C.J. Cooke - The Lighthouse Witches.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmemxHY6fRceCPrmGoXrh1cv2kAmASgrXedBPoBDR12F6n?filename=Carl%20Djerassi%20-%20Cantors%20Dilemma.pdf" target="_blank">
+            Carl Djerassi - Cantors Dilemma.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmcvf1f2G3FuKEbbYVUWmLaLnwLePNLJyNUHugKBDA9Mwj?filename=Carlos%20Ruiz%20%20Zafon%20-%20The%20Shadow%20of%20the%20Wind%20%282004%29.epub" target="_blank">
+            Carlos Ruiz  Zafon - The Shadow of the Wind (2004).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWgb1mk3ydfQJdspvqHnMP2aFZynPF84v7DXmMw6g7U4Y?filename=Charles%20Dickens%20-%20A%20Tale%20of%20Two%20Cities.epub" target="_blank">
+            Charles Dickens - A Tale of Two Cities.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcPMQ23raMyA8WSJPKMXaNfmcupa12ywou1dVj1NdWykT?filename=Chris%20Beckett%20-%20The%20Turing%20Test.mobi" target="_blank">
+            Chris Beckett - The Turing Test.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbfitrLDmPVcJsdP3e6V2MzzmfdT1EizrbjtPwMVSUXPm?filename=Colson%20Whitehead%20-%20The%20Underground%20Railroad.epub" target="_blank">
+            Colson Whitehead - The Underground Railroad.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWfqskAQfeP7HQWMKENUkKtRqyRDA8L7QMMqXnK3gtZsy?filename=Cory%20Doctorow%20-%20Down%20and%20Out%20in%20the%20Magic%20Kingdom.epub" target="_blank">
+            Cory Doctorow - Down and Out in the Magic Kingdom.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPVBdKxuHB93NUCeiZSu86h1gFdKG2K47Ax7jeJ9RZQsV?filename=Cory%20Doctorow%20-%20Homeland.pdf" target="_blank">
+            Cory Doctorow - Homeland.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZXPoR3iKu26GEWk36psLVECFxxoQLju4k77Dc7dSYRUT?filename=Cory%20Doctorow%20-%20Little%20Brother.pdf" target="_blank">
+            Cory Doctorow - Little Brother.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZoXsrnrta4KpzYU98TDpoZSQWpVrF4T2VG81hi5LmWFa?filename=Dan%20Brown%20-%20Digital%20Fortress%20%28v2.0%29.txt" target="_blank">
+            Dan Brown - Digital Fortress (v2.0).txt
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPvVUnmwaQ7cdtjXtABHrYa4Bw2sU8S5LsTcD6JK1np1r?filename=Dashiell%20Hammett%20-%20The%20Maltese%20Falcon-Vintage%20%281992%29.epub" target="_blank">
+            Dashiell Hammett - The Maltese Falcon-Vintage (1992).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPX8gBboick5GAtsBSMAFKWwni8XnpPPvPGcNMkkac78b?filename=David%20Foster%20Wallace%20-%20Infinite%20Jest.epub" target="_blank">
+            David Foster Wallace - Infinite Jest.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTVt99rEfHxWMsvgSRnmWApMPH1SwbswFMrw2vxSp34EW?filename=David%20Foster%20Wallace%20-%20Oblivion-%20Stories.pdf" target="_blank">
+            David Foster Wallace - Oblivion- Stories.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcQTeG1oBVHZaDhqFHY2W8trN42JRJJGi15wL6PSfet5T?filename=David%20Mitchell%20-%20Black%20Swan%20Green.epub" target="_blank">
+            David Mitchell - Black Swan Green.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaGmHAcX9SP9vDrGFgsEAVpxKTf8QGCtBAYkgnXAiZc7G?filename=David%20Mitchell%20-%20Cloud%20Atlas.epub" target="_blank">
+            David Mitchell - Cloud Atlas.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmbz9szzg6dQwMQAQJAwuFyg6EAsq4DnX9znpziayFdvru?filename=David%20Mitchell%20-%20Ghostwritten.epub" target="_blank">
+            David Mitchell - Ghostwritten.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbVNVyw1dGMngKEKEEPb5nQmpZKJuTPGnZN4RQ1i2F9Uy?filename=David%20Mitchell%20-%20Number9dream.epub" target="_blank">
+            David Mitchell - Number9dream.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQjtgLFCqdNxiSBuibfkbWscpUY11wHwKkmTQVxJYGixZ?filename=David%20Mitchell%20-%20The%20Bone%20Clocks.epub" target="_blank">
+            David Mitchell - The Bone Clocks.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmT6eEjqyFhDW1sXTBezkq5now8PqPqhdJQER23Wrc89P7?filename=Don%20Delillo%20-%20Underworld.epub" target="_blank">
+            Don Delillo - Underworld.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmc5uC43CCPyEJnkepesQ7Cp6KHgGV67aeL2VBgYzMTNnz?filename=E.%20Lily%20Yu%20-%20On%20Fragile%20Waves.epub" target="_blank">
+            E. Lily Yu - On Fragile Waves.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTHssFLEbAxm6GAReYNbtrtmrS3BezMrttD3HYNYLep9W?filename=Edward%20Bryant%20-%20Particle%20theory.epub" target="_blank">
+            Edward Bryant - Particle theory.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdCRdrm5JgfbaqXL229JKTjABh5qmRRdZU1rgLdPUkS73?filename=Elena%20Ferrante%20-%20%5BNeapolitan%2001%5D%20-%20My%20Brilliant%20Friend.epub" target="_blank">
+            Elena Ferrante - [Neapolitan 01] - My Brilliant Friend.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQajzDZbsMYuGyGTgMvwai2xShJq1uK1etBTXBoezNuLB?filename=Elena%20Ferrante%20-%20%5BNeapolitan%2002%5D%20-%20The%20Story%20of%20a%20New%20Name.epub" target="_blank">
+            Elena Ferrante - [Neapolitan 02] - The Story of a New Name.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZ7YjUPsLUYBpQkSTvwgyiGHiLZkrgvagSp4B12DFGvp1?filename=Elena%20Ferrante%20-%20%5BNeapolitan%2003%5D%20-%20Those%20Who%20Leave%20and%20Those%20Who%20Stay.epub" target="_blank">
+            Elena Ferrante - [Neapolitan 03] - Those Who Leave and Those Who Stay.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZyfeNDYSiZNy5aEx1sY75TJvEVddHkucqMjV5kG4AuaD?filename=Elena%20Ferrante%20-%20%5BNeapolitan%2004%5D%20-%20The%20Story%20of%20the%20Lost%20Child%20%28retail%29.epub" target="_blank">
+            Elena Ferrante - [Neapolitan 04] - The Story of the Lost Child (retail).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmX1KWwbdB36mBYiEEng8qf298A4WKQncr9ysUbkND7Lop?filename=Emily%20St.%20John%20Mandel%20-%20Station%20Eleven.epub" target="_blank">
+            Emily St. John Mandel - Station Eleven.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcSr53BaLQs6MgeeYfP3H7FDGD7A5bQvqHKcfC7nthzb6?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%201%20%282009%29.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 1 (2009).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZ4z9XLZxUHNjXyvLSRYxJ3owrHjxXdkjNHwFopByvrbA?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%202%20The%20Arctic%20Incident%20%282002%29.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 2 The Arctic Incident (2002).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbBbzj5vbmg3T2SFey2zYDpMZyPTBiJcVFaC3KbwfaryZ?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%203%20The%20Eternity%20Code%20%282005%29.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 3 The Eternity Code (2005).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVBSfdA7EVFmnTB6fTnbNhyY2kXFx3uLrcL8ewHX4LtdT?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%204%20The%20Opal%20Deception%20%282009%29.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 4 The Opal Deception (2009).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcWBMPBcHCzrcVtZgCHwYout6zKELgWaT8bEDLe498heu?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%205%20The%20Lost%20Colony.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 5 The Lost Colony.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcnFfJCM1ahkXSvr9FdKQGZMz5nz2gWyMNT7LuXtX2ADr?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%206%20The%20Time%20Paradox.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 6 The Time Paradox.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTKjk3A5SSx5MEQrEyJ95LX3R8aU8qixbefSX4FEjV6DN?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%207%20The%20Atlantis%20Complex.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 7 The Atlantis Complex.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZG2CbNjM1bywxeH7PCvwRPfd2p5rtu25dzBPy5rnf2UR?filename=Eoin%20Colfer%20-%20Artemis%20Fowl%2C%20Book%208%20The%20Last%20Guardian.epub" target="_blank">
+            Eoin Colfer - Artemis Fowl, Book 8 The Last Guardian.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTFPtpQuLxFUwTEPmfH1UDYRs7haDJtjvorh7ydNcvbg3?filename=Ernest%20Cline%20-%20Ready%20Player%20One.pdf" target="_blank">
+            Ernest Cline - Ready Player One.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcVJvTURzU3uHY49unYMMpvmaMELU3XeUjBUANhHFTXe1?filename=Ernest%20Hemingway%20-%20Sun%20Also%20Rises%20%282003%29.epub" target="_blank">
+            Ernest Hemingway - Sun Also Rises (2003).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmS1xiWjfDrbcayszbBzUQSEX3L93NM86qtDYC6ePwhTu2?filename=Francis%20Scott%20Fitzgerald%20-%20The%20Great%20Gatsby.epu" target="_blank">
+            Francis Scott Fitzgerald - The Great Gatsby.epu
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZg1qFqVAzjqkuffJzCmiRv174iDQ9wTTvcCcSJd9cjDd?filename=Frederick%20Forsyth%20-%20The%20Day%20of%20the%20Jackal.epub" target="_blank">
+            Frederick Forsyth - The Day of the Jackal.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTNFxw638zD3FHhmjvW4kJNDNotgqVk96s3eV1wJ7bNs3?filename=George%20Orwell%20-%20Animal%20Farm.epub" target="_blank">
+            George Orwell - Animal Farm.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbbX1NBfo2mEr8jLMQmMDQkFuDSgtGjpustYj3m3GzdLY?filename=George%20Saunders%20-%20CivilWarLand%20in%20Bad%20Decline.epub" target="_blank">
+            George Saunders - CivilWarLand in Bad Decline.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXkwFqjV4zaC562kXE1gYERLJJPXt7pg1vWdLDpb4j7hi?filename=Graham%20Greene%20-%20The%20Quiet%20American.epub" target="_blank">
+            Graham Greene - The Quiet American.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRSj71asqAUyYBEU1F8SX1qbseet1UVTWLRFG7cxWfP4p?filename=Graham%20Greene%20-%20The%20Third%20Man.mobi" target="_blank">
+            Graham Greene - The Third Man.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWiAwBxGtsUkFEsymTxgxfkxBHzMXXX8H3EAq79sDRW6N?filename=Greg%20Egan%20-%20Axiomatic.epub" target="_blank">
+            Greg Egan - Axiomatic.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeYmJ1nwpBFwb9wKWa6udRTowJ4qirGA7r5gGWJkF4EQf?filename=Harlan%20Coben%20-%20Tell%20No%20One.epub" target="_blank">
+            Harlan Coben - Tell No One.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNdmSyZcPLz2ariSjt6pBrRhodiNshBGbi9ZuUNotVfpg?filename=Harper%20Lee%20-%20To%20Kill%20a%20Mockingbird.mobi" target="_blank">
+            Harper Lee - To Kill a Mockingbird.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmP7u4Qi3N7zPxF5sRgCmcSqwwsAfuXsQ4oKq5MFyXV5Ga?filename=Haruki%20Murakami%20-%201Q84%201%2C%202.epub" target="_blank">
+            Haruki Murakami - 1Q84 1, 2.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcoZWidLC5BUc4RD89KSbaU76sDCgPVBZKHS8RzgAhjjy?filename=Haruki%20Murakami%20-%201Q84%203.epub" target="_blank">
+            Haruki Murakami - 1Q84 3.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSUUT4aKnbebag9uaFAj8BDE3Mnr8NdQeE8cDU83C3kMa?filename=Haruki%20Murakami%20-%20Dance%20Dance%20Dance.epub" target="_blank">
+            Haruki Murakami - Dance Dance Dance.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmP2qHTZ5w7uGW9zbAB4njNVq63ezmNArUShgNbxM8ERtj?filename=Haruki%20Murakami%20-%20Kafka%20on%20the%20Shore%20%20-Knopf%20%282005%29.epub" target="_blank">
+            Haruki Murakami - Kafka on the Shore  -Knopf (2005).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYcQEbSgW7qz3wQHbhrR78mDqx3ah9EsPaTRaKRdQhxgN?filename=Haruki%20Murakami%20-%20Norwegian%20Wood.epub" target="_blank">
+            Haruki Murakami - Norwegian Wood.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYvSeqStcBihBRo2jTKfPu1YD2zBsrUoFrwdRz33aDk2i?filename=Henry%20Miller%20-%20Tropic%20of%20Cancer.mobi" target="_blank">
+            Henry Miller - Tropic of Cancer.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmenD2uduvg5U5p1Pa549GXne7GZzLX8F2nG6U55vyKhot?filename=Herman%20Melville%20-%20Bartleby%2C%20the%20Scrivener%3A%20A%20Story%20of%20Wall-Street.mobi" target="_blank">
+            Herman Melville - Bartleby, the Scrivener: A Story of Wall-Street.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYgEE1sx5ggCxi8UTJwimDxWshpDU7J1co8tTmQzKbNZL?filename=Herman%20Melville%20-%20Moby%20Dick%20or%2C%20The%20Whale%20-%20Penguin%20Group%20%282002%29.epub" target="_blank">
+            Herman Melville - Moby Dick or, The Whale - Penguin Group (2002).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQ2zc4fxkXjHD3ZYfQvBLLyjm1GU64iir4nVG3coKnJJC?filename=Hiroshi%20Yamamoto%20-%20The%20Stories%20of%20Ibis.mobi" target="_blank">
+            Hiroshi Yamamoto - The Stories of Ibis.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXGDGfYqBZZiV2oeKJXYTTh48Vhzgc4RQJP5Z7NvhQKGb?filename=Hugh%20Howey%20-%20Wool.epub" target="_blank">
+            Hugh Howey - Wool.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVbniAnjXioW7FJxHNex7aiq62HATyTue8sB8y8BPdfjh?filename=JK%20Rowling%20-%20%28Book%201%29%20Harry%20Potter%20and%20the%20Philosopher%27s%20Stone.epub" target="_blank">
+            JK Rowling - (Book 1) Harry Potter and the Philosopher's Stone.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQ7JNYChLvJLkXMJk82HUteSWFRtiir98pGDC7wam4iLy?filename=JK%20Rowling%20-%20%28Book%202%29%20Harry%20Potter%20And%20The%20Chamber%20Of%20Secrets.epub" target="_blank">
+            JK Rowling - (Book 2) Harry Potter And The Chamber Of Secrets.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYCULB6VnusXZr6iCeQ92cXa4wMKjkG84R9Aq2UBA5WWa?filename=JK%20Rowling%20-%20%28Book%203%29%20Harry%20Potter%20and%20the%20Prisoner%20of%20Azkaban.epub" target="_blank">
+            JK Rowling - (Book 3) Harry Potter and the Prisoner of Azkaban.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcUTnT1NJDAqsMtbbLzsT9frceg4NqrKTvEuxNKgCD4bW?filename=JK%20Rowling%20-%20%28Book%204%29%20Harry%20Potter%20and%20the%20Goblet%20of%20Fire.epub" target="_blank">
+            JK Rowling - (Book 4) Harry Potter and the Goblet of Fire.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcddfJLYtjVHja7ZB5HvpFnqfSBNLBUNEx2LfvnRH1nn4?filename=JK%20Rowling%20-%20%28Book%205%29%20Harry%20Potter%20and%20the%20Order%20of%20the%20Phoenix.epub" target="_blank">
+            JK Rowling - (Book 5) Harry Potter and the Order of the Phoenix.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTg4Y7HDkefnqp31fjBd8VBTEKNGvcZzSvywXeeEQMjf2?filename=JK%20Rowling%20-%20%28Book%206%29%20Harry%20Potter%20and%20the%20Half-Blood%20Prince.epub" target="_blank">
+            JK Rowling - (Book 6) Harry Potter and the Half-Blood Prince.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPA3J353RV538JJmpcBmKc2Bu2fEwKQPYFqNJ2GX8tore?filename=JK%20Rowling%20-%20%28Book%207%29%20Harry%20Potter%20and%20the%20Deathly%20Hallows.epub" target="_blank">
+            JK Rowling - (Book 7) Harry Potter and the Deathly Hallows.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeoUJxwkCbffN5YKtvv994ES6bAE9C95A3shjTh5nS7jn?filename=JK%20Rowling%20-%20The%20Tales%20of%20Beedle%20the%20Bard.epub" target="_blank">
+            JK Rowling - The Tales of Beedle the Bard.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYNdFYLtJVkyejQXiGyv45VEt43VzJKjt7vUY5jzRHa1X?filename=James%20Baldwin%20-%20The%20Fire%20Next%20Time.epub" target="_blank">
+            James Baldwin - The Fire Next Time.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXhoSCTv87FZWfDmm6xwZghmWzjT92fWit7mrdHzm5Jdx?filename=James%20Ellroy%20-%20American%20Tabloid.epub" target="_blank">
+            James Ellroy - American Tabloid.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQWFSGy3VABq3FV5ojX2rm9pCWcreHMJfo75bgzT7siMm?filename=Jennifer%20Egan%20-%20A%20Visit%20from%20the%20Goon%20Squad.mobi" target="_blank">
+            Jennifer Egan - A Visit from the Goon Squad.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYc5AV38DrabJAuhWGVmDURJZ9oYwQojrX6d3F2KruAVt?filename=John%20Dos%20Passos%20-%20USA%20Trilogy%20%28The%2042nd%20Parallel%2C%201919%2C%20The%20Big%20Money%29.mobi" target="_blank">
+            John Dos Passos - USA Trilogy (The 42nd Parallel, 1919, The Big Money).mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPYw2yCn5XJM3qzEQMZDhhbfaBCXw8cx2j8wy9fx3VNG1?filename=John%20Le%20Carre%20-%20The%20Spy%20Who%20Came%20in%20from%20the%20Cold.mobi" target="_blank">
+            John Le Carre - The Spy Who Came in from the Cold.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcyFk6rs4WX7RkuZgRXgsMfmn6gXbCFRpFpgcr7ZzMHNp?filename=John%20Le%20Carr%C3%A9%20-%20Tinker%2C%20Tailor%2C%20Soldier%2C%20Spy.mobi" target="_blank">
+            John Le Carré - Tinker, Tailor, Soldier, Spy.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmdm3kavfrxcuFoVP4qPAjBp2Z7tWfvHoxWgCFZh6KHEk8?filename=John%20Steinbeck%20-%20The%20Grapes%20of%20Wrath-Penguin%20Group%20%282006%29.epub" target="_blank">
+            John Steinbeck - The Grapes of Wrath-Penguin Group (2006).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTT4tMpu2zobuFQ7jzwDuum1kvMaP2JCXjnXLHQopP9SM?filename=John%20le%20Carr%C3%A9%20-%20A%20Legacy%20of%20Spies.epub" target="_blank">
+            John le Carré - A Legacy of Spies.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQbfC7FmFfNrD7CDVbiWjX4YNJtKdrWd8UE3D2MZzm5YF?filename=John%20le%20Carr%C3%A9%20-%20Call%20for%20the%20Dead.mobi" target="_blank">
+            John le Carré - Call for the Dead.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmT9k3FXEn7Qeb8dhPXvDQDnWRHEy74YCmeHRSdWnKJRVz?filename=Joseph%20Conrad%20-%20Heart%20of%20Darkness.epub" target="_blank">
+            Joseph Conrad - Heart of Darkness.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSybJWrhZzKQSbuVDFXY7geLtPVvAZRoVJP4mfKinSbXu?filename=Kazuo%20Ishiguro%20-%20Never%20Let%20Me%20Go.epub" target="_blank">
+            Kazuo Ishiguro - Never Let Me Go.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qme8f6FFtCDd5pUnfAUibh2jB23u3LyJtir4MHV6obgjEn?filename=Ken%20Liu%20-%20Invisible%20Planets%20-%20An%20anthology%20of%20Contemporary%20Chinese%20SF%20in%20Translation.epub" target="_blank">
+            Ken Liu - Invisible Planets - An anthology of Contemporary Chinese SF in Translation.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfAc6MBtL2VEjSD9YZYzBEE3q1Quimovxhx8NUPggejra?filename=Ken%20Liu%20-%20The%20Paper%20Menagerie%20and%20Other%20Stories.epub" target="_blank">
+            Ken Liu - The Paper Menagerie and Other Stories.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWZG1VWq7X2TndCgnw7GRTg2vYp2vRNkamPx2GZvKzxQM?filename=Kim%20Stanley%20Robinson%20-%20Red%20Mars%20%28Mars%20Trilogy%29%20%281993%29.pdf" target="_blank">
+            Kim Stanley Robinson - Red Mars (Mars Trilogy) (1993).pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbeFbZ9WqdVpcN4iyeCzd7XMddnkFSdKM6L7PSUszg4xj?filename=Kurt%20Vonnegut%20-%20Slaughterhouse-Five.epub" target="_blank">
+            Kurt Vonnegut - Slaughterhouse-Five.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZrBXpE3xmfAZtG6hV8HabqDzr2jpoPbGNq7VXRfahD5Z?filename=Margaret%20Atwood%20-%20The%20Handmaid%27s%20Tale.epub" target="_blank">
+            Margaret Atwood - The Handmaid's Tale.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVMBbH9j38rdwsjBzK4sBePhg3T5KREqbhqsKVG3dDqCa?filename=Mary%20Shelley%20-%20Frankenstein.epub" target="_blank">
+            Mary Shelley - Frankenstein.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZPb9dzU4oo9hmdndHS2xSo5E6dKQRnDgsSWDhF2BXeEn?filename=Michel%20Houellebecq%20-%20Atomised.pdf" target="_blank">
+            Michel Houellebecq - Atomised.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSzJQ8RqeX5UsnunkdjtVcfcfPALkGgVBCEwfdFHCpb1s?filename=Michel%20Houellebecq%20-%20Lanzarote.epub" target="_blank">
+            Michel Houellebecq - Lanzarote.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVUh9ZhAFHPFFuJe8pDrcaukLkqekJgu6bKdjw35cGR2p?filename=Michel%20Houellebecq%20-%20Map%20and%20the%20Territory.epub" target="_blank">
+            Michel Houellebecq - Map and the Territory.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeoM7g9YLEXLeKmg7jfezBroYea2SG2rjmEPSxtuPS32N?filename=Michel%20Houellebecq%20-%20Platform.epub" target="_blank">
+            Michel Houellebecq - Platform.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVK7Mp4md5TApCE36hDatodntVAgyP6zBfeNPWNoquVis?filename=Michel%20Houellebecq%20-%20Possibility%20of%20an%20Island.epub" target="_blank">
+            Michel Houellebecq - Possibility of an Island.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWhgiwbaH8aGWV6raxmFKRFyFDtTVC5SnT9TfonzfrA8D?filename=Michel%20Houellebecq%20-%20Public%20Enemies%20%5Bwith%20Bernard-Henri%20Le%CC%81vy%5D.epub" target="_blank">
+            Michel Houellebecq - Public Enemies [with Bernard-Henri Lévy].epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRMqztHkpzdfSRtc3QpujbgbPuyuUBsc7mnfo7PkqzwLL?filename=Michel%20Houellebecq%20-%20Serotonin.epub" target="_blank">
+            Michel Houellebecq - Serotonin.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmb4y3ipRTcqdvJ3WPkPbUJZ2R5H4KebtoEPzWapZJDaHV?filename=Michel%20Houellebecq%20-%20Submission.epub" target="_blank">
+            Michel Houellebecq - Submission.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmd5sGC6EXY2fV2yxDeDWqG1zgU1jDF1uAmqQj5DTCsdgW?filename=Michel%20Houellebecq%20-%20The%20Elementary%20Particles.mobi" target="_blank">
+            Michel Houellebecq - The Elementary Particles.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZbMy4ZCVidg24o7vRe2saAgQ2LKY7j9XzN9cp8xv5MHy?filename=Michel%20Houellebecq%20-%20Unreconciled.epub" target="_blank">
+            Michel Houellebecq - Unreconciled.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTUBbtYVWvwjYJR3fjxCjEBg711zSfao2mz4mP4JAyNXM?filename=Michel%20Houellebecq%20-%20Whatever.epub" target="_blank">
+            Michel Houellebecq - Whatever.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmad43aqb6nRALVhsDjwHAC2Yt8fk1FVVFkqtvMhmm4SYT?filename=Mikhail%20Bulgakov%20-%20The%20Master%20and%20Margarita.epub" target="_blank">
+            Mikhail Bulgakov - The Master and Margarita.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZ77A5pu3A6sFy8ytpVxNsmbXMw1cGNegexBXXm4RXHMU?filename=Milan%20Kundera%20-%20Unbearable%20Lightness%20of%20Being%2C%20The.epub" target="_blank">
+            Milan Kundera - Unbearable Lightness of Being, The.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNhjN3yPb9bENJiSUEw1Y6sufWm3AvZpwBZzUSS8CSoNv?filename=Naguib%20Mahfouz%20-%20The%20Cairo%20Trilogy%2C%20Volume%201%20Palace%20Walk.mobi" target="_blank">
+            Naguib Mahfouz - The Cairo Trilogy, Volume 1 Palace Walk.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbbFruEJW43SbsHRk6cSdLiLzuP8rrq5mudXkmfMnemMK?filename=Naguib%20Mahfouz%20-%20The%20Cairo%20Trilogy%2C%20Volume%202%20Palace%20of%20Desire.mobi" target="_blank">
+            Naguib Mahfouz - The Cairo Trilogy, Volume 2 Palace of Desire.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRFYwfdi1k5fBEEB2AmbMuHFegme8FgHN6UCQKtCmG2DL?filename=Naguib%20Mahfouz%20-%20The%20Cairo%20Trilogy%2C%20Volume%203%20Sugar%20Street.mobi" target="_blank">
+            Naguib Mahfouz - The Cairo Trilogy, Volume 3 Sugar Street.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUE8cuT8MthcSYiDZiCE9FVWoaDc16y2jUTQ4Tz6fcYQ4?filename=Neal%20Stephenson%20-%20Cryptonomicon.epub" target="_blank">
+            Neal Stephenson - Cryptonomicon.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZS6EqnEEWFyJBgd4Fuks7hqRK4tNFnww4DPGPUgz2aVz?filename=Neal%20Stephenson%20-%20Snow%20Crash.epub" target="_blank">
+            Neal Stephenson - Snow Crash.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbcMrzYUUjexLhFn83wEE6CWvmKtD4hEAkKmsnbAgPxGG?filename=Neil%20Cross%20-%20Luther%20The%20Calling%20-%202011.pdf" target="_blank">
+            Neil Cross - Luther The Calling - 2011.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTo5qfpRcs5xVs9hnaDRksZQ7tWGgv8YyfUMCqsmtnfDK?filename=Neil%20Gaiman%20-%20Coraline.epub" target="_blank">
+            Neil Gaiman - Coraline.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmcn555v8Kz5Pbzc2PUtaz2bzffLwtqCCf6VndTnvwVvQg?filename=Nick%20Hornby%20-%20About%20a%20Boy%20%20-Penguin%20Books%20%282002%29.epub" target="_blank">
+            Nick Hornby - About a Boy  -Penguin Books (2002).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTPpTNBZji9W469F6wYRTQnJuHkmsL12h3WSkiAP6kfGZ?filename=Nick%20Hornby%20-%20Just%20Like%20You.epub" target="_blank">
+            Nick Hornby - Just Like You.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdPxESnHmueC5mNZU8W4FgZVuk8t2KXGejtLxG7utXG6X?filename=Octavia%20Butler%20-%20Dawn.epub" target="_blank">
+            Octavia Butler - Dawn.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRorxpeRHRLFTJe1gUdegtmaj7mSXfCYUhWA3LECVDGA7?filename=Philip%20K.%20Dick%20-%20Do%20Androids%20Dream%20of%20Electric%20Sheep.epub" target="_blank">
+            Philip K. Dick - Do Androids Dream of Electric Sheep.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZmin8NFEPF7hT1fCEES6qH7F2BRqhVBBqTqcPnu12otm?filename=Philip%20K.%20Dick%20-%20The%20Minority%20Report.pdf" target="_blank">
+            Philip K. Dick - The Minority Report.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVYAizJYBzERThMsFU1zoSoNUiH32fkzYQtWniSpJGrVA?filename=Philip%20Pullman%20-%20%28His%20Dark%20Materials%201%29%20-%20The%20Golden%20Compass.mobi" target="_blank">
+            Philip Pullman - (His Dark Materials 1) - The Golden Compass.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdyGjD1qfKbcerjYRUgs2ckRcjVye3Nz1p2s5t618XmPa?filename=Philip%20Pullman%20-%20%28His%20Dark%20Materials%202%29%20-%20The%20Subtle%20Knife.mobi" target="_blank">
+            Philip Pullman - (His Dark Materials 2) - The Subtle Knife.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNe4F2rtSCneNASpixQijeFVU6vDvfPpYuw3sepUdZLq4?filename=Philip%20Pullman%20-%20%28His%20Dark%20Materials%203%29%20-%20The%20Amber%20Spyglass.mobi" target="_blank">
+            Philip Pullman - (His Dark Materials 3) - The Amber Spyglass.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWhLnbefVKnoMUL4WXudfrhwo2pfwE7U9YzvVYAK2yWwc?filename=Philip%20Pullman%20-%20La%20Belle%20Sauvage.azw3" target="_blank">
+            Philip Pullman - La Belle Sauvage.azw3
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYWoyDbZ1BDEG8voLYfNhgJwepSnhgE8wJYsUxkUx9JQ1?filename=Ray%20Bradbury%20-%20Fahrenheit%20451.epub" target="_blank">
+            Ray Bradbury - Fahrenheit 451.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcD8H44pb3nq3KqknDoPd1X1aDd4A8fwkAdr5B9SFrHWL?filename=Robin%20Sloan%20-%20Mr.%20Penumbra%E2%80%99s%2024-Hour%20Bookstore.epub" target="_blank">
+            Robin Sloan - Mr. Penumbra’s 24-Hour Bookstore.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVuA9efdWd29R3B53KE8NssDVPMjMRJs5zfwHeKRgrWbj?filename=Sarah%20Waters%20-%20Fingersmith.epub" target="_blank">
+            Sarah Waters - Fingersmith.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPbyPHdS9C12e3bHj7X7DPfPiutR2qUUiNiefBVmxeV1b?filename=Solomon%20Rivers%20-%20The%20Deep.mobi" target="_blank">
+            Solomon Rivers - The Deep.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPa8EQzN7MAxnX4TM9ZPRbUhPfSWL8casorbjgTopHkNb?filename=Stephen%20King%20-%20It.epub" target="_blank">
+            Stephen King - It.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdA9TToV2CgzLESSkb7kQpxGZPf4NfQeoWeNW9YczbiVu?filename=Stephen%20King%20-%20Survivor%20Type.epub" target="_blank">
+            Stephen King - Survivor Type.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZfS34KEdm93iuTPMunpcZyNzLXY4LAubPMGtfeURL6Gc?filename=Stieg%20Larsson%20-%20%20The%20Girl%20Who%20Played%20with%20Fire%20%28Millennium%202%29.epub" target="_blank">
+            Stieg Larsson -  The Girl Who Played with Fire (Millennium 2).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmP19PL2QjpSzhZYyRcBukhtmeuxm66LdDEUDcf7FCrhRS?filename=Stieg%20Larsson%20-%20The%20Girl%20Who%20Kicked%20the%20Hornet%27s%20Nest%20%28Millennium%203%29.epub" target="_blank">
+            Stieg Larsson - The Girl Who Kicked the Hornet's Nest (Millennium 3).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeVXfy1fFC5gYQRa78LqUa6Z396T5rNo9Cg6YQfpjvmt3?filename=Stieg%20Larsson%20-%20The%20Girl%20with%20the%20Dragon%20Tattoo%20%20%28Millennium%201%29.epub" target="_blank">
+            Stieg Larsson - The Girl with the Dragon Tattoo  (Millennium 1).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmT7CY7zYM9T2ozF6JHZNpxBoYBm9mC4YSrBQZTx8dkL2C?filename=TechieChan%20-%20TZO.mobi" target="_blank">
+            TechieChan - TZO.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbYbQhqMwEasx1WDXMSe4fL7NaYXiu1qs5dgtkwmdHKwZ?filename=Ted%20Chiang%20-%20Exhalation.epub" target="_blank">
+            Ted Chiang - Exhalation.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPQ4pVSkZmnnmGf7yS79MZtHK6J3xnQsGBGP8eiyqnEVF?filename=Ted%20Chiang%20-%20Stories%20of%20Your%20Life%20and%20Others%20%28Version%203%29.epub" target="_blank">
+            Ted Chiang - Stories of Your Life and Others (Version 3).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSm1iHcHi9PgSJb5y2bN2V3CczuhNHG3B3A4F2DW8oA3E?filename=Thomas%20Pynchon%20-%20Gravity%27s%20Rainbow.epub" target="_blank">
+            Thomas Pynchon - Gravity's Rainbow.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTjcBnM4C7EwoBJ3CwZ5hwsqut1kLmq4APGDsZdVXPrtR?filename=Tom%20Clancy%20-%20Patriot%20Games.epub" target="_blank">
+            Tom Clancy - Patriot Games.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPeevqeaqKXrypZdRk7MBtBcwCPZSv3nEwfTA6tpgjxvg?filename=Toni%20Morrison%20-%20Beloved.epub" target="_blank">
+            Toni Morrison - Beloved.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVv3jgcEXyrDeXxBst6ubrWGDf686P6suoMUe4aFJCvR3?filename=Truman%20Capote%20-%20In%20Cold%20Blood.epub" target="_blank">
+            Truman Capote - In Cold Blood.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbyCGZzAoeHDqBLgdGDYTRWbzHUMkidBA3Af97BXrrYLp?filename=Ursula%20K%20Le%20Guin%20-%20The%20Dispossessed.epub" target="_blank">
+            Ursula K Le Guin - The Dispossessed.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdYXpw8zaow5wCgkHiSvtfFRxQArPtL75hiBCRA3QC67d?filename=William%20Gibson%20-%20Neuromancer.pdf" target="_blank">
+            William Gibson - Neuromancer.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQfYAJAatvEc5gBXZqsUZC3EjLpjtENg4ouuZXdDgF26k?filename=William%20Golding%20-%20Lord%20of%20the%20Flies.mobi" target="_blank">
+            William Golding - Lord of the Flies.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTZgR67Roib4douR6DVSXrtxDqogsEYnpd1vDAvXp7kJ2?filename=%CE%86%CE%BB%CE%BD%CF%84%CE%BF%CF%85%CF%82%20%CE%A7%CE%AC%CE%BE%CE%BB%CE%B5%CF%8A%20-%20%CE%9F%20%CE%98%CE%B1%CF%85%CE%BC%CE%B1%CF%83%CF%84%CF%8C%CF%82%20%CE%9A%CE%B1%CE%B9%CE%BD%CE%BF%CF%8D%CF%81%CE%B3%CE%B9%CE%BF%CF%82%20%CE%9A%CF%8C%CF%83%CE%BC%CE%BF%CF%82.pdf" target="_blank">
+            Άλντους Χάξλεϊ - Ο Θαυμαστός Καινούργιος Κόσμος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNhsMqRLX47kTYJ8X4D7rN27Rr8spUrW2iUUD8nTT8vfa?filename=%CE%86%CE%BD%CE%BD%CE%B1%20%CE%A6%CF%81%CE%B1%CE%BD%CE%BA%20-%20%CE%A4%CE%BF%20%CE%97%CE%BC%CE%B5%CF%81%CE%BF%CE%BB%CF%8C%CE%B3%CE%B9%CE%BF%20%CE%9C%CE%A3.pdf" target="_blank">
+            Άννα Φρανκ - Το Ημερολόγιο ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdUaGUdT6XtDow6D21NLkmJKN9DeR4vM87xKreRgbBv4x?filename=%CE%86%CF%81%CE%B7%CF%82%20%CE%91%CE%BB%CE%B5%CE%BE%CE%AC%CE%BD%CE%B4%CF%81%CE%BF%CF%85%20-%20%CE%A4%CE%BF%20%CE%BA%CE%B9%CE%B2%CF%8E%CF%84%CE%B9%CE%BF.epub" target="_blank">
+            Άρης Αλεξάνδρου - Το κιβώτιο.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbPjgS4s8q75dEiaaXaur4SXn34WDt4GtLtM2TN1PGXY8?filename=%CE%86%CF%87%CE%BC%CE%B5%CF%84%20%CE%9F%CF%85%CE%BC%CE%AF%CF%84%20-%20%CE%88%CE%B3%CE%BA%CE%BB%CE%B7%CE%BC%CE%B1%20%CE%A3%CF%84%CE%BF%20%CE%A0%CE%B5%CF%81%CE%B1.pdf" target="_blank">
+            Άχμετ Ουμίτ - Έγκλημα Στο Περα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdwuLor8sbfwayqs5SNsESCDVUgZNUnTpYH51iaBWoWgg?filename=%CE%88%CE%BD%CF%84%CE%B3%CE%BA%CE%B1%CF%81%20%CE%86%CE%BB%CE%B1%CE%BD%20%CE%A0%CF%8C%CE%B5%20-%20%CE%9F%CE%B9%20%CF%86%CF%8C%CE%BD%CE%BF%CE%B9%20%CF%84%CE%B7%CF%82%20%CE%BF%CE%B4%CE%BF%CF%8D%20%CE%9C%CE%BF%CF%81%CE%B3%CE%BA.epub" target="_blank">
+            Έντγκαρ Άλαν Πόε - Οι φόνοι της οδού Μοργκ.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdmjjWd57i8aqjaaf5RUMFq1jW3Sno9Asdmi96GBLhUSN?filename=%CE%88%CF%81%CE%BD%CE%B5%CF%83%CF%84%20%CE%A7%CE%AD%CE%BC%CE%B9%CE%BD%CE%B3%CE%BF%CF%85%CE%B5%CE%B9%20-%20%CE%93%CE%B9%CE%B1%20%CF%80%CE%BF%CE%B9%CE%BF%CE%BD%20%CF%87%CF%84%CF%85%CF%80%CE%AC%20%CE%B7%20%CE%BA%CE%B1%CE%BC%CF%80%CE%AC%CE%BD%CE%B1.pdf" target="_blank">
+            Έρνεστ Χέμινγουει - Για ποιον χτυπά η καμπάνα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYPT1MmyBKk9cCtZJcM4h2o65LDhhLG6KsDDnXrfsWK1o?filename=%CE%88%CF%81%CE%BD%CE%B5%CF%83%CF%84%20%CE%A7%CE%AD%CE%BC%CE%B9%CE%BD%CE%B3%CE%BF%CF%85%CE%B5%CE%B9%20-%20%CE%9F%20%CE%89%CE%BB%CE%B9%CE%BF%CF%82%20%CE%91%CE%BD%CE%B1%CF%84%CE%AD%CE%BB%CE%B5%CE%B9%20%CE%9E%CE%B1%CE%BD%CE%AC.pdf" target="_blank">
+            Έρνεστ Χέμινγουει - Ο Ήλιος Ανατέλει Ξανά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNvzq6V5ckPGRo97HAqsK1N5gk2RfyvtQUMqnZWzTdXh8?filename=%CE%91%CE%BB%CE%B5%CE%BE%CE%AC%CE%BD%CF%84%CE%B5%CF%81%20%CE%A3%CE%BF%CE%BB%CE%B6%CE%B5%CE%BD%CE%AF%CF%84%CF%83%CE%B9%CE%BD%20-%20%CE%91%CF%81%CF%87%CE%B9%CF%80%CE%AD%CE%BB%CE%B1%CE%B3%CE%BF%CF%82%20%CE%93%CE%BA%CE%BF%CF%85%CE%BB%CE%AC%CE%B3%CE%BA.pdf" target="_blank">
+            Αλεξάντερ Σολζενίτσιν - Αρχιπέλαγος Γκουλάγκ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmcc6iJpyy9Ldza5YnC9DJ7zpVBJf9vJMAaMsryYWNSMgJ?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%97%20%CF%80%CF%84%CF%8E%CF%83%CE%B7.pdf" target="_blank">
+            Αλμπέρ Καμύ - Η πτώση.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTe2uYsRXWoaSiqg8Xk9PZaeAUXB5QMia3ura1rSFsTfS?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%9F%20%CE%95%CF%85%CF%84%CF%85%CF%87%CE%B9%CF%83%CE%BC%CE%AD%CE%BD%CE%BF%CF%82%20%CE%98%CE%AC%CE%BD%CE%B1%CF%84%CE%BF%CF%82.pdf" target="_blank">
+            Αλμπέρ Καμύ - Ο Ευτυχισμένος Θάνατος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYAgpRiVM3uCTnS7q44nMYZRjPQ1k52Kfay9MMzcRSeu8?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%9F%20%CE%9E%CE%AD%CE%BD%CE%BF%CF%82.pdf" target="_blank">
+            Αλμπέρ Καμύ - Ο Ξένος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYiXTgeGb8veC7zACTeBPpknoPuFFEf7oDRHjTzdauJw2?filename=%CE%91%CE%BD%CE%B1%CE%90%CF%82%20%CE%9D%CE%B9%CE%BD%20-%20Henry%20and%20June.pdf" target="_blank">
+            Αναΐς Νιν - Henry and June.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRjeymqmYpX9nmWCwCE6SA57nFtjD5is8cMy7rGx3Bz8f?filename=%CE%91%CE%BD%CE%B1%CF%84%CF%8C%CE%BB%20%CE%A6%CF%81%CE%B1%CE%BD%CF%82%20-%20%CE%A4%CE%BF%20%CE%BD%CE%B7%CF%83%CE%AF%20%CF%84%CF%89%CE%BD%20%CF%80%CE%B9%CE%B3%CE%BA%CE%BF%CF%85%CE%AF%CE%BD%CF%89%CE%BD.pdf" target="_blank">
+            Ανατόλ Φρανς - Το νησί των πιγκουίνων.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRMmTo9yGp8DqKJWbH85tBfnG2rji7jBVzCNfvEUX9Wat?filename=%CE%91%CE%BD%CE%B4%CF%81%CE%AD%CE%B1%CF%82%20%CE%9A%CE%B1%CF%81%CE%BA%CE%B1%CE%B2%CE%AF%CF%84%CF%83%CE%B1%CF%82%20-%20%CE%9B%CF%8C%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B7%CF%82%20%CE%A0%CE%BB%CF%8E%CF%81%CE%B7%CF%82.epub" target="_blank">
+            Ανδρέας Καρκαβίτσας - Λόγια της Πλώρης.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQVQsTzxGYHzZz17QDPdh8LKZbHJhtdCuKjnaoCPDhX8i?filename=%CE%92%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%B7%CF%82%20%CE%93%CE%B9%CE%B1%CE%BD%CE%BD%CE%AF%CE%B4%CE%B7%CF%82%20-%20%CE%91%CE%9C%CE%91%CE%A1%CE%9F%CE%9A.pdf" target="_blank">
+            Βαγγέλης Γιαννίδης - ΑΜΑΡΟΚ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPaLVjHRoVRZRGwBFwmt83RaweNVhpyLoWaH1BiZ3oiZt?filename=%CE%92%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%B7%CF%82%20%CE%93%CE%B9%CE%B1%CE%BD%CE%BD%CE%AF%CF%83%CE%B7%CF%82%20-%20%CE%97%20%CF%83%CE%BA%CE%B9%CE%AC.pdf" target="_blank">
+            Βαγγέλης Γιαννίσης - Η σκιά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZnXDwjn9Ypg6ZSmA6Ks7M1a87Jcc96GmMARbQq28hZvQ?filename=%CE%92%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%B7%CF%82%20%CE%93%CE%B9%CE%B1%CE%BD%CE%BD%CE%AF%CF%83%CE%B7%CF%82%20-%20%CE%9F%20%CF%87%CE%BF%CF%81%CF%8C%CF%82%20%CF%84%CF%89%CE%BD%20%CE%BD%CE%B5%CE%BA%CF%81%CF%8E%CE%BD.pdf" target="_blank">
+            Βαγγέλης Γιαννίσης - Ο χορός των νεκρών.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWa2eYR8kZQMfEbUVobBJRnvCDEKBDMp9CP3LDHngeGzi?filename=%CE%92%CE%B9%CE%BA%CF%84%CF%8C%CF%81%CE%B9%CE%B1%20%CE%A7%CE%AF%CF%83%CE%BB%CE%BF%CF%80%20-%20%CE%A4%CE%BF%20%CE%BD%CE%B7%CF%83%CE%AF.pdf" target="_blank">
+            Βικτόρια Χίσλοπ - Το νησί.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbCBdxaDec5dHM5gzr2bhoF731TPZERgNg8FnjGqHYFLD?filename=%CE%92%CE%B9%CF%84%CE%B6%CE%AD%CE%BD%CF%84%CE%B6%CE%BF%CF%82%20%CE%9A%CE%BF%CF%81%CE%BD%CE%AC%CF%81%CE%BF%CF%82%20-%20%CE%95%CF%81%CF%89%CF%84%CF%8C%CE%BA%CF%81%CE%B9%CF%84%CE%BF%CF%82.pdf" target="_blank">
+            Βιτζέντζος Κορνάρος - Ερωτόκριτος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWNwQ4csha8iaNSc6osdZZaj9B1czPLUqY58NBLdCa89Q?filename=%CE%93%CE%B9%CE%AC%CE%BD%CE%BD%CE%B7%CF%82%20%CE%9E%CE%B1%CE%BD%CE%B8%CE%BF%CF%8D%CE%BB%CE%B7%CF%82%20-%20%CE%9F%20%CE%A4%CE%BF%CF%8D%CF%81%CE%BA%CE%BF%CF%82%20%CF%83%CF%84%CE%BF%CE%BD%20%CE%9A%CE%AE%CF%80%CE%BF.pdf" target="_blank">
+            Γιάννης Ξανθούλης - Ο Τούρκος στον Κήπο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVYMjCGohHP1CUSHGWJPzXchHg5fDobzvaxqadhSYVN7N?filename=%CE%93%CE%B9%CE%AC%CE%BD%CE%BD%CE%B7%CF%82%20%CE%9E%CE%B1%CE%BD%CE%B8%CE%BF%CF%8D%CE%BB%CE%B7%CF%82%20-%20%CE%A4%CE%BF%20%CF%80%CE%B5%CE%B8%CE%B1%CE%BC%CE%AD%CE%BD%CE%BF%20%CE%BB%CE%B9%CE%BA%CE%AD%CF%81.pdf" target="_blank">
+            Γιάννης Ξανθούλης - Το πεθαμένο λικέρ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVPjdnL63fyWnDnxMEprP456wtEKG3ekUHjQxUQPKxoft?filename=%CE%93%CE%BA%CE%B1%CE%BC%CF%80%CF%81%CE%B9%CE%AD%CE%BB%20%CE%93%CE%BA%CE%B1%CF%81%CF%83%CE%AF%CE%B1%20%CE%9C%CE%B1%CF%81%CE%BA%CE%AD%CF%82%20-%20%CE%95%CE%BA%CE%B1%CF%84%CF%8C%20%CF%87%CF%81%CF%8C%CE%BD%CE%B9%CE%B1%20%CE%BC%CE%BF%CE%BD%CE%B1%CE%BE%CE%B9%CE%AC.pdf" target="_blank">
+            Γκαμπριέλ Γκαρσία Μαρκές - Εκατό χρόνια μοναξιά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWyB6a3S3Lp1GND8FxgKzee9NEDWLw5VieHgtgCAcXYLx?filename=%CE%93%CE%BA%CE%B1%CE%BC%CF%80%CF%81%CE%B9%CE%AD%CE%BB%20%CE%93%CE%BA%CE%B1%CF%81%CF%83%CE%AF%CE%B1%20%CE%9C%CE%B1%CF%81%CE%BA%CE%AD%CF%82%20-%20%CE%9F%CE%B9%20%CE%B8%CE%BB%CE%B9%CE%BC%CE%BC%CE%AD%CE%BD%CE%B5%CF%82%20%CF%80%CE%BF%CF%85%CF%84%CE%AC%CE%BD%CE%B5%CF%82%20%CF%84%CE%B7%CF%82%20%CE%B6%CF%89%CE%AE%CF%82%20%CE%BC%CE%BF%CF%85.pdf" target="_blank">
+            Γκαμπριέλ Γκαρσία Μαρκές - Οι θλιμμένες πουτάνες της ζωής μου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbbeHrEMfW6qXqnyPGNsCRiJrdnXfNFHVaNE5NRf2BCzv?filename=%CE%93%CE%BF%CF%85%CE%AF%CE%BB%CE%B9%CE%B1%CE%BC%20%CE%93%CE%BA%CF%8C%CE%BB%CE%BD%CF%84%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%AC%CF%81%CF%87%CE%BF%CE%BD%CF%84%CE%B1%CF%82%20%CF%84%CF%89%CE%BD%20%CE%BC%CF%85%CE%B3%CF%8E%CE%BD.pdf" target="_blank">
+            Γουίλιαμ Γκόλντινγκ - Ο άρχοντας των μυγών.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYcLzcagesXRfNcb6opdbSk8sytJBebTd86Skz7SRm1vh?filename=%CE%93%CE%BF%CF%85%CF%83%CF%84%CE%B1%CF%8D%CE%BF%CF%82%20%CE%A6%CE%BB%CE%BF%CE%BC%CF%80%CE%AD%CF%81%20-%20%CE%9C%CE%B1%CE%BD%CF%84%CE%AC%CE%BC%20%CE%9C%CF%80%CE%BF%CE%B2%CE%B1%CF%81%CF%8D.pdf" target="_blank">
+            Γουσταύος Φλομπέρ - Μαντάμ Μποβαρύ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmY8dPhnMdpL5P4JK4ciyj85Zjoq2hLQH623sDiy9d5n1v?filename=%CE%94%CE%B9%CE%B4%CF%8E%20%CE%94%CF%89%CF%84%CE%B7%CF%81%CE%AF%CE%BF%CF%85%20-%20%CE%9C%CE%B1%CF%84%CF%89%CE%BC%CE%AD%CE%BD%CE%B1%20%CE%A7%CF%8E%CE%BC%CE%B1%CF%84%CE%B1.pdf" target="_blank">
+            Διδώ Δωτηρίου - Ματωμένα Χώματα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRhw4iKhUPAL4EYtUEk8Y7xFdFxAHa2huxbWneKKSdRUv?filename=%CE%95%CE%BC%CE%BC%CE%B1%CE%BD%CE%BF%CF%85%CE%AE%CE%BB%20%CE%A1%CE%BF%CF%8A%CE%B4%CE%B7%CF%82%20-%20%CE%97%20%CE%A0%CE%AC%CF%80%CE%B9%CF%83%CF%83%CE%B1%20%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B1.mobi" target="_blank">
+            Εμμανουήλ Ροϊδης - Η Πάπισσα Ιωάννα.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNUY9io2anZFL52rtkK9f3p9KuFe6B8BwP9Dfk8nKtEPn?filename=%CE%95%CF%85%CE%B3%CE%B5%CE%BD%CE%AF%CE%B1%20%CE%A6%CE%B1%CE%BA%CE%AF%CE%BD%CE%BF%CF%85%20-%20%CE%88%CF%81%CF%89%CF%82%20%CE%98%CE%AD%CF%81%CE%BF%CF%82%20%CE%A0%CF%8C%CE%BB%CE%B5%CE%BC%CE%BF%CF%82.epub" target="_blank">
+            Ευγενία Φακίνου - Έρως Θέρος Πόλεμος.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfNeepd7NGWgXafu4BqrqGNckUQuGBbqwXeF4UiFGFc75?filename=%CE%96%CE%BF%CE%B6%CE%AD%20%CE%A3%CE%B1%CF%81%CE%B1%CE%BC%CE%AC%CE%B3%CE%BA%CE%BF%CF%85%20-%20%CE%9A%CE%AC%CE%B9%CE%BD.pdf" target="_blank">
+            Ζοζέ Σαραμάγκου - Κάιν.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmefaDcdjEVZDi83GgDw2gLeSiBn5q5nuJu8JcoSMvzsF1?filename=%CE%96%CE%BF%CE%B6%CE%AD%20%CE%A3%CE%B1%CF%81%CE%B1%CE%BC%CE%AC%CE%B3%CE%BA%CE%BF%CF%85%20-%20%CE%9F%20%CE%86%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82%20%CE%91%CE%BD%CF%84%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF.pdf" target="_blank">
+            Ζοζέ Σαραμάγκου - Ο Άνθρωπος Αντίγραφο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcyFRSyEUMes91AJAfs3Yaw3YQLjEVLDJcNc3DuPtCCPD?filename=%CE%96%CE%BF%CE%B6%CE%AD%20%CE%A3%CE%B1%CF%81%CE%B1%CE%BC%CE%AC%CE%B3%CE%BA%CE%BF%CF%85%20-%20%CE%A0%CE%B5%CF%81%CE%AF%20%CE%A6%CF%89%CF%84%CE%AF%CF%83%CE%B5%CF%89%CF%82.pdf" target="_blank">
+            Ζοζέ Σαραμάγκου - Περί Φωτίσεως.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWbbJuHKJAApFvaaxFMDKNt9qemBeehBTQz7fFq4SPtbN?filename=%CE%96%CE%BF%CE%B6%CE%AD%20%CE%A3%CE%B1%CF%81%CE%B1%CE%BC%CE%AC%CE%B3%CE%BA%CE%BF%CF%85%20-%20%CE%A0%CE%B5%CF%81%CE%AF%20%CF%84%CF%85%CF%86%CE%BB%CF%8C%CF%84%CE%B7%CF%84%CE%BF%CF%82%20.pdf" target="_blank">
+            Ζοζέ Σαραμάγκου - Περί τυφλότητος .pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUVwTGm2pbkFdBfHyijpRTqvcvZo89tyDMZsuJTF53RiJ?filename=%CE%96%CF%89%CF%81%CE%B6%20%CE%A3%CE%B9%CE%BC%CE%B5%CE%BD%CF%8C%CE%BD%20-%20%CE%9F%20%CE%93%CE%AC%CF%84%CE%BF%CF%82.pdf" target="_blank">
+            Ζωρζ Σιμενόν - Ο Γάτος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPuSDCXk945X9yhisgzg9BWcDeRaTzeRBHjFgaeTQoVj7?filename=%CE%97%CE%BB%CE%AF%CE%B1%CF%82%20%CE%92%CE%B5%CE%BD%CE%AD%CE%B6%CE%B7%CF%82%20-%20%CE%91%CE%B9%CE%BF%CE%BB%CE%B9%CE%BA%CE%AE%20%CE%93%CE%B7.pdf" target="_blank">
+            Ηλίας Βενέζης - Αιολική Γη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRec4zqN3fnY9abH8AAyoKD5Re8zqLLefcXtYJUqd7L6B?filename=%CE%97%CE%BB%CE%AF%CE%B1%CF%82%20%CE%92%CE%B5%CE%BD%CE%AD%CE%B6%CE%B7%CF%82%20-%20%CE%9F%20%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CF%8C%CF%82%2031328.pdf" target="_blank">
+            Ηλίας Βενέζης - Ο Αριθμός 31328.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWeyJXB7X9XFXP6i5jHmMb8k39cPMtPQFYwt4vCvB6mkQ?filename=%CE%97%CE%BB%CE%AF%CE%B1%CF%82%20%CE%A0%CE%B5%CF%84%CF%81%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%82%20-%20%CE%A4%CE%B7%CF%82%20%CE%A6%CF%85%CE%BB%CE%B1%CE%BA%CE%AE%CF%82.pdf" target="_blank">
+            Ηλίας Πετρόπουλος - Της Φυλακής.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmdp4A35XyMua44pevAddFQ6oKbChzihF74JCu6MqBb59e?filename=%CE%99%CE%AC%CE%BA%CF%89%CE%B2%CE%BF%CF%82%20%CE%9A%CE%B1%CE%BC%CF%80%CE%B1%CE%BD%CE%AD%CE%BB%CE%BB%CE%B7%CF%82%20-%20%CE%9C%CE%B1%CE%BF%CF%85%CF%84%CF%87%CE%AC%CE%BF%CF%85%CE%B6%CE%B5%CE%BD.pdf" target="_blank">
+            Ιάκωβος Καμπανέλλης - Μαουτχάουζεν.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUswPN3U4EX9ZL7t4S8ozoJhfQnCDp3dcuRiyysv77LCC?filename=%CE%99%CE%BF%CF%8D%CE%BB%CE%B9%CE%BF%CF%82%20%CE%92%CE%B5%CF%81%CE%BD%20-%20%CE%97%20%CE%BC%CF%85%CF%83%CF%84%CE%B7%CF%81%CE%B9%CF%8E%CE%B4%CE%B7%CF%82%20%CE%BD%CE%AE%CF%83%CE%BF%CF%82.pdf" target="_blank">
+            Ιούλιος Βερν - Η μυστηριώδης νήσος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaBQzQRKHkRqNwRN9g8j3GkUG4DTbFKHFZRNeShqKDLiT?filename=%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B1%20%CE%9A%CE%B1%CF%81%CF%85%CF%83%CF%84%CE%B9%CE%AC%CE%BD%CE%B7%20-%20%CE%9C%CE%B9%CE%BA%CF%81%CE%AC%20%CE%91%CE%B3%CE%B3%CE%BB%CE%AF%CE%B1.pdf" target="_blank">
+            Ιωάννα Καρυστιάνη - Μικρά Αγγλία.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUp4otgNgzNYAhy54eQW7MJd7NGo2MscmgReub1bTZ9cB?filename=%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B1%20%CE%9A%CE%B1%CF%81%CF%85%CF%83%CF%84%CE%B9%CE%AC%CE%BD%CE%B7%20-%20%CE%A3%CE%BF%CF%85%CE%AD%CE%BB.pdf" target="_blank">
+            Ιωάννα Καρυστιάνη - Σουέλ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTzi59R9X3bJWDbQPdompbzhjmnUcbw1N6TMoQSGMbnvX?filename=%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B1%20%CE%9A%CE%B1%CF%81%CF%85%CF%83%CF%84%CE%B9%CE%AC%CE%BD%CE%B7%20-%20%CE%A4%CE%B1%20%CF%83%CE%B1%CE%BA%CE%B9%CE%AC.pd" target="_blank">
+            Ιωάννα Καρυστιάνη - Τα σακιά.pd
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUDmTtquq5dTKUvF6DRQJVBh6ZnwQPemMniZc6XYkmHN7?filename=%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B1%20%CE%9C%CF%80%CE%BF%CF%85%CF%81%CE%B1%CE%B6%CE%BF%CF%80%CE%BF%CF%8D%CE%BB%CE%BF%CF%85%20-%20%CE%A4%CE%BF%20%CE%9C%CF%80%CE%BF%CF%85%CE%BD%CF%84%CE%BF%CF%85%CE%AC%CF%81%20%CF%84%CE%BF%CF%85%20%CE%9D%CE%B1%CE%B4%CE%AF%CF%81.mobi" target="_blank">
+            Ιωάννα Μπουραζοπούλου - Το Μπουντουάρ του Ναδίρ.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmesFaxga3adnDnoFHpEyhbYsDjC46HLKaNc8zun4uB32Q?filename=%CE%9A%CE%AC%CE%B8%CF%81%CE%B9%CE%BD%20%CE%9D%CE%B5%CE%B2%CE%AF%CE%BB%20-%20%CE%9F%CF%87%CF%84%CF%8E.pdf" target="_blank">
+            Κάθριν Νεβίλ - Οχτώ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPJQTcK31DmpiBMKpLp6mRthtidK7nc4QPazoKSCFo7s9?filename=%CE%9A%CE%AC%CE%B8%CF%81%CE%B9%CE%BD%20%CE%9D%CE%B5%CE%B2%CE%AF%CE%BB%20-%20%CE%A4%CE%BF%20%CE%A3%CF%84%CE%BF%CE%AF%CF%87%CE%B7%CE%BC%CE%B1.pdf" target="_blank">
+            Κάθριν Νεβίλ - Το Στοίχημα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQv6eeh9Y1ENuQweBHJGji1HPAuK56HLgDy5CUAB7q3Ak?filename=%CE%9A%CE%AC%CF%81%CE%BB%CE%BF%CF%82%20%CE%A1%CE%BF%CF%85%CE%AF%CE%B8-%CE%98%CE%B1%CF%86%CF%8C%CE%BD%20-%20%CE%97%20%CF%83%CE%BA%CE%B9%CE%AC%20%CF%84%CE%BF%CF%85%20%CE%B1%CE%BD%CE%AD%CE%BC%CE%BF%CF%85.pdf" target="_blank">
+            Κάρλος Ρουίθ-Θαφόν - Η σκιά του ανέμου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmd6qJmj5p7wyBt5PU6bYL43tjEbKUR3ftcsjXeCeyrMJx?filename=%CE%9A%CE%AC%CF%81%CE%BB%CE%BF%CF%82%20%CE%A1%CE%BF%CF%85%CE%AF%CE%B8-%CE%98%CE%B1%CF%86%CF%8C%CE%BD%20-%20%CE%A4%CE%BF%20%CF%80%CE%B1%CE%B9%CF%87%CE%BD%CE%AF%CE%B4%CE%B9%20%CF%84%CE%BF%CF%85%20%CE%B1%CE%B3%CE%B3%CE%AD%CE%BB%CE%BF%CF%85.pdf" target="_blank">
+            Κάρλος Ρουίθ-Θαφόν - Το παιχνίδι του αγγέλου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVyqLG3qiRPGiW9NBAdvLiLHdtL42DAMbdUpBWoM8Qp38?filename=%CE%9A%CE%B1%CE%BC%CE%AF%CE%BB%CE%B1%20%CE%9B%CE%AC%CE%BA%CE%BC%CF%80%CE%B5%CF%81%CE%B3%CE%BA%20-%20%CE%97%20%CF%80%CE%B1%CE%B3%CF%89%CE%BC%CE%AD%CE%BD%CE%B7%20%CF%80%CF%81%CE%B9%CE%B3%CE%BA%CE%AE%CF%80%CE%B9%CF%83%CF%83%CE%B1.epub" target="_blank">
+            Καμίλα Λάκμπεργκ - Η παγωμένη πριγκήπισσα.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPKrYK7wABFHBxjBfn3GDKXgkWSjmXCn9kecja17ejUpC?filename=%CE%9A%CF%8E%CF%83%CF%84%CE%B1%CF%82%20%CE%92%CE%AC%CF%81%CE%BD%CE%B1%CE%BB%CE%B7%CF%82%20-%20%CE%9F%20%CE%9B%CE%B1%CF%8C%CF%82%20%CF%84%CF%89%CE%BD%20%CE%9C%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%87%CF%89%CE%BD.pdf" target="_blank">
+            Κώστας Βάρναλης - Ο Λαός των Μουνούχων.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRVm4k3q6Xj5GoZSQPYkWt8wg29WfBXyAfeMbuqbudoVa?filename=%CE%9A%CF%8E%CF%83%CF%84%CE%B1%CF%82%20%CE%A4%CE%B1%CF%87%CF%84%CF%83%CE%AE%CF%82%20-%20%CE%A4%CE%BF%20%CF%84%CF%81%CE%AF%CF%84%CE%BF%20%CF%83%CF%84%CE%B5%CF%86%CE%AC%CE%BD%CE%B9.pdf" target="_blank">
+            Κώστας Ταχτσής - Το τρίτο στεφάνι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYvYTvMz6JiguwkB6CBYNFcN1xwtvr2xaUmh4G98ds6ZY?filename=%CE%9B%CE%AD%CF%89%CE%BD%20%CE%A4%CE%BF%CE%BB%CF%83%CF%84%CF%8C%CE%B9%20-%20%CE%91%CF%86%CE%AD%CE%BD%CF%84%CE%B7%CF%82%20%CE%9A%CE%B1%CE%B9%20%CE%94%CE%BF%CF%8D%CE%BB%CE%BF%CF%82.pdf" target="_blank">
+            Λέων Τολστόι - Αφέντης Και Δούλος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNaUYxC1JeDoJ1FVJkuA682NEbzUfY2TnbLMgG72p6Sup?filename=%CE%9B%CE%B9%CE%BB%CE%AE%20%CE%96%CF%89%CE%B3%CF%81%CE%AC%CF%86%CE%BF%CF%85%20-%20%CE%95%CF%80%CE%AC%CE%B3%CE%B3%CE%B5%CE%BB%CE%BC%CE%B1%20%CE%A0%CF%8C%CF%81%CE%BD%CE%B7.pdf" target="_blank">
+            Λιλή Ζωγράφου - Επάγγελμα Πόρνη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdW55CFmHPb7ozVQRKJ5VPJ77VuWUcz7ruCuw2bhnbtV1?filename=%CE%9B%CE%B9%CE%BB%CE%AE%20%CE%96%CF%89%CE%B3%CF%81%CE%AC%CF%86%CE%BF%CF%85%20-%20%CE%97%20%CE%B1%CE%B3%CE%AC%CF%80%CE%B7%20%CE%AC%CF%81%CE%B3%CE%B7%CF%83%CE%B5%20%CE%BC%CE%B9%CE%B1%20%CE%BC%CE%AD%CF%81%CE%B1.pdf" target="_blank">
+            Λιλή Ζωγράφου - Η αγάπη άργησε μια μέρα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcKAMExAtDDJa72r1BvZx74A6Z8DjxbH1r2fow7LyYrZR?filename=%CE%9B%CE%BF%CF%85%CE%AF%CF%82%20%CE%A3%CE%B5%CF%80%CE%BF%CF%8D%CE%BB%CE%B2%CE%B5%CE%B4%CE%B1%20-%20%CE%97%20%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%B3%CE%AC%CF%84%CE%BF%CF%85%20%CF%80%CE%BF%CF%85%20%CE%AD%CE%BC%CE%B1%CE%B8%CE%B5%20%CF%83%20%CE%AD%CE%BD%CE%B1%20%CE%B3%CE%BB%CE%AC%CF%81%CE%BF%20%CE%BD%CE%B1%20%CF%80%CE%B5%CF%84%CE%AC%CE%B5%CE%B9.pdf" target="_blank">
+            Λουίς Σεπούλβεδα - Η ιστορία του γάτου που έμαθε σ ένα γλάρο να πετάει.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmemiFi6rHmPjrqf3mN1FQUUAY579Htnt8nkcLwHyMuzDk?filename=%CE%9B%CE%BF%CF%85%CE%AF%CF%82%20%CE%A3%CE%B5%CF%80%CE%BF%CF%8D%CE%BB%CE%B2%CE%B5%CE%B4%CE%B1%20-%20%CE%A0%CE%B1%CF%84%CE%B1%CE%B3%CE%BF%CE%BD%CE%AF%CE%B1%20%CE%95%CE%BE%CF%80%CF%81%CE%AD%CF%82.pdf" target="_blank">
+            Λουίς Σεπούλβεδα - Παταγονία Εξπρές.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPMnkaMo6EPGt3HnMgFKQx4cTyYqqyRJLc8UJvGvu4aNM?filename=%CE%9B%CE%BF%CF%8D%CE%B9%CF%82%20%CE%A3%CE%B5%CF%80%CE%BF%CF%8D%CE%BB%CE%B2%CE%B5%CE%B4%CE%B1%20-%20%CE%A4%CE%BF%20%CE%B7%CE%BC%CE%B5%CF%81%CE%BF%CE%BB%CF%8C%CE%B3%CE%B9%CE%BF%20%CE%B5%CE%BD%CF%8C%CF%82%20%CE%B5%CF%85%CE%B1%CE%AF%CF%83%CE%B8%CE%B7%CF%84%CE%BF%CF%85%20killer.pdf" target="_blank">
+            Λούις Σεπούλβεδα - Το ημερολόγιο ενός ευαίσθητου killer.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZJBagtRrpL47GNVszZyi5dWhwH42duSB3pP8uFmvYXxR?filename=%CE%9C%CE%AC%CE%B9%CF%81%CE%B1%20%CE%A0%CE%B1%CF%80%CE%B1%CE%B8%CE%B1%CE%BD%CE%B1%CF%83%CE%BF%CF%80%CE%BF%CF%8D%CE%BB%CE%BF%CF%85%20-%20%CE%9F%20%CE%99%CE%BF%CF%8D%CE%B4%CE%B1%CF%82%20%CE%A6%CE%B9%CE%BB%CE%BF%CF%8D%CF%83%CE%B5%20%CE%A5%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B1.pdf" target="_blank">
+            Μάιρα Παπαθανασοπούλου - Ο Ιούδας Φιλούσε Υπέροχα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWS6VSxL4wdu7aYVnirsc4ftbgHdvXUr5oZjwj3LdQUm9?filename=%CE%9C%CE%AF%CE%BB%CE%B1%CE%BD%20%CE%9A%CE%BF%CF%8D%CE%BD%CF%84%CE%B5%CF%81%CE%B1%20-%20%CE%97%20%CE%B1%CE%B2%CE%AC%CF%83%CF%84%CE%B1%CF%87%CF%84%CE%B7%20%CE%B5%CE%BB%CE%B1%CF%86%CF%81%CF%8C%CF%84%CE%B7%CF%84%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9.pdf" target="_blank">
+            Μίλαν Κούντερα - Η αβάσταχτη ελαφρότητα του είναι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcN5VZbHz3inLLjCosUEjqQAd33ReNxnMXCT2jwr223RM?filename=%CE%9C%CE%AF%CE%BB%CE%B1%CE%BD%20%CE%9A%CE%BF%CF%8D%CE%BD%CF%84%CE%B5%CF%81%CE%B1%20-%20%CE%9A%CF%89%CE%BC%CE%B9%CE%BA%CE%BF%CE%AF%20%CE%88%CF%81%CF%89%CF%84%CE%B5%CF%82.pdf" target="_blank">
+            Μίλαν Κούντερα - Κωμικοί Έρωτες.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXTkVvwVF9quXJvASADzWKB794vhsQT6boJZzvTNzZxKF?filename=%CE%9C%CE%B1%CE%AF%CF%81%CE%B7%20%CE%A3%CE%AD%CE%BB%CE%BB%CE%B5%CF%85%20-%20%CE%A6%CF%81%CE%B1%CE%BD%CE%BA%CE%B5%CE%BD%CF%83%CF%84%CE%AC%CE%B9%CE%BD.pdf" target="_blank">
+            Μαίρη Σέλλευ - Φρανκενστάιν.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUHkvgvdLT7w6r7peWRaAnq3wXZUSenb5wcLzpQbwiafU?filename=%CE%9C%CE%B1%CF%81%CE%AF%CE%B1%20%CE%99%CE%BF%CF%81%CE%B4%CE%B1%CE%BD%CE%AF%CE%B4%CE%BF%CF%85%20-%20%CE%9B%CF%89%CE%BE%CE%AC%CE%BD%CF%84%CF%81%CE%B1.pdf" target="_blank">
+            Μαρία Ιορδανίδου - Λωξάντρα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQEZYQXPNtC2vRbPFdzAqSppobq8Hpguj6t1AqLg29tyS?filename=%CE%9C%CE%B1%CF%81%CE%BA%CE%AE%CF%83%CE%B9%CE%BF%CF%82%20%CE%9D%CF%84%CE%B5%20%CE%A3%CE%B1%CE%BD%CF%84%20-%20%CE%96%CF%85%CF%83%CF%84%CE%AF%CE%BD.pdf" target="_blank">
+            Μαρκήσιος Ντε Σαντ - Ζυστίν.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmcv4vyRcfRnsnkS2EnSsXPDZmiHA61HYwKUVQjBQcKpw1?filename=%CE%9C%CE%B1%CF%81%CE%BA%CE%AE%CF%83%CE%B9%CE%BF%CF%82%20%CE%9D%CF%84%CE%B5%20%CE%A3%CE%B1%CE%BD%CF%84%20-%20%CE%97%20%CE%A6%CE%B9%CE%BB%CE%BF%CF%83%CE%BF%CF%86%CE%AF%CE%B1%20%CF%83%CF%84%CE%BF%20%CE%9C%CF%80%CE%BF%CF%85%CE%BD%CF%84%CE%BF%CF%85%CE%AC%CF%81.pdf" target="_blank">
+            Μαρκήσιος Ντε Σαντ - Η Φιλοσοφία στο Μπουντουάρ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeUW1e8Rwwgoqk8272cWkkb6NTNULnWGhapcRkVycqzXm?filename=%CE%9C%CE%B1%CF%81%CF%83%CE%AD%CE%BB%20%CE%A0%CF%81%CE%BF%CF%85%CF%83%CF%84%20-%20%CE%91%CE%BD%CE%B1%CE%B6%CE%B7%CF%84%CF%8E%CE%BD%CF%84%CE%B1%CF%82%20%CF%84%CE%BF%CE%BD%20%CF%87%CE%B1%CE%BC%CE%AD%CE%BD%CE%BF%20%CF%87%CF%81%CF%8C%CE%BD%CE%BF%20%CE%99%20-%20%CE%91%CF%80%CF%8C%20%CF%84%CE%B7%20%CE%BC%CE%B5%CF%81%CE%B9%CE%AC%20%CF%84%CE%BF%CF%85%20%CE%A3%CE%BF%CF%85%CE%AC%CE%BD.pdf" target="_blank">
+            Μαρσέλ Προυστ - Αναζητώντας τον χαμένο χρόνο Ι - Από τη μεριά του Σουάν.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVAhKvjFTdvy4C8ppBi1Ro8wKsEuXpwdFuLXB4tuT3n23?filename=%CE%9C%CF%80%CF%8C%CF%81%CE%B9%CF%82%20%CE%92%CE%B9%CE%AC%CE%BD%20-%20%CE%98%CE%B1%20%CF%86%CF%84%CF%8D%CF%83%CF%89%20%CF%83%CF%84%CE%BF%CF%85%CF%82%20%CF%84%CE%AC%CF%86%CE%BF%CF%85%CF%82%20%CF%83%CE%B1%CF%82.pdf" target="_blank">
+            Μπόρις Βιάν - Θα φτύσω στους τάφους σας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXkELCTrVSdPyew67jhLugDGyYBZqXmQECMDeY7NQzVTG?filename=%CE%9C%CF%89%CF%81%CE%AF%CF%82%20%CE%9B%CE%B5%CE%BC%CF%80%CE%BB%CE%AC%CE%BD%20-%20%CE%91%CF%81%CF%83%CE%AD%CE%BD%20%CE%9B%CE%BF%CF%85%CF%80%CE%AD%CE%BD%2C%20%CE%97%20%CE%BA%CE%BF%CF%8D%CF%86%CE%B9%CE%B1%20%CE%B2%CE%B5%CE%BB%CF%8C%CE%BD%CE%B1.pdf" target="_blank">
+            Μωρίς Λεμπλάν - Αρσέν Λουπέν, Η κούφια βελόνα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQu2J2odAd1snUE9Y6GLJhbudkbWhFAQJ8sMchZoUv7Hw?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%98%CE%AD%CE%BC%CE%B5%CE%BB%CE%B7%CF%82%20-%20%CE%9C%CE%B9%CE%B1%20%CE%96%CF%89%CE%AE%20%CE%94%CF%85%CE%BF%20%CE%96%CF%89%CE%AD%CF%82.pdf" target="_blank">
+            Νίκος Θέμελης - Μια Ζωή Δυο Ζωές.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYbkP5UJzLrUJEYvZhLryBKp6R8NLuGDQqijburF6chgh?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%98%CE%AD%CE%BC%CE%B5%CE%BB%CE%B7%CF%82%20-%20%CE%9F%CE%B9%20%CE%91%CE%BB%CE%AE%CE%B8%CE%B5%CE%B9%CE%B5%CF%82%20%CF%84%CF%89%CE%BD%20%CE%86%CE%BB%CE%BB%CF%89%CE%BD.pdf" target="_blank">
+            Νίκος Θέμελης - Οι Αλήθειες των Άλλων.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmU1R8wuSs8KzieCpvyRTUwJXfge8xy5S91GQ1ARm19W6Y?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%9A%CE%B1%CE%B6%CE%B1%CE%BD%CF%84%CE%B6%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%91%CF%83%CE%BA%CE%B7%CF%84%CE%B9%CE%BA%CE%AE.pdf" target="_blank">
+            Νίκος Καζαντζάκης - Ασκητική.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeccPFqGXLZgf8s7F1vaVH96YLgKeavya4sQsAZu6aHbU?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%9A%CE%B1%CE%B6%CE%B1%CE%BD%CF%84%CE%B6%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%92%CE%AF%CE%BF%CF%82%20%CE%BA%CE%B1%CE%B9%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%91%CE%BB%CE%AD%CE%BE%CE%B7%20%CE%96%CE%BF%CF%81%CE%BC%CF%80%CE%AC.pdf" target="_blank">
+            Νίκος Καζαντζάκης - Βίος και Πολιτεία του Αλέξη Ζορμπά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRceT8UCntQ1a2hiZXipEwP1zNp5P5CnhygL7EardB6i6?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%9A%CE%B1%CE%B6%CE%B1%CE%BD%CF%84%CE%B6%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%9A%CE%B1%CF%80%CE%B5%CF%84%CE%AC%CE%BD%20%CE%9C%CE%B9%CF%87%CE%AC%CE%BB%CE%B7%CF%82.pdf" target="_blank">
+            Νίκος Καζαντζάκης - Καπετάν Μιχάλης.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaWoW6Sf3LNmdY7DYubfQrndHFbZ3VEf29rhNUpLhrFrL?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%9A%CE%B1%CE%B6%CE%B1%CE%BD%CF%84%CE%B6%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%9F%20%CE%A7%CF%81%CE%B9%CF%83%CF%84%CF%8C%CF%82%20%CE%BE%CE%B1%CE%BD%CE%B1%CF%83%CF%84%CE%B1%CF%85%CF%81%CF%8E%CE%BD%CE%B5%CF%84%CE%B1%CE%B9.pdf" target="_blank">
+            Νίκος Καζαντζάκης - Ο Χριστός ξανασταυρώνεται.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVZ9ubt5vAC9CxzEzwyuGf69GfbLCiVnww1pLiGSTshUU?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%9A%CE%B1%CE%B6%CE%B1%CE%BD%CF%84%CE%B6%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%9F%20%CF%84%CE%B5%CE%BB%CE%B5%CF%85%CF%84%CE%B1%CE%AF%CE%BF%CF%82%20%CF%80%CE%B5%CE%B9%CF%81%CE%B1%CF%83%CE%BC%CF%8C%CF%82.pdf" target="_blank">
+            Νίκος Καζαντζάκης - Ο τελευταίος πειρασμός.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPq8NHZPRfqfrpPUNs1eafRjounYz2DyRDiw6LEHJJx4x?filename=%CE%9D%CF%84%CE%AD%CE%BD%CE%B9%20%CE%93%CE%BA%CE%B5%CF%84%CE%B6%20-%20%CE%A4%CE%BF%20%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1%20%CF%84%CE%BF%CF%85%20%CF%80%CE%B1%CF%80%CE%B1%CE%B3%CE%AC%CE%BB%CE%BF%CF%85.pdf" target="_blank">
+            Ντένι Γκετζ - Το θεώρημα του παπαγάλου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRQLmQwkwK26m3ND86MaTpkKUXae3RcVmYgGP4EL6ac4D?filename=%CE%9D%CF%84%CE%B1%CE%BD%20%CE%9C%CF%80%CF%81%CE%AC%CE%BF%CF%85%CE%BD%20-%20Inferno.pdf" target="_blank">
+            Νταν Μπράουν - Inferno.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWfgZg3dQu2uTw1d3AcSzstC2XCwvaJnhttqhFBmnxVqC?filename=%CE%9D%CF%84%CE%B1%CE%BD%20%CE%9C%CF%80%CF%81%CE%AC%CE%BF%CF%85%CE%BD%20-%20Origin.pdf" target="_blank">
+            Νταν Μπράουν - Origin.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQYKXxdRqugCVWF61iaJXZawauxtbA5qJFmNNpU6mCRk3?filename=%CE%9D%CF%84%CE%B1%CE%BD%20%CE%9C%CF%80%CF%81%CE%AC%CE%BF%CF%85%CE%BD%20-%20%CE%91%CF%81%CE%BA%CF%84%CE%B9%CE%BA%CF%8C%CF%82%20%CE%9A%CF%8D%CE%BA%CE%BB%CE%BF%CF%82.pd" target="_blank">
+            Νταν Μπράουν - Αρκτικός Κύκλος.pd
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYpuaoLo575vAynoqBpGQuC2bYj4bMbKUjS8AFiaY1Qic?filename=%CE%9D%CF%84%CE%B1%CE%BD%20%CE%9C%CF%80%CF%81%CE%AC%CE%BF%CF%85%CE%BD%20-%20%CE%9F%CE%B9%20%CF%80%CE%B5%CF%86%CF%89%CF%84%CE%B9%CF%83%CE%BC%CE%AD%CE%BD%CE%BF%CE%B9.pdf" target="_blank">
+            Νταν Μπράουν - Οι πεφωτισμένοι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTLkfibF7wZVyeJFrZFHbjcUaiNkoSHT6XwrDbHhVf2uC?filename=%CE%9D%CF%84%CE%B1%CE%BD%20%CE%9C%CF%80%CF%81%CE%AC%CE%BF%CF%85%CE%BD%20-%20%CE%A4%CE%BF%20%CE%A7%CE%B1%CE%BC%CE%AD%CE%BD%CE%BF%20%CE%A3%CF%8D%CE%BC%CE%B2%CE%BF%CE%BB%CE%BF.pdf" target="_blank">
+            Νταν Μπράουν - Το Χαμένο Σύμβολο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQD1y6bZbRRfk7rUxqYmxsDXftiGpneABSizHHrbxyAD6?filename=%CE%9D%CF%84%CE%BC%CE%AF%CF%84%CF%81%CE%B9%20%CE%93%CE%BA%CE%BB%CE%BF%CF%85%CF%87%CF%8C%CF%86%CF%83%CE%BA%CE%B9%20-%20%CE%9C%CE%B5%CF%84%CF%81%CF%8C%202033.pdf" target="_blank">
+            Ντμίτρι Γκλουχόφσκι - Μετρό 2033.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRM4iDmoTwdm3V6JEM8geuFvYpUjbZRRdzVMchbbwsTBu?filename=%CE%9D%CF%84%CF%8C%CF%81%CE%B9%CF%82%20%CE%9B%CE%AD%CF%83%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%A4%CE%BF%20%CE%A0%CE%AD%CE%BC%CF%80%CF%84%CE%BF%20%CE%A0%CE%B1%CE%B9%CE%B4%CE%AF.pdf" target="_blank">
+            Ντόρις Λέσινγκ - Το Πέμπτο Παιδί.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRs2rVHh8eukSv8GA4LWQgQpgShLPKWvsTapZ5vX9Yfz2?filename=%CE%9F%CF%81%CE%B9%CE%AC%CE%BD%CE%B1%20%CE%A6%CE%B1%CE%BB%CE%AC%CF%84%CF%83%CE%B9%20-%20%CE%93%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%20%CF%83%20%CE%B5%CE%BD%CE%B1%20%CF%80%CE%B1%CE%B9%CE%B4%CE%AF%20%CF%80%CE%BF%CF%85%20%CE%B4%CE%B5%20%CE%B3%CE%B5%CE%BD%CE%BD%CE%AE%CE%B8%CE%B7%CE%BA%CE%B5%20%CF%80%CE%BF%CF%84%CE%AD.pdf" target="_blank">
+            Οριάνα Φαλάτσι - Γράμμα σ ενα παιδί που δε γεννήθηκε ποτέ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmP1dfF3PZQqT5HnuQS41YeBVcAQfTX4ahK8JGTC9e9fS8?filename=%CE%9F%CF%81%CF%87%CE%AC%CE%BD%20%CE%A0%CE%B1%CE%BC%CE%BF%CF%8D%CE%BA%20-%20%CE%99%CF%83%CF%84%CE%B1%CE%BD%CE%BC%CF%80%CE%BF%CF%8D%CE%BB.pdf" target="_blank">
+            Ορχάν Παμούκ - Ιστανμπούλ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmaai8Br55AsCgT3GuhCSkgvxYG9GKEcxRTmUHpcSr1XgK?filename=%CE%9F%CF%81%CF%87%CE%AC%CE%BD%20%CE%A0%CE%B1%CE%BC%CE%BF%CF%8D%CE%BA%20-%20%CE%A4%CE%BF%20%CF%83%CF%80%CE%AF%CF%84%CE%B9%20%CF%84%CE%B7%CF%82%20%CF%83%CE%B9%CF%89%CF%80%CE%AE%CF%82.pdf" target="_blank">
+            Ορχάν Παμούκ - Το σπίτι της σιωπής.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVHsTKSSDt9cMWd6q62PeM11SVxTPhTb6uWVesc4VHx6Z?filename=%CE%9F%CF%85%CE%BC%CF%80%CE%AD%CF%81%CF%84%CE%BF%20%CE%88%CE%BA%CE%BF%20-%20%CE%A0%CF%89%CF%82%20%CE%9D%CE%B1%20%CE%94%CE%B9%CE%B1%CF%88%CE%B5%CF%8D%CF%83%CE%B5%CF%84%CE%B5%20%CE%9C%CE%B9%CE%B1%20%CE%94%CE%B9%CE%AC%CF%88%CE%B5%CF%85%CF%83%CE%B7%20%CE%BA%CE%B1%CE%B9%20%CE%AC%CE%BB%CE%BB%CE%B5%CF%82%20%CE%BF%CE%B4%CE%B7%CE%B3%CE%AF%CE%B5%CF%82%20%CF%87%CF%81%CE%AE%CF%83%CE%B5%CF%89%CF%82.pdf" target="_blank">
+            Ουμπέρτο Έκο - Πως Να Διαψεύσετε Μια Διάψευση και άλλες οδηγίες χρήσεως.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSPFfEuicEKfksnTTugudGNtiptDy8MLsbusrccXjpJso?filename=%CE%9F%CF%85%CE%BC%CF%80%CE%AD%CF%81%CF%84%CE%BF%20%CE%88%CE%BA%CE%BF%20-%20%CE%A4%CE%BF%20%CE%B5%CE%BA%CE%BA%CF%81%CE%B5%CE%BC%CE%AD%CF%82%20%CF%84%CE%BF%CF%85%20%CE%A6%CE%BF%CF%85%CE%BA%CF%8E.pdf" target="_blank">
+            Ουμπέρτο Έκο - Το εκκρεμές του Φουκώ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXp8fSUwsqCPLFQzGNmEzYNYj2W2R2D4ZiHVzRyeZE2Dn?filename=%CE%9F%CF%85%CE%BC%CF%80%CE%AD%CF%81%CF%84%CE%BF%20%CE%88%CE%BA%CE%BF%20-%20%CE%A4%CE%BF%20%CF%8C%CE%BD%CE%BF%CE%BC%CE%B1%20%CF%84%CE%BF%CF%85%20%CF%81%CF%8C%CE%B4%CE%BF%CF%85.pdf" target="_blank">
+            Ουμπέρτο Έκο - Το όνομα του ρόδου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUSdBYgj7X3csfXbvUGHbSZVCLNbwzcGWn1YUQh6ngULp?filename=%CE%9F%CF%8D%CF%81%CF%83%CE%BF%CF%85%CE%BB%CE%B1%20%CE%9B%CE%B5%CE%93%CE%BA%CE%AD%CE%BD%20-%20%CE%A4%CE%BF%20%CE%B1%CF%81%CE%B9%CF%83%CF%84%CE%B5%CF%81%CF%8C%20%CF%87%CE%AD%CF%81%CE%B9%20%CF%84%CE%BF%CF%85%20%CF%83%CE%BA%CE%BF%CF%84%CE%B1%CE%B4%CE%B9%CE%BF%CF%8D.pdf" target="_blank">
+            Ούρσουλα ΛεΓκέν - Το αριστερό χέρι του σκοταδιού.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmb25JExmSypipMVa5gCJ2zTPfz4cPmBVjUZgcAce8SPqB?filename=%CE%A0%CE%AD%CF%84%CF%81%CE%BF%CF%82%20%CE%9C%CE%AC%CF%81%CE%BA%CE%B1%CF%81%CE%B7%CF%82%20-%20%CE%9D%CF%85%CF%87%CF%84%CE%B5%CF%81%CE%B9%CE%BD%CF%8C%20%CE%94%CE%B5%CE%BB%CF%84%CE%AF%CE%BF.pdf" target="_blank">
+            Πέτρος Μάρκαρης - Νυχτερινό Δελτίο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmf17STKXyyqpRDqTCeWfaedy2U876MmzQzcEWmQoij3K9?filename=%CE%A0%CE%B1%CF%81%CE%B1%CE%BC%CF%8D%CE%B8%CE%B9%CE%B1%20%CF%84%CE%B7%CF%82%20%CE%A7%CE%B1%CE%BB%CE%B9%CE%BC%CE%AC%CF%82%20%28%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%20%CE%91%CE%84%29.pdf" target="_blank">
+            Παραμύθια της Χαλιμάς (Τόμος Α΄).pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTs3Pm8DzP8toYH3RFjuMyseo3Bz3KvDrc22Wq6Pk271W?filename=%CE%A0%CE%B1%CF%81%CE%B1%CE%BC%CF%8D%CE%B8%CE%B9%CE%B1%20%CF%84%CE%B7%CF%82%20%CE%A7%CE%B1%CE%BB%CE%B9%CE%BC%CE%AC%CF%82%20%28%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%20%CE%92%CE%84%29.pdf" target="_blank">
+            Παραμύθια της Χαλιμάς (Τόμος Β΄).pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmepGyUBbpLnLrC31zFhdLhtjwWM1e85MQFu6zmt5BzT73?filename=%CE%A0%CE%B1%CF%81%CE%B1%CE%BC%CF%8D%CE%B8%CE%B9%CE%B1%20%CF%84%CE%B7%CF%82%20%CE%A7%CE%B1%CE%BB%CE%B9%CE%BC%CE%AC%CF%82%20%28%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%20%CE%93%CE%84%29.pdf" target="_blank">
+            Παραμύθια της Χαλιμάς (Τόμος Γ΄).pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUgcEk8FkoxP9nV2TDnBzNQYRvQvPeaB3yW1GZRat1tZa?filename=%CE%A0%CE%B1%CF%8D%CE%BB%CE%BF%CF%82%20%CE%9C%CE%AC%CF%84%CE%B5%CF%83%CE%B9%CF%82%20-%20%CE%97%20%CE%BC%CE%B7%CF%84%CE%AD%CF%81%CE%B1%20%CF%84%CE%BF%CF%85%20%CF%83%CE%BA%CF%8D%CE%BB%CE%BF%CF%85.pdf" target="_blank">
+            Παύλος Μάτεσις - Η μητέρα του σκύλου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPBKRQ4B95K4vnuMV47N3XbPyv1Wc9Zi7Cw7Xiph7VY24?filename=%CE%A0%CF%8C%CE%BB%CE%B1%20%CE%A7%CF%8C%CE%BA%CE%B9%CE%BD%CF%82%20-%20%CE%A4%CE%BF%20%CE%BA%CE%BF%CF%81%CE%AF%CF%84%CF%83%CE%B9%20%CF%84%CE%BF%CF%85%20%CF%84%CF%81%CE%AD%CE%BD%CE%BF%CF%85.pdf" target="_blank">
+            Πόλα Χόκινς - Το κορίτσι του τρένου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSWVKrcN3r6ptcPkvoXhQwinBCPBZ3ekxGepSSgwt42e9?filename=%CE%A1%CE%AF%CF%84%CF%83%CE%B1%CF%81%CE%BD%CF%84%20%CE%9C%CF%80%CE%B1%CF%87%20-%20%CE%9F%20%CE%B3%CE%BB%CE%AC%CF%81%CE%BF%CF%82%20%CE%99%CF%89%CE%BD%CE%AC%CE%B8%CE%B1%CE%BD%20%CE%9B%CE%AF%CE%B2%CE%B9%CE%BD%CE%B3%CE%BA%CF%83%CF%84%CE%BF%CE%BD.pdf" target="_blank">
+            Ρίτσαρντ Μπαχ - Ο γλάρος Ιωνάθαν Λίβινγκστον.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSNDRvSbmsEbPFZzNPik6bhd2jrM8QF41LMauct8wdnJX?filename=%CE%A1%CF%8C%CE%BC%CF%80%CE%B5%CF%81%CF%84%20%CE%9B%CE%AC%CE%BD%CF%84%CE%BB%CE%B1%CE%BC%20-%20%CE%98%CE%B1%CE%BD%CE%AC%CF%83%CE%B9%CE%BC%CE%B7%20%CE%A0%CE%BB%CE%B5%CE%BA%CF%84%CE%AC%CE%BD%CE%B7.pdf" target="_blank">
+            Ρόμπερτ Λάντλαμ - Θανάσιμη Πλεκτάνη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmT8rTWqx8TaEvmCmPQoFWEb9WmvGfvExZdNHNwcsmMGat?filename=%CE%A3%CE%B5%CE%BC%CF%80%CE%AC%CF%83%CF%84%CE%B9%CE%B1%CE%BD%20%CE%A6%CE%AF%CF%84%CE%B6%CE%B5%CE%BA%20-%20%CE%97%20%CE%B8%CE%AD%CF%83%CE%B7%207%CE%91.pdf" target="_blank">
+            Σεμπάστιαν Φίτζεκ - Η θέση 7Α.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZhD3GQTbe6n93W2A19GMmSbhpMQVXsLzT3Y9vvgfnmjt?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20%20-%20%CE%A7%CF%81%CE%AE%CF%83%CE%B9%CE%BC%CE%B1%20%CE%91%CE%BD%CF%84%CE%B9%CE%BA%CE%B5%CE%AF%CE%BC%CE%B5%CE%BD%CE%B1.pdf" target="_blank">
+            Στήβεν Κινγκ  - Χρήσιμα Αντικείμενα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdYQHjA91xndCZL17AHAfSRcXsYxyGKJTotKxdGb5KGoG?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%8C%CE%BB%CE%B1%20%CE%95%CE%AF%CE%BD%CE%B1%CE%B9%20%CE%94%CF%85%CE%BD%CE%B1%CF%84%CE%AC.pdf" target="_blank">
+            Στήβεν Κινγκ - Όλα Είναι Δυνατά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmahHnYLqmCfNLBbL8QqVNM71Qswyiwp7Yt9PZs8CM7Dhf?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%91%CF%85%CF%80%CE%BD%CE%AF%CE%B1.pdf" target="_blank">
+            Στήβεν Κινγκ - Αυπνία.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbFPPfTfx1E85gd2i3CLhC7tFhJPhHLbx4d7WVagCmGGq?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%97%20%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B1%20%CF%84%CE%B7%CF%82%20%CE%9B%CE%AF%CF%83%CE%B9.pdf" target="_blank">
+            Στήβεν Κινγκ - Η ιστορία της Λίσι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdNvvNaPAt6HqqrT5wBcowqBeQ5ygfhQ94hAtjtj5ba5L?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%97%20%CE%BC%CE%AD%CE%B8%CE%BF%CE%B4%CE%BF%CF%82%20%CE%B1%CE%BD%CE%B1%CF%80%CE%BD%CE%BF%CF%8E%CE%BD.pdf" target="_blank">
+            Στήβεν Κινγκ - Η μέθοδος αναπνοών.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWp4cdh9oiWpV5C1ZTqCpDbVRsYCMjBwaE2apWUz5SPp3?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9A%CE%AC%CF%81%CF%85.pdf" target="_blank">
+            Στήβεν Κινγκ - Κάρυ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaLWNHH1wTyM8AxRt1sTHdJ14qKfu4at3zYXTNhRTn89r?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9A%CE%BF%CF%8D%CF%84%CE%B6%CE%BF.pdf" target="_blank">
+            Στήβεν Κινγκ - Κούτζο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYSmPdTAV18jg6DVC6SCBqxBSqGWvTbk2FPYcg1boeVLV?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9A%CF%81%CF%85%CF%86%CF%8C%20%CE%A0%CE%B1%CF%81%CE%AC%CE%B8%CF%85%CF%81%CE%BF%2C%20%CE%9C%CF%85%CF%83%CF%84%CE%B9%CE%BA%CF%8C%CF%82%20%CE%9A%CE%AE%CF%80%CE%BF%CF%82.pdf" target="_blank">
+            Στήβεν Κινγκ - Κρυφό Παράθυρο, Μυστικός Κήπος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfSGb7ohpqA1nbTfZ55k3TXj4u8ad6z8TwpnBKE3m6jRV?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9C%CE%B5%CF%81%CE%B9%CE%BA%CE%AD%CF%82%20%CF%86%CE%BF%CF%81%CE%AD%CF%82%20%CE%BE%CE%B1%CE%BD%CE%B1%CE%B3%CF%85%CF%81%CE%AF%CE%B6%CE%BF%CF%85%CE%BD.pdf" target="_blank">
+            Στήβεν Κινγκ - Μερικές φορές ξαναγυρίζουν.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWMmjV6anTMUEEUxNETuozaN2yWCyUy4vFop4cACDBhG5?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9D%CE%B5%CE%BA%CF%81%CE%BF%CF%84%CE%B1%CF%86%CE%B5%CE%AF%CE%BF%20%CE%96%CF%8E%CF%89%CE%BD.pdf" target="_blank">
+            Στήβεν Κινγκ - Νεκροταφείο Ζώων.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQyS5ap6L1s7TaYUvnAPVrFK1TmTT23a2DpKxoopk3uuG?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9D%CF%85%CF%87%CF%84%CE%B5%CF%81%CE%B9%CE%BD%CE%AE%20%CF%80%CF%84%CE%AE%CF%83%CE%B7%2029.pdf" target="_blank">
+            Στήβεν Κινγκ - Νυχτερινή πτήση 29.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmS8PBQq54zPd3VNaAYnsVk9qYFgwxZyqTvYFWwGAk8fbA?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%98%CF%8C%CE%BB%CE%BF%CF%82.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Θόλος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qme5i6eFdyBj2qqxoRAinVT2ReApm992n87fGQN4pTCijq?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2001%20-%20%CE%9F%20%CE%A4%CE%B5%CE%BB%CE%B5%CF%85%CF%84%CE%B1%CE%AF%CE%BF%CF%82%20%CE%A0%CE%B9%CF%83%CF%84%CE%BF%CE%BB%CE%AD%CF%81%CE%BF.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 01 - Ο Τελευταίος Πιστολέρο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmadz51ctmUBqA3rUpvVgFkq1HhDGVYwFC4K3sTbk9sNGR?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2002%20-%20%CE%A4%CE%BF%20%CE%9A%CE%AC%CE%BB%CE%B5%CF%83%CE%BC%CE%B1%20%CF%84%CF%89%CE%BD%20%CE%A4%CF%81%CE%B9%CF%8E%CE%BD.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 02 - Το Κάλεσμα των Τριών.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPM7C8o3Kef1DPwGsHdf8mAjSpriEnmayeXk63YuNAKLU?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2003%20-%20%CE%9F%CE%B9%20%CE%A1%CE%B7%CE%BC%CE%B1%CE%B3%CE%BC%CE%AD%CE%BD%CE%BF%CE%B9%20%CE%A4%CF%8C%CF%80%CE%BF%CE%B9.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 03 - Οι Ρημαγμένοι Τόποι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSFJW4o84CyohFEtXTaTmfhSWMoQRgLLKUGtEjTThgM3c?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2004%20-%20%CE%9F%20%CE%9C%CE%AC%CE%B3%CE%BF%CF%82%20%CE%BA%CE%B1%CE%B9%20%CE%B7%20%CE%93%CF%85%CE%AC%CE%BB%CE%B9%CE%BD%CE%B7%20%CE%A3%CF%86%CE%B1%CE%AF%CF%81%CE%B1.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 04 - Ο Μάγος και η Γυάλινη Σφαίρα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfGiiXx3FnnrkUPSjkfx6cWLRXyu9f6ntcGcwPHCiXML6?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2005%20-%20%CE%9F%CE%B9%20%CE%9B%CF%8D%CE%BA%CE%BF%CE%B9%20%CF%84%CE%B7%CF%82%20%CE%9A%CE%AC%CE%BB%CE%B1.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 05 - Οι Λύκοι της Κάλα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbyLa9aAkcTRXvUpFEMcHvTuWVnBfGYkBrvWcNkbvrQVR?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2006%20-%20%CE%A4%CE%BF%20%CE%A4%CF%81%CE%B1%CE%B3%CE%BF%CF%8D%CE%B4%CE%B9%20%CF%84%CE%B7%CF%82%20%CE%A3%CE%BF%CF%85%CE%B6%CE%AC%CE%BD%CE%B1%CF%82.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 06 - Το Τραγούδι της Σουζάνας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSbB83hj5yE2G44uRNh1HZbtSkr1C1aFEKVji2eYNBace?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2007%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 07 - Ο Μαύρος Πύργος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWsW3Df59zwjqQUmEzcAPQZCS9xStQ953MU6a4HNufqNF?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%9C%CE%B1%CF%8D%CF%81%CE%BF%CF%82%20%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82%2008%20-%20%CE%9F%20%CE%86%CE%BD%CE%B5%CE%BC%CE%BF%CF%82%20%CE%9C%CE%AD%CF%83%CE%B1%20%CE%91%CF%80%CF%8C%20%CF%84%CE%B7%CE%BD%20%CE%9A%CE%BB%CE%B5%CE%B9%CE%B4%CE%B1%CF%81%CF%8C%CF%84%CF%81%CF%85%CF%80%CE%B1.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο Μαύρος Πύργος 08 - Ο Άνεμος Μέσα Από την Κλειδαρότρυπα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcdPbVV4LvkQNJiJA2Gib2ZEskjrYVupykpsuL2y24x1e?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%BA%CF%8D%CF%81%CE%B9%CE%BF%CF%82%20%CE%9C%CE%B5%CF%81%CF%83%CE%AD%CE%BD%CF%84%CE%B5%CF%82.pdf" target="_blank">
+            Στήβεν Κινγκ - Ο κύριος Μερσέντες.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRLLhYrEKDNu7tCETUqR6Rjwa5cTuBkA5thTfvdy6HCQW?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%CE%BD%CE%B5%CE%B9%CF%81%CE%BF%CF%80%CE%B1%CE%B3%CE%AF%CE%B4%CE%B1.pdf" target="_blank">
+            Στήβεν Κινγκ - Ονειροπαγίδα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmejBqttX3y8e9mZvssnMR14R21PN9WoxQLDfStGKBpS7u?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%A3%CE%AC%CE%BA%CE%BF%CF%82%20%CE%BC%CE%B5%20%CE%9A%CF%8C%CE%BA%CE%BA%CE%B1%CE%BB%CE%B1.pdf" target="_blank">
+            Στήβεν Κινγκ - Σάκος με Κόκκαλα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZjtWMV2y5xvfTtTtaf39Wy5kNBNvU2h8zfzQMyEV9oVR?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%A4%CE%BF%20%CE%91%CF%85%CF%84%CF%8C.pdf" target="_blank">
+            Στήβεν Κινγκ - Το Αυτό.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfZdZqVZ7ZaLBg659wXsAT7HwH1Ps7qpTCyNPfTiPZ3x3?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%A4%CE%BF%20%CE%9A%CE%BF%CF%81%CE%AC%CE%BA%CE%B9.pdf" target="_blank">
+            Στήβεν Κινγκ - Το Κοράκι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmbg2zLpm74J8mGJTdhX4fCr6z5txy3VHCZX7pMe8Dam8Y?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%A4%CE%BF%20%CE%BA%CE%B9%CE%BD%CE%B7%CF%84%CF%8C.pdf" target="_blank">
+            Στήβεν Κινγκ - Το κινητό.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeJ2kbF97bo3ztNxis9qSNN7yioqAo5zH7nG7fk2gMdDm?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%20-%20%CE%A4%CE%BF%20%CF%80%CF%81%CE%AC%CF%83%CE%B9%CE%BD%CE%BF%20%CE%BC%CE%AF%CE%BB%CE%B9.pdf" target="_blank">
+            Στήβεν Κινγκ - Το πράσινο μίλι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWstmMXaP6TwmtrLqZegzNHBCsQbMnng7xrcPrdAHnzUg?filename=%CE%A3%CF%84%CE%AE%CE%B2%CE%B5%CE%BD%20%CE%9A%CE%B9%CE%BD%CE%B3%CE%BA%2C%20%CE%A0%CE%AF%CF%84%CE%B5%CF%81%20%CE%A3%CF%84%CF%81%CE%AC%CE%BF%CF%85%CE%BC%CF%80%20-%20%CE%A4%CE%BF%20%CE%A6%CF%85%CE%BB%CE%B1%CF%87%CF%84%CF%8C.pd" target="_blank">
+            Στήβεν Κινγκ, Πίτερ Στράουμπ - Το Φυλαχτό.pd
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZkEk1tn9tq2NwFTqZ1xFD17DpcibDfWhSoa69BxRn25S?filename=%CE%A3%CF%84%CE%B5%CE%BD%CF%84%CE%AC%CE%BB%20-%20%CE%A4%CE%BF%20%CE%BC%CE%BF%CE%BD%CE%B1%CF%83%CF%84%CE%AE%CF%81%CE%B9%20%CF%84%CE%B7%CF%82%20%CE%A0%CE%AC%CF%81%CE%BC%CE%B1%CF%82.pdf" target="_blank">
+            Στεντάλ - Το μοναστήρι της Πάρμας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdiUKFYVCXCyQPPWwrSYqkxgAMm47BhjoR6ddmnftuNoi?filename=%CE%A3%CF%84%CE%B9%CE%B3%CE%BA%20%CE%9B%CE%AC%CF%81%CF%83%CE%BF%CE%BD%20-%20%CE%A4%CE%BF%20%CE%BA%CE%BF%CF%81%CE%AF%CF%84%CF%83%CE%B9%20%CE%BC%CE%B5%20%CF%84%CE%BF%20%CF%84%CE%B1%CF%84%CE%BF%CF%85%CE%AC%CE%B6.pdf" target="_blank">
+            Στιγκ Λάρσον - Το κορίτσι με το τατουάζ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmc4Eq5GhXAqV5VXoKMpaUKHQ6Zfyp79wJ97Q53jvJp8Mw?filename=%CE%A3%CF%84%CE%B9%CE%B3%CE%BA%20%CE%9B%CE%AC%CF%81%CF%83%CE%BF%CE%BD%20-%20%CE%A4%CE%BF%20%CE%BA%CE%BF%CF%81%CE%AF%CF%84%CF%83%CE%B9%20%CF%80%CE%BF%CF%85%20%CE%AD%CF%80%CE%B1%CE%B9%CE%B6%CE%B5%20%CE%BC%CE%B5%20%CF%84%CE%B7%20%CF%86%CF%89%CF%84%CE%B9%CE%AC.pdf" target="_blank">
+            Στιγκ Λάρσον - Το κορίτσι που έπαιζε με τη φωτιά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQz6Fp5QQoX4JZk5vtxnHvZVJdvogqRt7gfmDmDbwGP8V?filename=%CE%A3%CF%84%CE%B9%CE%B3%CE%BA%20%CE%9B%CE%AC%CF%81%CF%83%CE%BF%CE%BD%20-%20%CE%A4%CE%BF%20%CE%BA%CE%BF%CF%81%CE%AF%CF%84%CF%83%CE%B9%20%CF%83%CF%84%CE%B7%20%CF%86%CF%89%CE%BB%CE%B9%CE%AC%20%CF%84%CE%B7%CF%82%20%CF%83%CF%86%CE%AE%CE%B3%CE%BA%CE%B1%CF%82.pdf" target="_blank">
+            Στιγκ Λάρσον - Το κορίτσι στη φωλιά της σφήγκας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZhfSMVgt7uEhGwJRTTFFjszHsU6kPrQ7bx8cTePi2N4D?filename=%CE%A3%CF%84%CF%81%CE%B1%CF%84%CE%AE%CF%82%20%CE%9C%CF%85%CF%81%CE%B9%CE%B2%CE%AE%CE%BB%CE%B7%CF%82%20-%20%CE%97%20%CE%B6%CF%89%CE%AE%20%CE%B5%CE%BD%20%CF%84%CE%AC%CF%86%CF%89.pdf" target="_blank">
+            Στρατής Μυριβήλης - Η ζωή εν τάφω.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNQw1QDJkNEjbtKHCFvQsU8MB7dq1FHWWjNhMjJwm9dqQ?filename=%CE%A3%CF%84%CF%81%CE%B1%CF%84%CE%AE%CF%82%20%CE%A4%CF%83%CE%AF%CF%81%CE%BA%CE%B1%CF%82%20-%20%CE%91%CE%BA%CF%85%CE%B2%CE%AD%CF%81%CE%BD%CE%B7%CF%84%CE%B5%CF%82%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B5%CF%82%201%20-%20%CE%97%20%CE%9B%CE%AD%CF%83%CF%87%CE%B7.pdf" target="_blank">
+            Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 1 - Η Λέσχη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWNAksmpCBtrLXnnAVx9y2o3c5P3Qy1BduRp1xgLjRPCu?filename=%CE%A3%CF%84%CF%81%CE%B1%CF%84%CE%AE%CF%82%20%CE%A4%CF%83%CE%AF%CF%81%CE%BA%CE%B1%CF%82%20-%20%CE%91%CE%BA%CF%85%CE%B2%CE%AD%CF%81%CE%BD%CE%B7%CF%84%CE%B5%CF%82%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B5%CF%82%202%20-%20%CE%91%CF%81%CE%B9%CE%AC%CE%B3%CE%BD%CE%B7.pdf" target="_blank">
+            Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 2 - Αριάγνη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdV8ZxxWycwjNn5b7Hz8XwGFj2khJr6fPMqYBWD3zjRTd?filename=%CE%A3%CF%84%CF%81%CE%B1%CF%84%CE%AE%CF%82%20%CE%A4%CF%83%CE%AF%CF%81%CE%BA%CE%B1%CF%82%20-%20%CE%91%CE%BA%CF%85%CE%B2%CE%AD%CF%81%CE%BD%CE%B7%CF%84%CE%B5%CF%82%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B5%CF%82%203%20-%20%CE%97%20%CE%9D%CF%85%CF%87%CF%84%CE%B5%CF%81%CE%AF%CE%B4%CE%B1.pdf" target="_blank">
+            Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 3 - Η Νυχτερίδα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXzEQmr8ahBSepFPhqye5idLpfNRC1FpmrPT6PfYfSX5y?filename=%CE%A3%CF%8E%CE%BC%CE%B5%CF%81%CF%83%CE%B5%CF%84%20%CE%9C%CF%89%CE%BC%20-%20%CE%97%20%CF%83%CF%84%CE%B5%CE%BD%CE%AE%20%CE%B3%CF%89%CE%BD%CE%B9%CE%AC.pdf" target="_blank">
+            Σώμερσετ Μωμ - Η στενή γωνιά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUPyKuvqGNFQeqC5hgep1uVjcgUU2kZDqMHV8NT1uRbeA?filename=%CE%A4%CE%B5%CF%8D%CE%BA%CF%81%CE%BF%CF%82%20%CE%9C%CE%B9%CF%87%CE%B1%CE%B7%CE%BB%CE%AF%CE%B4%CE%B7%CF%82%20-%20%CE%A0%CF%85%CE%B8%CE%B1%CE%B3%CF%8C%CF%81%CE%B5%CE%B9%CE%B1%20%CE%95%CE%B3%CE%BA%CE%BB%CE%AE%CE%BC%CE%B1%CF%84%CE%B1.pdf" target="_blank">
+            Τεύκρος Μιχαηλίδης - Πυθαγόρεια Εγκλήματα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmboNiYYez6eT2aiNe5oP6xPLhyvcEfMZo6B5aRMiNhF2X?filename=%CE%A4%CE%B6.%20%CE%9D%CF%84.%20%CE%A3%CE%AC%CE%BB%CE%B9%CE%BD%CE%B3%CE%BA%CE%B5%CF%81%20-%20%CE%9F%20%CE%A6%CF%8D%CE%BB%CE%B1%CE%BA%CE%B1%CF%82%20%CE%A3%CF%84%CE%B7%20%CE%A3%CE%AF%CE%BA%CE%B1%CE%BB%CE%B7.pdf" target="_blank">
+            Τζ. Ντ. Σάλινγκερ - Ο Φύλακας Στη Σίκαλη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZms1YyEYjt73gCj8nL2x1qzTrYQpyCP9orvvSs8DTfob?filename=%CE%A4%CE%B6%CE%AD%CE%B9%CE%BC%CF%82%20%CE%88%CE%BB%CF%81%CE%BF%CE%B9%20-%20%CE%A4%CE%BF%20%CE%9C%CE%B5%CE%B3%CE%B1%CE%BB%CE%BF%20%CE%A0%CE%BF%CF%85%CE%B8%CE%B5%CE%BD%CE%B1.pdf" target="_blank">
+            Τζέιμς Έλροι - Το Μεγαλο Πουθενα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmeks4GqUax1Q4R5sY8nfiTGZEf8cpZMduyk4oRaZXXLPo?filename=%CE%A4%CE%B6%CE%B1%CE%BA%20%CE%9B%CF%8C%CE%BD%CF%84%CE%BF%CE%BD%20-%20%CE%97%20%CF%83%CE%B9%CE%B4%CE%B5%CF%81%CE%AD%CE%BD%CE%B9%CE%B1%20%CF%86%CF%84%CE%AD%CF%81%CE%BD%CE%B1.pdf" target="_blank">
+            Τζακ Λόντον - Η σιδερένια φτέρνα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdS5i2gQWpvYgRErxmdDETRrJUUPGCQVG2oFmKQqvvHnF?filename=%CE%A4%CE%B6%CE%B1%CE%BA%20%CE%9B%CF%8C%CE%BD%CF%84%CE%BF%CE%BD%20-%20%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B5%CF%82%20%CF%84%CE%BF%CF%85%20%CE%BC%CF%80%CE%BF%CE%BE.pdf" target="_blank">
+            Τζακ Λόντον - Ιστορίες του μποξ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmS5xJ4U19hWaw2XWm2f2zk2J9jHYVAksQC2jqgJyLCEFs?filename=%CE%A4%CE%B6%CE%B1%CE%BA%20%CE%9B%CF%8C%CE%BD%CF%84%CE%BF%CE%BD%20-%20%CE%9F%CE%BB%CF%8C%CF%87%CF%81%CF%85%CF%83%CE%BF%20%CE%A6%CE%B1%CF%81%CE%AC%CE%B3%CE%B3%CE%B9.pdf" target="_blank">
+            Τζακ Λόντον - Ολόχρυσο Φαράγγι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYkcufw5b9J3kkiEcTJLwkLB3vD8dVxECMNtQowNXCLf3?filename=%CE%A4%CE%B6%CE%BF%20%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%BF%20-%20%CE%97%20%CE%9D%CF%85%CF%87%CF%84%CE%B5%CF%81%CE%B9%CE%B4%CE%B1.pdf" target="_blank">
+            Τζο Νέσμπο - Η Νυχτεριδα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdKfnqqzgd79WQkq6EpbndyWgrVsYKSwP9pFxAj5uF3Jt?filename=%CE%A4%CE%B6%CE%BF%20%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%BF%20-%20%CE%97%20%CE%B4%CE%AF%CF%88%CE%B1.pdf" target="_blank">
+            Τζο Νέσμπο - Η δίψα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYEhhCcokrU1nnyoNPJDqunjR2YB4pEMsWFEnj8ASfxdk?filename=%CE%A4%CE%B6%CE%BF%20%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%BF%20-%20%CE%9D%CE%AD%CE%BC%CE%B5%CF%83%CE%B9%CF%82.pdf" target="_blank">
+            Τζο Νέσμπο - Νέμεσις.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmY3F9CxpiVd2XKqHoj9RVW6ybVNBZG2QH4MeZ7pgZVRhH?filename=%CE%A4%CE%B6%CE%BF%20%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%BF%20-%20%CE%9F%20%CE%9A%CE%BF%CE%BA%CE%BA%CE%B9%CE%BD%CE%BF%CE%BB%CE%B1%CE%AF%CE%BC%CE%B7%CF%82.pdf" target="_blank">
+            Τζο Νέσμπο - Ο Κοκκινολαίμης.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmd1ywK49TJWdGhXdwNTK8Ji7dDpuhLtPWy13CAYw5amUs?filename=%CE%A4%CE%B6%CE%BF%20%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%BF%20-%20%CE%9F%20%CE%A6%CE%B1%CE%BD%CF%84%CE%BF%CE%BC%CE%AC%CF%82.pdf" target="_blank">
+            Τζο Νέσμπο - Ο Φαντομάς.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTdgsk4ddrhjC2hsSfU58ECJAwpnzhvZJnuB2bFpThMep?filename=%CE%A4%CE%B6%CE%BF%20%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%BF%20-%20%CE%9F%20%CE%B3%CE%B9%CE%BF%CF%82.pdf" target="_blank">
+            Τζο Νέσμπο - Ο γιος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTAGKtMmdAAqaFgbWn2PPAiMeyQNXnC9hP2eiViwa3fok?filename=%CE%A4%CE%B6%CE%BF%20%CE%9D%CE%AD%CF%83%CE%BC%CF%80%CE%BF%20-%20%CE%9F%20%CE%BB%CF%85%CF%84%CF%81%CF%89%CF%84%CE%AE%CF%82.pdf" target="_blank">
+            Τζο Νέσμπο - Ο λυτρωτής.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdrFdr5n2bgDaLToLpVm1GnSG9zPHmTtn2y2kha3TiNj8?filename=%CE%A4%CE%B6%CE%BF%CE%BD%20%CE%9B%CE%B5%20%CE%9A%CE%B1%CF%81%CE%AD%20-%20%CE%9F%20%CE%95%CF%80%CE%AF%CE%BC%CE%BF%CE%BD%CE%BF%CF%82%20%CE%9A%CE%B7%CF%80%CE%BF%CF%85%CF%81%CF%8C%CF%82.pdf" target="_blank">
+            Τζον Λε Καρέ - Ο Επίμονος Κηπουρός.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfKnRsFCEvABznGpaFNSqNJA3sc6hXbfhuuPUEhQYmdcw?filename=%CE%A4%CE%B6%CE%BF%CE%BD%20%CE%A3%CF%84%CE%AC%CE%B9%CE%BD%CE%BC%CF%80%CE%B5%CE%BA%20-%20%CE%A4%CE%B1%20%CE%A3%CF%84%CE%B1%CF%86%CF%8D%CE%BB%CE%B9%CE%B1%20%CE%A4%CE%B7%CF%82%20%CE%9F%CF%81%CE%B3%CE%AE%CF%82.pdf" target="_blank">
+            Τζον Στάινμπεκ - Τα Σταφύλια Της Οργής.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXEKvqRVkoyoirUECAANbHmaBU9b1fMCE28gS3WMTuWWt?filename=%CE%A4%CE%B6%CF%89%CF%81%CF%84%CE%B6%20%CE%8C%CF%81%CE%B3%CE%BF%CF%85%CE%B5%CE%BB%20-%201984.pdf" target="_blank">
+            Τζωρτζ Όργουελ - 1984.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmap1iLEBA4Xuf5crHJPQuqJZQFui4gq8zXTnDLvhj4wJ1?filename=%CE%A4%CF%83%CE%AC%CF%81%CE%BB%CF%82%20%CE%9C%CF%80%CE%BF%CF%85%CE%BA%CF%8C%CE%B2%CF%83%CE%BA%CE%B9%20-%20%CE%A3%CE%B7%CE%BC%CE%B5%CE%B9%CF%8E%CF%83%CE%B5%CE%B9%CF%82%20%CE%B5%CE%BD%CF%8C%CF%82%20%CF%80%CE%BF%CF%81%CE%BD%CF%8C%CE%B3%CE%B5%CF%81%CE%BF%CF%85.pdf" target="_blank">
+            Τσάρλς Μπουκόβσκι - Σημειώσεις ενός πορνόγερου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUChULRoHdxJQn127cj5QtnMoFYQ6SGrx26bsUPAvWSgB?filename=%CE%A4%CF%83%CE%B1%CF%81%CE%BB%CF%82%20%CE%9C%CF%80%CE%BF%CF%85%CE%BA%CF%8C%CE%B2%CF%83%CE%BA%CE%B9%20-%20%CE%A4%CE%B1%CF%87%CF%85%CE%B4%CF%81%CE%BF%CE%BC%CE%B5%CE%AF%CE%BF.epub" target="_blank">
+            Τσαρλς Μπουκόβσκι - Ταχυδρομείο.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmREjW6MKgwT8q5J29pbH82xkGSMqXxdA57wUzMs9hpQWX?filename=%CE%A4%CF%83%CE%B1%CF%81%CE%BB%CF%82%20%CE%9D%CF%84%CE%AF%CE%BA%CE%B5%CE%BD%CF%82%20-%20%CE%9F%20%CE%96%CE%BF%CF%86%CE%B5%CF%81%CF%8C%CF%82%20%CE%9F%CE%AF%CE%BA%CE%BF%CF%82%2C%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%20%CE%91.pdf" target="_blank">
+            Τσαρλς Ντίκενς - Ο Ζοφερός Οίκος, Τόμος Α.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYfFZ6Kut4K1W5L3HUCYRnp6FvY87DvAcXzLYvE3jV3MN?filename=%CE%A4%CF%83%CE%B1%CF%81%CE%BB%CF%82%20%CE%9D%CF%84%CE%AF%CE%BA%CE%B5%CE%BD%CF%82%20-%20%CE%9F%20%CE%96%CE%BF%CF%86%CE%B5%CF%81%CF%8C%CF%82%20%CE%9F%CE%AF%CE%BA%CE%BF%CF%82%2C%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%20%CE%92.pdf" target="_blank">
+            Τσαρλς Ντίκενς - Ο Ζοφερός Οίκος, Τόμος Β.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPrCwHxJNJGZjfYLHkVQitW17h8QPDR7mnbVaR62LdCPG?filename=%CE%A4%CF%8C%CE%BC%CE%B1%CF%82%20%CE%A7%CE%AC%CF%81%CE%B9%CF%82%20-%20%CE%9A%CF%8C%CE%BA%CE%BA%CE%B9%CE%BD%CE%BF%CF%82%20%CE%94%CF%81%CE%AC%CE%BA%CE%BF%CF%82.pdf" target="_blank">
+            Τόμας Χάρις - Κόκκινος Δράκος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUrTDtyyJifXrdAkYw4N9irZXiLkrvkc21s954jFbaBEU?filename=%CE%A6%CE%AF%CE%BB%CE%B9%CF%80%20%CE%A1%CE%BF%CE%B8%20-%20%CE%A4%CE%BF%20%CE%92%CF%85%CE%B6%CE%AF.pdf" target="_blank">
+            Φίλιπ Ροθ - Το Βυζί.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeRU3aXQAMKjwRzuBPNU6hDSeSLc3DnAdvxd63Z4Wqcby?filename=%CE%A6%CE%B5%CF%81%CE%BD%CE%AC%CE%BD%CF%84%CE%BF%20%CE%A0%CE%B5%CF%83%CF%83%CF%8C%CE%B1%20-%20%CE%A0%CE%AF%CF%83%CF%89%20%CE%B1%CF%80%CF%8C%20%CF%84%CE%B9%CF%82%20%CE%BC%CE%AC%CF%83%CE%BA%CE%B5%CF%82.pdf" target="_blank">
+            Φερνάντο Πεσσόα - Πίσω από τις μάσκες.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmU2tsfAsUWrH4uTapVYTHUyTvuy1AHbrRRGrn1T2firiC?filename=%CE%A6%CE%B9%CE%BF%CE%BD%CF%84%CF%8C%CF%81%20%CE%9D%CF%84%CE%BF%CF%83%CF%84%CE%BF%CE%B3%CE%B9%CE%AD%CF%86%CF%83%CE%BA%CE%B9%20-%20%CE%91%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%CE%AF%20%CE%9A%CE%B1%CF%81%CE%B1%CE%BC%CE%B1%CE%B6%CF%8C%CF%86%20%CE%91.pdf" target="_blank">
+            Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Α.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcQpBFHFmhbUHtZcDQ5QFeMBgoNt87wuuPP8LcckWYnKo?filename=%CE%A6%CE%B9%CE%BF%CE%BD%CF%84%CF%8C%CF%81%20%CE%9D%CF%84%CE%BF%CF%83%CF%84%CE%BF%CE%B3%CE%B9%CE%AD%CF%86%CF%83%CE%BA%CE%B9%20-%20%CE%91%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%CE%AF%20%CE%9A%CE%B1%CF%81%CE%B1%CE%BC%CE%B1%CE%B6%CF%8C%CF%86%20%CE%92.pdf" target="_blank">
+            Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Β.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQwRDQCd2KY7tmWgEnrssEcxVkaErGEuW9tW5QjeQ3m8W?filename=%CE%A6%CE%B9%CE%BF%CE%BD%CF%84%CF%8C%CF%81%20%CE%9D%CF%84%CE%BF%CF%83%CF%84%CE%BF%CE%B3%CE%B9%CE%AD%CF%86%CF%83%CE%BA%CE%B9%20-%20%CE%91%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%CE%AF%20%CE%9A%CE%B1%CF%81%CE%B1%CE%BC%CE%B1%CE%B6%CF%8C%CF%86%20%CE%93.pdf" target="_blank">
+            Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Γ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPfTZZjdvsiR9VTCxqMCbWsb16z36StiYe8w4f6myZqce?filename=%CE%A6%CE%B9%CE%BF%CE%BD%CF%84%CF%8C%CF%81%20%CE%9D%CF%84%CE%BF%CF%83%CF%84%CE%BF%CE%B3%CE%B9%CE%AD%CF%86%CF%83%CE%BA%CE%B9%20-%20%CE%91%CE%B4%CE%B5%CE%BB%CF%86%CE%BF%CE%AF%20%CE%9A%CE%B1%CF%81%CE%B1%CE%BC%CE%B1%CE%B6%CF%8C%CF%86%20%CE%94.pdf" target="_blank">
+            Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Δ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbpZeqUKAtNKb5F9wgzwYsy3cSY7SPL5f2UCJxzf2FaJW?filename=%CE%A6%CE%B9%CE%BF%CE%BD%CF%84%CF%8C%CF%81%20%CE%9D%CF%84%CE%BF%CF%83%CF%84%CE%BF%CE%B3%CE%B9%CE%AD%CF%86%CF%83%CE%BA%CE%B9%20-%20%CE%9F%20%CE%B7%CE%BB%CE%AF%CE%B8%CE%B9%CE%BF%CF%82.pdf" target="_blank">
+            Φιοντόρ Ντοστογιέφσκι - Ο ηλίθιος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qme1UyFM2pkDsHrviA1Kromj9KZyMdxCy135mZYpRfhrkm?filename=%CE%A6%CF%81%CE%B1%CE%BD%CE%BA%20%CE%A7%CE%AD%CF%81%CE%BC%CF%80%CE%B5%CF%81%CF%84%20-%20Dune.pdf" target="_blank">
+            Φρανκ Χέρμπερτ - Dune.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaBGvmAyT1ob2xtB9m2JvXBgvZZsgxCabrabuHzjeDzCh?filename=%CE%A6%CF%81%CE%B1%CE%BD%CF%84%CF%82%20%CE%9A%CE%AC%CF%86%CE%BA%CE%B1%20-%20%CE%91%CE%BC%CE%B5%CF%81%CE%B9%CE%BA%CE%AE.pdf" target="_blank">
+            Φραντς Κάφκα - Αμερική.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSJfHZ43oYAQxkiGth183ze3A4HLZ91xVa6QqyjXg3mdV?filename=%CE%A6%CF%81%CE%B1%CE%BD%CF%84%CF%82%20%CE%9A%CE%AC%CF%86%CE%BA%CE%B1%20-%20%CE%97%20%CE%9C%CE%B5%CF%84%CE%B1%CE%BC%CF%8C%CF%81%CF%86%CF%89%CF%83%CE%B7.pdf" target="_blank">
+            Φραντς Κάφκα - Η Μεταμόρφωση.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmehHdCgaurAZ7jU26AuDQwFXekvy97cLZWDfyFoqGy1x1?filename=%CE%A6%CF%81%CE%B1%CE%BD%CF%84%CF%82%20%CE%9A%CE%AC%CF%86%CE%BA%CE%B1%20-%20%CE%97%20%CE%B1%CF%80%CF%8C%CF%81%CF%81%CE%B9%CF%88%CE%B7.pdf" target="_blank">
+            Φραντς Κάφκα - Η απόρριψη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWAji1L9cfA4iJbEsmj7nNviJhM5viXMasbPLpBhvzNXy?filename=%CE%A6%CF%81%CE%B1%CE%BD%CF%84%CF%82%20%CE%9A%CE%AC%CF%86%CE%BA%CE%B1%20-%20%CE%97%20%CE%B4%CE%AF%CE%BA%CE%B7.pdf" target="_blank">
+            Φραντς Κάφκα - Η δίκη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcsihuTtyrL6eb7oYDigMrSWsdUGgesZtCZYqpMdiXvHU?filename=%CE%A6%CF%81%CE%B1%CE%BD%CF%84%CF%82%20%CE%9A%CE%AC%CF%86%CE%BA%CE%B1%20-%20%CE%9F%20%CF%80%CF%8D%CF%81%CE%B3%CE%BF%CF%82.pdf" target="_blank">
+            Φραντς Κάφκα - Ο πύργος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXvG4w8vkY7XYy8hbvNPo4FsgkPGQJypKdFJqRoFLPiVi?filename=%CE%A7%CE%AD%CF%81%CE%BC%CE%B1%CE%BD%20%CE%A7%CE%AD%CF%83%CF%83%CE%B5%20-%20%CE%9F%20%CE%BB%CF%8D%CE%BA%CE%BF%CF%82%20%CF%84%CE%B7%CF%82%20%CF%83%CF%84%CE%AD%CF%80%CE%B1%CF%82.pdf" target="_blank">
+            Χέρμαν Χέσσε - Ο λύκος της στέπας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZ1UCAxRnXXAj81Uo8NcSHdpc91SHQkenc2HmdB7i8NhN?filename=%CE%A7%CE%AD%CF%81%CE%BC%CE%B1%CE%BD%20%CE%A7%CE%AD%CF%83%CF%83%CE%B5%20-%20%CE%A3%CE%B9%CE%BD%CF%84%CE%AC%CF%81%CF%84%CE%B1.pdf" target="_blank">
+            Χέρμαν Χέσσε - Σιντάρτα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcCRrtwdTbvfWTjwktvxKqQomQmBWxLhRdWydQGsCAkMX?filename=%CE%A7%CE%B1%CF%81%CE%BF%CF%8D%CE%BA%CE%B9%20%CE%9C%CE%BF%CF%85%CF%81%CE%B1%CE%BA%CE%AC%CE%BC%CE%B9%20-%20%CE%9D%CE%BF%CF%81%CE%B2%CE%B7%CE%B3%CE%B9%CE%BA%CF%8C%20%CE%94%CE%AC%CF%83%CE%BF%CF%82.pdf" target="_blank">
+            Χαρούκι Μουρακάμι - Νορβηγικό Δάσος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTXHjQYSZ3P2yDew8czFoqHVcgaRb6TBHq7FNRBchYjp3?filename=%CE%A7%CE%B1%CF%81%CE%BF%CF%8D%CE%BA%CE%B9%20%CE%9C%CE%BF%CF%85%CF%81%CE%B1%CE%BA%CE%AC%CE%BC%CE%B9%20-%20%CE%9D%CF%8C%CF%84%CE%B9%CE%B1%20%CF%84%CF%89%CE%BD%20%CF%83%CF%85%CE%BD%CF%8C%CF%81%CF%89%CE%BD%2C%20%CE%B4%CF%85%CF%84%CE%B9%CE%BA%CE%AC%20%CF%84%CE%BF%CF%85%20%CE%AE%CE%BB%CE%B9%CE%BF%CF%85.pdf" target="_blank">
+            Χαρούκι Μουρακάμι - Νότια των συνόρων, δυτικά του ήλιου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcDejRNX6NSCDWGFJPHCo255FwDiLRZ7ehDnycDNnyAbx?filename=%CE%A7%CE%B1%CF%81%CE%BF%CF%8D%CE%BA%CE%B9%20%CE%9C%CE%BF%CF%85%CF%81%CE%B1%CE%BA%CE%AC%CE%BC%CE%B9%20-%20%CE%A4%CE%BF%20%CE%BA%CE%BF%CF%85%CF%81%CE%B4%CE%B9%CF%83%CF%84%CF%8C%20%CF%80%CE%BF%CF%85%CE%BB%CE%AF.pdf" target="_blank">
+            Χαρούκι Μουρακάμι - Το κουρδιστό πουλί.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaRdE4L8diPKRJSnKv83DvFtFPQLob9wCt3DNiXEkz2Eo?filename=%CE%A7%CF%81%CE%AE%CF%83%CF%84%CE%BF%CF%82%20%CE%A7%CF%89%CE%BC%CE%B5%CE%BD%CE%AF%CE%B4%CE%B7%CF%82%20-%20%CE%9D%CE%B5%CE%B1%CF%81%CF%8C%20%CE%AC%CF%83%CF%80%CF%81%CE%BF%20%CE%B5%CE%BB%CE%AC%CF%86%CE%B9.pdf" target="_blank">
+            Χρήστος Χωμενίδης - Νεαρό άσπρο ελάφι.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTkLVArM96nfdpxnn2Lk5tW27qP1TH5UxWQ5xyAhWtgdB?filename=%CE%A7%CF%8C%CF%81%CF%87%CE%B5%20%CE%9B%CE%BF%CF%85%CE%AF%CF%82%20%CE%9C%CF%80%CF%8C%CF%81%CF%87%CE%B5%CF%82%20-%20%CE%86%CF%80%CE%B1%CE%BD%CF%84%CE%B1%20%CE%A0%CE%B5%CE%B6%CE%AC.pdf" target="_blank">
+            Χόρχε Λουίς Μπόρχες - Άπαντα Πεζά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZApcfpgCW5GmnX8h6SEs4R29peZ6v4xXmgZUc8143Yuh?filename=%CE%A7%CF%8C%CF%81%CF%87%CE%B5%20%CE%9B%CE%BF%CF%85%CE%AF%CF%82%20%CE%9C%CF%80%CF%8C%CF%81%CF%87%CE%B5%CF%82%20-%20%CE%A4%CE%BF%20%CE%B2%CE%B9%CE%B2%CE%BB%CE%AF%CE%BF%20%CF%84%CF%89%CE%BD%20%CF%86%CE%B1%CE%BD%CF%84%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CF%8E%CE%BD%20%CF%80%CE%BB%CE%B1%CF%83%CE%BC%CE%AC%CF%84%CF%89%CE%BD.pdf" target="_blank">
+            Χόρχε Λουίς Μπόρχες - Το βιβλίο των φανταστικών πλασμάτων.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck6">
+        <label class="tab-label" for="chck6">Μαγειρική</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfH3bd4FHoiEmou6x22hUTUBWgZgU7zpHSZ4pSuJYnvnh?filename=Anthony%20Bourdain%20-%20Appetites%20A%20Cookbook.epub" target="_blank">
+            Anthony Bourdain - Appetites A Cookbook.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYXQpSSLFSZyB1JXFeLhoCKEL1Vqcr1NajVqcisfAg9nr?filename=Anthony%20Bourdain%20-%20Les%20Halles%20cookbook.pdf" target="_blank">
+            Anthony Bourdain - Les Halles cookbook.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmW6Uu1jwhRHdYd8E9LRhvZ7psUa5C3vacFh57zU7r5vvk?filename=Anthony%20Bourdain%20-%20Medium%20Raw.pdf" target="_blank">
+            Anthony Bourdain - Medium Raw.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qma3EMG5CgGShdBGfNQp97NUg6AYNUBYoChJUu6XazvfZD?filename=Anthony%20Bourdain%20-%20Typhoid%20Mary.epub" target="_blank">
+            Anthony Bourdain - Typhoid Mary.epub
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck7">
+        <label class="tab-label" for="chck7">Πολιτική, Ιστορία, Οικονομικά</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXmHMLaCjkQDrhX8BxFwwG6EpELKjw4CSBf8yPeVZbhXr?filename=Alex%20Callinicos%20-%20Universities%20in%20a%20Neo-Liberal%20World.pdf" target="_blank">
+            Alex Callinicos - Universities in a Neo-Liberal World.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRYTn4Cjf2RjUfTyyg4kHbdjQ8wWgjuRW7GTJw1DWYgwk?filename=Anders%20Ericsson%2C%20Robert%20Pool%20-%20Peak%20Secrets%20from%20the%20New%20Science%20of%20Expertise.epub" target="_blank">
+            Anders Ericsson, Robert Pool - Peak Secrets from the New Science of Expertise.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTkSFxpELq6aTjki2tSKCuz9qbiih5HA5ptR8Q3uPki2h?filename=Ann%20Pettifor%20-%20The%20case%20for%20the%20Green%20New%20Deal.epub" target="_blank">
+            Ann Pettifor - The case for the Green New Deal.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbNGuUFkhGjF3xnDUjDhDMghobwgBNRRYNo2N5EyrX9vh?filename=Anna%20Wiener%20-%20Uncanny%20Valley.epub" target="_blank">
+            Anna Wiener - Uncanny Valley.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSTZEW4HQWq8N4RJcFPPHkxCQLoUaGxWBCGsKePDHUg9Q?filename=Ben%20White%20-%20Israeli%20Apartheid.mobi" target="_blank">
+            Ben White - Israeli Apartheid.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmawdTH65doyJ6BM6zZ43ZzdskT7LBnWDJgHxXZ18w4fqv?filename=Camila%20Russo%20-%20The%20Infinite%20Machine_%20How%20an%20Army%20of%20Crypto-hackers%20Is%20Building%20the%20Next%20Internet%20with%20Ethereum.epub" target="_blank">
+            Camila Russo - The Infinite Machine_ How an Army of Crypto-hackers Is Building the Next Internet with Ethereum.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmawtpFQn7u51jCZpbMRKp3ts63FNecD2VRdWb1SciHNQj?filename=Charles%20Mackay%20-%20Memoirs%20of%20Extraordinary%20Popular%20Delusions%20and%20the%20Madness%20of%20Crowds.mobi" target="_blank">
+            Charles Mackay - Memoirs of Extraordinary Popular Delusions and the Madness of Crowds.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeyAKDMoeiuNJxfXSf88BL3FrhJUUyThsrLMn1eAGR3GR?filename=David%20Gerard%20-%20Attack%20of%20the%2050%20Foot%20Blockchain.epub" target="_blank">
+            David Gerard - Attack of the 50 Foot Blockchain.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdJpYt6VyMRBD61jNDj3d7VddkKHo6XFwoM6SqSVLxgtG?filename=David%20Gerard%20-%20Libra%20Shrugged.epub" target="_blank">
+            David Gerard - Libra Shrugged.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSsbCKGYTj1UhwkjBrHXXRfYSuTABUp2ZGa3CUeVkkFFk?filename=David%20Golumbia%20-%20The%20Politics%20of%20Bitcoin.pdf" target="_blank">
+            David Golumbia - The Politics of Bitcoin.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVadHxaJA523dNM74WHivdi2aUKCVumjnffQ5SojpKDDc?filename=David%20Graeber%20-%20Bullshit%20Jobs.epub" target="_blank">
+            David Graeber - Bullshit Jobs.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWM99fBEPMHA9Zu7LZcu2ybFgZCg6nzQU1U7uuqUDs3LV?filename=David%20Graeber%20-%20Debt%20The%20First%205000%20Years.epub" target="_blank">
+            David Graeber - Debt The First 5000 Years.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSRMhLMLTdruH38o5QuvbzyyZkiyP1Mu3DKZzAtNR3xFE?filename=David%20Graeber%20-%20Fragments%20of%20an%20Anarchist%20Anthropology.pdf" target="_blank">
+            David Graeber - Fragments of an Anarchist Anthropology.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQzRnqo5zx2XbowRCYvdMpAedkYjd7weSNS67MhBgoK57?filename=David%20Harvey%20-%20Rebel%20cities%2C%20from%20the%20right%20to%20the%20city%20to%20the%20urban%20revolution.mobi" target="_blank">
+            David Harvey - Rebel cities, from the right to the city to the urban revolution.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSJnKF4VxwGkEkmSettRoc4rFyZwofscp8FiF31GKVxwp?filename=EReNSEP%20-%20Report%20Eurozone%20Failure.pdf" target="_blank">
+            EReNSEP - Report Eurozone Failure.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmX7QZqhiE8hwmuy2hpfB1WavF5P5Nejmpqjq6FcaTQ7GK?filename=Edward%20Snowden%20-%20Permanent%20Record-Metropolitan%20Books%20%282019%29.epub" target="_blank">
+            Edward Snowden - Permanent Record-Metropolitan Books (2019).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWvxhrvx2ZzRtjn3svGrozpZRvqUJBBwSe1e8W8RbAwVr?filename=Edward%20W%20Said%20-%20Orientalism.epub" target="_blank">
+            Edward W Said - Orientalism.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNviQhSNnmp85pZGfiHuvQd98z3WNoCVGCCFu2UhxPp8d?filename=Elinor%20Ostrom%20-%20Governing%20the%20commons.pdf" target="_blank">
+            Elinor Ostrom - Governing the commons.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXj3ctVL43bYdrCRhabNqpsM7nLnbzyY57yfHM8gePS3q?filename=Elizabeth%20Kolbert%20-%20The%20Sixth%20Extinction%20An%20Unnatural%20History.epub" target="_blank">
+            Elizabeth Kolbert - The Sixth Extinction An Unnatural History.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSgAdXVbecKkCSyN4HKM3Hq47DepwvxTvHV4AKtpZLpHn?filename=Francis%20Spufford%20-%20Red%20Plenty.epub" target="_blank">
+            Francis Spufford - Red Plenty.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmafsMPdY55bHKXhmP6xFRfyBRr8UH4VNipSBtnu1XwdKX?filename=Friedrich%20A.%20Hayek%20-%20The%20Road%20to%20Serfdom.epub" target="_blank">
+            Friedrich A. Hayek - The Road to Serfdom.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZtpDiCMeNub4E8fRvosVoaLfLBc8qgvNPmRgZwQqFGVM?filename=Guy%20Debord%20-%20Comments%20on%20the%20Society%20of%20the%20Spectacle.epub" target="_blank">
+            Guy Debord - Comments on the Society of the Spectacle.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXdrWEwYKu3BDPcTsD79ZQrzuK3xALLK29dgfdK28PENf?filename=Howard%20Zinn%20-%20A%20People%E2%80%99s%20History%20of%20the%20United%20States.epub" target="_blank">
+            Howard Zinn - A People’s History of the United States.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmX7RpWUHb2DvJXro4ufZfESuucDEiCe2EBeKs5ThYj2W2?filename=Immanuel%20Wallerstein%20-%20World-Systems%20Analysis%20An%20Introduction.epub" target="_blank">
+            Immanuel Wallerstein - World-Systems Analysis An Introduction.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVaW6QnEHppEpqD6gPvBzk2bvu4sdx37Pvzu1T5ZuuYmQ?filename=James%20Bloodworth%20-%20Hired%20Six%20Months%20Undercover%20in%20Low-Wage%20Britain.epub" target="_blank">
+            James Bloodworth - Hired Six Months Undercover in Low-Wage Britain.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQWxx9cpfrCrJ8HekvsN4ULTeVmZfhnNCcwJ1sdB8PYvS?filename=Joan%20Robinson%20-%20The%20Accumulation%20of%20Capital.pdf" target="_blank">
+            Joan Robinson - The Accumulation of Capital.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbUpoabQAfm1R85MQh63F5Zn3K4SVUpS53Dqf8AsMniwC?filename=Joel%20Stein%20-%20Me%20generation%20-%202013.pdf" target="_blank">
+            Joel Stein - Me generation - 2013.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYdXLGJffyboM4hor8rianx4R7pQaeNiGcQvBuYPgdwXt?filename=John%20Maynard%20Keynes%20-%20Economic%20Possibilities%20for%20Our%20Grandchildren.epub" target="_blank">
+            John Maynard Keynes - Economic Possibilities for Our Grandchildren.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWFoL5vZJjqjqZ9YEsrioo3d8U6GnZEBxRCzGfbpteyKb?filename=John%20Maynard%20Keynes%20-%20The%20General%20Theory%20of%20Employment%2C%20Interest%2C%20and%20Money.pdf" target="_blank">
+            John Maynard Keynes - The General Theory of Employment, Interest, and Money.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPFLx3Xi1GUdGPZUT2iicxC4Jv6kH8TgeWfvzCcQm5XXE?filename=Jonathan%20Crary%20-%20247%20Late%20Capitalism%20and%20the%20Ends%20of%20Sleep.epub" target="_blank">
+            Jonathan Crary - 247 Late Capitalism and the Ends of Sleep.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaHCSwg44ubFijhG7zFhtsupFjJSNTgDhveuxosvgkuAg?filename=Karl%20Marx%20-%20Capital%20Critique%20of%20Political%20Economy%20Volume%202.pdf" target="_blank">
+            Karl Marx - Capital Critique of Political Economy Volume 2.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdiL1F2WNK3AJT2dt4CAoekL7BzCoUmCjPQMoytZYKCh5?filename=Karl%20Marx%20-%20Capital%20Critique%20of%20Political%20Economy%20Volume%203.pdf" target="_blank">
+            Karl Marx - Capital Critique of Political Economy Volume 3.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUXNxwRtVkgPQNgig2jmUMMWkk682nX8H3SQsn6ZGxnPr?filename=Karl%20Polanyi%20-%20The%20Great%20Transformation.epub" target="_blank">
+            Karl Polanyi - The Great Transformation.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUHkDMVFmZ9d59NQAXQAmFYV8W43Nweu3ULFGqhGYpLug?filename=Michael%20Lewis%20-%20The%20Big%20Short.pdf" target="_blank">
+            Michael Lewis - The Big Short.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUbXfC4gD8QBMbTb4w3WrPhZAqS6HBrGRsNLg9piBFp2z?filename=Milton%20Friedman%20-%20Capitalism%20and%20Freedom.epub" target="_blank">
+            Milton Friedman - Capitalism and Freedom.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmThNbBr6amVbkWvSku3NAetvcBSuGq8oz7Mbus88gFtiB?filename=Naomi%20Klein%20-%20No%20LOGO.epub" target="_blank">
+            Naomi Klein - No LOGO.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTpMMLqjMGhhNpZuciMbhst8FVyoeMsTAEJPcChgsSf2h?filename=Naomi%20Klein%20-%20On%20Fire%20The%20Burning%20Case%20for%20a%20Green%20New%20Deal.epub" target="_blank">
+            Naomi Klein - On Fire The Burning Case for a Green New Deal.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPFywLHVkjrndmB5fmazs11o92GfR4FTwWiuPVEN6buWR?filename=Naomi%20Klein%20-%20The%20Shock%20Doctrine%20The%20Rise%20of%20Disaster%20Capitalism.epub" target="_blank">
+            Naomi Klein - The Shock Doctrine The Rise of Disaster Capitalism.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcjRDvGcAhc8bPYV9AqymE2MdoWXP7mnRJry8qUJg7PLr?filename=Nassim%20Nicholas%20Taleb%20-%20The%20Black%20Swan%20The%20Impact%20of%20the%20Highly%20Improbable.epub" target="_blank">
+            Nassim Nicholas Taleb - The Black Swan The Impact of the Highly Improbable.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmW7YQK645GXPqR92XsDW431fL4NUGVe4PhuQniAtbuoxV?filename=Nick%20Srnicek%20-%20Platform%20Capitalism.mobi" target="_blank">
+            Nick Srnicek - Platform Capitalism.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXKWsTfj7hbbToBN12AgoePMMCd7FJmPsCU495LZXspQW?filename=Noam%20Chomsky%20%26%20Edward%20S.%20Herman%20-%20Manufacturing%20Consent.epub" target="_blank">
+            Noam Chomsky & Edward S. Herman - Manufacturing Consent.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmU4ccXnDkfR9punamNxMWCFQgfE1qBi9eWHHN8cLjH7hy?filename=Paul%20A.%20Samuelson%2C%20William%20D.%20Nordhaus%20-%20Economics.pdf" target="_blank">
+            Paul A. Samuelson, William D. Nordhaus - Economics.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbFBqo9KjdxCBsKtQViTXvT8oZSiPUuVWaHv8vAULaQdo?filename=Paul%20Krugman%20-%20The%20great%20unraveling.mobi" target="_blank">
+            Paul Krugman - The great unraveling.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmcq3jqQ8X9w2jpRSpfQj25GbctUNtxAwS1Y4fUmyvwK6t?filename=Paul%20Mason%20-%20Clear%20Bright%20Future.epub" target="_blank">
+            Paul Mason - Clear Bright Future.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYxZZoXZWFdvosjvCNeh8pUkT4CE3sNG6bzQ6LfAs78EF?filename=Paulo%20Freire%20-%20Pedagogy%20of%20the%20Oppressed.epub" target="_blank">
+            Paulo Freire - Pedagogy of the Oppressed.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdZUYp5LksjJsrDN4FSMhcSZytPaV4Wu96StP7KTKrSRn?filename=Peter%20Frase%20-%20Four%20Futures.epub" target="_blank">
+            Peter Frase - Four Futures.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbscxFSxzcCPrv8LkT433TDTawQr3BKgbZdTnX1XJXvQG?filename=Rashid%20Khalidi%20-%20The%20Hundred%20Years%20War%20on%20Palestine.epub" target="_blank">
+            Rashid Khalidi - The Hundred Years War on Palestine.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaHevTAfmB61wWmqAaZeQRsELdfg8DivDw917P6dAakZ1?filename=Richard%20H.%20Thaler%2C%20Cass%20R.%20Sunstein%20-%20Nudge_%20Improving%20Decisions%20About%20Health%2C%20Wealth%2C%20and%20Happiness.epub" target="_blank">
+            Richard H. Thaler, Cass R. Sunstein - Nudge_ Improving Decisions About Health, Wealth, and Happiness.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcvYNgHGhor18Q6FKXofw3Q3yW82Hhiqk3P8vYEXZjvnR?filename=Robert%20L.%20Heilbroner%20-%20Worldly%20Philosophers%20-%20The%20Lives%20Times%20and%20Ideas%20of%20the%20Great%20Economic%20Thinkers%20%282011%29.epub" target="_blank">
+            Robert L. Heilbroner - Worldly Philosophers - The Lives Times and Ideas of the Great Economic Thinkers (2011).epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRydHAH7JC2cPwCe6Bz41YepauLh2KRK5vFi5BnAuq9az?filename=Robert%20L.%20Heilbroner%2C%20Lester%20C.%20Thurow%20-%20Economics%20Explained-Prentice-Hall%2C%20Inc.%20%281982%29.pdf" target="_blank">
+            Robert L. Heilbroner, Lester C. Thurow - Economics Explained-Prentice-Hall, Inc. (1982).pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZGESWSB2RK8VFP2NuUW2gwRi8FBVR1Agw9zc7k5gi2MN?filename=Robert%20Skidelsky%20-%20Money%20and%20Government_%20The%20Past%20and%20Future%20of%20Economics.epub" target="_blank">
+            Robert Skidelsky - Money and Government_ The Past and Future of Economics.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTdAK3wuYma66zctkr2RGM4d2uwsWAzHUcEaTrveTRwCq?filename=Robert%20Skidelsky%20-%20Money%20and%20Government_%20The%20Past%20and%20Future%20of%20Economics.pdf" target="_blank">
+            Robert Skidelsky - Money and Government_ The Past and Future of Economics.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVR4pX8fk6WCttteeVDjoPwdvDBLqXa8YgDnkgcjcXTCq?filename=Robert%20Skidelsky%20-%20The%20essential%20Keynes.mobi" target="_blank">
+            Robert Skidelsky - The essential Keynes.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWUYHWFd3pZwtDxT1vXnCANtYJgXx3AzMGN2jiqMeZaoC?filename=Roberto%20Saviano%20-%20Gomorrah%20A%20Personal%20Journey%20into%20the%20Violent%20International%20Empire%20of%20Naples%20Organized%20Crime%20System.epub" target="_blank">
+            Roberto Saviano - Gomorrah A Personal Journey into the Violent International Empire of Naples Organized Crime System.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmckR5rKnMtbnhKghgUkSihGbfBM7vnyyY5KxG7PyQbNFG?filename=Seymour%20M.%20Hersh%20-%20Reporter.epub" target="_blank">
+            Seymour M. Hersh - Reporter.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNUwHzYGfnbYZsTP8qXQJhEdD5XC7k9Y3ZvMaBBTfapGp?filename=Seymour%20M.%20Hersh%20-%20The%20Killing%20of%20Osama%20bin%20Laden.epub" target="_blank">
+            Seymour M. Hersh - The Killing of Osama bin Laden.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPbDaZS1R6uV3eggyEEF5ScpwJpUDX6jTswzg4XHNBzSP?filename=Shoshana%20Zuboff%20-%20The%20Age%20of%20Surveillance%20Capitalism.epub" target="_blank">
+            Shoshana Zuboff - The Age of Surveillance Capitalism.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPKceY6FJ7jDZ2rdz6TpzDWXG9rfHyB3kKLTDMVkajJFf?filename=Svetlana%20Alexievich%20-%20Secondhand%20Time%20The%20Last%20of%20the%20Soviets.mobi" target="_blank">
+            Svetlana Alexievich - Secondhand Time The Last of the Soviets.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTfUg8FC8JjDqXjzzJfogmHBT4aXpjNVrZhvyuAA5hQQh?filename=Thomas%20Piketty%20-%20Capital%20in%20the%20Twenty-First%20Century.epub" target="_blank">
+            Thomas Piketty - Capital in the Twenty-First Century.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmT5aJ3vtVLEjdBz7mJ1Ay8718BRkojgtk4R46FaEa8k5E?filename=Tom%20Wright%2C%20Bradley%20Hope%20-%20Billion%20Dollar%20Whale.mobi" target="_blank">
+            Tom Wright, Bradley Hope - Billion Dollar Whale.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmX7ud8gUnzJ8ezJA546rAFwDSkEqfFkaPbqRPEnZgonN4?filename=William%20Mitchell%2C%20Thomas%20Fazi%20-%20Reclaiming%20the%20State%20A%20Progressive%20Vision%20of%20Sovereignty%20for%20a%20Post-Neoliberal%20World.epub" target="_blank">
+            William Mitchell, Thomas Fazi - Reclaiming the State A Progressive Vision of Sovereignty for a Post-Neoliberal World.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmW4FugvqfLZxnR3fDDpyYGjCYhVuSbGwszy5jVCCQ5WJ6?filename=XYZ%20Contagion%20-%209%20%201%20%CF%83%CE%BA%CE%B7%CE%BD%CE%AD%CF%82%20%CE%B1%CF%80%CF%8C%20%CF%84%CE%B7%CE%BD%20%CE%B9%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B1%20%CF%84%CE%B7%CF%82%20%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AE%CF%82%20%CE%B1%CE%BA%CF%81%CE%BF%CE%B4%CE%B5%CE%BE%CE%B9%CE%AC%CF%82.pdf" target="_blank">
+            XYZ Contagion - 9  1 σκηνές από την ιστορία της ελληνικής ακροδεξιάς.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmatwicqvhF5Jbr49RPSVMuuTZH581qo9WXo3j1nfuPtmB?filename=Yanis%20Varoufakis%20-%20Adults%20in%20the%20Room.epub" target="_blank">
+            Yanis Varoufakis - Adults in the Room.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbbfgFWcuSdo7MD5WV8fS5ZGifTRNoMv3bByRUaq6Do8E?filename=Yanis%20Varoufakis%20-%20And%20the%20Weak%20Suffer%20What%20They%20Must.epub" target="_blank">
+            Yanis Varoufakis - And the Weak Suffer What They Must.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXwbFxaCiHWeVT6CsDQw2C2bcU9qAXJgJcvkgtiwBnng8?filename=Yanis%20Varoufakis%20-%20Another%20Now.epub" target="_blank">
+            Yanis Varoufakis - Another Now.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWE3fov6Gz2inPxBQbBNgkWoueCHDjdXT7szgbUomc1jJ?filename=Yanis%20Varoufakis%20-%20Foundations%20of%20Economics.pdf" target="_blank">
+            Yanis Varoufakis - Foundations of Economics.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdyyNK9b2zcXEtcVXewBftEyXcv4oBG7y777vGJaD6A8u?filename=Yanis%20Varoufakis%20-%20Talking%20to%20My%20Daughter%20About%20the%20Economy.epub" target="_blank">
+            Yanis Varoufakis - Talking to My Daughter About the Economy.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmb38ZE3N9LVGjnGmtKeKVBy5q3bWyFHSsRrzPh5yUac7h?filename=Yanis%20Varoufakis%20-%20The%20Global%20Minotaur.epub" target="_blank">
+            Yanis Varoufakis - The Global Minotaur.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmW2AmfzsuoL87G5hUJvnZahEDrv6a9qhDey56Rz4rEkPr?filename=eurozone.pdf" target="_blank">
+            eurozone.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNhsMqRLX47kTYJ8X4D7rN27Rr8spUrW2iUUD8nTT8vfa?filename=%CE%86%CE%BD%CE%BD%CE%B1%20%CE%A6%CF%81%CE%B1%CE%BD%CE%BA%20-%20%CE%A4%CE%BF%20%CE%97%CE%BC%CE%B5%CF%81%CE%BF%CE%BB%CF%8C%CE%B3%CE%B9%CE%BF%20%CE%9C%CE%A3.pdf" target="_blank">
+            Άννα Φρανκ - Το Ημερολόγιο ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZqzNeShWFTia6DjfD6pEkuHTn135VPXrx3LkSVAxHBxK?filename=%CE%86%CE%BD%CE%BD%CE%B1%20%CE%A6%CF%81%CE%B1%CE%BD%CE%BA%20-%20%CE%A4%CE%BF%20%CE%97%CE%BC%CE%B5%CF%81%CE%BF%CE%BB%CF%8C%CE%B3%CE%B9%CE%BF.pdf" target="_blank">
+            Άννα Φρανκ - Το Ημερολόγιο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZtAhwDc7miWmnqiYMT7mh1zmScZ4CzGiEMYZwiquadVB?filename=%CE%86%CE%BD%CF%84%CE%B1%CE%BC%20%CE%A3%CE%BC%CE%B9%CE%B8%20-%20%CE%88%CF%81%CE%B5%CF%85%CE%BD%CE%B1%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B7%20%CF%86%CF%8D%CF%83%CE%B7%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%B9%CF%82%20%CE%B1%CE%B9%CF%84%CE%AF%CE%B5%CF%82%20%CF%84%CE%BF%CF%85%20%CF%80%CE%BB%CE%BF%CF%8D%CF%84%CE%BF%CF%85%20%CF%84%CF%89%CE%BD%20%CE%B5%CE%B8%CE%BD%CF%8E%CE%BD.pdf" target="_blank">
+            Άνταμ Σμιθ - Έρευνα για τη φύση και τις αιτίες του πλούτου των εθνών.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQpzS4oGAcnHXFBGKtCYjdTNe7PN7fUUmy3RcEy9ZDobt?filename=%CE%86%CF%81%CE%B7%CF%82%20%CE%A7%CE%B1%CF%84%CE%B6%CE%B7%CF%83%CF%84%CE%B5%CF%86%CE%AC%CE%BD%CE%BF%CF%85%20-%20%CE%A4%CE%BF%CF%85%CF%81%CE%BA%CE%AF%CE%B1%20%CE%91%CE%BD%CE%B1%CF%84%CE%BF%CE%BB%CE%B9%CE%BA%CE%AC%20%CF%84%CE%B7%CF%82%20%CE%95%CE%95.pdf" target="_blank">
+            Άρης Χατζηστεφάνου - Τουρκία Ανατολικά της ΕΕ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPpQF4wG9ThZGxCxxs7xxEFPwtANQGo8snCJaoSwMNkTh?filename=%CE%88%CF%81%CE%B9%CE%BA%20%CE%A7%CE%BF%CE%BC%CF%80%CF%83%CE%BC%CF%80%CE%AC%CE%BF%CF%85%CE%BC%20-%20%CE%97%20%CE%B5%CF%80%CE%BF%CF%87%CE%AE%20%CF%84%CF%89%CE%BD%20%CE%91%CF%85%CF%84%CE%BF%CE%BA%CF%81%CE%B1%CF%84%CE%BF%CF%81%CE%B9%CF%8E%CE%BD.pdf" target="_blank">
+            Έρικ Χομπσμπάουμ - Η εποχή των Αυτοκρατοριών.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYLRSwXqHwaDbAcjkAQYgmCzUTNHx6vxWiwYjsJgDhVK3?filename=%CE%92%CE%AF%CE%BB%CF%87%CE%B5%CE%BB%CE%BC%20%CE%A1%CE%AC%CE%B9%CF%87%20-%20%CE%97%20%CE%BC%CE%B1%CE%B6%CE%B9%CE%BA%CE%AE%20%CF%88%CF%85%CF%87%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1%20%CF%84%CE%BF%CF%85%20%CF%86%CE%B1%CF%83%CE%B9%CF%83%CE%BC%CE%BF%CF%8D.pdf" target="_blank">
+            Βίλχελμ Ράιχ - Η μαζική ψυχολογία του φασισμού.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXcsHJS1SXUULJB63GFBoL1DNnLoxZu1vwjy4p7Bfqodm?filename=%CE%92%CE%B1%CF%83%CE%AF%CE%BB%CE%B7%CF%82%20%CE%A1%CE%B1%CF%86%CE%B1%CE%B7%CE%BB%CE%AF%CE%B4%CE%B7%CF%82%20-%20%CE%97%20%CE%BC%CE%B5%CE%B3%CE%AC%CE%BB%CE%B7%20%CF%80%CE%B5%CF%81%CE%B9%CF%80%CE%AD%CF%84%CE%B5%CE%B9%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%BC%CE%B1%CF%81%CE%BE%CE%B9%CF%83%CE%BC%CE%BF%CF%8D.pdf" target="_blank">
+            Βασίλης Ραφαηλίδης - Η μεγάλη περιπέτεια του μαρξισμού.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmY49EDBLbrpv8V2cAYTAdkr4wKvmsvc921XL8twhs5FAB?filename=%CE%92%CE%B1%CF%83%CE%AF%CE%BB%CE%B7%CF%82%20%CE%A1%CE%B1%CF%86%CE%B1%CE%B7%CE%BB%CE%AF%CE%B4%CE%B7%CF%82%20-%20%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%AF%CE%B1%20%28%CE%BA%CF%89%CE%BC%CE%B9%CE%BA%CE%BF%CF%84%CF%81%CE%B1%CE%B3%CE%B9%CE%BA%CE%AE%29%20%CF%84%CE%BF%CF%85%20%CE%BD%CE%B5%CE%BF%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%BF%CF%8D%20%CE%BA%CF%81%CE%AC%CF%84%CE%BF%CF%85%CF%82%201830-1974.pdf" target="_blank">
+            Βασίλης Ραφαηλίδης - Ιστορία (κωμικοτραγική) του νεοελληνικού κράτους 1830-1974.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmT3Z7fjT3M5ZWWi9D5NbGQP1bNKp1GsDKpZwyD7G1bCAC?filename=%CE%92%CE%BB%CE%B1%CE%BD%CF%84%CE%B9%CE%BC%CE%AF%CF%81%20%CE%9B%CE%AD%CE%BD%CE%B9%CE%BD%20-%20%CE%91%CF%81%CE%B9%CF%83%CF%84%CE%B5%CF%81%CE%B9%CF%83%CE%BC%CF%8C%CF%82%20%CF%80%CE%B1%CE%B9%CE%B4%CE%B9%CE%BA%CE%AE%20%CE%B1%CF%83%CE%B8%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%9A%CE%BF%CE%BC%CE%BC%CE%BF%CF%85%CE%BD%CE%B9%CF%83%CE%BC%CE%BF%CF%8D.pdf" target="_blank">
+            Βλαντιμίρ Λένιν - Αριστερισμός παιδική ασθένεια του Κομμουνισμού.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfFgDeBdvK4U6vdXw5aNNHPBpH2UfejRtdwCLhRWUkqu4?filename=%CE%92%CE%BB%CE%B1%CE%BD%CF%84%CE%B9%CE%BC%CE%AF%CF%81%20%CE%9B%CE%AD%CE%BD%CE%B9%CE%BD%20-%20%CE%9A%CF%81%CE%AC%CF%84%CE%BF%CF%82%20%CE%BA%CE%B1%CE%B9%20%CE%95%CF%80%CE%B1%CE%BD%CE%AC%CF%83%CF%84%CE%B1%CF%83%CE%B7.pdf" target="_blank">
+            Βλαντιμίρ Λένιν - Κράτος και Επανάσταση.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVJvUeXookbEhLr1cx11TzbbFxsSg3zWYj7pMjwGLVNRw?filename=%CE%93%CE%B9%CE%AC%CE%BD%CE%B7%CF%82%20%CE%92%CE%B1%CF%81%CE%BF%CF%85%CF%86%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%9C%CE%B9%CE%BB%CF%8E%CE%BD%CF%84%CE%B1%CF%82%20%CF%83%CF%84%CE%B7%CE%BD%20%CE%BA%CF%8C%CF%81%CE%B7%20%CE%BC%CE%BF%CF%85%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B7%CE%BD%20%CE%BF%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%AF%CE%B1.epub" target="_blank">
+            Γιάνης Βαρουφάκης - Μιλώντας στην κόρη μου για την οικονομία.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeeXx2nUu2bgNMuackLPk8zRmPpnRkX5K5joE8phXAdch?filename=%CE%93%CE%B9%CF%8E%CF%81%CE%B3%CE%BF%CF%82%20%CE%94%CE%B5%CE%BB%CE%B1%CF%83%CF%84%CE%AF%CE%BA%20-%20%CE%A4%CE%BF%20%CF%84%CE%AD%CE%BB%CE%BF%CF%82%20%CF%84%CF%89%CE%BD%20%CE%92%CE%B1%CE%BB%CE%BA%CE%B1%CE%BD%CE%AF%CF%89%CE%BD.pdf" target="_blank">
+            Γιώργος Δελαστίκ - Το τέλος των Βαλκανίων.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRzgwmg5ZhzgodNvyPnPTzYZNTkbaDVaae7ZVGQyrodw4?filename=%CE%93%CE%BA%CF%85%20%CE%9D%CF%84%CE%B5%CE%BC%CF%80%CF%8C%CF%81%20-%20%CE%97%20%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%AF%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%B8%CE%B5%CE%AC%CE%BC%CE%B1%CF%84%CE%BF%CF%82.pdf" target="_blank">
+            Γκυ Ντεμπόρ - Η κοινωνία του θεάματος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmcm7XJsJHUZArLB7Cyo41HR9VSJJ15kE6xMU1EgAcGsQF?filename=%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CF%81%CE%B7%CF%82%20%CE%93%CE%BB%CE%B7%CE%BD%CF%8C%CF%82%20-%20%CE%A4%CE%AF%20%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%B9%20%CE%B8%CE%AD%CE%BB%CE%B5%CE%B9%20%CF%84%CE%BF%20%CE%95%CE%91%CE%9C.pdf" target="_blank">
+            Δημήτρης Γληνός - Τί είναι και τι θέλει το ΕΑΜ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZm1LqFCMx1Mtwvokuo2Rjaa8gNVHadSPxn7mq1zbsuSo?filename=%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CF%81%CE%B7%CF%82%20%CE%9A%CE%BF%CF%85%CF%86%CE%BF%CE%BD%CF%84%CE%AF%CE%BD%CE%B1%CF%82%20-%20%CE%93%CE%B5%CE%BD%CE%BD%CE%AE%CE%B8%CE%B7%CE%BA%CE%B1%2017%20%CE%9D%CE%BF%CE%AD%CE%BC%CE%B2%CF%81%CE%B7.pdf" target="_blank">
+            Δημήτρης Κουφοντίνας - Γεννήθηκα 17 Νοέμβρη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSXCNe8RVbcJn2CZT6VgcJkRSZwVAywi3kfePbpfKLzCG?filename=%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CF%81%CE%B7%CF%82%20%CE%9C%CF%80%CE%AC%CF%84%CF%83%CE%B7%CF%82%20-%20%CE%97%20%CE%92%CE%B1%CF%81%CE%B5%CE%B9%CE%AC%20%CE%92%CE%B9%CE%BF%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%AF%CE%B1%20%CE%A3%CF%84%CE%B7%CE%BD%20%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1.pdf" target="_blank">
+            Δημήτρης Μπάτσης - Η Βαρειά Βιομηχανία Στην Ελλάδα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYEqLxqwiAVzJbp9F8XsCU3bQ6kn9z2LPVG9KLPKJxrK9?filename=%CE%94%CE%B7%CE%BC%CE%AE%CF%84%CF%81%CE%B7%CF%82%20%CE%A8%CE%B1%CF%81%CF%81%CE%AC%CF%82%20-%20%CE%97%20%CE%A7%CF%81%CF%85%CF%83%CE%AE%20%CE%91%CF%85%CE%B3%CE%AE%20%CE%BC%CF%80%CF%81%CE%BF%CF%83%CF%84%CE%AC%20%CF%83%CF%84%CE%B7%20%CE%94%CE%B9%CE%BA%CE%B1%CE%B9%CE%BF%CF%83%CF%8D%CE%BD%CE%B7.pdf" target="_blank">
+            Δημήτρης Ψαρράς - Η Χρυσή Αυγή μπροστά στη Δικαιοσύνη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmV2yQ1KsDjCJNPhgqTraTn2Sijf42XqLD8Utu4JAdDrJv?filename=%CE%94%CE%B9%CE%BF%CE%BD%CF%8D%CF%83%CE%B7%CF%82%20%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%B5%CF%81%CE%AC%CF%84%CE%BF%CF%82%20-%20%CE%95%CE%BE%CE%BF%CF%85%CF%83%CE%AF%CE%B1%20%CF%84%CE%B9%20%CE%BC%CF%80%CE%AC%CE%BB%CE%B1%20%CF%80%CE%B1%CE%AF%CE%B6%CE%B5%CE%B9%CF%82.pdf" target="_blank">
+            Διονύσης Ελευθεράτος - Εξουσία τι μπάλα παίζεις.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXeLgmFoVjwMa1HehoavSJDY9tTiKKcu2b2tG9YvSG5cB?filename=%CE%95%CF%85%CF%84%CF%8D%CF%87%CE%B7%CF%82%20%CE%9C%CF%80%CE%B9%CF%84%CF%83%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%88%CE%BD%CE%B1%20%CF%86%CE%AC%CE%BD%CF%84%CE%B1%CF%83%CE%BC%CE%B1%20%CF%80%CE%BB%CE%B1%CE%BD%CE%B9%CE%AD%CF%84%CE%B1%CE%B9.pdf" target="_blank">
+            Ευτύχης Μπιτσάκης - Ένα φάντασμα πλανιέται.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZNQQER5BkzwDxoJYTy615buhpB1efnReS6bjrrDiv6sv?filename=%CE%95%CF%85%CF%84%CF%8D%CF%87%CE%B7%CF%82%20%CE%9C%CF%80%CE%B9%CF%84%CF%83%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%91%CE%BD%CE%B8%CF%81%CF%8E%CF%80%CE%B9%CE%BD%CE%B7%20%CE%A6%CF%8D%CF%83%CE%B7%20%CE%93%CE%B9%CE%B1%20%CE%88%CE%BD%CE%B1%20%CE%9A%CE%BF%CE%BC%CE%BC%CE%BF%CF%85%CE%BD%CE%B9%CF%83%CE%BC%CF%8C%20%CE%A4%CE%BF%CF%85%20%CE%A0%CE%B5%CF%80%CE%B5%CF%81%CE%B1%CF%83%CE%BC%CE%AD%CE%BD%CE%BF%CF%85.pdf" target="_blank">
+            Ευτύχης Μπιτσάκης - Ανθρώπινη Φύση Για Ένα Κομμουνισμό Του Πεπερασμένου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQVxDs8NTVM2pW2ZuF5aCn6EYRq9fBPd9hkRRRecRgxr2?filename=%CE%95%CF%85%CF%84%CF%8D%CF%87%CE%B7%CF%82%20%CE%9C%CF%80%CE%B9%CF%84%CF%83%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%94%CE%B9%CE%B1%CE%BB%CE%B5%CE%BA%CF%84%CE%B9%CE%BA%CE%AE%20%CE%A0%CF%81%CE%BF%CE%B2%CE%BB%CE%AE%CE%BC%CE%B1%CF%84%CE%B1%20%CE%B4%CE%B9%CE%B5%CF%81%CE%B5%CF%85%CE%BD%CE%AE%CF%83%CE%B5%CE%B9%CF%82.pdf" target="_blank">
+            Ευτύχης Μπιτσάκης - Διαλεκτική Προβλήματα διερευνήσεις.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQ2NcSuxPne4pzYRUQi1q9uBqUyuqU2ATqpQtFshqxY7F?filename=%CE%95%CF%85%CF%84%CF%8D%CF%87%CE%B7%CF%82%20%CE%9C%CF%80%CE%B9%CF%84%CF%83%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%97%20%CE%8E%CE%BB%CE%B7%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%BF%20%CE%A0%CE%BD%CE%B5%CF%8D%CE%BC%CE%B1.pdf" target="_blank">
+            Ευτύχης Μπιτσάκης - Η Ύλη και το Πνεύμα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWxVUBVFM5hSmEtaPsQ3raJ6YmWQTcW9iKvhSz4rCwt8t?filename=%CE%95%CF%85%CF%84%CF%8D%CF%87%CE%B7%CF%82%20%CE%9C%CF%80%CE%B9%CF%84%CF%83%CE%AC%CE%BA%CE%B7%CF%82%20-%20%CE%A4%CE%BF%20%CE%B1%CE%B5%CE%B9%CE%B8%CE%B1%CE%BB%CE%AD%CF%82%20%CE%B4%CE%AD%CE%BD%CF%84%CF%81%CE%BF%20%CF%84%CE%B7%CF%82%20%CE%B3%CE%BD%CF%8E%CF%83%CE%B5%CF%89%CF%82.pdf" target="_blank">
+            Ευτύχης Μπιτσάκης - Το αειθαλές δέντρο της γνώσεως.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRuh2kRXjzjzQ2k9QfzveRWQp8NSjbCPf3cv91mAjR7HZ?filename=%CE%99%CE%B3%CE%BD%CE%AC%CF%83%CE%B9%CE%BF%20%CE%A1%CE%B1%CE%BC%CE%BF%CE%BD%CE%AD%20-%20%CE%9C%CE%AC%CF%81%CE%BA%CE%BF%CF%82.pdf" target="_blank">
+            Ιγνάσιο Ραμονέ - Μάρκος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdVaCnoZqqUXCaD1vgjxyXtY51B3FXTWsZWGL9Lo5NRzP?filename=%CE%99%CE%BC%CE%BC%CE%AC%CE%BD%CE%BF%CF%85%CE%B5%CE%BB%20%CE%92%CE%B1%CE%BB%CE%BB%CE%B5%CF%81%CF%83%CF%84%CE%AC%CE%B9%CE%BD%20-%20%CE%99%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%BA%CF%8C%CF%82%20%CE%BA%CE%B1%CF%80%CE%B9%CF%84%CE%B1%CE%BB%CE%B9%CF%83%CE%BC%CF%8C%CF%82.pdf" target="_blank">
+            Ιμμάνουελ Βαλλερστάιν - Ιστορικός καπιταλισμός.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmbrn8DhzRstewBbFaqMqky8X6cV1xL5WCgKKgo8Ymguv2?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%9A%CF%81%CE%B9%CF%84%CE%B9%CE%BA%CE%AE%20%CF%84%CE%B7%CF%82%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CE%BA%CE%AE%CF%82%20%CE%9F%CE%B9%CE%BA%CE%BF%CE%BD%CE%BF%CE%BC%CE%AF%CE%B1%CF%82.pdf" target="_blank">
+            Καρλ Μαρξ - Κριτική της Πολιτικής Οικονομίας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZichofyZrC9jKWYUnEdU71eFURjEyvdvSpAd17jBjSDH?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%95%CE%B2%CF%81%CE%B1%CF%8A%CE%BA%CF%8C%20%CE%96%CE%AE%CF%84%CE%B7%CE%BC%CE%B1.pdf" target="_blank">
+            Καρλ Μαρξ - Το Εβραϊκό Ζήτημα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVxiZwrog9bEu2Mu9QiPrznqo1Y3aCHcBN4q92nY9RPeZ?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%201%20%CE%9C%CE%A3.pdf" target="_blank">
+            Καρλ Μαρξ - Το Κεφάλαιο Τόμος 1 ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdyAAnDbxYn2s1KejFzgG2by5zTGzBAYc7RsxTYTGKmUt?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%201.pdf" target="_blank">
+            Καρλ Μαρξ - Το Κεφάλαιο Τόμος 1.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTDKk2Yrr2FpBUZ1yLkEqpqhni1fBQZUmUniQuEJXfFPn?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%202%20%CE%9C%CE%A3.pdf" target="_blank">
+            Καρλ Μαρξ - Το Κεφάλαιο Τόμος 2 ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeqiXzDyXcM4mQXT6TNfPX1BzCcxq4CUdKdke51C59LMP?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%202.pdf" target="_blank">
+            Καρλ Μαρξ - Το Κεφάλαιο Τόμος 2.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qme9gokYMvYKCxKL3tMRS2nwth7mPYZysGJbyzSbfo3kzS?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%203%20%CE%9C%CE%A3%20M%CE%AD%CF%81%CE%BF%CF%82%201.pdf" target="_blank">
+            Καρλ Μαρξ - Το Κεφάλαιο Τόμος 3 ΜΣ Mέρος 1.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdcCo9MK8uhTDuQXJEopd8WXdTYHijGCFTc4TWgTGNctC?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%203%20%CE%9C%CE%A3%20M%CE%AD%CF%81%CE%BF%CF%82%202.pdf" target="_blank">
+            Καρλ Μαρξ - Το Κεφάλαιο Τόμος 3 ΜΣ Mέρος 2.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWi6swbuUaBErRJoD8ibnsdXQnnb3gTQM6uJ5tVKqTVuX?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%9C%CE%B1%CF%81%CE%BE%20-%20%CE%A4%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CE%A4%CF%8C%CE%BC%CE%BF%CF%82%203.pdf" target="_blank">
+            Καρλ Μαρξ - Το Κεφάλαιο Τόμος 3.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVa2YqbwEjgNhPg5EAiJM5ZrktbjhdzgEnEK51EHCZ1mM?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%A0%CE%BF%CE%BB%CE%AC%CE%BD%CF%85%CE%B9%20-%20%CE%9F%20%CE%BC%CE%B5%CE%B3%CE%AC%CE%BB%CE%BF%CF%82%20%CE%BC%CE%B5%CF%84%CE%B1%CF%83%CF%87%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CF%83%CE%BC%CF%8C%CF%82.pdf" target="_blank">
+            Καρλ Πολάνυι - Ο μεγάλος μετασχηματισμός.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRbUh2J1a1wfa6XHEYmivHCwwDcm3X4sLGPEyU6HxTtwH?filename=%CE%9A%CF%8E%CF%83%CF%84%CE%B1%CF%82%20%CE%9A%CE%AC%CF%80%CF%80%CE%BF%CF%82%20-%20%CE%88%CE%B3%CE%BA%CE%BB%CE%B7%CE%BC%CE%B1%20%CE%B5%CE%BD%CE%B1%CE%BD%CF%84%CE%AF%CE%BF%CE%BD%20%CF%84%CE%B7%CF%82%20%CE%9A%CF%8D%CF%80%CF%81%CE%BF%CF%85.pdf" target="_blank">
+            Κώστας Κάππος - Έγκλημα εναντίον της Κύπρου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYuqBTSgoMVMQchfpfzncdTgZ8BE2TuK4rHhAZbRpaDZb?filename=%CE%9B%CE%B9%CE%BB%CE%AE%20%CE%96%CF%89%CE%B3%CF%81%CE%AC%CF%86%CE%BF%CF%85%20-%20%CE%91%CE%BD%CF%84%CE%B9%CE%B3%CE%BD%CF%8E%CF%83%CE%B7%20%CE%AE%20%CE%A4%CE%B1%20%CE%B4%CE%B5%CE%BA%CE%B1%CE%BD%CE%AF%CE%BA%CE%B9%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%BA%CE%B1%CF%80%CE%B9%CF%84%CE%B1%CE%BB%CE%B9%CF%83%CE%BC%CE%BF%CF%8D.pdf" target="_blank">
+            Λιλή Ζωγράφου - Αντιγνώση ή Τα δεκανίκια του καπιταλισμού.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmb6z2ZhxhSAwem9TTXeRgvbVcTZS8Tmb8LuPtSipgw4gE?filename=%CE%9C%CE%AC%CF%81%CF%84%CE%B9%CE%BD%20%CE%A7%CE%AC%CE%B9%CE%BD%CF%84%CE%B5%CE%B3%CE%B3%CE%B5%CF%81%20-%20%CE%97%20%CF%80%CF%81%CE%BF%CE%AD%CE%BB%CE%B5%CF%85%CF%83%CE%B7%20%CF%84%CE%BF%CF%85%20%CE%AD%CF%81%CE%B3%CE%BF%CF%85%20%CF%84%CE%AD%CF%87%CE%BD%CE%B7%CF%82.pdf" target="_blank">
+            Μάρτιν Χάιντεγγερ - Η προέλευση του έργου τέχνης.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdKkN65Seiz12dq4uuRhq4jNPKepbVDbNPEvRFVUU4VAe?filename=%CE%9C%CE%AC%CF%81%CF%84%CE%B9%CE%BD%20%CE%A7%CE%AC%CE%B9%CE%BD%CF%84%CE%B5%CE%B3%CE%BA%CE%B5%CF%81%20-%20%CE%97%20%CF%84%CE%AD%CF%87%CE%BD%CE%B7%20%CE%BA%CE%B1%CE%B9%20%CE%BF%20%CF%87%CF%8E%CF%81%CE%BF%CF%82.pdf" target="_blank">
+            Μάρτιν Χάιντεγκερ - Η τέχνη και ο χώρος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmSZdfmKMRsBPEM9TAHSZKaw2nwJbMG3rvBpzAMHxnmYa5?filename=%CE%9C%CE%B1%CE%BA%CF%81%CF%85%CE%B3%CE%B9%CE%AC%CE%BD%CE%BD%CE%B7%20-%20%CE%91%CF%80%CE%BF%CE%BC%CE%BD%CE%B7%CE%BC%CE%BF%CE%BD%CE%B5%CF%8D%CE%BC%CE%B1%CF%84%CE%B1.pdf" target="_blank">
+            Μακρυγιάννη - Απομνημονεύματα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYE4Y4qRMjZwqoqVh7gkwru5Ac54gdF5CRbbjdWsnvEAB?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%9C%CF%80%CE%B5%CE%BB%CE%BF%CE%B3%CE%B9%CE%AC%CE%BD%CE%BD%CE%B7%CF%82%20-%20%CE%A4%CE%BF%20%CE%9E%CE%AD%CE%BD%CE%BF%20%CE%9A%CE%B5%CF%86%CE%AC%CE%BB%CE%B1%CE%B9%CE%BF%20%CF%83%CF%84%CE%B7%CE%BD%20%CE%95%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1.pdf" target="_blank">
+            Νίκος Μπελογιάννης - Το Ξένο Κεφάλαιο στην Ελλάδα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYy9ZqZbHgkADMatPWzeLtqbeAEn6gph6aobF5WfusCFz?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%9C%CF%80%CE%BF%CE%B3%CE%B9%CF%8C%CF%80%CE%BF%CF%85%CE%BB%CE%BF%CF%82%20-%20%CE%95%CE%AF%CE%BD%CE%B1%CE%B9%20%CE%BF%20%CE%BA%CE%B1%CF%80%CE%B9%CF%84%CE%B1%CE%BB%CE%B9%CF%83%CE%BC%CF%8C%CF%82%2C%20%CE%B7%CE%BB%CE%AF%CE%B8%CE%B9%CE%B5.pdf" target="_blank">
+            Νίκος Μπογιόπουλος - Είναι ο καπιταλισμός, ηλίθιε.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmS6fhp9xxn79rtB2GnFZAuQpJEXdVQsNjdGGDjMvVXfbs?filename=%CE%9D%CE%AF%CE%BA%CE%BF%CF%82%20%CE%A0%CE%BF%CF%85%CE%BB%CE%B1%CE%BD%CF%84%CE%B6%CE%AC%CF%82%20-%20%CE%A6%CE%B1%CF%83%CE%B9%CF%83%CE%BC%CF%8C%CF%82%20%CE%BA%CE%B1%CE%B9%20%CE%B4%CE%B9%CE%BA%CF%84%CE%B1%CF%84%CE%BF%CF%81%CE%AF%CE%B1.pdf" target="_blank">
+            Νίκος Πουλαντζάς - Φασισμός και δικτατορία.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcYUz41RqzKwewJ6dMxvgzSEF6EwuYTWXNXG1E5Kuni93?filename=%CE%9D%CE%B1%CF%8C%CE%BC%CE%B9%20%CE%9A%CE%BB%CE%AC%CE%B9%CE%BD%20-%20%CE%A4%CE%BF%20%CE%B4%CF%8C%CE%B3%CE%BC%CE%B1%20%CF%84%CE%BF%CF%85%20%CF%83%CE%BF%CE%BA.pdf" target="_blank">
+            Ναόμι Κλάιν - Το δόγμα του σοκ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmebsyE3oKZvWhaNWJvXyuuZ6TGsT16VYEVLh1W9EzuVeP?filename=%CE%9D%CE%B9%CE%BA%CE%BF%CE%BB%CF%8C%20%CE%9C%CE%B1%CE%BA%CE%B9%CE%B1%CE%B2%CE%AD%CE%BB%CE%B9%20-%20%CE%9F%20%CE%B7%CE%B3%CE%B5%CE%BC%CF%8C%CE%BD%CE%B1%CF%82.pdf" target="_blank">
+            Νικολό Μακιαβέλι - Ο ηγεμόνας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZMohQToBpeLGdkzaUJ1CB2scYpBsWZSzuwm9yV94AE14?filename=%CE%9D%CF%84%CE%AD%CE%B9%CE%B2%CE%B9%CE%BD%CF%84%20%CE%93%CE%BA%CF%81%CE%AD%CE%BC%CF%80%CE%B5%CF%81%20-%20%CE%A3%CF%84%CE%BF%20%CE%BB%CF%85%CE%BA%CF%8C%CF%86%CF%89%CF%82%20%CF%84%CF%89%CE%BD%20%CF%80%CF%81%CF%89%CF%84%CE%BF%CF%80%CE%BF%CF%81%CE%B9%CF%8E%CE%BD%20%20%CE%97%20%CE%B1%CE%BD%CE%AC%CE%B4%CF%85%CF%83%CE%B7%20%CF%84%CF%89%CE%BD%20%CF%83%CF%8D%CE%B3%CF%87%CF%81%CE%BF%CE%BD%CF%89%CE%BD%20%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%B9%CE%BA%CF%8E%CE%BD%20%CE%BA%CE%B9%CE%BD%CE%B7%CE%BC%CE%AC%CF%84%CF%89%CE%BD.pdf" target="_blank">
+            Ντέιβιντ Γκρέμπερ - Στο λυκόφως των πρωτοποριών  Η ανάδυση των σύγχρονων κοινωνικών κινημάτων.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmbDw2tfRB2qPLvKk3W2i3CkgLcbxZxUzjijmKPDVMiuf9?filename=%CE%9D%CF%84%CE%AD%CE%B9%CE%B2%CE%B9%CE%BD%CF%84%20%CE%93%CE%BA%CF%81%CE%AD%CE%BC%CF%80%CE%B5%CF%81%20-%20%CE%A7%CF%81%CE%AD%CE%BF%CF%82%20%CE%A4%CE%B1%20%CE%A0%CF%81%CF%8E%CF%84%CE%B1%205000%20%CE%A7%CF%81%CF%8C%CE%BD%CE%B9%CE%B1.pdf" target="_blank">
+            Ντέιβιντ Γκρέμπερ - Χρέος Τα Πρώτα 5000 Χρόνια.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYjTjaByn1ADn5Ju7MDSgF5qspGpRypqJKCPNEFSHPCpn?filename=%CE%9D%CF%84%CE%AD%CE%B9%CE%B2%CE%B9%CE%BD%CF%84%20%CE%A7%CE%AC%CF%81%CE%B2%CE%B5%CE%B9%20-%20%CE%95%CE%BE%CE%B5%CE%B3%CE%B5%CF%81%CE%BC%CE%AD%CE%BD%CE%B5%CF%82%20%CF%80%CF%8C%CE%BB%CE%B5%CE%B9%CF%82.pdf" target="_blank">
+            Ντέιβιντ Χάρβει - Εξεγερμένες πόλεις.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmWAKwFMFPCu4QBMDGCGLfTBoMpXsG4nAw3r7ojN3A8GuT?filename=%CE%9D%CF%84%CE%AD%CE%B9%CE%B2%CE%B9%CE%BD%CF%84%20%CE%A7%CE%AC%CF%81%CE%B2%CE%B5%CE%B9%20-%20%CE%9D%CE%B5%CE%BF%CF%86%CE%B9%CE%BB%CE%B5%CE%BB%CE%B5%CF%85%CE%B8%CE%B5%CF%81%CE%B9%CF%83%CE%BC%CF%8C%CF%82.pdf" target="_blank">
+            Ντέιβιντ Χάρβει - Νεοφιλελευθερισμός.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmanrwvtpcCT9WRp7xcdzGMT3Lry7sY8XEw9X7HEDmitkV?filename=%CE%9D%CF%8C%CE%B1%CE%BC%20%CE%A4%CF%83%CF%8C%CE%BC%CF%83%CE%BA%CE%B9%20-%20%CE%97%20%CE%B2%CE%B9%CE%BF%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%AF%CE%B1%20%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%AE%CF%82%20%CF%85%CF%80%CE%B7%CE%BA%CF%8C%CF%89%CE%BD.pdf" target="_blank">
+            Νόαμ Τσόμσκι - Η βιομηχανία κατασκευής υπηκόων.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmdwwfYRLeGZ4RjT5rAUjctTTJuh16QvAYq9ygWEtUEk2F?filename=%CE%9D%CF%8C%CE%B1%CE%BC%20%CE%A4%CF%83%CF%8C%CE%BC%CF%83%CE%BA%CE%B9%20-%20%CE%97%20%CE%BD%CE%AD%CE%B1%20%CF%80%CE%B1%CE%B3%CE%BA%CF%8C%CF%83%CE%BC%CE%B9%CE%B1%20%CF%84%CE%AC%CE%BE%CE%B7.pdf" target="_blank">
+            Νόαμ Τσόμσκι - Η νέα παγκόσμια τάξη.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVAsnbDCJfFq1HZYwmLpR52zBPr2DCLzjdCi4AuUpkSEd?filename=%CE%A0%CE%AD%CF%84%CF%81%CE%BF%CF%82%20%CE%A0%CE%B1%CF%80%CE%B1%CE%BA%CF%89%CE%BD%CF%83%CF%84%CE%B1%CE%BD%CF%84%CE%AF%CE%BD%CE%BF%CF%85%20-%20%CE%A4%CE%BF%20%CE%A7%CF%81%CF%85%CF%83%CF%8C%20%CE%A0%CE%B1%CF%81%CE%B1%CF%80%CE%AD%CF%84%CE%B1%CF%83%CE%BC%CE%B1.pdf" target="_blank">
+            Πέτρος Παπακωνσταντίνου - Το Χρυσό Παραπέτασμα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUzLPxrcr7pbHmZbNnd5GV5PDsJAiUpLJ8rQYtYxJ27ss?filename=%CE%A0%CE%B5%CF%81%CE%B9%CE%BA%CE%BB%CE%AE%CF%82%20%CE%9A%CE%BF%CF%81%CE%BF%CE%B2%CE%AD%CF%83%CE%B7%CF%82%20-%20%CE%91%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%86%CF%8D%CE%BB%CE%B1%CE%BA%CE%B5%CF%82.pdf" target="_blank">
+            Περικλής Κοροβέσης - Ανθρωποφύλακες.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYooswEDCXSnCHhKUAM2LtwTweVKKyyyDQAYB87nMK7qP?filename=%CE%A0%CF%89%CE%BB%20%CE%9B%CE%B1%CF%86%CE%AC%CF%81%CE%B3%CE%BA%20-%20%CE%97%20%CE%B8%CF%81%CE%B7%CF%83%CE%BA%CE%B5%CE%AF%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%BA%CE%B5%CF%86%CE%B1%CE%BB%CE%B1%CE%AF%CE%BF%CF%85.pdf" target="_blank">
+            Πωλ Λαφάργκ - Η θρησκεία του κεφαλαίου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qme5rJsLh2oM6HeHjdj6sfQUkeriwAG5WwLjYvJsfEMfhw?filename=%CE%A0%CF%89%CE%BB%20%CE%9B%CE%B1%CF%86%CE%AC%CF%81%CE%B3%CE%BA%20-%20%CE%97%20%CF%87%CF%81%CE%B5%CF%89%CE%BA%CE%BF%CF%80%CE%AF%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%BA%CE%B1%CF%80%CE%B9%CF%84%CE%B1%CE%BB%CE%B9%CF%83%CE%BC%CE%BF%CF%8D.pdf" target="_blank">
+            Πωλ Λαφάργκ - Η χρεωκοπία του καπιταλισμού.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZ5c34MUp6pLmvYuXrvSQCjYxjDiJosjQprWJ8VhbE3QD?filename=%CE%A0%CF%89%CE%BB%20%CE%9B%CE%B1%CF%86%CE%AC%CF%81%CE%B3%CE%BA%20-%20%CE%A4%CE%BF%20%CE%B4%CE%B9%CE%BA%CE%B1%CE%AF%CF%89%CE%BC%CE%B1%20%CF%83%CF%84%CE%B7%CE%BD%20%CF%84%CE%B5%CE%BC%CF%80%CE%B5%CE%BB%CE%B9%CE%AC.pdf" target="_blank">
+            Πωλ Λαφάργκ - Το δικαίωμα στην τεμπελιά.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXQMiMSBDRUY7GkYU6QgK8PfcgQj3QasHJgo39XXkNXrU?filename=%CE%A3%CE%BF%CF%85%CE%BD%20%CE%A4%CE%B6%CE%BF%CF%85%20-%20%CE%97%20%CF%84%CE%AD%CF%87%CE%BD%CE%B7%20%CF%84%CE%BF%CF%85%20%CF%80%CE%BF%CE%BB%CE%AD%CE%BC%CE%BF%CF%85%20%CE%9C%CE%A3.pdf" target="_blank">
+            Σουν Τζου - Η τέχνη του πολέμου ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaqeRKd3w3MFmryQ79EQsajiyYY4axM8kgXnchVkbZgiM?filename=%CE%A3%CE%BF%CF%85%CE%BD%20%CE%A4%CE%B6%CE%BF%CF%85%20-%20%CE%97%20%CF%84%CE%AD%CF%87%CE%BD%CE%B7%20%CF%84%CE%BF%CF%85%20%CF%80%CE%BF%CE%BB%CE%AD%CE%BC%CE%BF%CF%85.pdf" target="_blank">
+            Σουν Τζου - Η τέχνη του πολέμου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUU6EaD1R5CgynWn5zHZU4fpKANPujXjrsYF2yonjcCBE?filename=%CE%A4%CE%B6%CE%BF%CE%BD%20%CE%A1%CE%B9%CE%BD%CF%84%20-%20%CE%94%CE%AD%CE%BA%CE%B1%20%CE%BC%CE%AD%CF%81%CE%B5%CF%82%20%CF%80%CE%BF%CF%85%20%CF%83%CF%85%CE%B3%CE%BA%CE%BB%CF%8C%CE%BD%CE%B9%CF%83%CE%B1%CE%BD%20%CF%84%CE%BF%CE%BD%20%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.pdf" target="_blank">
+            Τζον Ριντ - Δέκα μέρες που συγκλόνισαν τον κόσμο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZ7aftXoMd1YFksSFY7hJ3nzFuPDucSfpjP6D2DWv6tpu?filename=%CE%A6%CE%B5%CF%81%CE%BD%CE%AC%CE%BD%20%CE%9C%CF%80%CF%81%CF%89%CE%BD%CF%84%CE%AD%CE%BB%20-%20%CE%93%CF%81%CE%B1%CE%BC%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE%20%CF%84%CF%89%CE%BD%20%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CF%83%CE%BC%CF%8E%CE%BD.pdf" target="_blank">
+            Φερνάν Μπρωντέλ - Γραμματική των πολιτισμών.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeyUetjvxeK9wuLc29GguSE9mjsEQXdRMBZTui9GM7cwT?filename=%CE%A6%CF%81%CE%AF%CE%BD%CF%84%CF%81%CE%B9%CF%87%20%CE%88%CE%BD%CE%B3%CE%BA%CE%B5%CE%BB%CF%82%20-%20%CE%97%20%CE%BA%CE%B1%CF%84%CE%B1%CE%B3%CF%89%CE%B3%CE%AE%20%CF%84%CE%B7%CF%82%20%CE%BF%CE%B9%CE%BA%CE%BF%CE%B3%CE%AD%CE%BD%CE%B5%CE%B9%CE%B1%CF%82%20%CF%84%CE%B7%CF%82%20%CE%B9%CE%B4%CE%B9%CE%BF%CE%BA%CF%84%CE%B7%CF%83%CE%AF%CE%B1%CF%82%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%BF%CF%85%20%CE%BA%CF%81%CE%AC%CF%84%CE%BF%CF%85%CF%82.pdf" target="_blank">
+            Φρίντριχ Ένγκελς - Η καταγωγή της οικογένειας της ιδιοκτησίας και του κράτους.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmc67xFjU7WceyDeHTDFzwk12omunXWXrMfnWpW6nM8WoA?filename=%CE%A6%CF%81%CE%AF%CE%BD%CF%84%CF%81%CE%B9%CF%87%20%CE%88%CE%BD%CE%B3%CE%BA%CE%B5%CE%BB%CF%82%20-%20%CE%9C%CE%B5%CE%BB%CE%AD%CF%84%CE%B5%CF%82%20%CE%BA%CE%B1%CE%B9%20%CE%AC%CF%81%CE%B8%CF%81%CE%B1.pdf" target="_blank">
+            Φρίντριχ Ένγκελς - Μελέτες και άρθρα.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRAVwf2NwfcgiBS8xtzdrKtWwSPm2pKRrPE5YECUbVdTz?filename=%CE%A7%CE%AC%CE%BD%CE%B1%20%CE%91%CF%81%CE%AD%CE%BD%CF%84%20-%20%CE%A4%CE%BF%20%CE%9F%CE%BB%CE%BF%CE%BA%CE%BB%CE%B7%CF%81%CF%89%CF%84%CE%B9%CE%BA%CF%8C%20%CE%A3%CF%8D%CF%83%CF%84%CE%B7%CE%BC%CE%B1.pdf" target="_blank">
+            Χάνα Αρέντ - Το Ολοκληρωτικό Σύστημα.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck8">
+        <label class="tab-label" for="chck8">Σενάρια</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmX5BFvjY5s9do2bSobApzh2YyVa4WcdaJyt9mYavgq6wG?filename=The%20Social%20Network.pdf" target="_blank">
+            The Social Network.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck9">
+        <label class="tab-label" for="chck9">Συγγραφή</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVHrQwC67j9PAccUxRfVSsL1aK1qsx1M2yivpjZ63Ri5t?filename=John%20Truby%20-%20The%20Anatomy%20of%20Story.epub" target="_blank">
+            John Truby - The Anatomy of Story.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVWCjNcuBNiVLF2HPcyEFxq6tW8J2jA38u2YgEw9Tw9bC?filename=John%20Yorke%20-%20Into%20the%20Woods.epub" target="_blank">
+            John Yorke - Into the Woods.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYRmdCesMUdFStt8bFG49oYrxbdt9TRP7RVLYRmvEsbRQ?filename=K.M.%20Weiland%20-%20Creating%20Character%20Arcs.epub" target="_blank">
+            K.M. Weiland - Creating Character Arcs.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRyQSPo7n3V13Nhginq8QASBe3W8tKf41xQ6txySPJniv?filename=Lajos%20Egri%20-%20The%20Art%20of%20Dramatic%20Writing.epub" target="_blank">
+            Lajos Egri - The Art of Dramatic Writing.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qmcyvu6yNDoPFGuH9erGB3kG7KKqNBvw44EZ6fnjiCefZ7?filename=Larry%20Brooks%20-%20Story%20Engineering.epub" target="_blank">
+            Larry Brooks - Story Engineering.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmV98XmTT4CdVsVrMpJ7NqyJGnE9n1RLnatJKYjgCmwzvP?filename=Robert%20McKee%20-%20Story%20Substance%2C%20Structure%2C%20Style%2C%20and%20the%20Principles%20of%20Screenwriting.epub" target="_blank">
+            Robert McKee - Story Substance, Structure, Style, and the Principles of Screenwriting.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcGwN1oXrMRq6zwcV5VuvjDQVHGqizE7uHVAx7E3Kjp6Z?filename=Stephen%20King%20-%20On%20Writing%2C%20A%20Memoir%20Of%20The%20Craft.epub" target="_blank">
+            Stephen King - On Writing, A Memoir Of The Craft.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZ7aftXoMd1YFksSFY7hJ3nzFuPDucSfpjP6D2DWv6tpu?filename=%CE%A6%CE%B5%CF%81%CE%BD%CE%AC%CE%BD%CF%84%20%CE%9C%CF%80%CF%81%CF%89%CE%BD%CF%84%CE%AD%CE%BB%20-%20%CE%93%CF%81%CE%B1%CE%BC%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE%20%CF%84%CF%89%CE%BD%20%CF%80%CE%BF%CE%BB%CE%B9%CF%84%CE%B9%CF%83%CE%BC%CF%8E%CE%BD.pdf" target="_blank">
+            Φερνάντ Μπρωντέλ - Γραμματική των πολιτισμών.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck10">
+        <label class="tab-label" for="chck10">Φιλοσοφία</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfPRrnbBHVAvkAcFTcjTzwCoRw5ZQyYHEjgZyfVjAao3a?filename=Albert%20Camus%20-%20The%20Myth%20of%20Sisyphus.epub" target="_blank">
+            Albert Camus - The Myth of Sisyphus.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmU8GocTh4xRhXAihddj2kfYdcwj8FhhcvgpLuomT1WKqn?filename=Annie%20Dillard%20-%20Pilgrim%20at%20Tinker%20Creek.epub" target="_blank">
+            Annie Dillard - Pilgrim at Tinker Creek.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmfNSPRZvvnhLKY1ranqkQErP7Xs3wzWm3vikzc93jxWis?filename=Ludwig%20Wittgenstein%20-%20Tractatus%20Logico-Philosophicus.pdf" target="_blank">
+            Ludwig Wittgenstein - Tractatus Logico-Philosophicus.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQB4gDqK6SJ6V4MWRunyuFwfjxnVNPHevG87CpRST2URT?filename=Paul%20Feyerabend%20-%20Against%20Method.mobi" target="_blank">
+            Paul Feyerabend - Against Method.mobi
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQYYuWx5tHgVmd3ELkmrNYRbfAxH9gKifgWr5EXpA7SaV?filename=Soren%20Kierkegaard%20-%20The%20Sickness%20Unto%20Death%20A%20Christian%20Psychological%20Exposition%20For%20Upbuilding%20And%20Awakening.epub" target="_blank">
+            Soren Kierkegaard - The Sickness Unto Death A Christian Psychological Exposition For Upbuilding And Awakening.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcD77NE8nBrBhYp2fTJmKtmD2xv97ZK674VdgX8bxKBTA?filename=Umberto%20Eco%20-%20On%20Beauty.pdf" target="_blank">
+            Umberto Eco - On Beauty.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcdeH5VbwtyCooJ6YAiXGBnRfiSqs3VKUahYVY95srqxG?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%9F%20%CE%B5%CF%80%CE%B1%CE%BD%CE%B1%CF%83%CF%84%CE%B1%CF%84%CE%B7%CE%BC%CE%AD%CE%BD%CE%BF%CF%82%20%CE%AC%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82%202.pdf" target="_blank">
+            Αλμπέρ Καμύ - Ο επαναστατημένος άνθρωπος 2.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmcQkm2i9rjskJo2Lp7YiibZfTnnvwPWJzg1W1jtW1g3ka?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%9F%20%CE%B5%CF%80%CE%B1%CE%BD%CE%B1%CF%83%CF%84%CE%B1%CF%84%CE%B7%CE%BC%CE%AD%CE%BD%CE%BF%CF%82%20%CE%AC%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82.pdf" target="_blank">
+            Αλμπέρ Καμύ - Ο επαναστατημένος άνθρωπος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXQuYW4qSYKPxno82y7pt9gDU5HaCvsafVgJXa9vwMMRa?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%9F%20%CE%BC%CF%8D%CE%B8%CE%BF%CF%82%20%CF%84%CE%BF%CF%85%20%CE%A3%CE%AF%CF%83%CF%85%CF%86%CE%BF%CF%85.pdf" target="_blank">
+            Αλμπέρ Καμύ - Ο μύθος του Σίσυφου.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmUjdsVNKvDcqi6AHnEo2mwaDSNuzJ1E4B7NpjmBsqt4VC?filename=%CE%91%CE%BB%CE%BC%CF%80%CE%AD%CF%81%20%CE%9A%CE%B1%CE%BC%CF%8D%20-%20%CE%A3%CF%84%CE%BF%CF%87%CE%B1%CF%83%CE%BC%CE%BF%CE%AF.pdf" target="_blank">
+            Αλμπέρ Καμύ - Στοχασμοί.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRXs4CRhMGVcVrbuEFCEKyiMn2bpr6y7dYL4E5W1MWPRR?filename=%CE%96%CE%B1%CE%BD%20%CE%A0%CE%BF%CE%BB%20%CE%A3%CE%AC%CF%81%CF%84%CF%81%20-%20%CE%A4%CE%BF%20%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%BF%20%CE%BC%CE%B7%CE%B4%CE%AD%CE%BD%20%CE%9C%CE%A3.pdf" target="_blank">
+            Ζαν Πολ Σάρτρ - Το είναι και το μηδέν ΜΣ.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmQ8AfhbuQ11xjJAUwE7mfsorZ7vPzrc1XFtVQtXcJNa3J?filename=%CE%96%CE%B1%CE%BD%20%CE%A0%CE%BF%CE%BB%20%CE%A3%CE%AC%CF%81%CF%84%CF%81%20-%20%CE%A4%CE%BF%20%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9%20%CE%BA%CE%B1%CE%B9%20%CF%84%CE%BF%20%CE%BC%CE%B7%CE%B4%CE%AD%CE%BD.pdf" target="_blank">
+            Ζαν Πολ Σάρτρ - Το είναι και το μηδέν.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmVjdscvG5YLTDfB6EKH97KcxsCmAdUGcKA7RabyoJpawz?filename=%CE%9A%CE%BF%CF%81%CE%BD%CE%AE%CE%BB%CE%B9%CE%BF%CF%82%20%CE%9A%CE%B1%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20-%20%CE%97%20%CF%86%CE%B1%CE%BD%CF%84%CE%B1%CF%83%CE%B9%CE%B1%CE%BA%CE%AE%20%CE%B8%CE%AD%CF%83%CE%BC%CE%B9%CF%83%CE%B7%20%CF%84%CE%B7%CF%82%20%CE%BA%CE%BF%CE%B9%CE%BD%CF%89%CE%BD%CE%AF%CE%B1%CF%82.pdf" target="_blank">
+            Κορνήλιος Καστοριάδης - Η φαντασιακή θέσμιση της κοινωνίας.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmTi6SyHQhkWwy5EYYU2hHRPJURS7Fj4UeRyjcwWUMwUYJ?filename=%CE%9A%CE%BF%CF%81%CE%BD%CE%AE%CE%BB%CE%B9%CE%BF%CF%82%20%CE%9A%CE%B1%CF%83%CF%84%CE%BF%CF%81%CE%B9%CE%AC%CE%B4%CE%B7%CF%82%20-%20%CE%9F%20%CE%98%CF%81%CF%85%CE%BC%CE%BC%CE%B1%CF%84%CE%B9%CF%83%CE%BC%CE%AD%CE%BD%CE%BF%CF%82%20%CE%9A%CF%8C%CF%83%CE%BC%CE%BF%CF%82.pdf" target="_blank">
+            Κορνήλιος Καστοριάδης - Ο Θρυμματισμένος Κόσμος.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmZATDbNdP1s6pNNTDgSw859jAMDNkYRZ39ynvKhSntviM?filename=%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD%20-%20%CE%91%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1%20%CE%A3%CF%89%CE%BA%CF%81%CE%AC%CF%84%CE%BF%CF%85%CF%82.pdf" target="_blank">
+            Πλάτων - Απολογία Σωκράτους.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmaPePYdQugx6sVyXKbqcBVJUoAaDbA6CQQMbro6zPxNyx?filename=%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD%20-%20%CE%A0%CE%BF%CE%BB%CE%B9%CF%84%CE%B5%CE%AF%CE%B1.pdf" target="_blank">
+            Πλάτων - Πολιτεία.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmedJ8rMeiLW2kBP9Us6gvtCSojCdHQgGXq2Z1wddVn91q?filename=%CE%A0%CE%BB%CE%AC%CF%84%CF%89%CE%BD%20-%20%CE%A6%CE%B1%CE%AF%CE%B4%CF%89%CE%BD%20%CE%AE%20%CE%A0%CE%B5%CF%81%CE%AF%20%CF%88%CF%85%CF%87%CE%AE%CF%82.pdf" target="_blank">
+            Πλάτων - Φαίδων ή Περί ψυχής.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qma65nTmfPhybZTTk3gmZRrMWYd9jqpuP1aeELkGMsiPix?filename=%CE%A3%CF%80%CE%B9%CE%BD%CF%8C%CE%B6%CE%B1-%20%CE%97%CE%B8%CE%B9%CE%BA%CE%AE.pdf" target="_blank">
+            Σπινόζα- Ηθική.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmYK7prLmi9LU6AYxDv9WVAuN1KoFbKjoMa5JTDpnK5ydM?filename=%CE%A6%CF%81%CE%AF%CE%BD%CF%84%CF%81%CE%B9%CF%87%20%CE%9D%CE%AF%CF%84%CF%83%CE%B5%20-%20%CE%A4%CE%AC%CE%B4%CE%B5%20%CE%88%CF%86%CE%B7%20%CE%96%CE%B1%CF%81%CE%B1%CF%84%CE%BF%CF%8D%CF%83%CF%84%CF%81%CE%B1.pdf" target="_blank">
+            Φρίντριχ Νίτσε - Τάδε Έφη Ζαρατούστρα.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div class="tab">'
+        <input type="checkbox" id="chck11">
+        <label class="tab-label" for="chck11">Ψυχολογία</label>
+        <div class="tab-content">
+          <p>
+            <ul>
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPFbBJ2THJ4ukhJDHBpzTwE6tbShpAc5EAEAaQ1cA2PDn?filename=Paul%20Ekman%20-%20Emotions%20Revealed.pdf" target="_blank">
+            Paul Ekman - Emotions Revealed.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmPYyTXQ3JYg336a6nNqpUteEDUna9dnT7mejMnEdnAFit?filename=Paul%20Ekman%20-%20Telling%20Lies%3B%20Clues%20to%20Deceit%20in%20the%20Marketplace%2C%20Politics%2C%20and%20Marriage%20%281985%29.pdf" target="_blank">
+            Paul Ekman - Telling Lies; Clues to Deceit in the Marketplace, Politics, and Marriage (1985).pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNrUUSXNE6DQUAyFCSRYG7wT86v4LPUqCJTo6eNTtM7UR?filename=Paul%20Ekman%20-%20Unmasking%20The%20Face.pdf" target="_blank">
+            Paul Ekman - Unmasking The Face.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmNmwnqbWNezTYxQrQnYjSWJwKAVEuJFwxxvdGmCqNJP7H?filename=Richard%20Bandler%2C%20John%20Grinder%20-%20Frogs%20Into%20Princes%20-%20Neuro%20Linguistic%20Programming.pdf" target="_blank">
+            Richard Bandler, John Grinder - Frogs Into Princes - Neuro Linguistic Programming.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmX9gNaiSTS5GcJ6nR5oFWYUcTUhZjvKyHsEjEREZWaoSc?filename=Sigmund%20Freud%20-%20A%20General%20Introduction%20to%20Psychoanalysis.epub" target="_blank">
+            Sigmund Freud - A General Introduction to Psychoanalysis.epub
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmeweVSiDfixTNLQ1B4s2reuKKRdYY6Y4uHwbt6iZt6mrT?filename=Sigmund%20Freud%20-%20Five%20Lectures%20on%20Psychoanalysis.html" target="_blank">
+            Sigmund Freud - Five Lectures on Psychoanalysis.html
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmR21B4mrpVyCfdNHBeoqCLZVW1iRQzDqB8g8vcTUswVcR?filename=%CE%8C%CE%BB%CE%B9%CE%B2%CE%B5%CF%81%20%CE%A3%CE%B1%CE%BA%CF%82%20-%20%CE%9F%20%CE%AC%CE%BD%CE%B8%CF%81%CF%89%CF%80%CE%BF%CF%82%20%CF%80%CE%BF%CF%85%20%CE%BC%CF%80%CE%AD%CF%81%CE%B4%CE%B5%CF%88%CE%B5%20%CF%84%CE%B7%20%CE%B3%CF%85%CE%BD%CE%B1%CE%AF%CE%BA%CE%B1%20%CF%84%CE%BF%CF%85%20%CE%BC%CE%B5%20%CE%AD%CE%BD%CE%B1%20%CE%BA%CE%B1%CF%80%CE%AD%CE%BB%CE%BF.pdf" target="_blank">
+            Όλιβερ Σακς - Ο άνθρωπος που μπέρδεψε τη γυναίκα του με ένα καπέλο.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/Qma9jNSruiFP3Z4hYTPsJTA9x58cR2NK7n2oNvJMTmPjPQ?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%93%CE%B9%CE%BF%CF%85%CE%BD%CE%B3%CE%BA%20-%20%CE%95%CE%B9%CF%83%CE%B1%CE%B3%CF%89%CE%B3%CE%AE%20%CF%83%CF%84%CE%B7%CE%BD%20%CF%88%CF%85%CF%87%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1.pdf" target="_blank">
+            Καρλ Γιουνγκ - Εισαγωγή στην ψυχολογία.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmT3ttYU8Z69JuiKdyk15ZtHaqoVH5oM4vj74LE5vyhjho?filename=%CE%9A%CE%B1%CF%81%CE%BB%20%CE%93%CE%B9%CE%BF%CF%85%CE%BD%CE%B3%CE%BA%20-%20%CE%9F%20%CE%91%CE%BD%CE%B5%CE%BE%CE%B5%CF%81%CE%B5%CF%8D%CE%BD%CE%B7%CF%84%CE%BF%CF%82%20%CE%95%CE%B1%CF%85%CF%84%CF%8C%CF%82.pdf" target="_blank">
+            Καρλ Γιουνγκ - Ο Ανεξερεύνητος Εαυτός.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmReRR19pXzW5oBvW8rpfDJcDLpLAuiC5Spq7WK88WDRdS?filename=%CE%9B%CE%AD%CE%BF%20%CE%9C%CF%80%CE%BF%CF%85%CF%83%CE%BA%CE%AC%CE%BB%CE%B9%CE%B1%20-%20%CE%9D%CE%B1%20%CE%B6%CE%B5%CE%B9%CF%82%20%CE%BD%CE%B1%20%CE%B1%CE%B3%CE%B1%CF%80%CE%AC%CF%82%20%CE%BA%CE%B1%CE%B9%20%CE%BD%CE%B1%20%CE%BC%CE%B1%CE%B8%CE%B1%CE%AF%CE%BD%CE%B5%CE%B9%CF%82.pdf" target="_blank">
+            Λέο Μπουσκάλια - Να ζεις να αγαπάς και να μαθαίνεις.pdf
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmXqP7wdi63hEGWTLViaPVvyi1BWTSM7xuPopErofQTFtx?filename=%CE%A3%CE%AF%CE%B3%CE%BA%CE%BC%CE%BF%CF%85%CE%BD%CF%84%20%CE%A6%CF%81%CF%8C%CF%85%CE%BD%CF%84%20-%20%CE%95%CE%B9%CF%83%CE%B1%CE%B3%CF%89%CE%B3%CE%AE%20%CF%83%CF%84%CE%B7%CE%BD%20%CF%88%CF%85%CF%87%CE%B1%CE%BD%CE%AC%CE%BB%CF%85%CF%83%CE%B7.djvu" target="_blank">
+            Σίγκμουντ Φρόυντ - Εισαγωγή στην ψυχανάλυση.djvu
+          </a>
+        </li>
+
+
+        <li>
+          <a href="https://ipfs.io/ipfs/QmRMmG77EmnFBwjPHBrAWZKDNU6GRzShk1rd3kXoW77Gi7?filename=%CE%A3%CE%AF%CE%B3%CE%BA%CE%BC%CE%BF%CF%85%CE%BD%CF%84%20%CE%A6%CF%81%CF%8C%CF%85%CE%BD%CF%84%20-%20%CE%A4%CF%81%CE%B5%CE%B9%CF%82%20%CE%BC%CE%B5%CE%BB%CE%AD%CF%84%CE%B5%CF%82%20%CE%B3%CE%B9%CE%B1%20%CF%84%CE%B7%20%CE%B8%CE%B5%CF%89%CF%81%CE%AF%CE%B1%20%CF%84%CE%B7%CF%82%20%CF%83%CE%B5%CE%BE%CE%BF%CF%85%CE%B1%CE%BB%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1%CF%82.pdf" target="_blank">
+            Σίγκμουντ Φρόυντ - Τρεις μελέτες για τη θεωρία της σεξουαλικότητας.pdf
+          </a>
+        </li>
+
+            </ul>
+          </p>
+        </div>
+      </div>
+
+        </div>
+    </div>
+</div>
+<footer>
+    <div style="float: left; margin-right: 1em;"><img src="https://i.creativecommons.org/p/mark/1.0/88x31.png" alt="PDM"></div> Ο Βιβλιοθηκάριος είναι μια σελίδα που δίνει ελεύθερη πρόσβαση σε ηλεκτρονικά βιβλία (ebooks). Ο κώδικας και το περιεχόμενο της σελίδας είναι διαθέσιμα σε όλους. Τα αρχεία είναι διάφορων τύπων (pdf, mobi, epub)· μπορείτε να τα μετατρέψετε σε ό,τι άλλο τύπο σας βολεύει χρησιμοποιώντας το <a href="https://calibre-ebook.com/" target="_blank">Calibre</a>. Αν θέλετε να συνεισφέρετε, μπορείτε να το κάνετε απευθείας στο <a href="https://github.com/bibliothikarios/bibliothikarios.github.io" target="_blank">Github</a>.
+</footer>
+</body>
+
+</html>
