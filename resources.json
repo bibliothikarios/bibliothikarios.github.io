@@ -1,17 +1,17 @@
 {
     "dirnames": [
-        ["business", "Επιχειρήσεις, Επενδύσεις"],
-        ["cinema", "Κινηματογράφος"],
-        ["cooking", "Μαγειρική"],
-        ["fiction", "Λογοτεχνία"],
-        ["history", "Πολιτική, Ιστορία, Οικονομικά"],
-        ["philosophy", "Φιλοσοφία"],
-        ["psychology", "Ψυχολογία"],
-        ["science", "Επιστήμη"],
-        ["screenplays", "Σενάρια"],
-        ["sports", "Αθλητισμός"],
-        ["theatre", "Θέατρο"],
-        ["writing", "Συγγραφή"]
+        ["business", "Επιχειρήσεις, Επενδύσεις", "QmfE5XBiCMuu2fq1B93Pu6frPh4exMFTmBgrH28UTcxJNb"],
+        ["cinema", "Κινηματογράφος", "Qmf8sMxfoDoS2A7fjdAYL7mdqi62xyj7GUPNtj15joF56f"],
+        ["cooking", "Μαγειρική", "QmfNjZ3yti3hZiMqqH6wWv2bEYdFqx8kqjrNMeSjqaXN6K"],
+        ["fiction", "Λογοτεχνία", "QmPKLbV6YL1XnMvLTmwmf6yLh4h6ydQ9rcoB8NAN8zzish"],
+        ["history", "Πολιτική, Ιστορία, Οικονομικά", "QmaYLA3WaufvmNPqBGEwoqZQaA7EYasAT2zTtA9bSiwf1N"],
+        ["philosophy", "Φιλοσοφία", "QmdmDSsiw39muLqg4mD1GvJQmfvomFCvFrio7Vb97yuNDV"],
+        ["psychology", "Ψυχολογία", "QmcnTAetnpKnvqVyq7yzGKYmjWnrH8pD6shGhGQkPyqUBs"],
+        ["science", "Επιστήμη", "Qmb4BXmWotJ5XAL34B8TdmbssMDwHNMsUejyTZC6kSnYAZ"],
+        ["screenplays", "Σενάρια", "QmPjXDtTvCikxxJQoZf8MTN3AP6eerM9LLv225e7M6hMdu"],
+        ["sports", "Αθλητισμός", "QmUfH5GfKgFxR1D5fXzYfEfWmFfaMTs9hZVHjXhLhDELEm"],
+        ["theatre", "Θέατρο", "QmRK6qY7ZWjmXfnd8P96ry9uNUMpGT7ECa5iqmDBjNYTJ8"],
+        ["writing", "Συγγραφή", "QmQ6qcQwu5pntyzHUG1roTZtRANJk51Wn1qh9CcFmRkbw8"]
     ],
     "business": [
         ["QmScqEbWKnDDPSizFA96KPsUFUt8gvxAmRzDeAkQ8k8GEV", "Benjamin Graham - The Intelligent Investor.mobi"],
