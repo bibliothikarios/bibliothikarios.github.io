@@ -6,7 +6,9 @@ IPFS_BASE = "https://ipfs.io/ipfs/{}?filename={}"
 resources = json.load(open('resources.json'))
 
 content = ''
-for idx, (dirname, displayname, dirid) in enumerate(sorted(resources['dirnames'], key=lambda x: x[1])):
+for idx, directory in enumerate(sorted(resources['dirnames'], key=lambda x: x[1])):
+    dirname = directory[0]
+    displayname = directory[1]
     lst = '\n'.join([
         '''
         <li>
@@ -14,10 +16,7 @@ for idx, (dirname, displayname, dirid) in enumerate(sorted(resources['dirnames']
             {}
           </a>
         </li>
-        '''.format(
-            IPFS_BASE.format(cid, urllib.parse.quote(fname)),
-            fname
-        ) for (cid, fname) in sorted(resources[dirname], key=lambda x: x[1])
+        '''.format(url, fname) for (url, fname) in sorted(resources[dirname], key=lambda x: x[1])
     ])
 
     content += '''

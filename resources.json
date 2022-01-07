@@ -1,565 +1,2134 @@
 {
     "dirnames": [
-        ["business", "Επιχειρήσεις, Επενδύσεις", "QmfE5XBiCMuu2fq1B93Pu6frPh4exMFTmBgrH28UTcxJNb"],
-        ["cinema", "Κινηματογράφος", "Qmf8sMxfoDoS2A7fjdAYL7mdqi62xyj7GUPNtj15joF56f"],
-        ["cooking", "Μαγειρική", "QmfNjZ3yti3hZiMqqH6wWv2bEYdFqx8kqjrNMeSjqaXN6K"],
-        ["fiction", "Λογοτεχνία", "QmboNAxMGD7QWXaEm5P7FjZF3uRuTx8JGCuSnAXTv7gNWx"],
-        ["history", "Πολιτική, Ιστορία, Οικονομικά", "QmaYLA3WaufvmNPqBGEwoqZQaA7EYasAT2zTtA9bSiwf1N"],
-        ["philosophy", "Φιλοσοφία", "QmdmDSsiw39muLqg4mD1GvJQmfvomFCvFrio7Vb97yuNDV"],
-        ["psychology", "Ψυχολογία", "QmcnTAetnpKnvqVyq7yzGKYmjWnrH8pD6shGhGQkPyqUBs"],
-        ["science", "Επιστήμη", "Qmb4BXmWotJ5XAL34B8TdmbssMDwHNMsUejyTZC6kSnYAZ"],
-        ["screenplays", "Σενάρια", "QmPjXDtTvCikxxJQoZf8MTN3AP6eerM9LLv225e7M6hMdu"],
-        ["sports", "Αθλητισμός", "QmUfH5GfKgFxR1D5fXzYfEfWmFfaMTs9hZVHjXhLhDELEm"],
-        ["theatre", "Θέατρο", "QmRK6qY7ZWjmXfnd8P96ry9uNUMpGT7ECa5iqmDBjNYTJ8"],
-        ["writing", "Συγγραφή", "QmQ6qcQwu5pntyzHUG1roTZtRANJk51Wn1qh9CcFmRkbw8"]
+        [
+            "business",
+            "Επιχειρήσεις, Επενδύσεις"
+        ],
+        [
+            "cinema",
+            "Κινηματογράφος"
+        ],
+        [
+            "cooking",
+            "Μαγειρική"
+        ],
+        [
+            "fiction",
+            "Λογοτεχνία"
+        ],
+        [
+            "history",
+            "Πολιτική, Ιστορία, Οικονομικά"
+        ],
+        [
+            "philosophy",
+            "Φιλοσοφία"
+        ],
+        [
+            "psychology",
+            "Ψυχολογία"
+        ],
+        [
+            "science",
+            "Επιστήμη"
+        ],
+        [
+            "screenplays",
+            "Σενάρια"
+        ],
+        [
+            "sports",
+            "Αθλητισμός"
+        ],
+        [
+            "theatre",
+            "Θέατρο"
+        ],
+        [
+            "writing",
+            "Συγγραφή"
+        ]
     ],
     "business": [
-        ["QmScqEbWKnDDPSizFA96KPsUFUt8gvxAmRzDeAkQ8k8GEV", "Benjamin Graham - The Intelligent Investor.mobi"],
-        ["QmZjhNhVB2Avfs4dH1affwEhBwRuvut4wAJtUno8s3ui81", "Eric Ries - The Lean Startup.pdf"],
-        ["QmTEXaZvq6rdd1irCZePQkBRFTcucXMPtkQnDf7SABY8YR", "Matthew Jackson - Social and Economic Networks.pdf"]
+        [
+            "https://app.box.com/s/g5azg2v60yfnwtxre46t254v30gxupny",
+            "Benjamin Graham - The Intelligent Investor.mobi"
+        ],
+        [
+            "https://app.box.com/s/t5fmgby4twluy9rrmi4hyjm6av17do7d",
+            "Eric Ries - The Lean Startup.pdf"
+        ],
+        [
+            "https://app.box.com/s/72namlnfoj8muc8eyuvxax8ylxu07b6c",
+            "Matthew Jackson - Social and Economic Networks.pdf"
+        ]
     ],
     "cinema": [
-        ["QmSMcjQYYZKERqByP4e2ZMJb2ws53n6eWe7Sw7ssv19QWN", "Walter Murch - In the Blink of an Eye.epub"]
+        [
+            "https://app.box.com/s/fxkadpcfdquxncbdtbzq52hwq1or6fcl",
+            "Walter Murch - In the Blink of an Eye.epub"
+        ]
     ],
     "cooking": [
-        ["QmfH3bd4FHoiEmou6x22hUTUBWgZgU7zpHSZ4pSuJYnvnh", "Anthony Bourdain - Appetites A Cookbook.epub"],
-        ["QmYXQpSSLFSZyB1JXFeLhoCKEL1Vqcr1NajVqcisfAg9nr", "Anthony Bourdain - Les Halles cookbook.pdf"],
-        ["QmW6Uu1jwhRHdYd8E9LRhvZ7psUa5C3vacFh57zU7r5vvk", "Anthony Bourdain - Medium Raw.pdf"],
-        ["Qma3EMG5CgGShdBGfNQp97NUg6AYNUBYoChJUu6XazvfZD", "Anthony Bourdain - Typhoid Mary.epub"]
-    ],
-    "fiction": [
-        ["QmfA9dS9Vi1Zo6YmCSP8xuFLM65SkDBuaubzQvA9eiAJV3", "Ada Palmer - (Terra Ignota 1) Too Like the Lightning.epub"],
-        ["QmYvXKtGwXRKvAyyCSdFT9wXqwNn7C1FqSGnkN5c862jw7", "Agatha Christie - Death on the Nile (2001) (Hercule Poirot 15).pdf"],
-        ["QmdsVbspHyt38vFC3He9vwqEAg7ZMwpRLu6T58fmQMGZMS", "Alaa Al Aswany - The Yacoubian Building.pdf"],
-        ["QmbDn3xbmcN2xF45oQLvxiCsaHT9uVfHKWbVzshUrfVase", "Aldous Huxley - Brave New World.epub"],
-        ["QmPLMobhsRbGC3PwtSTKQ1GAtHeExfVFdgzEBCA3gcLXBR", "Alfred Doblin - Berlin Alexanderplatz.epub"],
-        ["QmNP8eZuHxmiuLx6rMYt21AXzWnbdDXe8wn4bbCvVhodCH", "Andy Weir - Project Hail Mary.epub"],
-        ["QmQFwoWzQicRDDhQnHKCkVCDmGEaaskahhNh1DZYQStGJg", "Andy Weir - The Martian.epub"],
-        ["QmZQP91EkFn4QJHZm3tkKAto1whJkppcDBRJ1Upkq5mCoz", "Bernardine Evaristo - Girl, Woman, Other.epub"],
-        ["QmPsTCJjLtrBewaFt358KzJhd15KKAszDEi7r7y2mcgdsv", "Bram Stoker - Dracula.epub"],
-        ["QmZrLMikLY3q7QjA9EmX2XjUCATXgfhoTWzWxCEzazdawR", "C.J. Cooke - The Lighthouse Witches.epub"],
-        ["QmemxHY6fRceCPrmGoXrh1cv2kAmASgrXedBPoBDR12F6n", "Carl Djerassi - Cantors Dilemma.pdf"],
-        ["Qmcvf1f2G3FuKEbbYVUWmLaLnwLePNLJyNUHugKBDA9Mwj", "Carlos Ruiz  Zafon - The Shadow of the Wind (2004).epub"],
-        ["QmWgb1mk3ydfQJdspvqHnMP2aFZynPF84v7DXmMw6g7U4Y", "Charles Dickens - A Tale of Two Cities.epub"],
-        ["QmcPMQ23raMyA8WSJPKMXaNfmcupa12ywou1dVj1NdWykT", "Chris Beckett - The Turing Test.mobi"],
-        ["QmbfitrLDmPVcJsdP3e6V2MzzmfdT1EizrbjtPwMVSUXPm", "Colson Whitehead - The Underground Railroad.epub"],
-        ["QmWfqskAQfeP7HQWMKENUkKtRqyRDA8L7QMMqXnK3gtZsy", "Cory Doctorow - Down and Out in the Magic Kingdom.epub"],
-        ["QmPVBdKxuHB93NUCeiZSu86h1gFdKG2K47Ax7jeJ9RZQsV", "Cory Doctorow - Homeland.pdf"],
-        ["QmZXPoR3iKu26GEWk36psLVECFxxoQLju4k77Dc7dSYRUT", "Cory Doctorow - Little Brother.pdf"],
-        ["QmZoXsrnrta4KpzYU98TDpoZSQWpVrF4T2VG81hi5LmWFa", "Dan Brown - Digital Fortress (v2.0).txt"],
-        ["QmPvVUnmwaQ7cdtjXtABHrYa4Bw2sU8S5LsTcD6JK1np1r", "Dashiell Hammett - The Maltese Falcon-Vintage (1992).epub"],
-        ["QmPX8gBboick5GAtsBSMAFKWwni8XnpPPvPGcNMkkac78b", "David Foster Wallace - Infinite Jest.epub"],
-        ["QmTVt99rEfHxWMsvgSRnmWApMPH1SwbswFMrw2vxSp34EW", "David Foster Wallace - Oblivion- Stories.pdf"],
-        ["QmcQTeG1oBVHZaDhqFHY2W8trN42JRJJGi15wL6PSfet5T", "David Mitchell - Black Swan Green.epub"],
-        ["QmaGmHAcX9SP9vDrGFgsEAVpxKTf8QGCtBAYkgnXAiZc7G", "David Mitchell - Cloud Atlas.epub"],
-        ["Qmbz9szzg6dQwMQAQJAwuFyg6EAsq4DnX9znpziayFdvru", "David Mitchell - Ghostwritten.epub"],
-        ["QmbVNVyw1dGMngKEKEEPb5nQmpZKJuTPGnZN4RQ1i2F9Uy", "David Mitchell - Number9dream.epub"],
-        ["QmQjtgLFCqdNxiSBuibfkbWscpUY11wHwKkmTQVxJYGixZ", "David Mitchell - The Bone Clocks.epub"],
-        ["QmT6eEjqyFhDW1sXTBezkq5now8PqPqhdJQER23Wrc89P7", "Don Delillo - Underworld.epub"],
-        ["Qmc5uC43CCPyEJnkepesQ7Cp6KHgGV67aeL2VBgYzMTNnz", "E. Lily Yu - On Fragile Waves.epub"],
-        ["QmTHssFLEbAxm6GAReYNbtrtmrS3BezMrttD3HYNYLep9W", "Edward Bryant - Particle theory.epub"],
-        ["QmdCRdrm5JgfbaqXL229JKTjABh5qmRRdZU1rgLdPUkS73", "Elena Ferrante - [Neapolitan 01] - My Brilliant Friend.epub"],
-        ["QmQajzDZbsMYuGyGTgMvwai2xShJq1uK1etBTXBoezNuLB", "Elena Ferrante - [Neapolitan 02] - The Story of a New Name.epub"],
-        ["QmZ7YjUPsLUYBpQkSTvwgyiGHiLZkrgvagSp4B12DFGvp1", "Elena Ferrante - [Neapolitan 03] - Those Who Leave and Those Who Stay.epub"],
-        ["QmZyfeNDYSiZNy5aEx1sY75TJvEVddHkucqMjV5kG4AuaD", "Elena Ferrante - [Neapolitan 04] - The Story of the Lost Child (retail).epub"],
-        ["QmX1KWwbdB36mBYiEEng8qf298A4WKQncr9ysUbkND7Lop", "Emily St. John Mandel - Station Eleven.epub"],
-        ["QmcSr53BaLQs6MgeeYfP3H7FDGD7A5bQvqHKcfC7nthzb6", "Eoin Colfer - Artemis Fowl, Book 1 (2009).epub"],
-        ["QmZ4z9XLZxUHNjXyvLSRYxJ3owrHjxXdkjNHwFopByvrbA", "Eoin Colfer - Artemis Fowl, Book 2 The Arctic Incident (2002).epub"],
-        ["QmbBbzj5vbmg3T2SFey2zYDpMZyPTBiJcVFaC3KbwfaryZ", "Eoin Colfer - Artemis Fowl, Book 3 The Eternity Code (2005).epub"],
-        ["QmVBSfdA7EVFmnTB6fTnbNhyY2kXFx3uLrcL8ewHX4LtdT", "Eoin Colfer - Artemis Fowl, Book 4 The Opal Deception (2009).epub"],
-        ["QmcWBMPBcHCzrcVtZgCHwYout6zKELgWaT8bEDLe498heu", "Eoin Colfer - Artemis Fowl, Book 5 The Lost Colony.epub"],
-        ["QmcnFfJCM1ahkXSvr9FdKQGZMz5nz2gWyMNT7LuXtX2ADr", "Eoin Colfer - Artemis Fowl, Book 6 The Time Paradox.epub"],
-        ["QmTKjk3A5SSx5MEQrEyJ95LX3R8aU8qixbefSX4FEjV6DN", "Eoin Colfer - Artemis Fowl, Book 7 The Atlantis Complex.epub"],
-        ["QmZG2CbNjM1bywxeH7PCvwRPfd2p5rtu25dzBPy5rnf2UR", "Eoin Colfer - Artemis Fowl, Book 8 The Last Guardian.epub"],
-        ["QmTFPtpQuLxFUwTEPmfH1UDYRs7haDJtjvorh7ydNcvbg3", "Ernest Cline - Ready Player One.pdf"],
-        ["QmcVJvTURzU3uHY49unYMMpvmaMELU3XeUjBUANhHFTXe1", "Ernest Hemingway - Sun Also Rises (2003).epub"],
-        ["QmS1xiWjfDrbcayszbBzUQSEX3L93NM86qtDYC6ePwhTu2", "Francis Scott Fitzgerald - The Great Gatsby.epu"],
-        ["QmZg1qFqVAzjqkuffJzCmiRv174iDQ9wTTvcCcSJd9cjDd", "Frederick Forsyth - The Day of the Jackal.epub"],
-        ["QmTNFxw638zD3FHhmjvW4kJNDNotgqVk96s3eV1wJ7bNs3", "George Orwell - Animal Farm.epub"],
-        ["QmbbX1NBfo2mEr8jLMQmMDQkFuDSgtGjpustYj3m3GzdLY", "George Saunders - CivilWarLand in Bad Decline.epub"],
-        ["QmXkwFqjV4zaC562kXE1gYERLJJPXt7pg1vWdLDpb4j7hi", "Graham Greene - The Quiet American.epub"],
-        ["QmRSj71asqAUyYBEU1F8SX1qbseet1UVTWLRFG7cxWfP4p", "Graham Greene - The Third Man.mobi"],
-        ["QmWiAwBxGtsUkFEsymTxgxfkxBHzMXXX8H3EAq79sDRW6N", "Greg Egan - Axiomatic.epub"],
-        ["QmeYmJ1nwpBFwb9wKWa6udRTowJ4qirGA7r5gGWJkF4EQf", "Harlan Coben - Tell No One.epub"],
-        ["QmNdmSyZcPLz2ariSjt6pBrRhodiNshBGbi9ZuUNotVfpg", "Harper Lee - To Kill a Mockingbird.mobi"],
-        ["QmP7u4Qi3N7zPxF5sRgCmcSqwwsAfuXsQ4oKq5MFyXV5Ga", "Haruki Murakami - 1Q84 1, 2.epub"],
-        ["QmcoZWidLC5BUc4RD89KSbaU76sDCgPVBZKHS8RzgAhjjy", "Haruki Murakami - 1Q84 3.epub"],
-        ["QmSUUT4aKnbebag9uaFAj8BDE3Mnr8NdQeE8cDU83C3kMa", "Haruki Murakami - Dance Dance Dance.epub"],
-        ["QmP2qHTZ5w7uGW9zbAB4njNVq63ezmNArUShgNbxM8ERtj", "Haruki Murakami - Kafka on the Shore  -Knopf (2005).epub"],
-        ["QmYcQEbSgW7qz3wQHbhrR78mDqx3ah9EsPaTRaKRdQhxgN", "Haruki Murakami - Norwegian Wood.epub"],
-        ["QmYvSeqStcBihBRo2jTKfPu1YD2zBsrUoFrwdRz33aDk2i", "Henry Miller - Tropic of Cancer.mobi"],
-        ["QmenD2uduvg5U5p1Pa549GXne7GZzLX8F2nG6U55vyKhot", "Herman Melville - Bartleby, the Scrivener: A Story of Wall-Street.mobi"],
-        ["QmYgEE1sx5ggCxi8UTJwimDxWshpDU7J1co8tTmQzKbNZL", "Herman Melville - Moby Dick or, The Whale - Penguin Group (2002).epub"],
-        ["QmQ2zc4fxkXjHD3ZYfQvBLLyjm1GU64iir4nVG3coKnJJC", "Hiroshi Yamamoto - The Stories of Ibis.mobi"],
-        ["QmXGDGfYqBZZiV2oeKJXYTTh48Vhzgc4RQJP5Z7NvhQKGb", "Hugh Howey - Wool.epub"],
-        ["QmVbniAnjXioW7FJxHNex7aiq62HATyTue8sB8y8BPdfjh", "JK Rowling - (Book 1) Harry Potter and the Philosopher's Stone.epub"],
-        ["QmQ7JNYChLvJLkXMJk82HUteSWFRtiir98pGDC7wam4iLy", "JK Rowling - (Book 2) Harry Potter And The Chamber Of Secrets.epub"],
-        ["QmYCULB6VnusXZr6iCeQ92cXa4wMKjkG84R9Aq2UBA5WWa", "JK Rowling - (Book 3) Harry Potter and the Prisoner of Azkaban.epub"],
-        ["QmcUTnT1NJDAqsMtbbLzsT9frceg4NqrKTvEuxNKgCD4bW", "JK Rowling - (Book 4) Harry Potter and the Goblet of Fire.epub"],
-        ["QmcddfJLYtjVHja7ZB5HvpFnqfSBNLBUNEx2LfvnRH1nn4", "JK Rowling - (Book 5) Harry Potter and the Order of the Phoenix.epub"],
-        ["QmTg4Y7HDkefnqp31fjBd8VBTEKNGvcZzSvywXeeEQMjf2", "JK Rowling - (Book 6) Harry Potter and the Half-Blood Prince.epub"],
-        ["QmPA3J353RV538JJmpcBmKc2Bu2fEwKQPYFqNJ2GX8tore", "JK Rowling - (Book 7) Harry Potter and the Deathly Hallows.epub"],
-        ["QmeoUJxwkCbffN5YKtvv994ES6bAE9C95A3shjTh5nS7jn", "JK Rowling - The Tales of Beedle the Bard.epub"],
-        ["QmYNdFYLtJVkyejQXiGyv45VEt43VzJKjt7vUY5jzRHa1X", "James Baldwin - The Fire Next Time.epub"],
-        ["QmXhoSCTv87FZWfDmm6xwZghmWzjT92fWit7mrdHzm5Jdx", "James Ellroy - American Tabloid.epub"],
-        ["QmQWFSGy3VABq3FV5ojX2rm9pCWcreHMJfo75bgzT7siMm", "Jennifer Egan - A Visit from the Goon Squad.mobi"],
-        ["QmYc5AV38DrabJAuhWGVmDURJZ9oYwQojrX6d3F2KruAVt", "John Dos Passos - USA Trilogy (The 42nd Parallel, 1919, The Big Money).mobi"],
-        ["QmPYw2yCn5XJM3qzEQMZDhhbfaBCXw8cx2j8wy9fx3VNG1", "John Le Carre - The Spy Who Came in from the Cold.mobi"],
-        ["QmcyFk6rs4WX7RkuZgRXgsMfmn6gXbCFRpFpgcr7ZzMHNp", "John Le Carré - Tinker, Tailor, Soldier, Spy.mobi"],
-        ["Qmdm3kavfrxcuFoVP4qPAjBp2Z7tWfvHoxWgCFZh6KHEk8", "John Steinbeck - The Grapes of Wrath-Penguin Group (2006).epub"],
-        ["QmTT4tMpu2zobuFQ7jzwDuum1kvMaP2JCXjnXLHQopP9SM", "John le Carré - A Legacy of Spies.epub"],
-        ["QmQbfC7FmFfNrD7CDVbiWjX4YNJtKdrWd8UE3D2MZzm5YF", "John le Carré - Call for the Dead.mobi"],
-        ["QmT9k3FXEn7Qeb8dhPXvDQDnWRHEy74YCmeHRSdWnKJRVz", "Joseph Conrad - Heart of Darkness.epub"],
-        ["QmSybJWrhZzKQSbuVDFXY7geLtPVvAZRoVJP4mfKinSbXu", "Kazuo Ishiguro - Never Let Me Go.epub"],
-        ["Qme8f6FFtCDd5pUnfAUibh2jB23u3LyJtir4MHV6obgjEn", "Ken Liu - Invisible Planets - An anthology of Contemporary Chinese SF in Translation.epub"],
-        ["QmfAc6MBtL2VEjSD9YZYzBEE3q1Quimovxhx8NUPggejra", "Ken Liu - The Paper Menagerie and Other Stories.epub"],
-        ["QmWZG1VWq7X2TndCgnw7GRTg2vYp2vRNkamPx2GZvKzxQM", "Kim Stanley Robinson - Red Mars (Mars Trilogy) (1993).pdf"],
-        ["QmbeFbZ9WqdVpcN4iyeCzd7XMddnkFSdKM6L7PSUszg4xj", "Kurt Vonnegut - Slaughterhouse-Five.epub"],
-        ["QmZrBXpE3xmfAZtG6hV8HabqDzr2jpoPbGNq7VXRfahD5Z", "Margaret Atwood - The Handmaid's Tale.epub"],
-        ["QmVMBbH9j38rdwsjBzK4sBePhg3T5KREqbhqsKVG3dDqCa", "Mary Shelley - Frankenstein.epub"],
-        ["QmZPb9dzU4oo9hmdndHS2xSo5E6dKQRnDgsSWDhF2BXeEn", "Michel Houellebecq - Atomised.pdf"],
-        ["QmSzJQ8RqeX5UsnunkdjtVcfcfPALkGgVBCEwfdFHCpb1s", "Michel Houellebecq - Lanzarote.epub"],
-        ["QmVUh9ZhAFHPFFuJe8pDrcaukLkqekJgu6bKdjw35cGR2p", "Michel Houellebecq - Map and the Territory.epub"],
-        ["QmeoM7g9YLEXLeKmg7jfezBroYea2SG2rjmEPSxtuPS32N", "Michel Houellebecq - Platform.epub"],
-        ["QmVK7Mp4md5TApCE36hDatodntVAgyP6zBfeNPWNoquVis", "Michel Houellebecq - Possibility of an Island.epub"],
-        ["QmWhgiwbaH8aGWV6raxmFKRFyFDtTVC5SnT9TfonzfrA8D", "Michel Houellebecq - Public Enemies [with Bernard-Henri Lévy].epub"],
-        ["QmRMqztHkpzdfSRtc3QpujbgbPuyuUBsc7mnfo7PkqzwLL", "Michel Houellebecq - Serotonin.epub"],
-        ["Qmb4y3ipRTcqdvJ3WPkPbUJZ2R5H4KebtoEPzWapZJDaHV", "Michel Houellebecq - Submission.epub"],
-        ["Qmd5sGC6EXY2fV2yxDeDWqG1zgU1jDF1uAmqQj5DTCsdgW", "Michel Houellebecq - The Elementary Particles.mobi"],
-        ["QmZbMy4ZCVidg24o7vRe2saAgQ2LKY7j9XzN9cp8xv5MHy", "Michel Houellebecq - Unreconciled.epub"],
-        ["QmTUBbtYVWvwjYJR3fjxCjEBg711zSfao2mz4mP4JAyNXM", "Michel Houellebecq - Whatever.epub"],
-        ["Qmad43aqb6nRALVhsDjwHAC2Yt8fk1FVVFkqtvMhmm4SYT", "Mikhail Bulgakov - The Master and Margarita.epub"],
-        ["QmZ77A5pu3A6sFy8ytpVxNsmbXMw1cGNegexBXXm4RXHMU", "Milan Kundera - Unbearable Lightness of Being, The.epub"],
-        ["QmNhjN3yPb9bENJiSUEw1Y6sufWm3AvZpwBZzUSS8CSoNv", "Naguib Mahfouz - The Cairo Trilogy, Volume 1 Palace Walk.mobi"],
-        ["QmbbFruEJW43SbsHRk6cSdLiLzuP8rrq5mudXkmfMnemMK", "Naguib Mahfouz - The Cairo Trilogy, Volume 2 Palace of Desire.mobi"],
-        ["QmRFYwfdi1k5fBEEB2AmbMuHFegme8FgHN6UCQKtCmG2DL", "Naguib Mahfouz - The Cairo Trilogy, Volume 3 Sugar Street.mobi"],
-        ["QmUE8cuT8MthcSYiDZiCE9FVWoaDc16y2jUTQ4Tz6fcYQ4", "Neal Stephenson - Cryptonomicon.epub"],
-        ["QmZS6EqnEEWFyJBgd4Fuks7hqRK4tNFnww4DPGPUgz2aVz", "Neal Stephenson - Snow Crash.epub"],
-        ["QmbcMrzYUUjexLhFn83wEE6CWvmKtD4hEAkKmsnbAgPxGG", "Neil Cross - Luther The Calling - 2011.pdf"],
-        ["QmTo5qfpRcs5xVs9hnaDRksZQ7tWGgv8YyfUMCqsmtnfDK", "Neil Gaiman - Coraline.epub"],
-        ["Qmcn555v8Kz5Pbzc2PUtaz2bzffLwtqCCf6VndTnvwVvQg", "Nick Hornby - About a Boy  -Penguin Books (2002).epub"],
-        ["QmTPpTNBZji9W469F6wYRTQnJuHkmsL12h3WSkiAP6kfGZ", "Nick Hornby - Just Like You.epub"],
-        ["QmdPxESnHmueC5mNZU8W4FgZVuk8t2KXGejtLxG7utXG6X", "Octavia Butler - Dawn.epub"],
-        ["QmRorxpeRHRLFTJe1gUdegtmaj7mSXfCYUhWA3LECVDGA7", "Philip K. Dick - Do Androids Dream of Electric Sheep.epub"],
-        ["QmZmin8NFEPF7hT1fCEES6qH7F2BRqhVBBqTqcPnu12otm", "Philip K. Dick - The Minority Report.pdf"],
-        ["QmVYAizJYBzERThMsFU1zoSoNUiH32fkzYQtWniSpJGrVA", "Philip Pullman - (His Dark Materials 1) - The Golden Compass.mobi"],
-        ["QmdyGjD1qfKbcerjYRUgs2ckRcjVye3Nz1p2s5t618XmPa", "Philip Pullman - (His Dark Materials 2) - The Subtle Knife.mobi"],
-        ["QmNe4F2rtSCneNASpixQijeFVU6vDvfPpYuw3sepUdZLq4", "Philip Pullman - (His Dark Materials 3) - The Amber Spyglass.mobi"],
-        ["QmWhLnbefVKnoMUL4WXudfrhwo2pfwE7U9YzvVYAK2yWwc", "Philip Pullman - La Belle Sauvage.azw3"],
-        ["QmYWoyDbZ1BDEG8voLYfNhgJwepSnhgE8wJYsUxkUx9JQ1", "Ray Bradbury - Fahrenheit 451.epub"],
-        ["QmcD8H44pb3nq3KqknDoPd1X1aDd4A8fwkAdr5B9SFrHWL", "Robin Sloan - Mr. Penumbra’s 24-Hour Bookstore.epub"],
-        ["QmVuA9efdWd29R3B53KE8NssDVPMjMRJs5zfwHeKRgrWbj", "Sarah Waters - Fingersmith.epub"],
-        ["QmPbyPHdS9C12e3bHj7X7DPfPiutR2qUUiNiefBVmxeV1b", "Solomon Rivers - The Deep.mobi"],
-        ["QmPa8EQzN7MAxnX4TM9ZPRbUhPfSWL8casorbjgTopHkNb", "Stephen King - It.epub"],
-        ["QmdA9TToV2CgzLESSkb7kQpxGZPf4NfQeoWeNW9YczbiVu", "Stephen King - Survivor Type.epub"],
-        ["QmZfS34KEdm93iuTPMunpcZyNzLXY4LAubPMGtfeURL6Gc", "Stieg Larsson -  The Girl Who Played with Fire (Millennium 2).epub"],
-        ["QmP19PL2QjpSzhZYyRcBukhtmeuxm66LdDEUDcf7FCrhRS", "Stieg Larsson - The Girl Who Kicked the Hornet's Nest (Millennium 3).epub"],
-        ["QmeVXfy1fFC5gYQRa78LqUa6Z396T5rNo9Cg6YQfpjvmt3", "Stieg Larsson - The Girl with the Dragon Tattoo  (Millennium 1).epub"],
-        ["QmT7CY7zYM9T2ozF6JHZNpxBoYBm9mC4YSrBQZTx8dkL2C", "TechieChan - TZO.mobi"],
-        ["QmbYbQhqMwEasx1WDXMSe4fL7NaYXiu1qs5dgtkwmdHKwZ", "Ted Chiang - Exhalation.epub"],
-        ["QmPQ4pVSkZmnnmGf7yS79MZtHK6J3xnQsGBGP8eiyqnEVF", "Ted Chiang - Stories of Your Life and Others (Version 3).epub"],
-        ["QmSm1iHcHi9PgSJb5y2bN2V3CczuhNHG3B3A4F2DW8oA3E", "Thomas Pynchon - Gravity's Rainbow.epub"],
-        ["QmTjcBnM4C7EwoBJ3CwZ5hwsqut1kLmq4APGDsZdVXPrtR", "Tom Clancy - Patriot Games.epub"],
-        ["QmPeevqeaqKXrypZdRk7MBtBcwCPZSv3nEwfTA6tpgjxvg", "Toni Morrison - Beloved.epub"],
-        ["QmVv3jgcEXyrDeXxBst6ubrWGDf686P6suoMUe4aFJCvR3", "Truman Capote - In Cold Blood.epub"],
-        ["QmbyCGZzAoeHDqBLgdGDYTRWbzHUMkidBA3Af97BXrrYLp", "Ursula K Le Guin - The Dispossessed.epub"],
-        ["QmdYXpw8zaow5wCgkHiSvtfFRxQArPtL75hiBCRA3QC67d", "William Gibson - Neuromancer.pdf"],
-        ["QmQfYAJAatvEc5gBXZqsUZC3EjLpjtENg4ouuZXdDgF26k", "William Golding - Lord of the Flies.mobi"],
-        ["QmTZgR67Roib4douR6DVSXrtxDqogsEYnpd1vDAvXp7kJ2", "Άλντους Χάξλεϊ - Ο Θαυμαστός Καινούργιος Κόσμος.pdf"],
-        ["QmNhsMqRLX47kTYJ8X4D7rN27Rr8spUrW2iUUD8nTT8vfa", "Άννα Φρανκ - Το Ημερολόγιο.pdf"],
-        ["QmdUaGUdT6XtDow6D21NLkmJKN9DeR4vM87xKreRgbBv4x", "Άρης Αλεξάνδρου - Το κιβώτιο.epub"],
-        ["QmbPjgS4s8q75dEiaaXaur4SXn34WDt4GtLtM2TN1PGXY8", "Άχμετ Ουμίτ - Έγκλημα Στο Περα.pdf"],
-        ["QmdwuLor8sbfwayqs5SNsESCDVUgZNUnTpYH51iaBWoWgg", "Έντγκαρ Άλαν Πόε - Οι φόνοι της οδού Μοργκ.epub"],
-        ["QmdmjjWd57i8aqjaaf5RUMFq1jW3Sno9Asdmi96GBLhUSN", "Έρνεστ Χέμινγουει - Για ποιον χτυπά η καμπάνα.pdf"],
-        ["QmYPT1MmyBKk9cCtZJcM4h2o65LDhhLG6KsDDnXrfsWK1o", "Έρνεστ Χέμινγουει - Ο Ήλιος Ανατέλει Ξανά.pdf"],
-        ["QmNvzq6V5ckPGRo97HAqsK1N5gk2RfyvtQUMqnZWzTdXh8", "Αλεξάντερ Σολζενίτσιν - Αρχιπέλαγος Γκουλάγκ.pdf"],
-        ["Qmcc6iJpyy9Ldza5YnC9DJ7zpVBJf9vJMAaMsryYWNSMgJ", "Αλμπέρ Καμύ - Η πτώση.pdf"],
-        ["QmTe2uYsRXWoaSiqg8Xk9PZaeAUXB5QMia3ura1rSFsTfS", "Αλμπέρ Καμύ - Ο Ευτυχισμένος Θάνατος.pdf"],
-        ["QmYAgpRiVM3uCTnS7q44nMYZRjPQ1k52Kfay9MMzcRSeu8", "Αλμπέρ Καμύ - Ο Ξένος.pdf"],
-        ["QmYiXTgeGb8veC7zACTeBPpknoPuFFEf7oDRHjTzdauJw2", "Αναΐς Νιν - Henry and June.pdf"],
-        ["QmRjeymqmYpX9nmWCwCE6SA57nFtjD5is8cMy7rGx3Bz8f", "Ανατόλ Φρανς - Το νησί των πιγκουίνων.pdf"],
-        ["QmRMmTo9yGp8DqKJWbH85tBfnG2rji7jBVzCNfvEUX9Wat", "Ανδρέας Καρκαβίτσας - Λόγια της Πλώρης.epub"],
-        ["QmQVQsTzxGYHzZz17QDPdh8LKZbHJhtdCuKjnaoCPDhX8i", "Βαγγέλης Γιαννίδης - ΑΜΑΡΟΚ.pdf"],
-        ["QmPaLVjHRoVRZRGwBFwmt83RaweNVhpyLoWaH1BiZ3oiZt", "Βαγγέλης Γιαννίσης - Η σκιά.pdf"],
-        ["QmZnXDwjn9Ypg6ZSmA6Ks7M1a87Jcc96GmMARbQq28hZvQ", "Βαγγέλης Γιαννίσης - Ο χορός των νεκρών.pdf"],
-        ["QmWa2eYR8kZQMfEbUVobBJRnvCDEKBDMp9CP3LDHngeGzi", "Βικτόρια Χίσλοπ - Το νησί.pdf"],
-        ["QmbCBdxaDec5dHM5gzr2bhoF731TPZERgNg8FnjGqHYFLD", "Βιτζέντζος Κορνάρος - Ερωτόκριτος.pdf"],
-        ["QmWNwQ4csha8iaNSc6osdZZaj9B1czPLUqY58NBLdCa89Q", "Γιάννης Ξανθούλης - Ο Τούρκος στον Κήπο.pdf"],
-        ["QmVYMjCGohHP1CUSHGWJPzXchHg5fDobzvaxqadhSYVN7N", "Γιάννης Ξανθούλης - Το πεθαμένο λικέρ.pdf"],
-        ["QmVPjdnL63fyWnDnxMEprP456wtEKG3ekUHjQxUQPKxoft", "Γκαμπριέλ Γκαρσία Μαρκές - Εκατό χρόνια μοναξιά.pdf"],
-        ["QmWyB6a3S3Lp1GND8FxgKzee9NEDWLw5VieHgtgCAcXYLx", "Γκαμπριέλ Γκαρσία Μαρκές - Οι θλιμμένες πουτάνες της ζωής μου.pdf"],
-        ["QmbbeHrEMfW6qXqnyPGNsCRiJrdnXfNFHVaNE5NRf2BCzv", "Γουίλιαμ Γκόλντινγκ - Ο άρχοντας των μυγών.pdf"],
-        ["QmYcLzcagesXRfNcb6opdbSk8sytJBebTd86Skz7SRm1vh", "Γουσταύος Φλομπέρ - Μαντάμ Μποβαρύ.pdf"],
-        ["QmY8dPhnMdpL5P4JK4ciyj85Zjoq2hLQH623sDiy9d5n1v", "Διδώ Δωτηρίου - Ματωμένα Χώματα.pdf"],
-        ["QmRhw4iKhUPAL4EYtUEk8Y7xFdFxAHa2huxbWneKKSdRUv", "Εμμανουήλ Ροϊδης - Η Πάπισσα Ιωάννα.mobi"],
-        ["QmNUY9io2anZFL52rtkK9f3p9KuFe6B8BwP9Dfk8nKtEPn", "Ευγενία Φακίνου - Έρως Θέρος Πόλεμος.epub"],
-        ["QmfNeepd7NGWgXafu4BqrqGNckUQuGBbqwXeF4UiFGFc75", "Ζοζέ Σαραμάγκου - Κάιν.pdf"],
-        ["QmefaDcdjEVZDi83GgDw2gLeSiBn5q5nuJu8JcoSMvzsF1", "Ζοζέ Σαραμάγκου - Ο Άνθρωπος Αντίγραφο.pdf"],
-        ["QmcyFRSyEUMes91AJAfs3Yaw3YQLjEVLDJcNc3DuPtCCPD", "Ζοζέ Σαραμάγκου - Περί Φωτίσεως.pdf"],
-        ["QmWbbJuHKJAApFvaaxFMDKNt9qemBeehBTQz7fFq4SPtbN", "Ζοζέ Σαραμάγκου - Περί τυφλότητος .pdf"],
-        ["QmUVwTGm2pbkFdBfHyijpRTqvcvZo89tyDMZsuJTF53RiJ", "Ζωρζ Σιμενόν - Ο Γάτος.pdf"],
-        ["QmPuSDCXk945X9yhisgzg9BWcDeRaTzeRBHjFgaeTQoVj7", "Ηλίας Βενέζης - Αιολική Γη.pdf"],
-        ["QmRec4zqN3fnY9abH8AAyoKD5Re8zqLLefcXtYJUqd7L6B", "Ηλίας Βενέζης - Ο Αριθμός 31328.pdf"],
-        ["QmWeyJXB7X9XFXP6i5jHmMb8k39cPMtPQFYwt4vCvB6mkQ", "Ηλίας Πετρόπουλος - Της Φυλακής.pdf"],
-        ["Qmdp4A35XyMua44pevAddFQ6oKbChzihF74JCu6MqBb59e", "Ιάκωβος Καμπανέλλης - Μαουτχάουζεν.pdf"],
-        ["QmUswPN3U4EX9ZL7t4S8ozoJhfQnCDp3dcuRiyysv77LCC", "Ιούλιος Βερν - Η μυστηριώδης νήσος.pdf"],
-        ["QmaBQzQRKHkRqNwRN9g8j3GkUG4DTbFKHFZRNeShqKDLiT", "Ιωάννα Καρυστιάνη - Μικρά Αγγλία.pdf"],
-        ["QmUp4otgNgzNYAhy54eQW7MJd7NGo2MscmgReub1bTZ9cB", "Ιωάννα Καρυστιάνη - Σουέλ.pdf"],
-        ["QmTzi59R9X3bJWDbQPdompbzhjmnUcbw1N6TMoQSGMbnvX", "Ιωάννα Καρυστιάνη - Τα σακιά.pd"],
-        ["QmUDmTtquq5dTKUvF6DRQJVBh6ZnwQPemMniZc6XYkmHN7", "Ιωάννα Μπουραζοπούλου - Το Μπουντουάρ του Ναδίρ.mobi"],
-        ["QmesFaxga3adnDnoFHpEyhbYsDjC46HLKaNc8zun4uB32Q", "Κάθριν Νεβίλ - Οχτώ.pdf"],
-        ["QmPJQTcK31DmpiBMKpLp6mRthtidK7nc4QPazoKSCFo7s9", "Κάθριν Νεβίλ - Το Στοίχημα.pdf"],
-        ["QmQv6eeh9Y1ENuQweBHJGji1HPAuK56HLgDy5CUAB7q3Ak", "Κάρλος Ρουίθ-Θαφόν - Η σκιά του ανέμου.pdf"],
-        ["Qmd6qJmj5p7wyBt5PU6bYL43tjEbKUR3ftcsjXeCeyrMJx", "Κάρλος Ρουίθ-Θαφόν - Το παιχνίδι του αγγέλου.pdf"],
-        ["QmVyqLG3qiRPGiW9NBAdvLiLHdtL42DAMbdUpBWoM8Qp38", "Καμίλα Λάκμπεργκ - Η παγωμένη πριγκήπισσα.epub"],
-        ["QmPKrYK7wABFHBxjBfn3GDKXgkWSjmXCn9kecja17ejUpC", "Κώστας Βάρναλης - Ο Λαός των Μουνούχων.pdf"],
-        ["QmRVm4k3q6Xj5GoZSQPYkWt8wg29WfBXyAfeMbuqbudoVa", "Κώστας Ταχτσής - Το τρίτο στεφάνι.pdf"],
-        ["QmYvYTvMz6JiguwkB6CBYNFcN1xwtvr2xaUmh4G98ds6ZY", "Λέων Τολστόι - Αφέντης Και Δούλος.pdf"],
-        ["QmNaUYxC1JeDoJ1FVJkuA682NEbzUfY2TnbLMgG72p6Sup", "Λιλή Ζωγράφου - Επάγγελμα Πόρνη.pdf"],
-        ["QmdW55CFmHPb7ozVQRKJ5VPJ77VuWUcz7ruCuw2bhnbtV1", "Λιλή Ζωγράφου - Η αγάπη άργησε μια μέρα.pdf"],
-        ["QmcKAMExAtDDJa72r1BvZx74A6Z8DjxbH1r2fow7LyYrZR", "Λουίς Σεπούλβεδα - Η ιστορία του γάτου που έμαθε σ ένα γλάρο να πετάει.pdf"],
-        ["QmemiFi6rHmPjrqf3mN1FQUUAY579Htnt8nkcLwHyMuzDk", "Λουίς Σεπούλβεδα - Παταγονία Εξπρές.pdf"],
-        ["QmPMnkaMo6EPGt3HnMgFKQx4cTyYqqyRJLc8UJvGvu4aNM", "Λούις Σεπούλβεδα - Το ημερολόγιο ενός ευαίσθητου killer.pdf"],
-        ["QmZJBagtRrpL47GNVszZyi5dWhwH42duSB3pP8uFmvYXxR", "Μάιρα Παπαθανασοπούλου - Ο Ιούδας Φιλούσε Υπέροχα.pdf"],
-        ["QmWS6VSxL4wdu7aYVnirsc4ftbgHdvXUr5oZjwj3LdQUm9", "Μίλαν Κούντερα - Η αβάσταχτη ελαφρότητα του είναι.pdf"],
-        ["QmcN5VZbHz3inLLjCosUEjqQAd33ReNxnMXCT2jwr223RM", "Μίλαν Κούντερα - Κωμικοί Έρωτες.pdf"],
-        ["QmXTkVvwVF9quXJvASADzWKB794vhsQT6boJZzvTNzZxKF", "Μαίρη Σέλλευ - Φρανκενστάιν.pdf"],
-        ["QmUHkvgvdLT7w6r7peWRaAnq3wXZUSenb5wcLzpQbwiafU", "Μαρία Ιορδανίδου - Λωξάντρα.pdf"],
-        ["QmQEZYQXPNtC2vRbPFdzAqSppobq8Hpguj6t1AqLg29tyS", "Μαρκήσιος Ντε Σαντ - Ζυστίν.pdf"],
-        ["Qmcv4vyRcfRnsnkS2EnSsXPDZmiHA61HYwKUVQjBQcKpw1", "Μαρκήσιος Ντε Σαντ - Η Φιλοσοφία στο Μπουντουάρ.pdf"],
-        ["QmeUW1e8Rwwgoqk8272cWkkb6NTNULnWGhapcRkVycqzXm", "Μαρσέλ Προυστ - Αναζητώντας τον χαμένο χρόνο Ι - Από τη μεριά του Σουάν.pdf"],
-        ["QmVAhKvjFTdvy4C8ppBi1Ro8wKsEuXpwdFuLXB4tuT3n23", "Μπόρις Βιάν - Θα φτύσω στους τάφους σας.pdf"],
-        ["QmXkELCTrVSdPyew67jhLugDGyYBZqXmQECMDeY7NQzVTG", "Μωρίς Λεμπλάν - Αρσέν Λουπέν, Η κούφια βελόνα.pdf"],
-        ["QmQu2J2odAd1snUE9Y6GLJhbudkbWhFAQJ8sMchZoUv7Hw", "Νίκος Θέμελης - Μια Ζωή Δυο Ζωές.pdf"],
-        ["QmYbkP5UJzLrUJEYvZhLryBKp6R8NLuGDQqijburF6chgh", "Νίκος Θέμελης - Οι Αλήθειες των Άλλων.pdf"],
-        ["QmU1R8wuSs8KzieCpvyRTUwJXfge8xy5S91GQ1ARm19W6Y", "Νίκος Καζαντζάκης - Ασκητική.pdf"],
-        ["QmeccPFqGXLZgf8s7F1vaVH96YLgKeavya4sQsAZu6aHbU", "Νίκος Καζαντζάκης - Βίος και Πολιτεία του Αλέξη Ζορμπά.pdf"],
-        ["QmRceT8UCntQ1a2hiZXipEwP1zNp5P5CnhygL7EardB6i6", "Νίκος Καζαντζάκης - Καπετάν Μιχάλης.pdf"],
-        ["QmaWoW6Sf3LNmdY7DYubfQrndHFbZ3VEf29rhNUpLhrFrL", "Νίκος Καζαντζάκης - Ο Χριστός ξανασταυρώνεται.pdf"],
-        ["QmVZ9ubt5vAC9CxzEzwyuGf69GfbLCiVnww1pLiGSTshUU", "Νίκος Καζαντζάκης - Ο τελευταίος πειρασμός.pdf"],
-        ["QmPq8NHZPRfqfrpPUNs1eafRjounYz2DyRDiw6LEHJJx4x", "Ντένι Γκετζ - Το θεώρημα του παπαγάλου.pdf"],
-        ["QmRQLmQwkwK26m3ND86MaTpkKUXae3RcVmYgGP4EL6ac4D", "Νταν Μπράουν - Inferno.pdf"],
-        ["QmWfgZg3dQu2uTw1d3AcSzstC2XCwvaJnhttqhFBmnxVqC", "Νταν Μπράουν - Origin.pdf"],
-        ["QmQYKXxdRqugCVWF61iaJXZawauxtbA5qJFmNNpU6mCRk3", "Νταν Μπράουν - Αρκτικός Κύκλος.pd"],
-        ["QmYpuaoLo575vAynoqBpGQuC2bYj4bMbKUjS8AFiaY1Qic", "Νταν Μπράουν - Οι πεφωτισμένοι.pdf"],
-        ["QmTLkfibF7wZVyeJFrZFHbjcUaiNkoSHT6XwrDbHhVf2uC", "Νταν Μπράουν - Το Χαμένο Σύμβολο.pdf"],
-        ["QmQD1y6bZbRRfk7rUxqYmxsDXftiGpneABSizHHrbxyAD6", "Ντμίτρι Γκλουχόφσκι - Μετρό 2033.pdf"],
-        ["QmRM4iDmoTwdm3V6JEM8geuFvYpUjbZRRdzVMchbbwsTBu", "Ντόρις Λέσινγκ - Το Πέμπτο Παιδί.pdf"],
-        ["QmRs2rVHh8eukSv8GA4LWQgQpgShLPKWvsTapZ5vX9Yfz2", "Οριάνα Φαλάτσι - Γράμμα σ ενα παιδί που δε γεννήθηκε ποτέ.pdf"],
-        ["QmP1dfF3PZQqT5HnuQS41YeBVcAQfTX4ahK8JGTC9e9fS8", "Ορχάν Παμούκ - Ιστανμπούλ.pdf"],
-        ["Qmaai8Br55AsCgT3GuhCSkgvxYG9GKEcxRTmUHpcSr1XgK", "Ορχάν Παμούκ - Το σπίτι της σιωπής.pdf"],
-        ["QmVHsTKSSDt9cMWd6q62PeM11SVxTPhTb6uWVesc4VHx6Z", "Ουμπέρτο Έκο - Πως Να Διαψεύσετε Μια Διάψευση και άλλες οδηγίες χρήσεως.pdf"],
-        ["QmSPFfEuicEKfksnTTugudGNtiptDy8MLsbusrccXjpJso", "Ουμπέρτο Έκο - Το εκκρεμές του Φουκώ.pdf"],
-        ["QmXp8fSUwsqCPLFQzGNmEzYNYj2W2R2D4ZiHVzRyeZE2Dn", "Ουμπέρτο Έκο - Το όνομα του ρόδου.pdf"],
-        ["QmUSdBYgj7X3csfXbvUGHbSZVCLNbwzcGWn1YUQh6ngULp", "Ούρσουλα ΛεΓκέν - Το αριστερό χέρι του σκοταδιού.pdf"],
-        ["Qmb25JExmSypipMVa5gCJ2zTPfz4cPmBVjUZgcAce8SPqB", "Πέτρος Μάρκαρης - Νυχτερινό Δελτίο.pdf"],
-        ["Qmf17STKXyyqpRDqTCeWfaedy2U876MmzQzcEWmQoij3K9", "Παραμύθια της Χαλιμάς (Τόμος Α΄).pdf"],
-        ["QmTs3Pm8DzP8toYH3RFjuMyseo3Bz3KvDrc22Wq6Pk271W", "Παραμύθια της Χαλιμάς (Τόμος Β΄).pdf"],
-        ["QmepGyUBbpLnLrC31zFhdLhtjwWM1e85MQFu6zmt5BzT73", "Παραμύθια της Χαλιμάς (Τόμος Γ΄).pdf"],
-        ["QmUgcEk8FkoxP9nV2TDnBzNQYRvQvPeaB3yW1GZRat1tZa", "Παύλος Μάτεσις - Η μητέρα του σκύλου.pdf"],
-        ["QmPBKRQ4B95K4vnuMV47N3XbPyv1Wc9Zi7Cw7Xiph7VY24", "Πόλα Χόκινς - Το κορίτσι του τρένου.pdf"],
-        ["QmSWVKrcN3r6ptcPkvoXhQwinBCPBZ3ekxGepSSgwt42e9", "Ρίτσαρντ Μπαχ - Ο γλάρος Ιωνάθαν Λίβινγκστον.pdf"],
-        ["QmSNDRvSbmsEbPFZzNPik6bhd2jrM8QF41LMauct8wdnJX", "Ρόμπερτ Λάντλαμ - Θανάσιμη Πλεκτάνη.pdf"],
-        ["QmT8rTWqx8TaEvmCmPQoFWEb9WmvGfvExZdNHNwcsmMGat", "Σεμπάστιαν Φίτζεκ - Η θέση 7Α.pdf"],
-        ["QmZhD3GQTbe6n93W2A19GMmSbhpMQVXsLzT3Y9vvgfnmjt", "Στήβεν Κινγκ  - Χρήσιμα Αντικείμενα.pdf"],
-        ["QmdYQHjA91xndCZL17AHAfSRcXsYxyGKJTotKxdGb5KGoG", "Στήβεν Κινγκ - Όλα Είναι Δυνατά.pdf"],
-        ["QmahHnYLqmCfNLBbL8QqVNM71Qswyiwp7Yt9PZs8CM7Dhf", "Στήβεν Κινγκ - Αυπνία.pdf"],
-        ["QmbFPPfTfx1E85gd2i3CLhC7tFhJPhHLbx4d7WVagCmGGq", "Στήβεν Κινγκ - Η ιστορία της Λίσι.pdf"],
-        ["QmdNvvNaPAt6HqqrT5wBcowqBeQ5ygfhQ94hAtjtj5ba5L", "Στήβεν Κινγκ - Η μέθοδος αναπνοών.pdf"],
-        ["QmWp4cdh9oiWpV5C1ZTqCpDbVRsYCMjBwaE2apWUz5SPp3", "Στήβεν Κινγκ - Κάρυ.pdf"],
-        ["QmaLWNHH1wTyM8AxRt1sTHdJ14qKfu4at3zYXTNhRTn89r", "Στήβεν Κινγκ - Κούτζο.pdf"],
-        ["QmYSmPdTAV18jg6DVC6SCBqxBSqGWvTbk2FPYcg1boeVLV", "Στήβεν Κινγκ - Κρυφό Παράθυρο, Μυστικός Κήπος.pdf"],
-        ["QmfSGb7ohpqA1nbTfZ55k3TXj4u8ad6z8TwpnBKE3m6jRV", "Στήβεν Κινγκ - Μερικές φορές ξαναγυρίζουν.pdf"],
-        ["QmWMmjV6anTMUEEUxNETuozaN2yWCyUy4vFop4cACDBhG5", "Στήβεν Κινγκ - Νεκροταφείο Ζώων.pdf"],
-        ["QmQyS5ap6L1s7TaYUvnAPVrFK1TmTT23a2DpKxoopk3uuG", "Στήβεν Κινγκ - Νυχτερινή πτήση 29.pdf"],
-        ["QmS8PBQq54zPd3VNaAYnsVk9qYFgwxZyqTvYFWwGAk8fbA", "Στήβεν Κινγκ - Ο Θόλος.pdf"],
-        ["Qme5i6eFdyBj2qqxoRAinVT2ReApm992n87fGQN4pTCijq", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 01 - Ο Τελευταίος Πιστολέρο.pdf"],
-        ["Qmadz51ctmUBqA3rUpvVgFkq1HhDGVYwFC4K3sTbk9sNGR", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 02 - Το Κάλεσμα των Τριών.pdf"],
-        ["QmPM7C8o3Kef1DPwGsHdf8mAjSpriEnmayeXk63YuNAKLU", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 03 - Οι Ρημαγμένοι Τόποι.pdf"],
-        ["QmSFJW4o84CyohFEtXTaTmfhSWMoQRgLLKUGtEjTThgM3c", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 04 - Ο Μάγος και η Γυάλινη Σφαίρα.pdf"],
-        ["QmfGiiXx3FnnrkUPSjkfx6cWLRXyu9f6ntcGcwPHCiXML6", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 05 - Οι Λύκοι της Κάλα.pdf"],
-        ["QmbyLa9aAkcTRXvUpFEMcHvTuWVnBfGYkBrvWcNkbvrQVR", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 06 - Το Τραγούδι της Σουζάνας.pdf"],
-        ["QmSbB83hj5yE2G44uRNh1HZbtSkr1C1aFEKVji2eYNBace", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 07 - Ο Μαύρος Πύργος.pdf"],
-        ["QmWsW3Df59zwjqQUmEzcAPQZCS9xStQ953MU6a4HNufqNF", "Στήβεν Κινγκ - Ο Μαύρος Πύργος 08 - Ο Άνεμος Μέσα Από την Κλειδαρότρυπα.pdf"],
-        ["QmcdPbVV4LvkQNJiJA2Gib2ZEskjrYVupykpsuL2y24x1e", "Στήβεν Κινγκ - Ο κύριος Μερσέντες.pdf"],
-        ["QmRLLhYrEKDNu7tCETUqR6Rjwa5cTuBkA5thTfvdy6HCQW", "Στήβεν Κινγκ - Ονειροπαγίδα.pdf"],
-        ["QmejBqttX3y8e9mZvssnMR14R21PN9WoxQLDfStGKBpS7u", "Στήβεν Κινγκ - Σάκος με Κόκκαλα.pdf"],
-        ["QmZjtWMV2y5xvfTtTtaf39Wy5kNBNvU2h8zfzQMyEV9oVR", "Στήβεν Κινγκ - Το Αυτό.pdf"],
-        ["QmfZdZqVZ7ZaLBg659wXsAT7HwH1Ps7qpTCyNPfTiPZ3x3", "Στήβεν Κινγκ - Το Κοράκι.pdf"],
-        ["Qmbg2zLpm74J8mGJTdhX4fCr6z5txy3VHCZX7pMe8Dam8Y", "Στήβεν Κινγκ - Το κινητό.pdf"],
-        ["QmeJ2kbF97bo3ztNxis9qSNN7yioqAo5zH7nG7fk2gMdDm", "Στήβεν Κινγκ - Το πράσινο μίλι.pdf"],
-        ["QmWstmMXaP6TwmtrLqZegzNHBCsQbMnng7xrcPrdAHnzUg", "Στήβεν Κινγκ, Πίτερ Στράουμπ - Το Φυλαχτό.pd"],
-        ["QmZkEk1tn9tq2NwFTqZ1xFD17DpcibDfWhSoa69BxRn25S", "Στεντάλ - Το μοναστήρι της Πάρμας.pdf"],
-        ["QmdiUKFYVCXCyQPPWwrSYqkxgAMm47BhjoR6ddmnftuNoi", "Στιγκ Λάρσον - Το κορίτσι με το τατουάζ.pdf"],
-        ["Qmc4Eq5GhXAqV5VXoKMpaUKHQ6Zfyp79wJ97Q53jvJp8Mw", "Στιγκ Λάρσον - Το κορίτσι που έπαιζε με τη φωτιά.pdf"],
-        ["QmQz6Fp5QQoX4JZk5vtxnHvZVJdvogqRt7gfmDmDbwGP8V", "Στιγκ Λάρσον - Το κορίτσι στη φωλιά της σφήγκας.pdf"],
-        ["QmZhfSMVgt7uEhGwJRTTFFjszHsU6kPrQ7bx8cTePi2N4D", "Στρατής Μυριβήλης - Η ζωή εν τάφω.pdf"],
-        ["QmNQw1QDJkNEjbtKHCFvQsU8MB7dq1FHWWjNhMjJwm9dqQ", "Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 1 - Η Λέσχη.pdf"],
-        ["QmWNAksmpCBtrLXnnAVx9y2o3c5P3Qy1BduRp1xgLjRPCu", "Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 2 - Αριάγνη.pdf"],
-        ["QmdV8ZxxWycwjNn5b7Hz8XwGFj2khJr6fPMqYBWD3zjRTd", "Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 3 - Η Νυχτερίδα.pdf"],
-        ["QmXzEQmr8ahBSepFPhqye5idLpfNRC1FpmrPT6PfYfSX5y", "Σώμερσετ Μωμ - Η στενή γωνιά.pdf"],
-        ["QmUPyKuvqGNFQeqC5hgep1uVjcgUU2kZDqMHV8NT1uRbeA", "Τεύκρος Μιχαηλίδης - Πυθαγόρεια Εγκλήματα.pdf"],
-        ["QmcVwv1yzxftnqbf4xNhPdUWTETfMZmdVk37rjBfKyogYx", "Τζ Κ Ρόουλινγκ - Ο Χάρι Πότερ και το Καταραμένο Παιδί.pdf"],
-        ["QmdTY6zoE9KtjVTK81HrMpNgcJSG9U7gy5bytvmqB4CgUT", "Τζ Κ Ρόουλινγκ - Χάρι Πότερ 1. Ο Χάρι Πότερ και η Φιλοσοφική Λίθος.pdf"],
-        ["Qmb9gzjqNBbvuExT82fDoC4Emh6Lpg15KKGD58dthPjuem", "Τζ Κ Ρόουλινγκ - Χάρι Πότερ 2. Η κάμαρα με τα μυστικά.pdf"],
-        ["QmRkUo8nz9VAJG7R2kRwoAPWgRysTfPsQypLDozZ7qFijM", "Τζ Κ Ρόουλινγκ - Χάρι Πότερ 3. Ο Αιχμάλωτος του Αζγκαμπάν.pdf"],
-        ["QmQ5tPi492as6HHAX8p1tSteHSDsZ1mWp2hKT9RahmpDya", "Τζ Κ Ρόουλινγκ - Χάρι Πότερ 4. Το κύπελο της φωτιάς.pdf"],
-        ["QmPE5ATa3bKLmkVtd8gha1EVXtVCaZShG8DVN2wuqHAAbP", "Τζ Κ Ρόουλινγκ - Χάρι Πότερ 5. Ο Χάρι Πότερ και το Τάγμα του Φοίνικα.pdf"],
-        ["QmYMRXrq27auMBXQVv9D6fDKGDS94mgsE19e5v1usVVoXC", "Τζ Κ Ρόουλινγκ - Χάρι Πότερ 6. Ο Ημίαιμος Πρίγκιψ.pdf"],
-        ["QmXzJMwWcvK8p7BZQFrs3GzuqvQyzt1oFrUxVhFehP9sUV", "Τζ Κ Ρόουλινγκ - Χάρι Πότερ 7. Οι κλήροι του Θανάτου.pdf"],
-        ["QmboNiYYez6eT2aiNe5oP6xPLhyvcEfMZo6B5aRMiNhF2X", "Τζ. Ντ. Σάλινγκερ - Ο Φύλακας Στη Σίκαλη.pdf"],
-        ["QmZms1YyEYjt73gCj8nL2x1qzTrYQpyCP9orvvSs8DTfob", "Τζέιμς Έλροι - Το Μεγαλο Πουθενα.pdf"],
-        ["Qmeks4GqUax1Q4R5sY8nfiTGZEf8cpZMduyk4oRaZXXLPo", "Τζακ Λόντον - Η σιδερένια φτέρνα.pdf"],
-        ["QmdS5i2gQWpvYgRErxmdDETRrJUUPGCQVG2oFmKQqvvHnF", "Τζακ Λόντον - Ιστορίες του μποξ.pdf"],
-        ["QmS5xJ4U19hWaw2XWm2f2zk2J9jHYVAksQC2jqgJyLCEFs", "Τζακ Λόντον - Ολόχρυσο Φαράγγι.pdf"],
-        ["QmYkcufw5b9J3kkiEcTJLwkLB3vD8dVxECMNtQowNXCLf3", "Τζο Νέσμπο - Η Νυχτεριδα.pdf"],
-        ["QmdKfnqqzgd79WQkq6EpbndyWgrVsYKSwP9pFxAj5uF3Jt", "Τζο Νέσμπο - Η δίψα.pdf"],
-        ["QmYEhhCcokrU1nnyoNPJDqunjR2YB4pEMsWFEnj8ASfxdk", "Τζο Νέσμπο - Νέμεσις.pdf"],
-        ["QmY3F9CxpiVd2XKqHoj9RVW6ybVNBZG2QH4MeZ7pgZVRhH", "Τζο Νέσμπο - Ο Κοκκινολαίμης.pdf"],
-        ["Qmd1ywK49TJWdGhXdwNTK8Ji7dDpuhLtPWy13CAYw5amUs", "Τζο Νέσμπο - Ο Φαντομάς.pdf"],
-        ["QmTdgsk4ddrhjC2hsSfU58ECJAwpnzhvZJnuB2bFpThMep", "Τζο Νέσμπο - Ο γιος.pdf"],
-        ["QmTAGKtMmdAAqaFgbWn2PPAiMeyQNXnC9hP2eiViwa3fok", "Τζο Νέσμπο - Ο λυτρωτής.pdf"],
-        ["QmdrFdr5n2bgDaLToLpVm1GnSG9zPHmTtn2y2kha3TiNj8", "Τζον Λε Καρέ - Ο Επίμονος Κηπουρός.pdf"],
-        ["QmfKnRsFCEvABznGpaFNSqNJA3sc6hXbfhuuPUEhQYmdcw", "Τζον Στάινμπεκ - Τα Σταφύλια Της Οργής.pdf"],
-        ["QmXEKvqRVkoyoirUECAANbHmaBU9b1fMCE28gS3WMTuWWt", "Τζωρτζ Όργουελ - 1984.pdf"],
-        ["Qmap1iLEBA4Xuf5crHJPQuqJZQFui4gq8zXTnDLvhj4wJ1", "Τσάρλς Μπουκόβσκι - Σημειώσεις ενός πορνόγερου.pdf"],
-        ["QmUChULRoHdxJQn127cj5QtnMoFYQ6SGrx26bsUPAvWSgB", "Τσαρλς Μπουκόβσκι - Ταχυδρομείο.epub"],
-        ["QmREjW6MKgwT8q5J29pbH82xkGSMqXxdA57wUzMs9hpQWX", "Τσαρλς Ντίκενς - Ο Ζοφερός Οίκος, Τόμος Α.pdf"],
-        ["QmYfFZ6Kut4K1W5L3HUCYRnp6FvY87DvAcXzLYvE3jV3MN", "Τσαρλς Ντίκενς - Ο Ζοφερός Οίκος, Τόμος Β.pdf"],
-        ["QmPrCwHxJNJGZjfYLHkVQitW17h8QPDR7mnbVaR62LdCPG", "Τόμας Χάρις - Κόκκινος Δράκος.pdf"],
-        ["QmUrTDtyyJifXrdAkYw4N9irZXiLkrvkc21s954jFbaBEU", "Φίλιπ Ροθ - Το Βυζί.pdf"],
-        ["QmeRU3aXQAMKjwRzuBPNU6hDSeSLc3DnAdvxd63Z4Wqcby", "Φερνάντο Πεσσόα - Πίσω από τις μάσκες.pdf"],
-        ["QmU2tsfAsUWrH4uTapVYTHUyTvuy1AHbrRRGrn1T2firiC", "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Α.pdf"],
-        ["QmcQpBFHFmhbUHtZcDQ5QFeMBgoNt87wuuPP8LcckWYnKo", "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Β.pdf"],
-        ["QmQwRDQCd2KY7tmWgEnrssEcxVkaErGEuW9tW5QjeQ3m8W", "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Γ.pdf"],
-        ["QmPfTZZjdvsiR9VTCxqMCbWsb16z36StiYe8w4f6myZqce", "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Δ.pdf"],
-        ["QmbpZeqUKAtNKb5F9wgzwYsy3cSY7SPL5f2UCJxzf2FaJW", "Φιοντόρ Ντοστογιέφσκι - Ο ηλίθιος.pdf"],
-        ["Qme1UyFM2pkDsHrviA1Kromj9KZyMdxCy135mZYpRfhrkm", "Φρανκ Χέρμπερτ - Dune.pdf"],
-        ["QmaBGvmAyT1ob2xtB9m2JvXBgvZZsgxCabrabuHzjeDzCh", "Φραντς Κάφκα - Αμερική.pdf"],
-        ["QmSJfHZ43oYAQxkiGth183ze3A4HLZ91xVa6QqyjXg3mdV", "Φραντς Κάφκα - Η Μεταμόρφωση.pdf"],
-        ["QmehHdCgaurAZ7jU26AuDQwFXekvy97cLZWDfyFoqGy1x1", "Φραντς Κάφκα - Η απόρριψη.pdf"],
-        ["QmWAji1L9cfA4iJbEsmj7nNviJhM5viXMasbPLpBhvzNXy", "Φραντς Κάφκα - Η δίκη.pdf"],
-        ["QmcsihuTtyrL6eb7oYDigMrSWsdUGgesZtCZYqpMdiXvHU", "Φραντς Κάφκα - Ο πύργος.pdf"],
-        ["QmXvG4w8vkY7XYy8hbvNPo4FsgkPGQJypKdFJqRoFLPiVi", "Χέρμαν Χέσσε - Ο λύκος της στέπας.pdf"],
-        ["QmZ1UCAxRnXXAj81Uo8NcSHdpc91SHQkenc2HmdB7i8NhN", "Χέρμαν Χέσσε - Σιντάρτα.pdf"],
-        ["QmcCRrtwdTbvfWTjwktvxKqQomQmBWxLhRdWydQGsCAkMX", "Χαρούκι Μουρακάμι - Νορβηγικό Δάσος.pdf"],
-        ["QmTXHjQYSZ3P2yDew8czFoqHVcgaRb6TBHq7FNRBchYjp3", "Χαρούκι Μουρακάμι - Νότια των συνόρων, δυτικά του ήλιου.pdf"],
-        ["QmcDejRNX6NSCDWGFJPHCo255FwDiLRZ7ehDnycDNnyAbx", "Χαρούκι Μουρακάμι - Το κουρδιστό πουλί.pdf"],
-        ["QmaRdE4L8diPKRJSnKv83DvFtFPQLob9wCt3DNiXEkz2Eo", "Χρήστος Χωμενίδης - Νεαρό άσπρο ελάφι.pdf"],
-        ["QmTkLVArM96nfdpxnn2Lk5tW27qP1TH5UxWQ5xyAhWtgdB", "Χόρχε Λουίς Μπόρχες - Άπαντα Πεζά.pdf"],
-        ["QmZApcfpgCW5GmnX8h6SEs4R29peZ6v4xXmgZUc8143Yuh", "Χόρχε Λουίς Μπόρχες - Το βιβλίο των φανταστικών πλασμάτων.pdf"]
-    ],
-    "history": [
-        ["QmXmHMLaCjkQDrhX8BxFwwG6EpELKjw4CSBf8yPeVZbhXr", "Alex Callinicos - Universities in a Neo-Liberal World.pdf"],
-        ["QmRYTn4Cjf2RjUfTyyg4kHbdjQ8wWgjuRW7GTJw1DWYgwk", "Anders Ericsson, Robert Pool - Peak Secrets from the New Science of Expertise.epub"],
-        ["QmTkSFxpELq6aTjki2tSKCuz9qbiih5HA5ptR8Q3uPki2h", "Ann Pettifor - The case for the Green New Deal.epub"],
-        ["QmbNGuUFkhGjF3xnDUjDhDMghobwgBNRRYNo2N5EyrX9vh", "Anna Wiener - Uncanny Valley.epub"],
-        ["QmSTZEW4HQWq8N4RJcFPPHkxCQLoUaGxWBCGsKePDHUg9Q", "Ben White - Israeli Apartheid.mobi"],
-        ["QmawdTH65doyJ6BM6zZ43ZzdskT7LBnWDJgHxXZ18w4fqv", "Camila Russo - The Infinite Machine_ How an Army of Crypto-hackers Is Building the Next Internet with Ethereum.epub"],
-        ["QmawtpFQn7u51jCZpbMRKp3ts63FNecD2VRdWb1SciHNQj", "Charles Mackay - Memoirs of Extraordinary Popular Delusions and the Madness of Crowds.mobi"],
-        ["QmeyAKDMoeiuNJxfXSf88BL3FrhJUUyThsrLMn1eAGR3GR", "David Gerard - Attack of the 50 Foot Blockchain.epub"],
-        ["QmdJpYt6VyMRBD61jNDj3d7VddkKHo6XFwoM6SqSVLxgtG", "David Gerard - Libra Shrugged.epub"],
-        ["QmSsbCKGYTj1UhwkjBrHXXRfYSuTABUp2ZGa3CUeVkkFFk", "David Golumbia - The Politics of Bitcoin.pdf"],
-        ["QmVadHxaJA523dNM74WHivdi2aUKCVumjnffQ5SojpKDDc", "David Graeber - Bullshit Jobs.epub"],
-        ["QmWM99fBEPMHA9Zu7LZcu2ybFgZCg6nzQU1U7uuqUDs3LV", "David Graeber - Debt The First 5000 Years.epub"],
-        ["QmSRMhLMLTdruH38o5QuvbzyyZkiyP1Mu3DKZzAtNR3xFE", "David Graeber - Fragments of an Anarchist Anthropology.pdf"],
-        ["QmQzRnqo5zx2XbowRCYvdMpAedkYjd7weSNS67MhBgoK57", "David Harvey - Rebel cities, from the right to the city to the urban revolution.mobi"],
-        ["QmSJnKF4VxwGkEkmSettRoc4rFyZwofscp8FiF31GKVxwp", "EReNSEP - Report Eurozone Failure.pdf"],
-        ["QmX7QZqhiE8hwmuy2hpfB1WavF5P5Nejmpqjq6FcaTQ7GK", "Edward Snowden - Permanent Record-Metropolitan Books (2019).epub"],
-        ["QmWvxhrvx2ZzRtjn3svGrozpZRvqUJBBwSe1e8W8RbAwVr", "Edward W Said - Orientalism.epub"],
-        ["QmNviQhSNnmp85pZGfiHuvQd98z3WNoCVGCCFu2UhxPp8d", "Elinor Ostrom - Governing the commons.pdf"],
-        ["QmXj3ctVL43bYdrCRhabNqpsM7nLnbzyY57yfHM8gePS3q", "Elizabeth Kolbert - The Sixth Extinction An Unnatural History.epub"],
-        ["QmSgAdXVbecKkCSyN4HKM3Hq47DepwvxTvHV4AKtpZLpHn", "Francis Spufford - Red Plenty.epub"],
-        ["QmafsMPdY55bHKXhmP6xFRfyBRr8UH4VNipSBtnu1XwdKX", "Friedrich A. Hayek - The Road to Serfdom.epub"],
-        ["QmZtpDiCMeNub4E8fRvosVoaLfLBc8qgvNPmRgZwQqFGVM", "Guy Debord - Comments on the Society of the Spectacle.epub"],
-        ["QmXdrWEwYKu3BDPcTsD79ZQrzuK3xALLK29dgfdK28PENf", "Howard Zinn - A People’s History of the United States.epub"],
-        ["QmX7RpWUHb2DvJXro4ufZfESuucDEiCe2EBeKs5ThYj2W2", "Immanuel Wallerstein - World-Systems Analysis An Introduction.epub"],
-        ["QmVaW6QnEHppEpqD6gPvBzk2bvu4sdx37Pvzu1T5ZuuYmQ", "James Bloodworth - Hired Six Months Undercover in Low-Wage Britain.epub"],
-        ["QmQWxx9cpfrCrJ8HekvsN4ULTeVmZfhnNCcwJ1sdB8PYvS", "Joan Robinson - The Accumulation of Capital.pdf"],
-        ["QmbUpoabQAfm1R85MQh63F5Zn3K4SVUpS53Dqf8AsMniwC", "Joel Stein - Me generation - 2013.pdf"],
-        ["QmYdXLGJffyboM4hor8rianx4R7pQaeNiGcQvBuYPgdwXt", "John Maynard Keynes - Economic Possibilities for Our Grandchildren.epub"],
-        ["QmWFoL5vZJjqjqZ9YEsrioo3d8U6GnZEBxRCzGfbpteyKb", "John Maynard Keynes - The General Theory of Employment, Interest, and Money.pdf"],
-        ["QmPFLx3Xi1GUdGPZUT2iicxC4Jv6kH8TgeWfvzCcQm5XXE", "Jonathan Crary - 247 Late Capitalism and the Ends of Sleep.epub"],
-        ["QmaHCSwg44ubFijhG7zFhtsupFjJSNTgDhveuxosvgkuAg", "Karl Marx - Capital Critique of Political Economy Volume 2.pdf"],
-        ["QmdiL1F2WNK3AJT2dt4CAoekL7BzCoUmCjPQMoytZYKCh5", "Karl Marx - Capital Critique of Political Economy Volume 3.pdf"],
-        ["QmUXNxwRtVkgPQNgig2jmUMMWkk682nX8H3SQsn6ZGxnPr", "Karl Polanyi - The Great Transformation.epub"],
-        ["QmUHkDMVFmZ9d59NQAXQAmFYV8W43Nweu3ULFGqhGYpLug", "Michael Lewis - The Big Short.pdf"],
-        ["QmUbXfC4gD8QBMbTb4w3WrPhZAqS6HBrGRsNLg9piBFp2z", "Milton Friedman - Capitalism and Freedom.epub"],
-        ["QmThNbBr6amVbkWvSku3NAetvcBSuGq8oz7Mbus88gFtiB", "Naomi Klein - No LOGO.epub"],
-        ["QmTpMMLqjMGhhNpZuciMbhst8FVyoeMsTAEJPcChgsSf2h", "Naomi Klein - On Fire The Burning Case for a Green New Deal.epub"],
-        ["QmPFywLHVkjrndmB5fmazs11o92GfR4FTwWiuPVEN6buWR", "Naomi Klein - The Shock Doctrine The Rise of Disaster Capitalism.epub"],
-        ["QmcjRDvGcAhc8bPYV9AqymE2MdoWXP7mnRJry8qUJg7PLr", "Nassim Nicholas Taleb - The Black Swan The Impact of the Highly Improbable.epub"],
-        ["QmW7YQK645GXPqR92XsDW431fL4NUGVe4PhuQniAtbuoxV", "Nick Srnicek - Platform Capitalism.mobi"],
-        ["QmXKWsTfj7hbbToBN12AgoePMMCd7FJmPsCU495LZXspQW", "Noam Chomsky & Edward S. Herman - Manufacturing Consent.epub"],
-        ["QmU4ccXnDkfR9punamNxMWCFQgfE1qBi9eWHHN8cLjH7hy", "Paul A. Samuelson, William D. Nordhaus - Economics.pdf"],
-        ["QmbFBqo9KjdxCBsKtQViTXvT8oZSiPUuVWaHv8vAULaQdo", "Paul Krugman - The great unraveling.mobi"],
-        ["Qmcq3jqQ8X9w2jpRSpfQj25GbctUNtxAwS1Y4fUmyvwK6t", "Paul Mason - Clear Bright Future.epub"],
-        ["QmYxZZoXZWFdvosjvCNeh8pUkT4CE3sNG6bzQ6LfAs78EF", "Paulo Freire - Pedagogy of the Oppressed.epub"],
-        ["QmdZUYp5LksjJsrDN4FSMhcSZytPaV4Wu96StP7KTKrSRn", "Peter Frase - Four Futures.epub"],
-        ["QmbscxFSxzcCPrv8LkT433TDTawQr3BKgbZdTnX1XJXvQG", "Rashid Khalidi - The Hundred Years War on Palestine.epub"],
-        ["QmaHevTAfmB61wWmqAaZeQRsELdfg8DivDw917P6dAakZ1", "Richard H. Thaler, Cass R. Sunstein - Nudge_ Improving Decisions About Health, Wealth, and Happiness.epub"],
-        ["QmcvYNgHGhor18Q6FKXofw3Q3yW82Hhiqk3P8vYEXZjvnR", "Robert L. Heilbroner - Worldly Philosophers - The Lives Times and Ideas of the Great Economic Thinkers (2011).epub"],
-        ["QmRydHAH7JC2cPwCe6Bz41YepauLh2KRK5vFi5BnAuq9az", "Robert L. Heilbroner, Lester C. Thurow - Economics Explained-Prentice-Hall, Inc. (1982).pdf"],
-        ["QmZGESWSB2RK8VFP2NuUW2gwRi8FBVR1Agw9zc7k5gi2MN", "Robert Skidelsky - Money and Government_ The Past and Future of Economics.epub"],
-        ["QmTdAK3wuYma66zctkr2RGM4d2uwsWAzHUcEaTrveTRwCq", "Robert Skidelsky - Money and Government_ The Past and Future of Economics.pdf"],
-        ["QmVR4pX8fk6WCttteeVDjoPwdvDBLqXa8YgDnkgcjcXTCq", "Robert Skidelsky - The essential Keynes.mobi"],
-        ["QmWUYHWFd3pZwtDxT1vXnCANtYJgXx3AzMGN2jiqMeZaoC", "Roberto Saviano - Gomorrah A Personal Journey into the Violent International Empire of Naples Organized Crime System.epub"],
-        ["QmckR5rKnMtbnhKghgUkSihGbfBM7vnyyY5KxG7PyQbNFG", "Seymour M. Hersh - Reporter.epub"],
-        ["QmNUwHzYGfnbYZsTP8qXQJhEdD5XC7k9Y3ZvMaBBTfapGp", "Seymour M. Hersh - The Killing of Osama bin Laden.epub"],
-        ["QmPbDaZS1R6uV3eggyEEF5ScpwJpUDX6jTswzg4XHNBzSP", "Shoshana Zuboff - The Age of Surveillance Capitalism.epub"],
-        ["QmPKceY6FJ7jDZ2rdz6TpzDWXG9rfHyB3kKLTDMVkajJFf", "Svetlana Alexievich - Secondhand Time The Last of the Soviets.mobi"],
-        ["QmTfUg8FC8JjDqXjzzJfogmHBT4aXpjNVrZhvyuAA5hQQh", "Thomas Piketty - Capital in the Twenty-First Century.epub"],
-        ["QmT5aJ3vtVLEjdBz7mJ1Ay8718BRkojgtk4R46FaEa8k5E", "Tom Wright, Bradley Hope - Billion Dollar Whale.mobi"],
-        ["QmX7ud8gUnzJ8ezJA546rAFwDSkEqfFkaPbqRPEnZgonN4", "William Mitchell, Thomas Fazi - Reclaiming the State A Progressive Vision of Sovereignty for a Post-Neoliberal World.epub"],
-        ["QmW4FugvqfLZxnR3fDDpyYGjCYhVuSbGwszy5jVCCQ5WJ6", "XYZ Contagion - 9  1 σκηνές από την ιστορία της ελληνικής ακροδεξιάς.pdf"],
-        ["QmatwicqvhF5Jbr49RPSVMuuTZH581qo9WXo3j1nfuPtmB", "Yanis Varoufakis - Adults in the Room.epub"],
-        ["QmbbfgFWcuSdo7MD5WV8fS5ZGifTRNoMv3bByRUaq6Do8E", "Yanis Varoufakis - And the Weak Suffer What They Must.epub"],
-        ["QmXwbFxaCiHWeVT6CsDQw2C2bcU9qAXJgJcvkgtiwBnng8", "Yanis Varoufakis - Another Now.epub"],
-        ["QmWE3fov6Gz2inPxBQbBNgkWoueCHDjdXT7szgbUomc1jJ", "Yanis Varoufakis - Foundations of Economics.pdf"],
-        ["QmdyyNK9b2zcXEtcVXewBftEyXcv4oBG7y777vGJaD6A8u", "Yanis Varoufakis - Talking to My Daughter About the Economy.epub"],
-        ["Qmb38ZE3N9LVGjnGmtKeKVBy5q3bWyFHSsRrzPh5yUac7h", "Yanis Varoufakis - The Global Minotaur.epub"],
-        ["QmW2AmfzsuoL87G5hUJvnZahEDrv6a9qhDey56Rz4rEkPr", "eurozone.pdf"],
-        ["QmZqzNeShWFTia6DjfD6pEkuHTn135VPXrx3LkSVAxHBxK", "Άννα Φρανκ - Το Ημερολόγιο.pdf"],
-        ["QmZtAhwDc7miWmnqiYMT7mh1zmScZ4CzGiEMYZwiquadVB", "Άνταμ Σμιθ - Έρευνα για τη φύση και τις αιτίες του πλούτου των εθνών.pdf"],
-        ["QmQpzS4oGAcnHXFBGKtCYjdTNe7PN7fUUmy3RcEy9ZDobt", "Άρης Χατζηστεφάνου - Τουρκία Ανατολικά της ΕΕ.pdf"],
-        ["QmPpQF4wG9ThZGxCxxs7xxEFPwtANQGo8snCJaoSwMNkTh", "Έρικ Χομπσμπάουμ - Η εποχή των Αυτοκρατοριών.pdf"],
-        ["QmYLRSwXqHwaDbAcjkAQYgmCzUTNHx6vxWiwYjsJgDhVK3", "Βίλχελμ Ράιχ - Η μαζική ψυχολογία του φασισμού.pdf"],
-        ["QmXcsHJS1SXUULJB63GFBoL1DNnLoxZu1vwjy4p7Bfqodm", "Βασίλης Ραφαηλίδης - Η μεγάλη περιπέτεια του μαρξισμού.pdf"],
-        ["QmY49EDBLbrpv8V2cAYTAdkr4wKvmsvc921XL8twhs5FAB", "Βασίλης Ραφαηλίδης - Ιστορία (κωμικοτραγική) του νεοελληνικού κράτους 1830-1974.pdf"],
-        ["QmT3Z7fjT3M5ZWWi9D5NbGQP1bNKp1GsDKpZwyD7G1bCAC", "Βλαντιμίρ Λένιν - Αριστερισμός παιδική ασθένεια του Κομμουνισμού.pdf"],
-        ["QmfFgDeBdvK4U6vdXw5aNNHPBpH2UfejRtdwCLhRWUkqu4", "Βλαντιμίρ Λένιν - Κράτος και Επανάσταση.pdf"],
-        ["QmVJvUeXookbEhLr1cx11TzbbFxsSg3zWYj7pMjwGLVNRw", "Γιάνης Βαρουφάκης - Μιλώντας στην κόρη μου για την οικονομία.epub"],
-        ["QmeeXx2nUu2bgNMuackLPk8zRmPpnRkX5K5joE8phXAdch", "Γιώργος Δελαστίκ - Το τέλος των Βαλκανίων.pdf"],
-        ["QmRzgwmg5ZhzgodNvyPnPTzYZNTkbaDVaae7ZVGQyrodw4", "Γκυ Ντεμπόρ - Η κοινωνία του θεάματος.pdf"],
-        ["Qmcm7XJsJHUZArLB7Cyo41HR9VSJJ15kE6xMU1EgAcGsQF", "Δημήτρης Γληνός - Τί είναι και τι θέλει το ΕΑΜ.pdf"],
-        ["QmZm1LqFCMx1Mtwvokuo2Rjaa8gNVHadSPxn7mq1zbsuSo", "Δημήτρης Κουφοντίνας - Γεννήθηκα 17 Νοέμβρη.pdf"],
-        ["QmSXCNe8RVbcJn2CZT6VgcJkRSZwVAywi3kfePbpfKLzCG", "Δημήτρης Μπάτσης - Η Βαρειά Βιομηχανία Στην Ελλάδα.pdf"],
-        ["QmYEqLxqwiAVzJbp9F8XsCU3bQ6kn9z2LPVG9KLPKJxrK9", "Δημήτρης Ψαρράς - Η Χρυσή Αυγή μπροστά στη Δικαιοσύνη.pdf"],
-        ["QmV2yQ1KsDjCJNPhgqTraTn2Sijf42XqLD8Utu4JAdDrJv", "Διονύσης Ελευθεράτος - Εξουσία τι μπάλα παίζεις.pdf"],
-        ["QmXeLgmFoVjwMa1HehoavSJDY9tTiKKcu2b2tG9YvSG5cB", "Ευτύχης Μπιτσάκης - Ένα φάντασμα πλανιέται.pdf"],
-        ["QmZNQQER5BkzwDxoJYTy615buhpB1efnReS6bjrrDiv6sv", "Ευτύχης Μπιτσάκης - Ανθρώπινη Φύση Για Ένα Κομμουνισμό Του Πεπερασμένου.pdf"],
-        ["QmQVxDs8NTVM2pW2ZuF5aCn6EYRq9fBPd9hkRRRecRgxr2", "Ευτύχης Μπιτσάκης - Διαλεκτική Προβλήματα διερευνήσεις.pdf"],
-        ["QmQ2NcSuxPne4pzYRUQi1q9uBqUyuqU2ATqpQtFshqxY7F", "Ευτύχης Μπιτσάκης - Η Ύλη και το Πνεύμα.pdf"],
-        ["QmWxVUBVFM5hSmEtaPsQ3raJ6YmWQTcW9iKvhSz4rCwt8t", "Ευτύχης Μπιτσάκης - Το αειθαλές δέντρο της γνώσεως.pdf"],
-        ["QmRuh2kRXjzjzQ2k9QfzveRWQp8NSjbCPf3cv91mAjR7HZ", "Ιγνάσιο Ραμονέ - Μάρκος.pdf"],
-        ["QmdVaCnoZqqUXCaD1vgjxyXtY51B3FXTWsZWGL9Lo5NRzP", "Ιμμάνουελ Βαλλερστάιν - Ιστορικός καπιταλισμός.pdf"],
-        ["Qmbrn8DhzRstewBbFaqMqky8X6cV1xL5WCgKKgo8Ymguv2", "Καρλ Μαρξ - Κριτική της Πολιτικής Οικονομίας.pdf"],
-        ["QmZichofyZrC9jKWYUnEdU71eFURjEyvdvSpAd17jBjSDH", "Καρλ Μαρξ - Το Εβραϊκό Ζήτημα.pdf"],
-        ["QmVxiZwrog9bEu2Mu9QiPrznqo1Y3aCHcBN4q92nY9RPeZ", "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 1.pdf"],
-        ["QmTDKk2Yrr2FpBUZ1yLkEqpqhni1fBQZUmUniQuEJXfFPn", "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 2.pdf"],
-        ["Qme9gokYMvYKCxKL3tMRS2nwth7mPYZysGJbyzSbfo3kzS", "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 3 Mέρος 1.pdf"],
-        ["QmdcCo9MK8uhTDuQXJEopd8WXdTYHijGCFTc4TWgTGNctC", "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 3 Mέρος 2.pdf"],
-        ["QmVa2YqbwEjgNhPg5EAiJM5ZrktbjhdzgEnEK51EHCZ1mM", "Καρλ Πολάνυι - Ο μεγάλος μετασχηματισμός.pdf"],
-        ["QmRbUh2J1a1wfa6XHEYmivHCwwDcm3X4sLGPEyU6HxTtwH", "Κώστας Κάππος - Έγκλημα εναντίον της Κύπρου.pdf"],
-        ["QmYuqBTSgoMVMQchfpfzncdTgZ8BE2TuK4rHhAZbRpaDZb", "Λιλή Ζωγράφου - Αντιγνώση ή Τα δεκανίκια του καπιταλισμού.pdf"],
-        ["Qmb6z2ZhxhSAwem9TTXeRgvbVcTZS8Tmb8LuPtSipgw4gE", "Μάρτιν Χάιντεγγερ - Η προέλευση του έργου τέχνης.pdf"],
-        ["QmdKkN65Seiz12dq4uuRhq4jNPKepbVDbNPEvRFVUU4VAe", "Μάρτιν Χάιντεγκερ - Η τέχνη και ο χώρος.pdf"],
-        ["QmSZdfmKMRsBPEM9TAHSZKaw2nwJbMG3rvBpzAMHxnmYa5", "Μακρυγιάννη - Απομνημονεύματα.pdf"],
-        ["QmYE4Y4qRMjZwqoqVh7gkwru5Ac54gdF5CRbbjdWsnvEAB", "Νίκος Μπελογιάννης - Το Ξένο Κεφάλαιο στην Ελλάδα.pdf"],
-        ["QmYy9ZqZbHgkADMatPWzeLtqbeAEn6gph6aobF5WfusCFz", "Νίκος Μπογιόπουλος - Είναι ο καπιταλισμός, ηλίθιε.pdf"],
-        ["QmS6fhp9xxn79rtB2GnFZAuQpJEXdVQsNjdGGDjMvVXfbs", "Νίκος Πουλαντζάς - Φασισμός και δικτατορία.pdf"],
-        ["QmcYUz41RqzKwewJ6dMxvgzSEF6EwuYTWXNXG1E5Kuni93", "Ναόμι Κλάιν - Το δόγμα του σοκ.pdf"],
-        ["QmebsyE3oKZvWhaNWJvXyuuZ6TGsT16VYEVLh1W9EzuVeP", "Νικολό Μακιαβέλι - Ο ηγεμόνας.pdf"],
-        ["QmZMohQToBpeLGdkzaUJ1CB2scYpBsWZSzuwm9yV94AE14", "Ντέιβιντ Γκρέμπερ - Στο λυκόφως των πρωτοποριών  Η ανάδυση των σύγχρονων κοινωνικών κινημάτων.pdf"],
-        ["QmbDw2tfRB2qPLvKk3W2i3CkgLcbxZxUzjijmKPDVMiuf9", "Ντέιβιντ Γκρέμπερ - Χρέος Τα Πρώτα 5000 Χρόνια.pdf"],
-        ["QmYjTjaByn1ADn5Ju7MDSgF5qspGpRypqJKCPNEFSHPCpn", "Ντέιβιντ Χάρβει - Εξεγερμένες πόλεις.pdf"],
-        ["QmWAKwFMFPCu4QBMDGCGLfTBoMpXsG4nAw3r7ojN3A8GuT", "Ντέιβιντ Χάρβει - Νεοφιλελευθερισμός.pdf"],
-        ["QmanrwvtpcCT9WRp7xcdzGMT3Lry7sY8XEw9X7HEDmitkV", "Νόαμ Τσόμσκι - Η βιομηχανία κατασκευής υπηκόων.pdf"],
-        ["QmdwwfYRLeGZ4RjT5rAUjctTTJuh16QvAYq9ygWEtUEk2F", "Νόαμ Τσόμσκι - Η νέα παγκόσμια τάξη.pdf"],
-        ["QmVAsnbDCJfFq1HZYwmLpR52zBPr2DCLzjdCi4AuUpkSEd", "Πέτρος Παπακωνσταντίνου - Το Χρυσό Παραπέτασμα.pdf"],
-        ["QmUzLPxrcr7pbHmZbNnd5GV5PDsJAiUpLJ8rQYtYxJ27ss", "Περικλής Κοροβέσης - Ανθρωποφύλακες.pdf"],
-        ["QmYooswEDCXSnCHhKUAM2LtwTweVKKyyyDQAYB87nMK7qP", "Πωλ Λαφάργκ - Η θρησκεία του κεφαλαίου.pdf"],
-        ["Qme5rJsLh2oM6HeHjdj6sfQUkeriwAG5WwLjYvJsfEMfhw", "Πωλ Λαφάργκ - Η χρεωκοπία του καπιταλισμού.pdf"],
-        ["QmZ5c34MUp6pLmvYuXrvSQCjYxjDiJosjQprWJ8VhbE3QD", "Πωλ Λαφάργκ - Το δικαίωμα στην τεμπελιά.pdf"],
-        ["QmXQMiMSBDRUY7GkYU6QgK8PfcgQj3QasHJgo39XXkNXrU", "Σουν Τζου - Η τέχνη του πολέμου.pdf"],
-        ["QmUU6EaD1R5CgynWn5zHZU4fpKANPujXjrsYF2yonjcCBE", "Τζον Ριντ - Δέκα μέρες που συγκλόνισαν τον κόσμο.pdf"],
-        ["QmZ7aftXoMd1YFksSFY7hJ3nzFuPDucSfpjP6D2DWv6tpu", "Φερνάν Μπρωντέλ - Γραμματική των πολιτισμών.pdf"],
-        ["QmeyUetjvxeK9wuLc29GguSE9mjsEQXdRMBZTui9GM7cwT", "Φρίντριχ Ένγκελς - Η καταγωγή της οικογένειας της ιδιοκτησίας και του κράτους.pdf"],
-        ["Qmc67xFjU7WceyDeHTDFzwk12omunXWXrMfnWpW6nM8WoA", "Φρίντριχ Ένγκελς - Μελέτες και άρθρα.pdf"],
-        ["QmRAVwf2NwfcgiBS8xtzdrKtWwSPm2pKRrPE5YECUbVdTz", "Χάνα Αρέντ - Το Ολοκληρωτικό Σύστημα.pdf"]
+        [
+            "https://app.box.com/s/alw5cwh2bwu0470sijruonw98m2noub6",
+            "Anthony Bourdain - Appetites A Cookbook.epub"
+        ],
+        [
+            "https://app.box.com/s/locylf6uoiw0vrki1xpffhube0mojq58",
+            "Anthony Bourdain - Les Halles cookbook.pdf"
+        ],
+        [
+            "https://app.box.com/s/2jq6wzhuv5wh3k98bc6q5zzzqq59q3z2",
+            "Anthony Bourdain - Medium Raw.pdf"
+        ],
+        [
+            "https://app.box.com/s/5fvx6v3fffdagkfme3mnuqx85w3pvgen",
+            "Anthony Bourdain - Typhoid Mary.epub"
+        ]
     ],
     "philosophy": [
-        ["QmfPRrnbBHVAvkAcFTcjTzwCoRw5ZQyYHEjgZyfVjAao3a", "Albert Camus - The Myth of Sisyphus.epub"],
-        ["QmU8GocTh4xRhXAihddj2kfYdcwj8FhhcvgpLuomT1WKqn", "Annie Dillard - Pilgrim at Tinker Creek.epub"],
-        ["QmfNSPRZvvnhLKY1ranqkQErP7Xs3wzWm3vikzc93jxWis", "Ludwig Wittgenstein - Tractatus Logico-Philosophicus.pdf"],
-        ["QmQB4gDqK6SJ6V4MWRunyuFwfjxnVNPHevG87CpRST2URT", "Paul Feyerabend - Against Method.mobi"],
-        ["QmQYYuWx5tHgVmd3ELkmrNYRbfAxH9gKifgWr5EXpA7SaV", "Soren Kierkegaard - The Sickness Unto Death A Christian Psychological Exposition For Upbuilding And Awakening.epub"],
-        ["QmcD77NE8nBrBhYp2fTJmKtmD2xv97ZK674VdgX8bxKBTA", "Umberto Eco - On Beauty.pdf"],
-        ["QmcdeH5VbwtyCooJ6YAiXGBnRfiSqs3VKUahYVY95srqxG", "Αλμπέρ Καμύ - Ο επαναστατημένος άνθρωπος 2.pdf"],
-        ["QmcQkm2i9rjskJo2Lp7YiibZfTnnvwPWJzg1W1jtW1g3ka", "Αλμπέρ Καμύ - Ο επαναστατημένος άνθρωπος.pdf"],
-        ["QmXQuYW4qSYKPxno82y7pt9gDU5HaCvsafVgJXa9vwMMRa", "Αλμπέρ Καμύ - Ο μύθος του Σίσυφου.pdf"],
-        ["QmUjdsVNKvDcqi6AHnEo2mwaDSNuzJ1E4B7NpjmBsqt4VC", "Αλμπέρ Καμύ - Στοχασμοί.pdf"],
-        ["QmRXs4CRhMGVcVrbuEFCEKyiMn2bpr6y7dYL4E5W1MWPRR", "Ζαν Πολ Σάρτρ - Το είναι και το μηδέν.pdf"],
-        ["QmVjdscvG5YLTDfB6EKH97KcxsCmAdUGcKA7RabyoJpawz", "Κορνήλιος Καστοριάδης - Η φαντασιακή θέσμιση της κοινωνίας.pdf"],
-        ["QmTi6SyHQhkWwy5EYYU2hHRPJURS7Fj4UeRyjcwWUMwUYJ", "Κορνήλιος Καστοριάδης - Ο Θρυμματισμένος Κόσμος.pdf"],
-        ["QmZATDbNdP1s6pNNTDgSw859jAMDNkYRZ39ynvKhSntviM", "Πλάτων - Απολογία Σωκράτους.pdf"],
-        ["QmaPePYdQugx6sVyXKbqcBVJUoAaDbA6CQQMbro6zPxNyx", "Πλάτων - Πολιτεία.pdf"],
-        ["QmedJ8rMeiLW2kBP9Us6gvtCSojCdHQgGXq2Z1wddVn91q", "Πλάτων - Φαίδων ή Περί ψυχής.pdf"],
-        ["Qma65nTmfPhybZTTk3gmZRrMWYd9jqpuP1aeELkGMsiPix", "Σπινόζα- Ηθική.pdf"],
-        ["QmYK7prLmi9LU6AYxDv9WVAuN1KoFbKjoMa5JTDpnK5ydM", "Φρίντριχ Νίτσε - Τάδε Έφη Ζαρατούστρα.pdf"]
+        [
+            "https://app.box.com/s/oa9xt0nsuzoqyvjtlux4gi888pdx8c4b",
+            "Albert Camus - The Myth of Sisyphus.epub"
+        ],
+        [
+            "https://app.box.com/s/n9lnyddbl363xgh4wur1h6qzhafti8b6",
+            "Annie Dillard - Pilgrim at Tinker Creek.epub"
+        ],
+        [
+            "https://app.box.com/s/gj2pvc5fibticruxafqm1zj9fe9pkwko",
+            "Ludwig Wittgenstein - Tractatus Logico-Philosophicus.pdf"
+        ],
+        [
+            "https://app.box.com/s/gj3p0hqlnooz3wlhtny7vsfhlqslkk2l",
+            "Paul Feyerabend - Against Method.mobi"
+        ],
+        [
+            "https://app.box.com/s/uhrod21z93ut7itj1i7icv0o72dfmyc2",
+            "Soren Kierkegaard - The Sickness Unto Death A Christian Psychological Exposition For Upbuilding And Awakening.epub"
+        ],
+        [
+            "https://app.box.com/s/52ui69ojx9mwebrxh1qp4vywdvmnybej",
+            "Umberto Eco - On Beauty.pdf"
+        ],
+        [
+            "https://app.box.com/s/cl04za30m5bsi7jtfuume3oowuvph96w",
+            "Αλμπέρ Καμύ - Ο επαναστατημένος άνθρωπος.pdf"
+        ],
+        [
+            "https://app.box.com/s/bhba4vdgn62w3grmn3schvxazvzohptq",
+            "Αλμπέρ Καμύ - Ο μύθος του Σίσυφου.pdf"
+        ],
+        [
+            "https://app.box.com/s/3j78bj7xowvb2t0ddljwdo2o7cg7llz3",
+            "Αλμπέρ Καμύ - Στοχασμοί.pdf"
+        ],
+        [
+            "https://app.box.com/s/c9tlsomgc572iecbt7wdt2lccbrq1zrs",
+            "Ζαν Πολ Σάρτρ - Το είναι και το μηδέν.pdf"
+        ],
+        [
+            "https://app.box.com/s/pszdca09jsl2c4c7mdoh97bzhzq6jugo",
+            "Κορνήλιος Καστοριάδης - Η φαντασιακή θέσμιση της κοινωνίας.pdf"
+        ],
+        [
+            "https://app.box.com/s/bhlyokl0um6s0kdunn6mir0uu9n1gu31",
+            "Κορνήλιος Καστοριάδης - Ο Θρυμματισμένος Κόσμος.pdf"
+        ],
+        [
+            "https://app.box.com/s/o1zm82bq70tgfv0ekgx83j8a0660okeq",
+            "Πλάτων - Απολογία Σωκράτους.pdf"
+        ],
+        [
+            "https://app.box.com/s/86jj8dk8iz4mn2l00pi0yzaqbbxueslq",
+            "Πλάτων - Πολιτεία.pdf"
+        ],
+        [
+            "https://app.box.com/s/rhxqe7uz3rjjrqaybu9g499w9gdhngjl",
+            "Πλάτων - Φαίδων ή Περί ψυχής.pdf"
+        ],
+        [
+            "https://app.box.com/s/47w5k1u4l9t8pkt3yzlzy6ow53wdxj1r",
+            "Σπινόζα- Ηθική.pdf"
+        ],
+        [
+            "https://app.box.com/s/o44lzlgn84yv4keguuc75dxs2nn3ochu",
+            "Φρίντριχ Νίτσε - Τάδε Έφη Ζαρατούστρα.pdf"
+        ]
     ],
     "poetry": [
-        ["QmQDBY8s39DzknxDvjaqv7aDQZdWsPhYLwU5EFu1yUvQea", "Έντγκαρ Άλαν Πόε - Το κοράκι.pdf"],
-        ["QmV8sKbFpMEpsB7w7tNeDCQ4Kv6tvniXxrHww8BaRQLUxx", "Αρθούρος Ρεμπώ - 20 Πεζά.pdf"],
-        ["QmdZ5RJFDEHwBYUxSn5ikMe7wBytQpjLPRuGFusP4rgvWw", "Βλάντιμιρ Μαγιακόφσκι - Ποιήματα.pdf"],
-        ["QmYeWSvDDjKDQ68h335Q2uFFz6725wQXktUPJyznVi2XN1", "Γιάννης Ρίτσος - Καπνισμένο Τσουκάλι.pdf"],
-        ["QmbW1MttV6s54QjJGNj4bgRQ3KJtKqo45UDnHdTSGBkUMk", "Γιώργος Σεφέρης - Κίχλη.pdf"],
-        ["QmUDjU6FRemMdZPrupwrTgYcBfG95NHh5vCehpjqMwvVNs", "Διονύσιος Σολωμός - Άπαντα.pdf"],
-        ["QmPwEHkjRAi8ZW4SXbSC7LrEFFDX5v34NznXghP4P3JCP9", "Καβάφης - Απαντα Ποιήματα και Πεζά.pdf"],
-        ["QmWu6MNUcAeN8i4GBskPMArdDG2ZoFwjGXTf9EQnmPhXCH", "Κωστής Παλαμάς - Ο Δωδεκάλογος του Γύφτου.pdf"],
-        ["QmbZyEzUrPgPK3ftXX7cEuaqVWg5bbWAuv1DWQr1gvcu4G", "Κώστας Βάρναλης - Ελεύθερος Κόσμος.pdf"],
-        ["QmbDT1Y7R4RLWt75bmhnM3kD5s3samQHkuTR94gH1Fd3s6", "Κώστας Βάρναλης - Το Φως που Καίει.pdf"],
-        ["QmaxxeT95JBykSaxcV2pCxTpyr5c7k7HdV4egDP9j5RbNi", "Νίκος Καββαδίας - Μαραμπού.pdf"],
-        ["QmZX5TJTsBurEE5KZ52whycgmsMtjxdW2EJgitW1BW7yVp", "Νίκος Καββαδίας - Πούσι.pdf"],
-        ["QmXFAUSm96DyrxNakN5VTgappxjKmDoaQjNr6tP4a8NoKF", "Νίκος Καββαδίας - Τραβέρσο.pdf"],
-        ["QmTbEuFNasod7wRXFQRgsYVHXwhLHeA3S5KfTsF8pQvyjt", "Ναζίμ Χικμέτ - Ποιήματα.pdf"],
-        ["QmYXaGBZSZQYQj4Fqn8xfHDBj8Je7NKWsiHwxw2wtma4sD", "Πάμπλο Νερούδα - Εκατό ερωτικά σονέτα.pdf"]
+        [
+            "https://app.box.com/s/w07mu54l8ijz4ujs1xts8arda413j7sr",
+            "Αρθούρος Ρεμπώ - 20 Πεζά.pdf"
+        ],
+        [
+            "https://app.box.com/s/sz058ku86n19bkcyosxglkvsixiby6pd",
+            "Βλάντιμιρ Μαγιακόφσκι - Ποιήματα.pdf"
+        ],
+        [
+            "https://app.box.com/s/0capr949qziuumgwk60hlcz6nqkkiwl9",
+            "Γιάννης Ρίτσος - Καπνισμένο Τσουκάλι.pdf"
+        ],
+        [
+            "https://app.box.com/s/yjve3akphc0cstsfqeawphu47mwq54bx",
+            "Γιώργος Σεφέρης - Κίχλη.pdf"
+        ],
+        [
+            "https://app.box.com/s/mki1yh0a4egpdt9to44gwh47nshnmctn",
+            "Διονύσιος Σολωμός - Άπαντα.pdf"
+        ],
+        [
+            "https://app.box.com/s/wmx1br8wiyjyphlx3gngi2mztwq8uefb",
+            "Έντγκαρ Άλαν Πόε - Το κοράκι.pdf"
+        ],
+        [
+            "https://app.box.com/s/iilbgbu25drxet273agz1gr9zhmi9nd7",
+            "Καβάφης - Απαντα Ποιήματα και Πεζά.pdf"
+        ],
+        [
+            "https://app.box.com/s/ryezfrmy5ktbn1xudntgc2la8qync5hl",
+            "Κώστας Βάρναλης - Ελεύθερος Κόσμος.pdf"
+        ],
+        [
+            "https://app.box.com/s/0qtzhx7zvxud7wx243pbleg5ncjc51og",
+            "Κώστας Βάρναλης - Το Φως που Καίει.pdf"
+        ],
+        [
+            "https://app.box.com/s/nuo5kj1qtg27dbby7wznru7o5a9aeco2",
+            "Κωστής Παλαμάς - Ο Δωδεκάλογος του Γύφτου.pdf"
+        ],
+        [
+            "https://app.box.com/s/hgh7s88al01unm26s90g0wwn4agsv2q1",
+            "Ναζίμ Χικμέτ - Ποιήματα.pdf"
+        ],
+        [
+            "https://app.box.com/s/6k0l4yiph4kgxf97lmkp7z0t9bux0sua",
+            "Νίκος Καββαδίας - Μαραμπού.pdf"
+        ],
+        [
+            "https://app.box.com/s/pxkcjxyhdonyem6hibct47zbync8coh0",
+            "Νίκος Καββαδίας - Πούσι.pdf"
+        ],
+        [
+            "https://app.box.com/s/3vuk60i6ssxmgf2betjtbi1nxgnu58l2",
+            "Νίκος Καββαδίας - Τραβέρσο.pdf"
+        ],
+        [
+            "https://app.box.com/s/a2vqolgj777lrdpbqhal05qytjbhgk7r",
+            "Πάμπλο Νερούδα - Εκατό ερωτικά σονέτα.pdf"
+        ]
     ],
     "psychology": [
-        ["QmPFbBJ2THJ4ukhJDHBpzTwE6tbShpAc5EAEAaQ1cA2PDn", "Paul Ekman - Emotions Revealed.pdf"],
-        ["QmPYyTXQ3JYg336a6nNqpUteEDUna9dnT7mejMnEdnAFit", "Paul Ekman - Telling Lies; Clues to Deceit in the Marketplace, Politics, and Marriage (1985).pdf"],
-        ["QmNrUUSXNE6DQUAyFCSRYG7wT86v4LPUqCJTo6eNTtM7UR", "Paul Ekman - Unmasking The Face.pdf"],
-        ["QmNmwnqbWNezTYxQrQnYjSWJwKAVEuJFwxxvdGmCqNJP7H", "Richard Bandler, John Grinder - Frogs Into Princes - Neuro Linguistic Programming.pdf"],
-        ["QmX9gNaiSTS5GcJ6nR5oFWYUcTUhZjvKyHsEjEREZWaoSc", "Sigmund Freud - A General Introduction to Psychoanalysis.epub"],
-        ["QmeweVSiDfixTNLQ1B4s2reuKKRdYY6Y4uHwbt6iZt6mrT", "Sigmund Freud - Five Lectures on Psychoanalysis.html"],
-        ["QmR21B4mrpVyCfdNHBeoqCLZVW1iRQzDqB8g8vcTUswVcR", "Όλιβερ Σακς - Ο άνθρωπος που μπέρδεψε τη γυναίκα του με ένα καπέλο.pdf"],
-        ["Qma9jNSruiFP3Z4hYTPsJTA9x58cR2NK7n2oNvJMTmPjPQ", "Καρλ Γιουνγκ - Εισαγωγή στην ψυχολογία.pdf"],
-        ["QmT3ttYU8Z69JuiKdyk15ZtHaqoVH5oM4vj74LE5vyhjho", "Καρλ Γιουνγκ - Ο Ανεξερεύνητος Εαυτός.pdf"],
-        ["QmReRR19pXzW5oBvW8rpfDJcDLpLAuiC5Spq7WK88WDRdS", "Λέο Μπουσκάλια - Να ζεις να αγαπάς και να μαθαίνεις.pdf"],
-        ["QmXqP7wdi63hEGWTLViaPVvyi1BWTSM7xuPopErofQTFtx", "Σίγκμουντ Φρόυντ - Εισαγωγή στην ψυχανάλυση.djvu"],
-        ["QmRMmG77EmnFBwjPHBrAWZKDNU6GRzShk1rd3kXoW77Gi7", "Σίγκμουντ Φρόυντ - Τρεις μελέτες για τη θεωρία της σεξουαλικότητας.pdf"]
+        [
+            "https://app.box.com/s/thprionviqcpxe8nd78bba0m47jod14h",
+            "Paul Ekman - Emotions Revealed.pdf"
+        ],
+        [
+            "https://app.box.com/s/idn2y434x96ttuyfsq2o2l0ffo4k1jyx",
+            "Paul Ekman - Telling Lies; Clues to Deceit in the Marketplace, Politics, and Marriage (1985).pdf"
+        ],
+        [
+            "https://app.box.com/s/eqf3dpau86v8r2d3s356f02x5k2szlew",
+            "Paul Ekman - Unmasking The Face.pdf"
+        ],
+        [
+            "https://app.box.com/s/mjuzwxelcwgxc7te3hlfe1u8zyewzzg2",
+            "Richard Bandler, John Grinder - Frogs Into Princes - Neuro Linguistic Programming.pdf"
+        ],
+        [
+            "https://app.box.com/s/ocbwmq0uga5kozgydh4d67uqgiepkczq",
+            "Sigmund Freud - A General Introduction to Psychoanalysis.epub"
+        ],
+        [
+            "https://app.box.com/s/0dqs8y6z7hd11olotgjtoai2p765ftu3",
+            "Sigmund Freud - Five Lectures on Psychoanalysis.html"
+        ],
+        [
+            "https://app.box.com/s/giffjx3evifb5rnkcjsxu6xb89ywkhce",
+            "Καρλ Γιουνγκ - Εισαγωγή στην ψυχολογία.pdf"
+        ],
+        [
+            "https://app.box.com/s/xh0to6xp0v70l7byifsgsytrsd2rdugg",
+            "Καρλ Γιουνγκ - Ο Ανεξερεύνητος Εαυτός.pdf"
+        ],
+        [
+            "https://app.box.com/s/yl31n2cs3a1a6brmzg1ts59fii2yixpq",
+            "Λέο Μπουσκάλια - Να ζεις να αγαπάς και να μαθαίνεις.pdf"
+        ],
+        [
+            "https://app.box.com/s/qoyc00l8w2inh2nsilcl8twe8nro8ezk",
+            "Όλιβερ Σακς - Ο άνθρωπος που μπέρδεψε τη γυναίκα του με ένα καπέλο.pdf"
+        ],
+        [
+            "https://app.box.com/s/pbjzup7c0evy25gmc91v66k3cadioq2i",
+            "Σίγκμουντ Φρόυντ - Εισαγωγή στην ψυχανάλυση.djvu"
+        ],
+        [
+            "https://app.box.com/s/cz75ocmur7mfi06ykitcqmcpet32pi5a",
+            "Σίγκμουντ Φρόυντ - Τρεις μελέτες για τη θεωρία της σεξουαλικότητας.pdf"
+        ]
     ],
     "science": [
-        ["QmYPcAHPGhn7gooMiXHFNmnuCeLxR7kKXLikBUnoyhBnWp", "Adrian Newey - How to Build a Car.epub"],
-        ["QmPfAWktFVejEkbtYBKPbWbrLJ5Jvhi6gdb1ppoi4JLmRP", "Daniel Kahneman - Thinking, Fast and Slow.epub"],
-        ["QmQz4RBx1v1gFbotuJ3sVHScseUfxNYhFGRpfjkc4TW85B", "Hannah Shaw - Tiny But Mighty Kitten Lady’s Guide to Saving the Most Vulnerable Felines.epub"],
-        ["QmNwA9WiWe8eL6v2ShptW7eMT1KTqbGYa6aS2TYiH3i3Vr", "Malcolm Gladwell - Blink the Power of Thinking Without Thinking.pdf"],
-        ["QmdsUYgXjLTx5D54L2W8JMoTibjrG6sYs64hkDdSFPMYpo", "Stephen Hawking - A Brief History of Time.epub"],
-        ["QmXQmY5xJf3DRET5wzJfGx5m1G8bshyxmAXirtq4M5Zj1s", "Steven S Gubser - The little book string theory.pdf"],
-        ["QmPChJJSKTCUL6npSQtJXnM6bNxZcWYRaqG3YY9aS6X94C", "Γιώργος Γραμματικάκης - Η κόμη της Βερενίκης.pdf"],
-        ["QmWf39t8KcN6TxXqzwYj4DS4YHXtX8J1CVpuSCgitQDqEP", "Μπράιαν Σάικς - Οι επτά κόρες της Εύας.pdf"]
-    ],
-    "screenplays": [
-        ["QmX5BFvjY5s9do2bSobApzh2YyVa4WcdaJyt9mYavgq6wG", "The Social Network.pdf"]
-    ],
-    "sports": [
-        ["QmZrz66J6oq3do3RgHehdnfcJioiMLxy8hDPCz6u6ju3SM", "Jack McCallum - Seven Seconds or Less.epub"]
+        [
+            "https://app.box.com/s/ev4hg48269jrf5lty9dqdq424w3scc6d",
+            "Adrian Newey - How to Build a Car.epub"
+        ],
+        [
+            "https://app.box.com/s/hoor2mxn70h83nrljuhfgislbvmxndlx",
+            "Daniel Kahneman - Thinking, Fast and Slow.epub"
+        ],
+        [
+            "https://app.box.com/s/bxglvu68d7el5ksm5rdw2bhagyxablle",
+            "Hannah Shaw - Tiny But Mighty Kitten Lady’s Guide to Saving the Most Vulnerable Felines.epub"
+        ],
+        [
+            "https://app.box.com/s/y6ytb7mx3tgh2zy0kw3cxwrteh1m701z",
+            "Malcolm Gladwell - Blink the Power of Thinking Without Thinking.pdf"
+        ],
+        [
+            "https://app.box.com/s/jf303m9bsmaxjhljzm0hlwhbdvpjol8x",
+            "Stephen Hawking - A Brief History of Time.epub"
+        ],
+        [
+            "https://app.box.com/s/dqe6fqx1btpk91b7aqw7g8pq6e6jxpgh",
+            "Steven S Gubser - The little book string theory.pdf"
+        ],
+        [
+            "https://app.box.com/s/gdlhjtgg408el5cevkr36r9zfjznvlep",
+            "Γιώργος Γραμματικάκης - Η κόμη της Βερενίκης.pdf"
+        ],
+        [
+            "https://app.box.com/s/i4slb47gr5tnvst6ke5twumty6q19cp8",
+            "Μπράιαν Σάικς - Οι επτά κόρες της Εύας.pdf"
+        ]
     ],
     "theatre": [
-        ["Qmby86ZjnQmG2GPbv8MF42QDQGFRAtdp2TLvRKhDvg4y8j", "Αλμπέρ Καμύ - Η παρεξήγηση.pdf"],
-        ["QmbEmirjzpB5Ky2zar1sJkb9wmsjwo8MZMSRkXenR82DH1", "Αλμπέρ Καμύ - Οι δίκαιοι.pdf"],
-        ["QmRKgrSagRtB4KrGCrNQkdr6RBGy215oWjGSB267KBtA4P", "Μπέρτολτ Μπρεχτ - Ο κύκλος με την κιμωλία.pdf"],
-        ["QmV34AKB6xz8r4X2EgNbg89bTMMXi4rqgobNzxwtKhS3TN", "Ντάριο Φο - Ο τυχαίος θάνατος ενός αναρχικού.pdf"],
-        ["QmXhbrw3tWCA2nUNW99MPYFFNCJco3jVug3p2ihJDV47H6", "Περικλής Κοροβέσης - Tango Bar.pdf"]
+        [
+            "https://app.box.com/s/foesqx8hk7ij0vnfze5ygzhb3q4lzx5f",
+            "Αλμπέρ Καμύ - Η παρεξήγηση.pdf"
+        ],
+        [
+            "https://app.box.com/s/m7pdslq5wo3zjewb8xvj0jh5pwoa4aea",
+            "Αλμπέρ Καμύ - Οι δίκαιοι.pdf"
+        ],
+        [
+            "https://app.box.com/s/0fkezkjsdxs32ft3e6a44hakrgoc3wcm",
+            "Μπέρτολτ Μπρεχτ - Ο κύκλος με την κιμωλία.pdf"
+        ],
+        [
+            "https://app.box.com/s/u7dzsr0fhbeg60wzw043vb6fyhrsjb0z",
+            "Ντάριο Φο - Ο τυχαίος θάνατος ενός αναρχικού.pdf"
+        ],
+        [
+            "https://app.box.com/s/yarfz251juusgp216czevk73tghbinec",
+            "Περικλής Κοροβέσης - Tango Bar.pdf"
+        ]
     ],
     "writing": [
-        ["QmVHrQwC67j9PAccUxRfVSsL1aK1qsx1M2yivpjZ63Ri5t", "John Truby - The Anatomy of Story.epub"],
-        ["QmVWCjNcuBNiVLF2HPcyEFxq6tW8J2jA38u2YgEw9Tw9bC", "John Yorke - Into the Woods.epub"],
-        ["QmYRmdCesMUdFStt8bFG49oYrxbdt9TRP7RVLYRmvEsbRQ", "K.M. Weiland - Creating Character Arcs.epub"],
-        ["QmRyQSPo7n3V13Nhginq8QASBe3W8tKf41xQ6txySPJniv", "Lajos Egri - The Art of Dramatic Writing.epub"],
-        ["Qmcyvu6yNDoPFGuH9erGB3kG7KKqNBvw44EZ6fnjiCefZ7", "Larry Brooks - Story Engineering.epub"],
-        ["QmV98XmTT4CdVsVrMpJ7NqyJGnE9n1RLnatJKYjgCmwzvP", "Robert McKee - Story Substance, Structure, Style, and the Principles of Screenwriting.epub"],
-        ["QmcGwN1oXrMRq6zwcV5VuvjDQVHGqizE7uHVAx7E3Kjp6Z", "Stephen King - On Writing, A Memoir Of The Craft.epub"],
-        ["QmZ7aftXoMd1YFksSFY7hJ3nzFuPDucSfpjP6D2DWv6tpu", "Φερνάντ Μπρωντέλ - Γραμματική των πολιτισμών.pdf"]
+        [
+            "https://app.box.com/s/kpjt8ivset8ifw6cx9abrli09r70pqo7",
+            "John Truby - The Anatomy of Story.epub"
+        ],
+        [
+            "https://app.box.com/s/xep8iliuqzg67omxfn57odnc2sbp0sx1",
+            "John Yorke - Into the Woods.epub"
+        ],
+        [
+            "https://app.box.com/s/iuatcrhyscpz87db8kwmdzr750wb0tka",
+            "K.M. Weiland - Creating Character Arcs.epub"
+        ],
+        [
+            "https://app.box.com/s/14xjvjmj997l7uqr7x98t1w0qybq0fk8",
+            "Lajos Egri - The Art of Dramatic Writing.epub"
+        ],
+        [
+            "https://app.box.com/s/qjouzydymcxox4llkbfdjffix8hgw1ix",
+            "Larry Brooks - Story Engineering.epub"
+        ],
+        [
+            "https://app.box.com/s/fd0cjy6h65yfnpagb0p91pytedt4yabs",
+            "Robert McKee - Story Substance, Structure, Style, and the Principles of Screenwriting.epub"
+        ],
+        [
+            "https://app.box.com/s/t0cljk1lbv7jqovvwoa9afhajpg3bheg",
+            "Stephen King - On Writing, A Memoir Of The Craft.epub"
+        ],
+        [
+            "https://app.box.com/s/drh9a75axbz5xn6dgdwmj8mhgh2mifzr",
+            "Φερνάντ Μπρωντέλ - Γραμματική των πολιτισμών.pdf"
+        ]
+    ],
+    "screenplays": [
+        [
+            "https://app.box.com/s/7tya16m2ysgncbgo5s9o8ij4om42ti4c",
+            "The Social Network.pdf"
+        ]
+    ],
+    "sports": [
+        [
+            "https://app.box.com/s/el0eoe07c2np1y8e0o3b2j48kx880w8l",
+            "Jack McCallum - Seven Seconds or Less.epub"
+        ]
+    ],
+    "history": [
+        [
+            "https://app.box.com/s/4guo55ttnrcw74k02ro3vz81b6yxclvt",
+            "Alex Callinicos - Universities in a Neo-Liberal World.pdf"
+        ],
+        [
+            "https://app.box.com/s/x4y8v9zrfgzkhrh6hzam73shnx98qjnm",
+            "Anders Ericsson, Robert Pool - Peak Secrets from the New Science of Expertise.epub"
+        ],
+        [
+            "https://app.box.com/s/clader2ekmw2lm9qovvvglpbubi1w3z5",
+            "Ann Pettifor - The case for the Green New Deal.epub"
+        ],
+        [
+            "https://app.box.com/s/a56zthm4kbnl84xz0ylh1vhibhpb9df5",
+            "Anna Wiener - Uncanny Valley.epub"
+        ],
+        [
+            "https://app.box.com/s/2s6726r8rxy3jgzkg7z37vrdvrl4qygg",
+            "Ben White - Israeli Apartheid.mobi"
+        ],
+        [
+            "https://app.box.com/s/cih998s3p9g7s3sttgvvzaalqac94sgq",
+            "Camila Russo - The Infinite Machine_ How an Army of Crypto-hackers Is Building the Next Internet with Ethereum.epub"
+        ],
+        [
+            "https://app.box.com/s/28d5nubg8ch7oiad9gfz2lw70qnv0ahb",
+            "Charles Mackay - Memoirs of Extraordinary Popular Delusions and the Madness of Crowds.mobi"
+        ],
+        [
+            "https://app.box.com/s/zli6vgfy85lh9tsc7jbsbik7g1get00z",
+            "David Gerard - Attack of the 50 Foot Blockchain.epub"
+        ],
+        [
+            "https://app.box.com/s/m0ssszt2a0epql72kudsvbuov705y29z",
+            "David Gerard - Libra Shrugged.epub"
+        ],
+        [
+            "https://app.box.com/s/izv8aq0g2box2cb78r0h6h0ds6yinb0x",
+            "David Golumbia - The Politics of Bitcoin.pdf"
+        ],
+        [
+            "https://app.box.com/s/wtp9nlvnm6sluyi296hkugs6qfvnt4cw",
+            "David Graeber - Bullshit Jobs.epub"
+        ],
+        [
+            "https://app.box.com/s/uvmi5fhruggv1wahnhyb1vhkklrf1ola",
+            "David Graeber - Debt The First 5000 Years.epub"
+        ],
+        [
+            "https://app.box.com/s/nwazw8kji94vq4yzcgnv6h9pmobadz96",
+            "David Graeber - Fragments of an Anarchist Anthropology.pdf"
+        ],
+        [
+            "https://app.box.com/s/1seb23vj1nso33cylygkvt1diskv7wbj",
+            "David Harvey - Rebel cities, from the right to the city to the urban revolution.mobi"
+        ],
+        [
+            "https://app.box.com/s/zhmah0zlkjn8ky2l40rb7ju1zr99nsis",
+            "Edward Snowden - Permanent Record-Metropolitan Books (2019).epub"
+        ],
+        [
+            "https://app.box.com/s/ubfc8exid9s63qljpm5mx1vylvm6kbao",
+            "Edward W Said - Orientalism.epub"
+        ],
+        [
+            "https://app.box.com/s/09fz104b9aov4045bf34usg8h4m7h5g4",
+            "Elinor Ostrom - Governing the commons.pdf"
+        ],
+        [
+            "https://app.box.com/s/uu9mjk3hs9677yb0m1nqh0ubl54ay764",
+            "Elizabeth Kolbert - The Sixth Extinction An Unnatural History.epub"
+        ],
+        [
+            "https://app.box.com/s/7scyyuvuabsjnkzaznndqez9axvp944w",
+            "EReNSEP - Report Eurozone Failure.pdf"
+        ],
+        [
+            "https://app.box.com/s/4kvhmltqbjz3a09vgqwttsugj763vaj7",
+            "eurozone.pdf"
+        ],
+        [
+            "https://app.box.com/s/hd78st1hoi7n4xksnn07chtmnxsn0ju0",
+            "Francis Spufford - Red Plenty.epub"
+        ],
+        [
+            "https://app.box.com/s/af1gp4x6625axaqwm1yy9wzuugwjx5se",
+            "Friedrich A. Hayek - The Road to Serfdom.epub"
+        ],
+        [
+            "https://app.box.com/s/6z0ko78ur5o8duwax849x19x5bu7oc86",
+            "Guy Debord - Comments on the Society of the Spectacle.epub"
+        ],
+        [
+            "https://app.box.com/s/kyhbzzwd9m9ra38oxx5ccxi92wb0yllw",
+            "Howard Zinn - A People’s History of the United States.epub"
+        ],
+        [
+            "https://app.box.com/s/mvx7a1fopg4fux06zx7pt6fde31ohpmf",
+            "Immanuel Wallerstein - World-Systems Analysis An Introduction.epub"
+        ],
+        [
+            "https://app.box.com/s/esw9x98hyxnbcpvnwr6rwjum64ezgwhj",
+            "James Bloodworth - Hired Six Months Undercover in Low-Wage Britain.epub"
+        ],
+        [
+            "https://app.box.com/s/bgc80rdoqqsmx76w5facjvznp7mtoctt",
+            "Joan Robinson - The Accumulation of Capital.pdf"
+        ],
+        [
+            "https://app.box.com/s/9nu1oanvjnw0ji7qyx1n2vut8nwh42ec",
+            "Joel Stein - Me generation - 2013.pdf"
+        ],
+        [
+            "https://app.box.com/s/wey240izomqrsz5i6u2lmd2hu5fytuog",
+            "John Maynard Keynes - Economic Possibilities for Our Grandchildren.epub"
+        ],
+        [
+            "https://app.box.com/s/i3c4g1350xibkpu79v7drlvj7uzjdzyj",
+            "John Maynard Keynes - The General Theory of Employment, Interest, and Money.pdf"
+        ],
+        [
+            "https://app.box.com/s/jm2rkuzunoa2qh46n8e33368xpt8cth9",
+            "Jonathan Crary - 247 Late Capitalism and the Ends of Sleep.epub"
+        ],
+        [
+            "https://app.box.com/s/7bmisxedto2v6do7pjijmf11ohe6nt7u",
+            "Karl Marx - Capital Critique of Political Economy Volume 2.pdf"
+        ],
+        [
+            "https://app.box.com/s/38h9twx6ymg88o4y39jgnq9yydp2rgih",
+            "Karl Marx - Capital Critique of Political Economy Volume 3.pdf"
+        ],
+        [
+            "https://app.box.com/s/nqfpilgc39p38y6k414jm6xwuyhgo8be",
+            "Karl Polanyi - The Great Transformation.epub"
+        ],
+        [
+            "https://app.box.com/s/ty8fe8kvq077b7d2x8zs70v6rljiz8id",
+            "Michael Lewis - The Big Short.pdf"
+        ],
+        [
+            "https://app.box.com/s/x6nqpn4hbp1cej7325eki2ogc5gs6mam",
+            "Milton Friedman - Capitalism and Freedom.epub"
+        ],
+        [
+            "https://app.box.com/s/oux18hm92xfzsamb893i2kdpqh8xt7ft",
+            "Naomi Klein - No LOGO.epub"
+        ],
+        [
+            "https://app.box.com/s/3w07oybjkbaf8dz6ur0zc319umafvawh",
+            "Naomi Klein - On Fire The Burning Case for a Green New Deal.epub"
+        ],
+        [
+            "https://app.box.com/s/7zryrpljb6pzkwbqep3ac4p4llxljb4x",
+            "Naomi Klein - The Shock Doctrine The Rise of Disaster Capitalism.epub"
+        ],
+        [
+            "https://app.box.com/s/6cwljmtlm52ljq1ji10pb0rbhjelzp4c",
+            "Nassim Nicholas Taleb - The Black Swan The Impact of the Highly Improbable.epub"
+        ],
+        [
+            "https://app.box.com/s/xg0lsvkhzdnz71tn5biisdga8q23vv9k",
+            "Nick Srnicek - Platform Capitalism.mobi"
+        ],
+        [
+            "https://app.box.com/s/jqa5njsx6lql4usd7e4ayuszlo3jw08o",
+            "Noam Chomsky & Edward S. Herman - Manufacturing Consent.epub"
+        ],
+        [
+            "https://app.box.com/s/ab1ddatmti3ky60frhcba4lqr4poxbng",
+            "Paul A. Samuelson, William D. Nordhaus - Economics.pdf"
+        ],
+        [
+            "https://app.box.com/s/3pdsar1qdc4igelehieeh4ewxuf2mkel",
+            "Paul Krugman - The great unraveling.mobi"
+        ],
+        [
+            "https://app.box.com/s/7anlul0u3csnb8rkbxqf64ofso3t3xsg",
+            "Paul Mason - Clear Bright Future.epub"
+        ],
+        [
+            "https://app.box.com/s/m9asylgk2we72brsx4m8b2u2adozlcd7",
+            "Paulo Freire - Pedagogy of the Oppressed.epub"
+        ],
+        [
+            "https://app.box.com/s/93jtft3moh4j8pleteptnrrubghl9mfu",
+            "Peter Frase - Four Futures.epub"
+        ],
+        [
+            "https://app.box.com/s/otu5vgw9b21rk1qa4ipehc6yiycsgfaa",
+            "Rashid Khalidi - The Hundred Years War on Palestine.epub"
+        ],
+        [
+            "https://app.box.com/s/4wawbarj097qknxjfc1zgphofu50kr5g",
+            "Richard H. Thaler, Cass R. Sunstein - Nudge_ Improving Decisions About Health, Wealth, and Happiness.epub"
+        ],
+        [
+            "https://app.box.com/s/b08vz8iwmoad7r66j432hawfcru1cg31",
+            "Robert L. Heilbroner - Worldly Philosophers - The Lives Times and Ideas of the Great Economic Thinkers (2011).epub"
+        ],
+        [
+            "https://app.box.com/s/0dcf6jiga1q3ak5e0279nalcbd2bmamv",
+            "Robert L. Heilbroner, Lester C. Thurow - Economics Explained-Prentice-Hall, Inc. (1982).pdf"
+        ],
+        [
+            "https://app.box.com/s/m779xy5ohb1yin6dtt9p6bnp4modox2y",
+            "Robert Skidelsky - Money and Government_ The Past and Future of Economics.epub"
+        ],
+        [
+            "https://app.box.com/s/75w4jdsb0hejsx19y043t8i8thww6d5x",
+            "Robert Skidelsky - Money and Government_ The Past and Future of Economics.pdf"
+        ],
+        [
+            "https://app.box.com/s/6qp5nr6605waj66c9irpmz4onovuw7ou",
+            "Robert Skidelsky - The essential Keynes.mobi"
+        ],
+        [
+            "https://app.box.com/s/vm1746o8c1002e5ieucfvvwt722ew3sf",
+            "Roberto Saviano - Gomorrah A Personal Journey into the Violent International Empire of Naples Organized Crime System.epub"
+        ],
+        [
+            "https://app.box.com/s/69815b9eyz9qp355ow4z01ql0ggbjcse",
+            "Seymour M. Hersh - Reporter.epub"
+        ],
+        [
+            "https://app.box.com/s/o27l512smoxmrpa6ei871ex5xn3vwk87",
+            "Seymour M. Hersh - The Killing of Osama bin Laden.epub"
+        ],
+        [
+            "https://app.box.com/s/klthibk906jerto5i79y2u6gg6doxz1i",
+            "Shoshana Zuboff - The Age of Surveillance Capitalism.epub"
+        ],
+        [
+            "https://app.box.com/s/u357xutyh1rojrtmtz0zkdqqvs25l8la",
+            "Svetlana Alexievich - Secondhand Time The Last of the Soviets.mobi"
+        ],
+        [
+            "https://app.box.com/s/8tnj1ywz9gidf5f9z4b2uilrfd8dl0sd",
+            "Thomas Piketty - Capital in the Twenty-First Century.epub"
+        ],
+        [
+            "https://app.box.com/s/bbknh3e2o1u3ae1dxso7sj4opjqfp5cx",
+            "Tom Wright, Bradley Hope - Billion Dollar Whale.mobi"
+        ],
+        [
+            "https://app.box.com/s/ni487kxo17frb1vg6r29ev5cg3lu8wjf",
+            "William Mitchell, Thomas Fazi - Reclaiming the State A Progressive Vision of Sovereignty for a Post-Neoliberal World.epub"
+        ],
+        [
+            "https://app.box.com/s/jjcnmue7bqdptoi28inzlr7oxyuy45la",
+            "XYZ Contagion - 9  1 σκηνές από την ιστορία της ελληνικής ακροδεξιάς.pdf"
+        ],
+        [
+            "https://app.box.com/s/biv7sx8vh6kfgfse3mdarqfp4nnzea1f",
+            "Yanis Varoufakis - Adults in the Room.epub"
+        ],
+        [
+            "https://app.box.com/s/649upudwo0ji70zfcno6vw614eae40tz",
+            "Yanis Varoufakis - And the Weak Suffer What They Must.epub"
+        ],
+        [
+            "https://app.box.com/s/wy3ym90s882qg5wogeo2szjx65bdevde",
+            "Yanis Varoufakis - Another Now.epub"
+        ],
+        [
+            "https://app.box.com/s/fel0kqziimk76kibfef7vp0spt0cwy4z",
+            "Yanis Varoufakis - Foundations of Economics.pdf"
+        ],
+        [
+            "https://app.box.com/s/zifqlazg1mx5s27ek4t3bsysgbvfslfv",
+            "Yanis Varoufakis - Talking to My Daughter About the Economy.epub"
+        ],
+        [
+            "https://app.box.com/s/nss4ka1ckbamhjg0rlxx0jl0r5dyv147",
+            "Yanis Varoufakis - The Global Minotaur.epub"
+        ],
+        [
+            "https://app.box.com/s/gq5ipcsitz29vho4ksscxxnxpmpoottg",
+            "Άννα Φρανκ - Το Ημερολόγιο ΜΣ.pdf"
+        ],
+        [
+            "https://app.box.com/s/8g7oegkeiy3xgwamlzt2bk6msbwcnt7i",
+            "Άνταμ Σμιθ - Έρευνα για τη φύση και τις αιτίες του πλούτου των εθνών.pdf"
+        ],
+        [
+            "https://app.box.com/s/890gcca5mz65k81m84qj7kywwa9sloc4",
+            "Άρης Χατζηστεφάνου - Τουρκία Ανατολικά της ΕΕ.pdf"
+        ],
+        [
+            "https://app.box.com/s/d9h22d08l1le0pm5zo1g393gpfxaqyli",
+            "Βασίλης Ραφαηλίδης - Η μεγάλη περιπέτεια του μαρξισμού.pdf"
+        ],
+        [
+            "https://app.box.com/s/iklpw9omn4zm54i8s80ruptcgdvl0q1g",
+            "Βασίλης Ραφαηλίδης - Ιστορία (κωμικοτραγική) του νεοελληνικού κράτους 1830-1974.pdf"
+        ],
+        [
+            "https://app.box.com/s/a4r1u7osb1urplx51wybo07xkajjjjpe",
+            "Βίλχελμ Ράιχ - Η μαζική ψυχολογία του φασισμού.pdf"
+        ],
+        [
+            "https://app.box.com/s/fnl71e7qlnku6x1hr86bw2ef05ngnn8d",
+            "Βλαντιμίρ Λένιν - Αριστερισμός παιδική ασθένεια του Κομμουνισμού.pdf"
+        ],
+        [
+            "https://app.box.com/s/j9nzv0p9nzfddcvxycf4jryi51gce7of",
+            "Βλαντιμίρ Λένιν - Κράτος και Επανάσταση.pdf"
+        ],
+        [
+            "https://app.box.com/s/8q47ptn0jg3gefsbky9bcle1g9s86cob",
+            "Γιάνης Βαρουφάκης - Μιλώντας στην κόρη μου για την οικονομία.epub"
+        ],
+        [
+            "https://app.box.com/s/36e101538g89crifoy2rueve1oz5vcdz",
+            "Γιώργος Δελαστίκ - Το τέλος των Βαλκανίων.pdf"
+        ],
+        [
+            "https://app.box.com/s/gkz1nsaoge9aakw06u66rcrvv2cik1mq",
+            "Γκυ Ντεμπόρ - Η κοινωνία του θεάματος.pdf"
+        ],
+        [
+            "https://app.box.com/s/6wsbr04tdhkmqvwhdfzcxbd5rpmutn2r",
+            "Δημήτρης Γληνός - Τί είναι και τι θέλει το ΕΑΜ.pdf"
+        ],
+        [
+            "https://app.box.com/s/5mcekfuyzed06gzitvafoxufjad7ez6h",
+            "Δημήτρης Κουφοντίνας - Γεννήθηκα 17 Νοέμβρη.pdf"
+        ],
+        [
+            "https://app.box.com/s/pg9dye3kau4sq09heogllyvd8lfwa8pe",
+            "Δημήτρης Μπάτσης - Η Βαρειά Βιομηχανία Στην Ελλάδα.pdf"
+        ],
+        [
+            "https://app.box.com/s/8i6tk222jygcukng67z8dlb4j9asnffu",
+            "Δημήτρης Ψαρράς - Η Χρυσή Αυγή μπροστά στη Δικαιοσύνη.pdf"
+        ],
+        [
+            "https://app.box.com/s/voe1y78jtjvspakd521d03w21677p3sd",
+            "Διονύσης Ελευθεράτος - Εξουσία τι μπάλα παίζεις.pdf"
+        ],
+        [
+            "https://app.box.com/s/pn5viru8wwfzsqw3byli5y45tsiolqks",
+            "Έρικ Χομπσμπάουμ - Η εποχή των Αυτοκρατοριών.pdf"
+        ],
+        [
+            "https://app.box.com/s/axhlnlu8cp40npe2jejm7fok6f7zaisi",
+            "Ευτύχης Μπιτσάκης - Ανθρώπινη Φύση Για Ένα Κομμουνισμό Του Πεπερασμένου.pdf"
+        ],
+        [
+            "https://app.box.com/s/xz0whg146hcgj3ac654zhjwqzzmpl4mr",
+            "Ευτύχης Μπιτσάκης - Διαλεκτική Προβλήματα διερευνήσεις.pdf"
+        ],
+        [
+            "https://app.box.com/s/tremlm77mbx5zpio5ha6gln8ln5bsg8w",
+            "Ευτύχης Μπιτσάκης - Ένα φάντασμα πλανιέται.pdf"
+        ],
+        [
+            "https://app.box.com/s/zvvjv1fc7qfds6a029ucmi1c48laivhx",
+            "Ευτύχης Μπιτσάκης - Η Ύλη και το Πνεύμα.pdf"
+        ],
+        [
+            "https://app.box.com/s/640obhxlxxxd7ei99fuvq5oc1ghkcbr2",
+            "Ευτύχης Μπιτσάκης - Το αειθαλές δέντρο της γνώσεως.pdf"
+        ],
+        [
+            "https://app.box.com/s/iorj7rr7kk156v8k7bvaod47z4g1brvy",
+            "Ιγνάσιο Ραμονέ - Μάρκος.pdf"
+        ],
+        [
+            "https://app.box.com/s/gie0bni65t8x4sodc67dsdoonp9lib90",
+            "Ιμμάνουελ Βαλλερστάιν - Ιστορικός καπιταλισμός.pdf"
+        ],
+        [
+            "https://app.box.com/s/xxciwxi0zr8qu8oomhp0nx8rrafj4fz7",
+            "Καρλ Μαρξ - Κριτική της Πολιτικής Οικονομίας.pdf"
+        ],
+        [
+            "https://app.box.com/s/bjumgksvic3t2f963tdx8jyj0gky7fs8",
+            "Καρλ Μαρξ - Το Εβραϊκό Ζήτημα.pdf"
+        ],
+        [
+            "https://app.box.com/s/os01bgz3s0hnb42ksfs9sgvl2qii7338",
+            "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 1.pdf"
+        ],
+        [
+            "https://app.box.com/s/ru3r3sxmzz8o2cskbazr7xpl5mkjxo9t",
+            "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 2.pdf"
+        ],
+        [
+            "https://app.box.com/s/04unp4sx8kh5n6mzmeg9k7y5of83xb6k",
+            "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 3 Mέρος 1.pdf"
+        ],
+        [
+            "https://app.box.com/s/cpdxb9hiuefg8sj9vl9j53zss3xf7tmk",
+            "Καρλ Μαρξ - Το Κεφάλαιο Τόμος 3 Mέρος 2.pdf"
+        ],
+        [
+            "https://app.box.com/s/d3y32b25d24tbmf8auh6hep9ueh0e7yi",
+            "Καρλ Πολάνυι - Ο μεγάλος μετασχηματισμός.pdf"
+        ],
+        [
+            "https://app.box.com/s/kf7muo9sdgq96k083dab5fhlr2tql9pb",
+            "Κώστας Κάππος - Έγκλημα εναντίον της Κύπρου.pdf"
+        ],
+        [
+            "https://app.box.com/s/28r1198tzc874nxrtch4zmtdjldiy9xr",
+            "Λιλή Ζωγράφου - Αντιγνώση ή Τα δεκανίκια του καπιταλισμού.pdf"
+        ],
+        [
+            "https://app.box.com/s/95p06o4drqh1nsfvzvr0ss68ayywmzl0",
+            "Μακρυγιάννη - Απομνημονεύματα.pdf"
+        ],
+        [
+            "https://app.box.com/s/84u5simc6fs0pgo7s55pe8keyvbt4jse",
+            "Μάρτιν Χάιντεγγερ - Η προέλευση του έργου τέχνης.pdf"
+        ],
+        [
+            "https://app.box.com/s/vfutmu5lpexbgn62x1mexo1ib984pch1",
+            "Μάρτιν Χάιντεγκερ - Η τέχνη και ο χώρος.pdf"
+        ],
+        [
+            "https://app.box.com/s/rudjdqmegau2js14tfwvksjmen7xcjg4",
+            "Ναόμι Κλάιν - Το δόγμα του σοκ.pdf"
+        ],
+        [
+            "https://app.box.com/s/z06vxyf9supu27ey7etrbju3xdj9hsbi",
+            "Νικολό Μακιαβέλι - Ο ηγεμόνας.pdf"
+        ],
+        [
+            "https://app.box.com/s/dghk3k07hxsdjhfnwwkn2of34jvav3pv",
+            "Νίκος Μπελογιάννης - Το Ξένο Κεφάλαιο στην Ελλάδα.pdf"
+        ],
+        [
+            "https://app.box.com/s/nptq08v3oamcd1aqyp0cls6iblhdj4il",
+            "Νίκος Μπογιόπουλος - Είναι ο καπιταλισμός, ηλίθιε.pdf"
+        ],
+        [
+            "https://app.box.com/s/68s8sdpjhoxgbvfj2rgjfajjh30skyqk",
+            "Νίκος Πουλαντζάς - Φασισμός και δικτατορία.pdf"
+        ],
+        [
+            "https://app.box.com/s/b95yssqypeek4ogt1oct5p7fo2r9skj1",
+            "Νόαμ Τσόμσκι - Η βιομηχανία κατασκευής υπηκόων.pdf"
+        ],
+        [
+            "https://app.box.com/s/n0cdik6c49bvx5vj10u2btd597s4ks2l",
+            "Νόαμ Τσόμσκι - Η νέα παγκόσμια τάξη.pdf"
+        ],
+        [
+            "https://app.box.com/s/zz00zmf0cca5tyx3u8we3kud5y1mut8k",
+            "Ντέιβιντ Γκρέμπερ - Στο λυκόφως των πρωτοποριών  Η ανάδυση των σύγχρονων κοινωνικών κινημάτων.pdf"
+        ],
+        [
+            "https://app.box.com/s/g61qdj65vornsm7goh2c7fhg7g9wjznn",
+            "Ντέιβιντ Γκρέμπερ - Χρέος Τα Πρώτα 5000 Χρόνια.pdf"
+        ],
+        [
+            "https://app.box.com/s/kr95dhmflckgymqo1adt03ghfjqbd6hc",
+            "Ντέιβιντ Χάρβει - Εξεγερμένες πόλεις.pdf"
+        ],
+        [
+            "https://app.box.com/s/bahklkvjfwod3lqwny1hzqwzmluu37pq",
+            "Ντέιβιντ Χάρβει - Νεοφιλελευθερισμός.pdf"
+        ],
+        [
+            "https://app.box.com/s/lsxuk3jgctwvmub5ef8gweq5ccdgvqen",
+            "Περικλής Κοροβέσης - Ανθρωποφύλακες.pdf"
+        ],
+        [
+            "https://app.box.com/s/h2uqf203j0780uixp60vuclvdg7p48nl",
+            "Πέτρος Παπακωνσταντίνου - Το Χρυσό Παραπέτασμα.pdf"
+        ],
+        [
+            "https://app.box.com/s/7oon8qv3raixxtagimiptkifvrqfqu9m",
+            "Πωλ Λαφάργκ - Η θρησκεία του κεφαλαίου.pdf"
+        ],
+        [
+            "https://app.box.com/s/w2xmm8wxhvbsoruz4qkwlpv03kzplxlz",
+            "Πωλ Λαφάργκ - Η χρεωκοπία του καπιταλισμού.pdf"
+        ],
+        [
+            "https://app.box.com/s/g417xrxygca7xqeb2ayjqq8gmyzr6ked",
+            "Πωλ Λαφάργκ - Το δικαίωμα στην τεμπελιά.pdf"
+        ],
+        [
+            "https://app.box.com/s/lkghkqex9li9otnfof67h39tq5uyaav5",
+            "Σουν Τζου - Η τέχνη του πολέμου.pdf"
+        ],
+        [
+            "https://app.box.com/s/azgyvv6iaqjnf1f3qhw3xkk1rgbad5ue",
+            "Τζον Ριντ - Δέκα μέρες που συγκλόνισαν τον κόσμο.pdf"
+        ],
+        [
+            "https://app.box.com/s/idff11wfa1aglvk6vi965spso0pjbak8",
+            "Φερνάν Μπρωντέλ - Γραμματική των πολιτισμών.pdf"
+        ],
+        [
+            "https://app.box.com/s/pgexel9p9ho4d8jj5rmyosckq6s3c2vn",
+            "Φρίντριχ Ένγκελς - Η καταγωγή της οικογένειας της ιδιοκτησίας και του κράτους.pdf"
+        ],
+        [
+            "https://app.box.com/s/9e82vj0z8xx0ltlrugfq9bxt37lkwg58",
+            "Φρίντριχ Ένγκελς - Μελέτες και άρθρα.pdf"
+        ],
+        [
+            "https://app.box.com/s/7w1koqe5e9x9qbhvwbwwyj8k5p64rsa1",
+            "Χάνα Αρέντ - Το Ολοκληρωτικό Σύστημα.pdf"
+        ]
+    ],
+    "fiction": [
+        [
+            "https://app.box.com/s/pur59y394y6kpm83tkjto5fxs3rzavx9",
+            "Ada Palmer - (Terra Ignota 1) Too Like the Lightning.epub"
+        ],
+        [
+            "https://app.box.com/s/x9b25rf9k3q1dlfmvu2g8oame9r21zan",
+            "Agatha Christie - Death on the Nile (2001) (Hercule Poirot 15).pdf"
+        ],
+        [
+            "https://app.box.com/s/p98qltk5vnxtoibuhl5d3zte0kl24olu",
+            "Alaa Al Aswany - The Yacoubian Building.pdf"
+        ],
+        [
+            "https://app.box.com/s/pomgf0ur51ajm9ndu8qow3con0zokx3c",
+            "Aldous Huxley - Brave New World.epub"
+        ],
+        [
+            "https://app.box.com/s/jv6irzn785vz8scmu2ok1wiwfvg6hi3s",
+            "Alfred Doblin - Berlin Alexanderplatz.epub"
+        ],
+        [
+            "https://app.box.com/s/4v8qp9ygf388zx9zcadq2a64cz1uwkea",
+            "Andy Weir - Project Hail Mary.epub"
+        ],
+        [
+            "https://app.box.com/s/uvdr9nann4hu3i9x78mdsiju1r10apcw",
+            "Andy Weir - The Martian.epub"
+        ],
+        [
+            "https://app.box.com/s/z786qoc6nzmhzhdnputgn67ku9g5o0v8",
+            "Bernardine Evaristo - Girl, Woman, Other.epub"
+        ],
+        [
+            "https://app.box.com/s/fmncnsu7m516q325epekelh8dadch1kk",
+            "Bram Stoker - Dracula.epub"
+        ],
+        [
+            "https://app.box.com/s/riht2e44u0y6p02uec16wfy4wrhceh3v",
+            "C.J. Cooke - The Lighthouse Witches.epub"
+        ],
+        [
+            "https://app.box.com/s/5yrc2io2gisp6m4lmkbe56rdqgriwb6l",
+            "Carl Djerassi - Cantors Dilemma.pdf"
+        ],
+        [
+            "https://app.box.com/s/ajlapssw53z0il4kwx98o13nffaff9zv",
+            "Carlos Ruiz  Zafon - The Shadow of the Wind (2004).epub"
+        ],
+        [
+            "https://app.box.com/s/6z4efvt25sie2da5u9bm0pif1gjodr67",
+            "Charles Dickens - A Tale of Two Cities.epub"
+        ],
+        [
+            "https://app.box.com/s/sshtm15qjm4l8a5tmbfdive03km9w9ym",
+            "Chris Beckett - The Turing Test.mobi"
+        ],
+        [
+            "https://app.box.com/s/zfzefb25uqqrj1cw83jpv0qkykg412ay",
+            "Colson Whitehead - The Underground Railroad.epub"
+        ],
+        [
+            "https://app.box.com/s/tz4jpfvtgmd2ynzagal1azprdney72kc",
+            "Cory Doctorow - Down and Out in the Magic Kingdom.epub"
+        ],
+        [
+            "https://app.box.com/s/ktgru0hds3xd9h17f91r5ewr83gubme0",
+            "Cory Doctorow - Homeland.pdf"
+        ],
+        [
+            "https://app.box.com/s/7103xhysynmbg24sn9z2c5m05c8jwvo7",
+            "Cory Doctorow - Little Brother.pdf"
+        ],
+        [
+            "https://app.box.com/s/nt7kr9phqy734gilljuvl9ab4xkrhzdk",
+            "Dan Brown - Digital Fortress (v2.0).txt"
+        ],
+        [
+            "https://app.box.com/s/au4dl1bv5rszi0a1a0zqeono4um5qwyr",
+            "Dashiell Hammett - The Maltese Falcon.epub"
+        ],
+        [
+            "https://app.box.com/s/6bu3qaiffkn0hfhy0qba9hmxtevoapwe",
+            "David Foster Wallace - Infinite Jest.epub"
+        ],
+        [
+            "https://app.box.com/s/id11ofqws06smytu8clhhc3xev9zdcag",
+            "David Foster Wallace - Oblivion- Stories.pdf"
+        ],
+        [
+            "https://app.box.com/s/o0tbu9p8ufd7z0t6kz1kw9w0xsppxmr1",
+            "David Mitchell - Black Swan Green.epub"
+        ],
+        [
+            "https://app.box.com/s/wf4gqm845pcra2fw5k8ls3hlzaaypgd4",
+            "David Mitchell - Cloud Atlas.epub"
+        ],
+        [
+            "https://app.box.com/s/iednx5iyi5cljad6c686lmsdc53928ux",
+            "David Mitchell - Ghostwritten.epub"
+        ],
+        [
+            "https://app.box.com/s/r5yd1rtayzm8mb6cqo3cg192jlhdtz91",
+            "David Mitchell - Number9dream.epub"
+        ],
+        [
+            "https://app.box.com/s/bckn76j7pbhou274s0feyp5d456rzxg6",
+            "David Mitchell - The Bone Clocks.epub"
+        ],
+        [
+            "https://app.box.com/s/rbd68x0l15ffmqlald7hwu64bjixsy54",
+            "Don Delillo - Underworld.epub"
+        ],
+        [
+            "https://app.box.com/s/ka5x8gw2avdh75v2d2wyhezefpbyv5jv",
+            "E. Lily Yu - On Fragile Waves.epub"
+        ],
+        [
+            "https://app.box.com/s/pdnyw6zjm6ruao8d3bc3uoxmdpkztqu0",
+            "Edward Bryant - Particle theory.epub"
+        ],
+        [
+            "https://app.box.com/s/gf1ukveh22m735jgxxzv3iygr83t8zus",
+            "Elena Ferrante - [Neapolitan 01] - My Brilliant Friend.epub"
+        ],
+        [
+            "https://app.box.com/s/zj06fae7ffsn55kmv08uhym1rb8zmqs8",
+            "Elena Ferrante - [Neapolitan 02] - The Story of a New Name.epub"
+        ],
+        [
+            "https://app.box.com/s/9rqfb3l1ppax3owanftqhrqcyd1srfxm",
+            "Elena Ferrante - [Neapolitan 03] - Those Who Leave and Those Who Stay.epub"
+        ],
+        [
+            "https://app.box.com/s/15ctcfb5tfsfr5p2rq8uzcr92x5nal6m",
+            "Elena Ferrante - [Neapolitan 04] - The Story of the Lost Child (retail).epub"
+        ],
+        [
+            "https://app.box.com/s/c7g3fx3ahy9sm8j7ipo46mzfk2fmjj97",
+            "Emily St. John Mandel - Station Eleven.epub"
+        ],
+        [
+            "https://app.box.com/s/h11k3hsk8ayj2vxk57qj2kvt4q9xfy1c",
+            "Eoin Colfer - Artemis Fowl, Book 1 (2009).epub"
+        ],
+        [
+            "https://app.box.com/s/tx4fxqgbaek9m98b5hwjacpcmc5npoud",
+            "Eoin Colfer - Artemis Fowl, Book 2 The Arctic Incident (2002).epub"
+        ],
+        [
+            "https://app.box.com/s/6vhaanp35izuw8asrl0wbs1m8c276h57",
+            "Eoin Colfer - Artemis Fowl, Book 3 The Eternity Code (2005).epub"
+        ],
+        [
+            "https://app.box.com/s/v4zdl49z8pvkpbg37krsnmfc7fy68yb1",
+            "Eoin Colfer - Artemis Fowl, Book 4 The Opal Deception (2009).epub"
+        ],
+        [
+            "https://app.box.com/s/k5culp60mhom2wl98tlsek1f00vi8xi0",
+            "Eoin Colfer - Artemis Fowl, Book 5 The Lost Colony.epub"
+        ],
+        [
+            "https://app.box.com/s/2uki7sbgna7ctzq5ld8l655mtoytxw8v",
+            "Eoin Colfer - Artemis Fowl, Book 6 The Time Paradox.epub"
+        ],
+        [
+            "https://app.box.com/s/z0kzrcr4l2n4ghgfaib9a3o8tkvb02lp",
+            "Eoin Colfer - Artemis Fowl, Book 7 The Atlantis Complex.epub"
+        ],
+        [
+            "https://app.box.com/s/k3ur0ba8tbm7fnjuk05u6ysdsgqflmjh",
+            "Eoin Colfer - Artemis Fowl, Book 8 The Last Guardian.epub"
+        ],
+        [
+            "https://app.box.com/s/micf9zp4pui0pvkamup7kosxg375f56t",
+            "Ernest Cline - Ready Player One.pdf"
+        ],
+        [
+            "https://app.box.com/s/ddhzxgf99iv9i92tt88y1uwca0wrlsns",
+            "Ernest Hemingway - Sun Also Rises (2003).epub"
+        ],
+        [
+            "https://app.box.com/s/i6dwbh6ytqiz84cuzh54oapchgizuq8e",
+            "Francis Scott Fitzgerald - The Great Gatsby.epub"
+        ],
+        [
+            "https://app.box.com/s/ok7a09qyflltxa921pp8sx92o3ygmo64",
+            "Frederick Forsyth - The Day of the Jackal.epub"
+        ],
+        [
+            "https://app.box.com/s/h8gs4r2pccdrombiagn01giru8dvuqes",
+            "George Orwell - Animal Farm.epub"
+        ],
+        [
+            "https://app.box.com/s/jdrjea007pt4ovwu3nq1zh21u30cpwc9",
+            "George Saunders - CivilWarLand in Bad Decline.epub"
+        ],
+        [
+            "https://app.box.com/s/uzpd69uww4azydg3rmzrw4q2wmop847l",
+            "Graham Greene - The Quiet American.epub"
+        ],
+        [
+            "https://app.box.com/s/0rasj3rrxf8unnadakmbekxob9wwkotb",
+            "Graham Greene - The Third Man.mobi"
+        ],
+        [
+            "https://app.box.com/s/qnr9wca3uv9jwr9et15qk2xndqnudrrm",
+            "Greg Egan - Axiomatic.epub"
+        ],
+        [
+            "https://app.box.com/s/eia0wkbf236mnhm4vy026kzhmlm2ckhr",
+            "Harlan Coben - Tell No One.epub"
+        ],
+        [
+            "https://app.box.com/s/3gyu6vkjrbzum4ojxj325jn6jke52php",
+            "Harper Lee - To Kill a Mockingbird.mobi"
+        ],
+        [
+            "https://app.box.com/s/0y9eqkl0cvi98k9kb9eslkileb6xbbry",
+            "Haruki Murakami - 1Q84 1, 2.epub"
+        ],
+        [
+            "https://app.box.com/s/miy0xcfel6hk25yhqvcet86baf5gv98z",
+            "Haruki Murakami - 1Q84 3.epub"
+        ],
+        [
+            "https://app.box.com/s/vmqtrexxckryhl3a0m3moejl9fo4df6j",
+            "Haruki Murakami - Dance Dance Dance.epub"
+        ],
+        [
+            "https://app.box.com/s/xen7lmzgqe4870s1yq7fzcccv4df03cb",
+            "Haruki Murakami - Kafka on the Shore.epub"
+        ],
+        [
+            "https://app.box.com/s/632ewpozuik28hw8jhksmnb5ew5br6ng",
+            "Haruki Murakami - Norwegian Wood.epub"
+        ],
+        [
+            "https://app.box.com/s/4rdoqwpt0isr537zp8nvi1t2990ss4hs",
+            "Henry Miller - Tropic of Cancer.mobi"
+        ],
+        [
+            "https://app.box.com/s/6h0kt0tdlyprphdfdsbxa5a8b5z93n8o",
+            "Herman Melville - Bartleby, the Scrivener: A Story of Wall-Street.mobi"
+        ],
+        [
+            "https://app.box.com/s/o5wlqpwzrlw40q5bdbuzttd6u893co6f",
+            "Herman Melville - Moby Dick or, The Whale.epub"
+        ],
+        [
+            "https://app.box.com/s/dwej69ncwfrt4v1sspltpijjccr39m2p",
+            "Hiroshi Yamamoto - The Stories of Ibis.mobi"
+        ],
+        [
+            "https://app.box.com/s/qy2x1e94xxdeeczujunrcoamqwgvnbv4",
+            "Hugh Howey - Wool.epub"
+        ],
+        [
+            "https://app.box.com/s/549hjwgw4ip4pzdxwvdplgd13zuayt52",
+            "James Baldwin - The Fire Next Time.epub"
+        ],
+        [
+            "https://app.box.com/s/jrg1v5gek4vu9vyu7ufbatfnoori29st",
+            "James Ellroy - American Tabloid.epub"
+        ],
+        [
+            "https://app.box.com/s/ycg82v0o25wa418v8pvajkcgaec1twl3",
+            "Jennifer Egan - A Visit from the Goon Squad.mobi"
+        ],
+        [
+            "https://app.box.com/s/s4c7lmqevgnf88mjxksay394ci8pcena",
+            "JK Rowling - (Book 1) Harry Potter and the Philosopher's Stone.epub"
+        ],
+        [
+            "https://app.box.com/s/2wdqp7h86b5ms33ik7mqdm83xlc6vu3y",
+            "JK Rowling - (Book 2) Harry Potter And The Chamber Of Secrets.epub"
+        ],
+        [
+            "https://app.box.com/s/6ce0hn8gb0ok4q9n3pih01osmcgti0qz",
+            "JK Rowling - (Book 3) Harry Potter and the Prisoner of Azkaban.epub"
+        ],
+        [
+            "https://app.box.com/s/d89b0525skvafl8bz6gghc4dlchmynz8",
+            "JK Rowling - (Book 4) Harry Potter and the Goblet of Fire.epub"
+        ],
+        [
+            "https://app.box.com/s/4smowfiiq3v08xcd2p41af677hpvfa51",
+            "JK Rowling - (Book 5) Harry Potter and the Order of the Phoenix.epub"
+        ],
+        [
+            "https://app.box.com/s/8gbqt70krpjvuf6ltigql6lov8qm8nlj",
+            "JK Rowling - (Book 6) Harry Potter and the Half-Blood Prince.epub"
+        ],
+        [
+            "https://app.box.com/s/b9lej43xr4x8j681ni68o9yudfoc2g1y",
+            "JK Rowling - (Book 7) Harry Potter and the Deathly Hallows.epub"
+        ],
+        [
+            "https://app.box.com/s/vkvj5l44k0v2jy0s00wfe88evthjgmtf",
+            "JK Rowling - The Tales of Beedle the Bard.epub"
+        ],
+        [
+            "https://app.box.com/s/j91kfmniv8qmavp3addbmll7lt7u965v",
+            "John Dos Passos - USA Trilogy (The 42nd Parallel, 1919, The Big Money).mobi"
+        ],
+        [
+            "https://app.box.com/s/9ckrm0255miovuwjr1ojz09plx2xnq3h",
+            "John le Carré - A Legacy of Spies.epub"
+        ],
+        [
+            "https://app.box.com/s/ciw529troovxenqctihi3aceeeazhcvs",
+            "John le Carré - Call for the Dead.mobi"
+        ],
+        [
+            "https://app.box.com/s/xob7vcwow2fqucaap5l6u0vvoqekaubs",
+            "John Le Carre - The Spy Who Came in from the Cold.mobi"
+        ],
+        [
+            "https://app.box.com/s/iv4afxly26hdbdk2ra87tg1j61q1herb",
+            "John Le Carré - Tinker, Tailor, Soldier, Spy.mobi"
+        ],
+        [
+            "https://app.box.com/s/ij7y8u4c41klpg7hexyozqopmjyeo8lf",
+            "John Steinbeck - The Grapes of Wrath.epub"
+        ],
+        [
+            "https://app.box.com/s/qrf1h171r85mddxl5ca8jqay0opourbt",
+            "Joseph Conrad - Heart of Darkness.epub"
+        ],
+        [
+            "https://app.box.com/s/ncvtonfn5mum8tic7v1wl01vnb61ikbk",
+            "Kazuo Ishiguro - Never Let Me Go.epub"
+        ],
+        [
+            "https://app.box.com/s/bbzygncfbzrmw7ecbnlg058fexc33w5d",
+            "Ken Liu - Invisible Planets - An anthology of Contemporary Chinese SF in Translation.epub"
+        ],
+        [
+            "https://app.box.com/s/48as4mv7sq15bjuthwlu1reuivo6uput",
+            "Ken Liu - The Paper Menagerie and Other Stories.epub"
+        ],
+        [
+            "https://app.box.com/s/nktbcm9neyd0xqlxpt1ekbhidajy0e4f",
+            "Kim Stanley Robinson - Red Mars (Mars Trilogy) (1993).pdf"
+        ],
+        [
+            "https://app.box.com/s/tk0vruma6o9inahwzasintmr4d5w1n89",
+            "Kurt Vonnegut - Slaughterhouse-Five.epub"
+        ],
+        [
+            "https://app.box.com/s/orzwhrxsd27grf5sa7zb7r6e2jw95zqy",
+            "Margaret Atwood - The Handmaid's Tale.epub"
+        ],
+        [
+            "https://app.box.com/s/4fr3rx2s6lswbeayi9hdlvs1fhhfnuke",
+            "Mary Shelley - Frankenstein.epub"
+        ],
+        [
+            "https://app.box.com/s/54c4gxnhopb0t8ndoq1sbr4wh7mu1b3o",
+            "Michel Houellebecq - Atomised.pdf"
+        ],
+        [
+            "https://app.box.com/s/ispcccqvn37byx0es87nb3kqz8efr7nt",
+            "Michel Houellebecq - Lanzarote.epub"
+        ],
+        [
+            "https://app.box.com/s/0k7rc7cfcareqmg1lwodazpi4v3yrk77",
+            "Michel Houellebecq - Map and the Territory.epub"
+        ],
+        [
+            "https://app.box.com/s/9n6lbwr35ln71pzs2s1z42lcmdswv94e",
+            "Michel Houellebecq - Platform.epub"
+        ],
+        [
+            "https://app.box.com/s/wwizudvy2iiy1uoypuyq8cjh4kyecxju",
+            "Michel Houellebecq - Possibility of an Island.epub"
+        ],
+        [
+            "https://app.box.com/s/g7436zko3b9e29mzgszjorap7qxhbd7v",
+            "Michel Houellebecq - Public Enemies [with Bernard-Henri Lévy].epub"
+        ],
+        [
+            "https://app.box.com/s/mntaeufxvcesjk3ckarukhyxak0xy5rl",
+            "Michel Houellebecq - Serotonin.epub"
+        ],
+        [
+            "https://app.box.com/s/feyxwef8abpck1s1p06aantjp0wmyxhr",
+            "Michel Houellebecq - Submission.epub"
+        ],
+        [
+            "https://app.box.com/s/0z52z49h3nccovcxpy882v6wjh0r9z34",
+            "Michel Houellebecq - The Elementary Particles.mobi"
+        ],
+        [
+            "https://app.box.com/s/jii0c19jpcx5zjbucme98lfv49xvl6t3",
+            "Michel Houellebecq - Unreconciled.epub"
+        ],
+        [
+            "https://app.box.com/s/p0pa2dn5qkrr6dzblilgp73m6t3mlojq",
+            "Michel Houellebecq - Whatever.epub"
+        ],
+        [
+            "https://app.box.com/s/3bfu7f4juhhueyjirnhv1yopuzc59595",
+            "Mikhail Bulgakov - The Master and Margarita.epub"
+        ],
+        [
+            "https://app.box.com/s/2c4clr30qnslabf5vbvqjm55el2de3ri",
+            "Milan Kundera - Unbearable Lightness of Being, The.epub"
+        ],
+        [
+            "https://app.box.com/s/chz9yqae5wi7rdvsrsz8zh05h6q8wage",
+            "Naguib Mahfouz - The Cairo Trilogy, Volume 1 Palace Walk.mobi"
+        ],
+        [
+            "https://app.box.com/s/vepnu2s8f3m0hyse25kt7fc1rphrcc8p",
+            "Naguib Mahfouz - The Cairo Trilogy, Volume 2 Palace of Desire.mobi"
+        ],
+        [
+            "https://app.box.com/s/2tpn46oyjb0cif8wrp7ficqaps7mn78f",
+            "Naguib Mahfouz - The Cairo Trilogy, Volume 3 Sugar Street.mobi"
+        ],
+        [
+            "https://app.box.com/s/i7o61iw1icx1j9hazcrc5juttktg4duo",
+            "Neal Stephenson - Cryptonomicon.epub"
+        ],
+        [
+            "https://app.box.com/s/znx4lwbfcz5wuhuwe9potuurriwquovn",
+            "Neal Stephenson - Snow Crash.epub"
+        ],
+        [
+            "https://app.box.com/s/g5wuqlxsmrwj9auqsniamjp1k8szxh2g",
+            "Neil Cross - Luther The Calling.pdf"
+        ],
+        [
+            "https://app.box.com/s/q04ev7s1chp9b4j51ylq076hz8hy8yev",
+            "Neil Gaiman - Coraline.epub"
+        ],
+        [
+            "https://app.box.com/s/tjdjw6fopuayerojdgku3ru6vqf346oa",
+            "Nick Hornby - About a Boy.epub"
+        ],
+        [
+            "https://app.box.com/s/5w5kl8esimbyg5a7nb85pc3d76neyuf5",
+            "Nick Hornby - Just Like You.epub"
+        ],
+        [
+            "https://app.box.com/s/ahhzu81bsecur60is5grz1e74p1ntmrx",
+            "Octavia Butler - Dawn.epub"
+        ],
+        [
+            "https://app.box.com/s/iqcpbv9ot6vdso1emjx92d5jo0fqzxq7",
+            "Philip K. Dick - Do Androids Dream of Electric Sheep.epub"
+        ],
+        [
+            "https://app.box.com/s/hjth3j101zda20hsr8n7l49hdz6kkd1w",
+            "Philip K. Dick - The Minority Report.pdf"
+        ],
+        [
+            "https://app.box.com/s/51em9rkrehv6vmspx9c5xet4fq176f6o",
+            "Philip Pullman - (His Dark Materials 1) - The Golden Compass.mobi"
+        ],
+        [
+            "https://app.box.com/s/dwfxdjyoycdbnrwsytbh6ijqh1yvn74c",
+            "Philip Pullman - (His Dark Materials 2) - The Subtle Knife.mobi"
+        ],
+        [
+            "https://app.box.com/s/ky3b88bn7jz86ezdl6bc7gmjkkck0dwt",
+            "Philip Pullman - (His Dark Materials 3) - The Amber Spyglass.mobi"
+        ],
+        [
+            "https://app.box.com/s/4rcpkfq7qjpopwchdz1fngrz4az5t1x5",
+            "Philip Pullman - La Belle Sauvage.azw3"
+        ],
+        [
+            "https://app.box.com/s/baol1u2pi21ussthltxdyhsjjd31375e",
+            "Ray Bradbury - Fahrenheit 451.epub"
+        ],
+        [
+            "https://app.box.com/s/36yv4p7z80hkxtx0ur5ahvor6zyaycx6",
+            "Robin Sloan - Mr. Penumbra’s 24-Hour Bookstore.epub"
+        ],
+        [
+            "https://app.box.com/s/e9izozygf97vwg3qs4bhjd6iyr7cq723",
+            "Sarah Waters - Fingersmith.epub"
+        ],
+        [
+            "https://app.box.com/s/xzgak43pcsmad6dzcmkgtbk12uwy4oa2",
+            "Solomon Rivers - The Deep.mobi"
+        ],
+        [
+            "https://app.box.com/s/o85taugwim990fxr5f2rumt9nm475aje",
+            "Stephen King - It.epub"
+        ],
+        [
+            "https://app.box.com/s/n35p633cgumaxxey531lqgmer08py8dl",
+            "Stephen King - Survivor Type.epub"
+        ],
+        [
+            "https://app.box.com/s/wrb3qwnbs4p1ybplzxohj1gly1erds84",
+            "Stieg Larsson -  The Girl Who Played with Fire (Millennium 2).epub"
+        ],
+        [
+            "https://app.box.com/s/yskfk2jgvly1bk4itggkgxjmpuf08gaf",
+            "Stieg Larsson - The Girl Who Kicked the Hornet's Nest (Millennium 3).epub"
+        ],
+        [
+            "https://app.box.com/s/j55rzp7p68t0sck6tyjxcmzzgl8zpmtw",
+            "Stieg Larsson - The Girl with the Dragon Tattoo  (Millennium 1).epub"
+        ],
+        [
+            "https://app.box.com/s/7ta3oggu2qt6sik7e9yw7iertti6ewc6",
+            "TechieChan - TZO.mobi"
+        ],
+        [
+            "https://app.box.com/s/wfgpwbo764rixwzm4qpet0mqu7ikh81i",
+            "Ted Chiang - Exhalation.epub"
+        ],
+        [
+            "https://app.box.com/s/oygbcjnefa37ko20ojq0583tve56la9h",
+            "Ted Chiang - Stories of Your Life and Others (Version 3).epub"
+        ],
+        [
+            "https://app.box.com/s/drfn09nxxx4p6mroer1p9ltg48l7djuc",
+            "Thomas Pynchon - Gravity's Rainbow.epub"
+        ],
+        [
+            "https://app.box.com/s/g7ngzrzk8s2sgq6hr7f7ar1k50nfps4f",
+            "Tom Clancy - Patriot Games.epub"
+        ],
+        [
+            "https://app.box.com/s/ufyhfrpddzf2egi5whjg02nf8l8xlstp",
+            "Toni Morrison - Beloved.epub"
+        ],
+        [
+            "https://app.box.com/s/az3e1yq6krq30n9nn4xk7ozck84jsc4d",
+            "Truman Capote - In Cold Blood.epub"
+        ],
+        [
+            "https://app.box.com/s/0au0f9qwz7e320fcjm2p1ea3u044iytp",
+            "Ursula K Le Guin - The Dispossessed.epub"
+        ],
+        [
+            "https://app.box.com/s/bud9ahyidi42wcjcmc1pez1ook7sdf51",
+            "William Gibson - Neuromancer.pdf"
+        ],
+        [
+            "https://app.box.com/s/xdwbvqupdkjccwnslxlvgo2y15iq4y5a",
+            "William Golding - Lord of the Flies.mobi"
+        ],
+        [
+            "https://app.box.com/s/n5tp8fvdgsbsid5rxd16slmwr1sm7khm",
+            "Αλεξάντερ Σολζενίτσιν - Αρχιπέλαγος Γκουλάγκ.pdf"
+        ],
+        [
+            "https://app.box.com/s/h6lhgqn2h03kqwdnajkbtsv5jyty8d65",
+            "Αλμπέρ Καμύ - Η πτώση.pdf"
+        ],
+        [
+            "https://app.box.com/s/q7vqf0h0d45rq0uf4e8uc3tqs7fjp1kp",
+            "Αλμπέρ Καμύ - Ο Ευτυχισμένος Θάνατος.pdf"
+        ],
+        [
+            "https://app.box.com/s/cwqltvccydatoyvtytysfa7i9za95qdu",
+            "Αλμπέρ Καμύ - Ο Ξένος.pdf"
+        ],
+        [
+            "https://app.box.com/s/d8jicn586pktzrdvlc36fst01kx688rw",
+            "Άλντους Χάξλεϊ - Ο Θαυμαστός Καινούργιος Κόσμος.pdf"
+        ],
+        [
+            "https://app.box.com/s/ndrqnr9rezwqru6cwzlnscj1lynak986",
+            "Αναΐς Νιν - Henry and June.pdf"
+        ],
+        [
+            "https://app.box.com/s/z7rs5t2w4d2hew1kn6kfshnrlq2447nh",
+            "Ανατόλ Φρανς - Το νησί των πιγκουίνων.pdf"
+        ],
+        [
+            "https://app.box.com/s/ldfdlmludtf8iqla227wujut7mp2xckx",
+            "Ανδρέας Καρκαβίτσας - Λόγια της Πλώρης.epub"
+        ],
+        [
+            "https://app.box.com/s/qd6rsdw2jtdobjeqourhkhmb9a1ywbou",
+            "Άννα Φρανκ - Το Ημερολόγιο.pdf"
+        ],
+        [
+            "https://app.box.com/s/p9h1zxlv9kapxdldjkkx2qpce9tbv45v",
+            "Άρης Αλεξάνδρου - Το κιβώτιο.epub"
+        ],
+        [
+            "https://app.box.com/s/meudvynpcsqzy0agfrlum0q7kv5miirc",
+            "Άχμετ Ουμίτ - Έγκλημα Στο Περα.pdf"
+        ],
+        [
+            "https://app.box.com/s/uznsji1r8lu7i8oeri2y0kuio31dyaqm",
+            "Βαγγέλης Γιαννίδης - ΑΜΑΡΟΚ.pdf"
+        ],
+        [
+            "https://app.box.com/s/x6n1k9f0bobcs8d94znkys7kfiyv6jld",
+            "Βαγγέλης Γιαννίσης - Η σκιά.pdf"
+        ],
+        [
+            "https://app.box.com/s/fi5o0ygudct6cyqjdpxiozndkyfmcaql",
+            "Βαγγέλης Γιαννίσης - Ο χορός των νεκρών.pdf"
+        ],
+        [
+            "https://app.box.com/s/0k9dradohkm4dxkvrv7wcj6xquxl1kk5",
+            "Βικτόρια Χίσλοπ - Το νησί.pdf"
+        ],
+        [
+            "https://app.box.com/s/n7qud2ebdqjpuwmp49xfxhe12zfovrch",
+            "Βιτζέντζος Κορνάρος - Ερωτόκριτος.pdf"
+        ],
+        [
+            "https://app.box.com/s/udzp6sej4gc1ggm6rhyi0kk2fl1nh7rc",
+            "Γιάννης Ξανθούλης - Ο Τούρκος στον Κήπο.pdf"
+        ],
+        [
+            "https://app.box.com/s/sh0sk2fbd1aj1j47mzr0a39jskzp13qp",
+            "Γιάννης Ξανθούλης - Το πεθαμένο λικέρ.pdf"
+        ],
+        [
+            "https://app.box.com/s/ds0xgzwimzw2h3ztaq6jan4exua0t6lr",
+            "Γκαμπριέλ Γκαρσία Μαρκές - Εκατό χρόνια μοναξιά.pdf"
+        ],
+        [
+            "https://app.box.com/s/n1057v0tcohj65c86a7f1a69p5m3xk76",
+            "Γκαμπριέλ Γκαρσία Μαρκές - Οι θλιμμένες πουτάνες της ζωής μου.pdf"
+        ],
+        [
+            "https://app.box.com/s/p5qdcx2jblmow6rx4n0uorvxo0waer5r",
+            "Γουίλιαμ Γκόλντινγκ - Ο άρχοντας των μυγών.pdf"
+        ],
+        [
+            "https://app.box.com/s/0d56yw4at0rc5bk48xka2l3k3bpwb05z",
+            "Γουσταύος Φλομπέρ - Μαντάμ Μποβαρύ.pdf"
+        ],
+        [
+            "https://app.box.com/s/wve419y7zlmt1jkfxj04kaww1ok674j8",
+            "Διδώ Δωτηρίου - Ματωμένα Χώματα.pdf"
+        ],
+        [
+            "https://app.box.com/s/yac10ysni4ioysmqv88v9dfdb4a1ph0b",
+            "Εμμανουήλ Ροϊδης - Η Πάπισσα Ιωάννα.mobi"
+        ],
+        [
+            "https://app.box.com/s/uuzhgwwk13lr2uu5sd5dx83s6zsl9ads",
+            "Έντγκαρ Άλαν Πόε - Οι φόνοι της οδού Μοργκ.epub"
+        ],
+        [
+            "https://app.box.com/s/9two9p142fn2ddgjkf9n2alkfzf8qhhf",
+            "Έρνεστ Χέμινγουει - Για ποιον χτυπά η καμπάνα.pdf"
+        ],
+        [
+            "https://app.box.com/s/qxc8u27l0zk6s6kcibkmlh4toevxhrim",
+            "Έρνεστ Χέμινγουει - Ο Ήλιος Ανατέλει Ξανά.pdf"
+        ],
+        [
+            "https://app.box.com/s/cn3qe09yq9fwjtghxt6ile9iu64lqw56",
+            "Ευγενία Φακίνου - Έρως Θέρος Πόλεμος.epub"
+        ],
+        [
+            "https://app.box.com/s/vx2eimtznnzc7vtagycmrrtveknah0f6",
+            "Ζοζέ Σαραμάγκου - Κάιν.pdf"
+        ],
+        [
+            "https://app.box.com/s/2s33ztx8eryd2ocqgqruh30opit6w0by",
+            "Ζοζέ Σαραμάγκου - Ο Άνθρωπος Αντίγραφο.pdf"
+        ],
+        [
+            "https://app.box.com/s/lqgrp9kh0gjpgtmxcbhjxzw4b3mp651j",
+            "Ζοζέ Σαραμάγκου - Περί τυφλότητος .pdf"
+        ],
+        [
+            "https://app.box.com/s/o09jykh6w8t8m8eu59lfn4620wtngsec",
+            "Ζοζέ Σαραμάγκου - Περί Φωτίσεως.pdf"
+        ],
+        [
+            "https://app.box.com/s/9qq372wktplw1i9gz097xu2ojztj98sw",
+            "Ζωρζ Σιμενόν - Ο Γάτος.pdf"
+        ],
+        [
+            "https://app.box.com/s/62gsl94anrryuvbjlkrh7r6cqoz7t9mn",
+            "Ηλίας Βενέζης - Αιολική Γη.pdf"
+        ],
+        [
+            "https://app.box.com/s/c78r3gjqtjrottp8p8i0mw9pja1hbkb0",
+            "Ηλίας Βενέζης - Ο Αριθμός 31328.pdf"
+        ],
+        [
+            "https://app.box.com/s/2zwstgv7adapw650y0cfmz5hudg0ajgt",
+            "Ηλίας Πετρόπουλος - Της Φυλακής.pdf"
+        ],
+        [
+            "https://app.box.com/s/lofk3pcsea7gcfyi1f3pzclhxsthryjp",
+            "Ιάκωβος Καμπανέλλης - Μαουτχάουζεν.pdf"
+        ],
+        [
+            "https://app.box.com/s/we1f0hq1wmqki8jahn1ire0o4zomor4q",
+            "Ιούλιος Βερν - Η μυστηριώδης νήσος.pdf"
+        ],
+        [
+            "https://app.box.com/s/p4jgvbeamrbn84mt7xd9zcy4qqt3fdcq",
+            "Ιωάννα Καρυστιάνη - Μικρά Αγγλία.pdf"
+        ],
+        [
+            "https://app.box.com/s/63emb5t6wniajs4na0fr7mf5n5jwicda",
+            "Ιωάννα Καρυστιάνη - Σουέλ.pdf"
+        ],
+        [
+            "https://app.box.com/s/xqxa65iq4w8fi7snzncs3ebcny5ksm2g",
+            "Ιωάννα Καρυστιάνη - Τα σακιά.pdf"
+        ],
+        [
+            "https://app.box.com/s/girar7pesf2itdzbvhdnublll5h91nnj",
+            "Ιωάννα Μπουραζοπούλου - Το Μπουντουάρ του Ναδίρ.mobi"
+        ],
+        [
+            "https://app.box.com/s/u8p7nf1etjsdmopjl07dppuskr3fcqti",
+            "Κάθριν Νεβίλ - Οχτώ.pdf"
+        ],
+        [
+            "https://app.box.com/s/qy5ot54bgr42tbz4nfawl9u3yau0bdet",
+            "Κάθριν Νεβίλ - Το Στοίχημα.pdf"
+        ],
+        [
+            "https://app.box.com/s/l7c8nk07519sw1ihhjap35bab259igko",
+            "Καμίλα Λάκμπεργκ - Η παγωμένη πριγκήπισσα.epub"
+        ],
+        [
+            "https://app.box.com/s/7rmzxiwhg4qcrrpyknxrhhvi7iul29gf",
+            "Κάρλος Ρουίθ-Θαφόν - Η σκιά του ανέμου.pdf"
+        ],
+        [
+            "https://app.box.com/s/swvjg7vryz4m985dge73opreqtv47k2i",
+            "Κάρλος Ρουίθ-Θαφόν - Το παιχνίδι του αγγέλου.pdf"
+        ],
+        [
+            "https://app.box.com/s/cwiec1rey762kz9tc32uc1smlg0kf6zh",
+            "Κώστας Βάρναλης - Ο Λαός των Μουνούχων.pdf"
+        ],
+        [
+            "https://app.box.com/s/rtk5oz5fag9o4454p9actut3enk1k4y1",
+            "Κώστας Ταχτσής - Το τρίτο στεφάνι.pdf"
+        ],
+        [
+            "https://app.box.com/s/79hdj8fn0rhfxe3xd4u044jjbnzn84on",
+            "Λέων Τολστόι - Αφέντης Και Δούλος.pdf"
+        ],
+        [
+            "https://app.box.com/s/vgx1k102yehqksmo8m9h5s8j4jmfyc72",
+            "Λιλή Ζωγράφου - Επάγγελμα Πόρνη.pdf"
+        ],
+        [
+            "https://app.box.com/s/wnbxh500u32q48tttznflg2hmrtqb30u",
+            "Λιλή Ζωγράφου - Η αγάπη άργησε μια μέρα.pdf"
+        ],
+        [
+            "https://app.box.com/s/sjnjhp424h4h4kfzoor79ufiad3qp6ux",
+            "Λουίς Σεπούλβεδα - Η ιστορία του γάτου που έμαθε σ ένα γλάρο να πετάει.pdf"
+        ],
+        [
+            "https://app.box.com/s/7cxipocf9hioa5cbvbdwa1lz1j7v639k",
+            "Λουίς Σεπούλβεδα - Παταγονία Εξπρές.pdf"
+        ],
+        [
+            "https://app.box.com/s/tmehpg2mcju13y47u6n9nnv4yas4lx97",
+            "Λούις Σεπούλβεδα - Το ημερολόγιο ενός ευαίσθητου killer.pdf"
+        ],
+        [
+            "https://app.box.com/s/iv2je1zbawbscr30ftlu0axvvp3jlu6m",
+            "Μάιρα Παπαθανασοπούλου - Ο Ιούδας Φιλούσε Υπέροχα.pdf"
+        ],
+        [
+            "https://app.box.com/s/y2aa8bedr0naadh6et0ee51t1q1fnkky",
+            "Μαίρη Σέλλευ - Φρανκενστάιν.pdf"
+        ],
+        [
+            "https://app.box.com/s/7cwf4pppzj0ebzekst59d7c4bn9im00v",
+            "Μαρία Ιορδανίδου - Λωξάντρα.pdf"
+        ],
+        [
+            "https://app.box.com/s/1q3buzrouqh7b69r2ldhsrvsb071nfu0",
+            "Μαρκήσιος Ντε Σαντ - Ζυστίν.pdf"
+        ],
+        [
+            "https://app.box.com/s/um4zhv19lmjjrx99bkwh9z6k1ewybygn",
+            "Μαρκήσιος Ντε Σαντ - Η Φιλοσοφία στο Μπουντουάρ.pdf"
+        ],
+        [
+            "https://app.box.com/s/r8jmfpnho780ozvrb86cc19xhk0z1k2g",
+            "Μαρσέλ Προυστ - Αναζητώντας τον χαμένο χρόνο Ι - Από τη μεριά του Σουάν.pdf"
+        ],
+        [
+            "https://app.box.com/s/2apjxfxw0bief2habd097mpuqftt8a99",
+            "Μίλαν Κούντερα - Η αβάσταχτη ελαφρότητα του είναι.pdf"
+        ],
+        [
+            "https://app.box.com/s/nxr52ylxobvrz1f6fyl1mb55kmvfi9s5",
+            "Μίλαν Κούντερα - Κωμικοί Έρωτες.pdf"
+        ],
+        [
+            "https://app.box.com/s/oz3il3h1zta388876h2x8xvf2gh57pdr",
+            "Μπόρις Βιάν - Θα φτύσω στους τάφους σας.pdf"
+        ],
+        [
+            "https://app.box.com/s/6uykwvi9ofkd17h8u0wheovei3jdjefs",
+            "Μωρίς Λεμπλάν - Αρσέν Λουπέν, Η κούφια βελόνα.pdf"
+        ],
+        [
+            "https://app.box.com/s/aibbz44avnghbekzxz8jjbxuds15ltbt",
+            "Νίκος Θέμελης - Μια Ζωή Δυο Ζωές.pdf"
+        ],
+        [
+            "https://app.box.com/s/kubzuc7n2aqxd3bvi71hbrxjtxmebm07",
+            "Νίκος Θέμελης - Οι Αλήθειες των Άλλων.pdf"
+        ],
+        [
+            "https://app.box.com/s/psuluxpb6l8necusu52wnh08o863v9e1",
+            "Νίκος Καζαντζάκης - Ασκητική.pdf"
+        ],
+        [
+            "https://app.box.com/s/cjbtzt84jad8439v5kxwb0zhyasuhwh4",
+            "Νίκος Καζαντζάκης - Βίος και Πολιτεία του Αλέξη Ζορμπά.pdf"
+        ],
+        [
+            "https://app.box.com/s/bea8ieygiq2d4a3l1opltmuwlvp9qkks",
+            "Νίκος Καζαντζάκης - Καπετάν Μιχάλης.pdf"
+        ],
+        [
+            "https://app.box.com/s/aefi25r0tn0wy1unnqpq2akpmw56q86d",
+            "Νίκος Καζαντζάκης - Ο τελευταίος πειρασμός.pdf"
+        ],
+        [
+            "https://app.box.com/s/dmn9lcxewwixanl55dizztntde3ehg7n",
+            "Νίκος Καζαντζάκης - Ο Χριστός ξανασταυρώνεται.pdf"
+        ],
+        [
+            "https://app.box.com/s/e6pzfbo7e1depznu0y2ek6fdsbkibahl",
+            "Νταν Μπράουν - Inferno.pdf"
+        ],
+        [
+            "https://app.box.com/s/wmf58f6175luyly2ff7y9460bm72a4nk",
+            "Νταν Μπράουν - Origin.pdf"
+        ],
+        [
+            "https://app.box.com/s/wd0h6fi415vn40v7xw5uiwqzrfxo5qxa",
+            "Νταν Μπράουν - Αρκτικός Κύκλος.pdf"
+        ],
+        [
+            "https://app.box.com/s/ml4yxunmkozib9pllo2r3jy9vva6kz9t",
+            "Νταν Μπράουν - Οι πεφωτισμένοι.pdf"
+        ],
+        [
+            "https://app.box.com/s/1gjnaduca0i2xxmsdcy3di9hh4rr778i",
+            "Νταν Μπράουν - Το Χαμένο Σύμβολο.pdf"
+        ],
+        [
+            "https://app.box.com/s/gpdcthx3h8am80gjvivxh0iipw1jktpb",
+            "Ντένι Γκετζ - Το θεώρημα του παπαγάλου.pdf"
+        ],
+        [
+            "https://app.box.com/s/k544pe48wp0hydahg81vgfriovzj3koz",
+            "Ντμίτρι Γκλουχόφσκι - Μετρό 2033.pdf"
+        ],
+        [
+            "https://app.box.com/s/m32ptekrbd48p0hmncsu1pqhwokbcj4k",
+            "Ντόρις Λέσινγκ - Το Πέμπτο Παιδί.pdf"
+        ],
+        [
+            "https://app.box.com/s/bujzoiagu3lw45gunfew6s8aeuzqyqmv",
+            "Οριάνα Φαλάτσι - Γράμμα σ ενα παιδί που δε γεννήθηκε ποτέ.pdf"
+        ],
+        [
+            "https://app.box.com/s/8b7cilwbcsezc70u740akuhyo94uhjbm",
+            "Ορχάν Παμούκ - Ιστανμπούλ.pdf"
+        ],
+        [
+            "https://app.box.com/s/n54cnq73f7xp9v7u2xka0x3bixyylvs4",
+            "Ορχάν Παμούκ - Το σπίτι της σιωπής.pdf"
+        ],
+        [
+            "https://app.box.com/s/4vx7v2ylh7238dvebb9wupf85mqgv0j6",
+            "Ουμπέρτο Έκο - Πως Να Διαψεύσετε Μια Διάψευση και άλλες οδηγίες χρήσεως.pdf"
+        ],
+        [
+            "https://app.box.com/s/ufkp7z6gg2lzksss8rmscamw39j8xz4c",
+            "Ουμπέρτο Έκο - Το εκκρεμές του Φουκώ.pdf"
+        ],
+        [
+            "https://app.box.com/s/4uj2a5fgtc4u3uze491y0xxocc75kseh",
+            "Ουμπέρτο Έκο - Το όνομα του ρόδου.pdf"
+        ],
+        [
+            "https://app.box.com/s/d865ehkxdtxy86zs5l4vjmkkcl82qlqj",
+            "Ούρσουλα ΛεΓκέν - Το αριστερό χέρι του σκοταδιού.pdf"
+        ],
+        [
+            "https://app.box.com/s/zvab6opzngxrlj5kuo8jj9ft3rr7e2bm",
+            "Παραμύθια της Χαλιμάς (Τόμος Α΄).pdf"
+        ],
+        [
+            "https://app.box.com/s/576ky6i9549eieuzzh4ulpbkqxxxt624",
+            "Παραμύθια της Χαλιμάς (Τόμος Β΄).pdf"
+        ],
+        [
+            "https://app.box.com/s/tzoo9n04gr36ls9jmf3i79de58m2egat",
+            "Παραμύθια της Χαλιμάς (Τόμος Γ΄).pdf"
+        ],
+        [
+            "https://app.box.com/s/89hkfmsh3ksd5us14bibd5hsvdbpilkj",
+            "Παύλος Μάτεσις - Η μητέρα του σκύλου.pdf"
+        ],
+        [
+            "https://app.box.com/s/1w3wn8jestdx11lt9k6ps2azzciyivyj",
+            "Πέτρος Μάρκαρης - Νυχτερινό Δελτίο.pdf"
+        ],
+        [
+            "https://app.box.com/s/vtp6379zktpcqbz06wocljc6eiojxw5l",
+            "Πόλα Χόκινς - Το κορίτσι του τρένου.pdf"
+        ],
+        [
+            "https://app.box.com/s/9kx3xjpgk5wsbpvgx16mdj4c194tpznt",
+            "Ρίτσαρντ Μπαχ - Ο γλάρος Ιωνάθαν Λίβινγκστον.pdf"
+        ],
+        [
+            "https://app.box.com/s/u6e6vbje6if7y7tmr95mw8xqv9hmuy4b",
+            "Ρόμπερτ Λάντλαμ - Θανάσιμη Πλεκτάνη.pdf"
+        ],
+        [
+            "https://app.box.com/s/4o3604wry0xaiyqp81ta3a5mk23gsjh8",
+            "Σεμπάστιαν Φίτζεκ - Η θέση 7Α.pdf"
+        ],
+        [
+            "https://app.box.com/s/br9rouco03wynkc2vvxf631ik4fy8613",
+            "Στεντάλ - Το μοναστήρι της Πάρμας.pdf"
+        ],
+        [
+            "https://app.box.com/s/pz7b69dfow9i4ogskz84pr11254bzeid",
+            "Στήβεν Κινγκ  - Χρήσιμα Αντικείμενα.pdf"
+        ],
+        [
+            "https://app.box.com/s/p1l0mvm2yyrflsd4r4cpgqfpc9p75035",
+            "Στήβεν Κινγκ - Αυπνία.pdf"
+        ],
+        [
+            "https://app.box.com/s/jvoncjdozci0fznavgcyd1nai00dvp3z",
+            "Στήβεν Κινγκ - Η ιστορία της Λίσι.pdf"
+        ],
+        [
+            "https://app.box.com/s/6ukbvjv0qxq328wla0smfddzkyjh5kl9",
+            "Στήβεν Κινγκ - Η μέθοδος αναπνοών.pdf"
+        ],
+        [
+            "https://app.box.com/s/zf6c4z1zs37480ps8oc8imb9wn7v2lf8",
+            "Στήβεν Κινγκ - Κάρυ.pdf"
+        ],
+        [
+            "https://app.box.com/s/dzdhki0ypcwr1n1vejb3nl08fbwrxdt2",
+            "Στήβεν Κινγκ - Κούτζο.pdf"
+        ],
+        [
+            "https://app.box.com/s/tzn6uw7i70yc0ymf85xd7adku1q13lxh",
+            "Στήβεν Κινγκ - Κρυφό Παράθυρο, Μυστικός Κήπος.pdf"
+        ],
+        [
+            "https://app.box.com/s/0tq2m2k5tmwktrd5phztsq5onrh6blix",
+            "Στήβεν Κινγκ - Μερικές φορές ξαναγυρίζουν.pdf"
+        ],
+        [
+            "https://app.box.com/s/6pg68ads6iy64jst7idvj10wv8b5wng4",
+            "Στήβεν Κινγκ - Νεκροταφείο Ζώων.pdf"
+        ],
+        [
+            "https://app.box.com/s/9zlxnsivo9oe3phhdy0jalkatkoujdyu",
+            "Στήβεν Κινγκ - Νυχτερινή πτήση 29.pdf"
+        ],
+        [
+            "https://app.box.com/s/ews7as4fq1m1uq6yp3xq66ksk0ix0ake",
+            "Στήβεν Κινγκ - Ο Θόλος.pdf"
+        ],
+        [
+            "https://app.box.com/s/11fksbjufjfe49cszdj5l156b5kk7k4q",
+            "Στήβεν Κινγκ - Ο κύριος Μερσέντες.pdf"
+        ],
+        [
+            "https://app.box.com/s/r48q2p6fm25g93j9bloyrnmn12ig8oc9",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 01 - Ο Τελευταίος Πιστολέρο.pdf"
+        ],
+        [
+            "https://app.box.com/s/1qay838bun3dt97pxw5zlcprkwhp5jcb",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 02 - Το Κάλεσμα των Τριών.pdf"
+        ],
+        [
+            "https://app.box.com/s/roolo63euz6546bzntqx5zr1t6clsp38",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 03 - Οι Ρημαγμένοι Τόποι.pdf"
+        ],
+        [
+            "https://app.box.com/s/mlvca8k4avztcoikisdaj8bsnphqww3l",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 04 - Ο Μάγος και η Γυάλινη Σφαίρα.pdf"
+        ],
+        [
+            "https://app.box.com/s/x632l3a246y5tm44dzvgfzsmr1tm7pks",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 05 - Οι Λύκοι της Κάλα.pdf"
+        ],
+        [
+            "https://app.box.com/s/qt8gfr659bi63grzkjf4hgyl8unoahg3",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 06 - Το Τραγούδι της Σουζάνας.pdf"
+        ],
+        [
+            "https://app.box.com/s/mzk7uvml9bbilw83yjsi7z0p20171sua",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 07 - Ο Μαύρος Πύργος.pdf"
+        ],
+        [
+            "https://app.box.com/s/3bgvt2em9gkcfonb7md2qkgsvm14utm3",
+            "Στήβεν Κινγκ - Ο Μαύρος Πύργος 08 - Ο Άνεμος Μέσα Από την Κλειδαρότρυπα.pdf"
+        ],
+        [
+            "https://app.box.com/s/g0zme8z2iofe4b21ur57k6o6sva798au",
+            "Στήβεν Κινγκ - Όλα Είναι Δυνατά.pdf"
+        ],
+        [
+            "https://app.box.com/s/900eadlm2uui8q6ujcezk2oev4ad2iac",
+            "Στήβεν Κινγκ - Ονειροπαγίδα.pdf"
+        ],
+        [
+            "https://app.box.com/s/smcrlmbvkghgdgssgxvlh7nag7919yid",
+            "Στήβεν Κινγκ - Σάκος με Κόκκαλα.pdf"
+        ],
+        [
+            "https://app.box.com/s/a9du4qma1gribfqz5a9w8mycb8wdrm9t",
+            "Στήβεν Κινγκ - Το Αυτό.pdf"
+        ],
+        [
+            "https://app.box.com/s/jj8ydywdp2qs7pddpmi8m6e2qpktkvsf",
+            "Στήβεν Κινγκ - Το κινητό.pdf"
+        ],
+        [
+            "https://app.box.com/s/dpju8gvhqj67qjii64ik35plhni32hc4",
+            "Στήβεν Κινγκ - Το Κοράκι.pdf"
+        ],
+        [
+            "https://app.box.com/s/apscyh2fu0k5bix9gapccf90ago3tyr6",
+            "Στήβεν Κινγκ - Το πράσινο μίλι.pdf"
+        ],
+        [
+            "https://app.box.com/s/k8cwc23tokxw77z4dk7w8bssp4x3ys5s",
+            "Στήβεν Κινγκ, Πίτερ Στράουμπ - Το Φυλαχτό.pdf"
+        ],
+        [
+            "https://app.box.com/s/hlk43gqup6hoyosahc52uxj95k0hyejo",
+            "Στιγκ Λάρσον - Το κορίτσι με το τατουάζ.pdf"
+        ],
+        [
+            "https://app.box.com/s/415bfygg8ia96att7b62u6wbbr2p4cjk",
+            "Στιγκ Λάρσον - Το κορίτσι που έπαιζε με τη φωτιά.pdf"
+        ],
+        [
+            "https://app.box.com/s/v1i7z4qodta2j8nsbgt5xf3rbxsytufo",
+            "Στιγκ Λάρσον - Το κορίτσι στη φωλιά της σφήγκας.pdf"
+        ],
+        [
+            "https://app.box.com/s/5ct9kpubh1waeyhs721kovas0z0aki3o",
+            "Στρατής Μυριβήλης - Η ζωή εν τάφω.pdf"
+        ],
+        [
+            "https://app.box.com/s/b0wx7nu1av10sag1vdp3hf5sufccof66",
+            "Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 1 - Η Λέσχη.pdf"
+        ],
+        [
+            "https://app.box.com/s/r2555cvldx57v9mocokipc3eyavjukzi",
+            "Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 2 - Αριάγνη.pdf"
+        ],
+        [
+            "https://app.box.com/s/4nb2tqpbjk7dpowo55fmrlgjeeuq25g5",
+            "Στρατής Τσίρκας - Ακυβέρνητες Πολιτείες 3 - Η Νυχτερίδα.pdf"
+        ],
+        [
+            "https://app.box.com/s/6gxfga2vagh8csu6hgpajpvuiry9yyrc",
+            "Σώμερσετ Μωμ - Η στενή γωνιά.pdf"
+        ],
+        [
+            "https://app.box.com/s/vxwr32qm63xf3padgah61lsxidlnvvoa",
+            "Τεύκρος Μιχαηλίδης - Πυθαγόρεια Εγκλήματα.pdf"
+        ],
+        [
+            "https://app.box.com/s/7ishmr7b8u2dv5nasvll7qvblmcztniz",
+            "Τζ. Ντ. Σάλινγκερ - Ο Φύλακας Στη Σίκαλη.pdf"
+        ],
+        [
+            "https://app.box.com/s/wyw1y1b4nrbpfpv1ie3ilf8a9duswfin",
+            "Τζακ Λόντον - Η σιδερένια φτέρνα.pdf"
+        ],
+        [
+            "https://app.box.com/s/swfv9ou6bist6ayl4us0ehfhozoh7slm",
+            "Τζακ Λόντον - Ιστορίες του μποξ.pdf"
+        ],
+        [
+            "https://app.box.com/s/u3kwn6zpev92em8b0mrkjvkuqy61f4lm",
+            "Τζακ Λόντον - Ολόχρυσο Φαράγγι.pdf"
+        ],
+        [
+            "https://app.box.com/s/mpx2m90ivuf1iwynkbhcm2766taguze4",
+            "Τζέιμς Έλροι - Το Μεγαλο Πουθενα.pdf"
+        ],
+        [
+            "https://app.box.com/s/7ja4kb0jlwtr9z12ouz6sgsei9rdpf21",
+            "Τζο Νέσμπο - Η δίψα.pdf"
+        ],
+        [
+            "https://app.box.com/s/2c2e5xa7diq1f79yh0klvcfh6zl5g7dc",
+            "Τζο Νέσμπο - Η Νυχτεριδα.pdf"
+        ],
+        [
+            "https://app.box.com/s/dderejxc6ddl0itp377wn38k8usynt00",
+            "Τζο Νέσμπο - Νέμεσις.pdf"
+        ],
+        [
+            "https://app.box.com/s/ze3ul43jtpftxfjzb2cse3uhl1lzkgno",
+            "Τζο Νέσμπο - Ο γιος.pdf"
+        ],
+        [
+            "https://app.box.com/s/t9z7p7v38s1ij33fdfxcyhk162cni129",
+            "Τζο Νέσμπο - Ο Κοκκινολαίμης.pdf"
+        ],
+        [
+            "https://app.box.com/s/isgsito6ucb75wfjwbcwaduncts6hxln",
+            "Τζο Νέσμπο - Ο λυτρωτής.pdf"
+        ],
+        [
+            "https://app.box.com/s/od0t70ulyr6f2hf3kfft3uqpom925bv1",
+            "Τζο Νέσμπο - Ο Φαντομάς.pdf"
+        ],
+        [
+            "https://app.box.com/s/az4i9fx1pbayuqcwo4f7jkwb3rrk0e15",
+            "Τζον Λε Καρέ - Ο Επίμονος Κηπουρός.pdf"
+        ],
+        [
+            "https://app.box.com/s/ss186bq8hzendq4lj7yd4yw1s1ht0zfl",
+            "Τζον Στάινμπεκ - Τα Σταφύλια Της Οργής.pdf"
+        ],
+        [
+            "https://app.box.com/s/u4j6d9kbm93fgcjp87yjcf5v9dg4pmmu",
+            "Τζωρτζ Όργουελ - 1984.pdf"
+        ],
+        [
+            "https://app.box.com/s/08lvir201k8ye7heuvhfminp8eki87ve",
+            "Τόμας Χάρις - Κόκκινος Δράκος.pdf"
+        ],
+        [
+            "https://app.box.com/s/xyzt9j8meutpt81wodya400yzt37q5it",
+            "Τσάρλς Μπουκόβσκι - Σημειώσεις ενός πορνόγερου.pdf"
+        ],
+        [
+            "https://app.box.com/s/dex5eps47120i4rbfeti1unmvm1eaq20",
+            "Τσαρλς Μπουκόβσκι - Ταχυδρομείο.epub"
+        ],
+        [
+            "https://app.box.com/s/vey1p4uhay174k529bfp76zwbzq0q6ul",
+            "Τσαρλς Ντίκενς - Ο Ζοφερός Οίκος, Τόμος Α.pdf"
+        ],
+        [
+            "https://app.box.com/s/k69s3eiggjz9bg10elxapn3isrwxjtua",
+            "Τσαρλς Ντίκενς - Ο Ζοφερός Οίκος, Τόμος Β.pdf"
+        ],
+        [
+            "https://app.box.com/s/d5dx2owy1cqd7o4y6izmuum5r9novxma",
+            "Φερνάντο Πεσσόα - Πίσω από τις μάσκες.pdf"
+        ],
+        [
+            "https://app.box.com/s/4ijourk12huxedj2ttzokl0j4d53r7cj",
+            "Φίλιπ Ροθ - Το Βυζί.pdf"
+        ],
+        [
+            "https://app.box.com/s/96z4uzapjv5lrcvrodtgfuyvob0wxmde",
+            "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Α.pdf"
+        ],
+        [
+            "https://app.box.com/s/ug02umlt4sdtgagm3k7jzqg3u44230a4",
+            "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Β.pdf"
+        ],
+        [
+            "https://app.box.com/s/zjfatvab3sdm3b5ez0thitgtzvbcbvud",
+            "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Γ.pdf"
+        ],
+        [
+            "https://app.box.com/s/nqvvj8dkvnnveuz4tdcvbgbj7fvgghq2",
+            "Φιοντόρ Ντοστογιέφσκι - Αδελφοί Καραμαζόφ Δ.pdf"
+        ],
+        [
+            "https://app.box.com/s/64kc8tq3o6hr8ufuv27uia0mxupky60e",
+            "Φιοντόρ Ντοστογιέφσκι - Ο ηλίθιος.pdf"
+        ],
+        [
+            "https://app.box.com/s/l0m1lbvl5465jvm19zn5d8c4blouvhtt",
+            "Φρανκ Χέρμπερτ - Dune.pdf"
+        ],
+        [
+            "https://app.box.com/s/akh68b7t66f4vyouz4mfn834bdrtdah1",
+            "Φραντς Κάφκα - Αμερική.pdf"
+        ],
+        [
+            "https://app.box.com/s/43fmz949f7nguh729sbjvpk55yl622j5",
+            "Φραντς Κάφκα - Η απόρριψη.pdf"
+        ],
+        [
+            "https://app.box.com/s/08i9q5o2xhxux636b9suvgey341pm00n",
+            "Φραντς Κάφκα - Η δίκη.pdf"
+        ],
+        [
+            "https://app.box.com/s/tlp8tsebt31pyyg5qcs6akl9djlwfx45",
+            "Φραντς Κάφκα - Η Μεταμόρφωση.pdf"
+        ],
+        [
+            "https://app.box.com/s/u0berj2y665x8cml1cqakb5onx8wdxlq",
+            "Φραντς Κάφκα - Ο πύργος.pdf"
+        ],
+        [
+            "https://app.box.com/s/tps1zrr7jzi15o58n2fcddah1tb44x68",
+            "Χαρούκι Μουρακάμι - Νορβηγικό Δάσος.pdf"
+        ],
+        [
+            "https://app.box.com/s/qmkvac9r1j9phhhg2rkcg3a2dgv0s3vq",
+            "Χαρούκι Μουρακάμι - Νότια των συνόρων, δυτικά του ήλιου.pdf"
+        ],
+        [
+            "https://app.box.com/s/wvhev1dk2862tz0zgzz1b819ijzew7dw",
+            "Χαρούκι Μουρακάμι - Το κουρδιστό πουλί.pdf"
+        ],
+        [
+            "https://app.box.com/s/8j2n9ik78lmga7pkayl5vw7qf2wloid8",
+            "Χέρμαν Χέσσε - Ο λύκος της στέπας.pdf"
+        ],
+        [
+            "https://app.box.com/s/qbuo938179jayadgo6osaf8zc55pf1rw",
+            "Χέρμαν Χέσσε - Σιντάρτα.pdf"
+        ],
+        [
+            "https://app.box.com/s/z2kctbd09dv616neq5o8sly09s1z0l65",
+            "Χόρχε Λουίς Μπόρχες - Άπαντα Πεζά.pdf"
+        ],
+        [
+            "https://app.box.com/s/h8vz44kh2il188aa4ozsyhclcd6i1uhf",
+            "Χόρχε Λουίς Μπόρχες - Το βιβλίο των φανταστικών πλασμάτων.pdf"
+        ],
+        [
+            "https://app.box.com/s/lv26gw0vit87eopla6ggzzctggyrldta",
+            "Χρήστος Χωμενίδης - Νεαρό άσπρο ελάφι.pdf"
+        ]
     ]
 }
